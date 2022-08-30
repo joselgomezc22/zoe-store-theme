@@ -1,0 +1,23 @@
+<script id="cart-config" type="application/json">
+  {
+    "cart_url": {{ routes.cart_url | json }},
+    "cart_error": {{ "cart.general.cart_error" | t | json }},
+    "update_qty_error": {{ "cart.general.update_qty_error" | t | json }},
+    "add_to_cart": {{'products.product.add_to_cart' | t | json }},
+    "adding_to_cart": {{ 'products.product.adding' | t | json }},
+    "added_to_cart": {{ 'products.product.added' | t | json }},
+    "cart_added_event": {{ settings.cart_added_event | json }},
+    "cart_action": {{ settings.cart_type | json }},
+    "show_calculator": {{ settings.show_shipping_calculator | json }},
+    "calculator_error": {{ 'cart.general.calc_error' | t | json }},
+    "calculator_submit": {{ 'cart.general.calc_shipping' | t | json }},
+    "calculator_calculating": {{ 'cart.general.calc_calculating' | t | json }},
+    "customer_logged_in": {% if shop.customer_accounts_enabled and customer %}true{% else %} false{% endif %},
+    "money_format": {{ shop.money_with_currency_format | json }},
+    "shipping_no_destination": {{ 'cart.general.shipping_no_destination' | t | json }},
+    "shipping_single_rate": {{ 'cart.general.shipping_single_rate' | t | json }},
+    "shipping_multi_rate_one": {{ 'cart.general.shipping_multi_rate_one' | t | json }},
+    "shipping_multi_rate_two": {{ 'cart.general.shipping_multi_rate_two' | t | json }},
+    "shipping_multi_rate_three": {{ 'cart.general.shipping_multi_rate_three' | t | json }}
+  }
+</script>

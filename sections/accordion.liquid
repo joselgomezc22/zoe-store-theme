@@ -1,0 +1,175 @@
+{%- liquid
+  assign unique_id = section.id | slice: -7, 7
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'mb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'mt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'mt0 mb0'
+  endif
+
+-%}
+
+<section
+  id="section-accordion--{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  class="section-accordion section-accordion-{{ section.id }} global__section global__section--margin {{ section_padding }}"
+  data-aos="{{ settings.scroll_animation }}">
+
+    {% if section.settings.heading != blank %}
+      <div class="row">
+        <div class="section-title">
+          <h3>{{ section.settings.heading }}</h3>
+        </div>
+      </div>
+    {% endif %}
+
+    <div
+      class="js-accordion c-accordion c-accordion--icon c-accordion--{{ unique_id }} c-accordion--custom-page"
+      id="c-accordion--{{ unique_id }}"
+      {% if section.settings.allow_multiple %}
+      data-accordion-allow-multiple
+      {% endif %}
+      style="max-width: 900px; margin: 0 auto;"
+    >
+
+      {% if section.blocks.size > 0 %}
+       {% for block in section.blocks %}
+
+         {%- liquid
+
+            assign accordion_content_class = 'c-accordion__panel--'
+            assign accordion_content_id = accordion_content_class | append: unique_id | append: '-' | append: forloop.index
+
+         -%}
+
+         {% if block.settings.heading != blank %}
+            <button
+              class="js-accordion-header c-accordion__header"
+              aria-expanded="false"
+              aria-controls="{{ accordion_content_id }}"
+              data-toggle="accordion">
+              {{ block.settings.heading }}
+                <span class="dropdown-arrow">
+                  {% render 'snip-icons',
+                     wrapper: '.c-accordion__header',
+                     type: 'apollo',
+                     icon: 'down-carrot',
+                     classes: 'c-accordion__header--icon vib-center',
+                     size: '6px',
+                     fill: 'var(--text-color)',
+                     hover: 'var(--text-color)' %}
+                </span>
+            </button>
+             <div
+              class="c-accordion__panel {{ accordion_content_id }} rte"
+              id="{{ accordion_content_id }}"
+              data-parent="#c-accordion--{{ unique_id }}">
+              <div class="c-accordion__inner">
+               <div class="rte">
+                 {{ block.settings.content }}
+               </div>
+              </div>
+             </div>
+         {% endif %}
+       {% endfor %}
+      {% else %}
+        <div class="rte">
+          <p>Add accordiond content in the theme editor.</p>
+        </div>
+      {% endif %}
+     </div>
+</section>
+
+{% schema %}
+{
+  "name": "Accordion",
+  "settings":
+  [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "FAQs"
+    },
+    {
+      "type": "checkbox",
+      "id": "allow_multiple",
+      "label": "Allow multiple accordions open at one time",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "blocks":
+  [
+    {
+      "type": "panel",
+      "name": "Panel",
+      "settings":
+      [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        }
+      ]
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Accordion",
+      "blocks":
+      [
+        {
+          "type": "panel"
+        },
+        {
+          "type": "panel"
+        },
+        {
+          "type": "panel"
+        }
+      ]
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "page",
+    "product"
+  ]
+}
+{% endschema %}

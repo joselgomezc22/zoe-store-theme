@@ -1,0 +1,136 @@
+{%- liquid
+
+  assign show_section = false
+
+  if section.blocks.size > 0
+    for block in section.blocks
+      if block.settings.article != blank
+        assign show_section = true
+        break
+      endif
+    endfor
+  endif
+
+-%}
+
+{% if show_section %}
+<div class="row">
+  <section id="featured-articles" class="grid_wrapper" data-aos="{{ settings.scroll_animation }}" data-section-id="{{ section.id }}">
+
+{% if section.settings.title != blank %}
+<div class="section-title span-12 auto">
+  <h3>{{ section.settings.title | escape }}</h3>
+</div>
+{% endif %}
+
+  {% if section.blocks.size > 0 %}
+    {% for block in section.blocks %}
+      {% assign article = block.settings.article %}
+      {% if article != blank %}
+        <div class="featured_article span-4 sm-span-12 auto">
+          <!-- title -->
+          <h3>
+            <a href="{{ article.url }}">
+              {{ article.title }}
+            </a>
+          </h3>
+          <div class="clear"></div>
+
+          <!-- image -->
+          <div class="featured_article-image">
+            {% if article.image %}
+              <a href="{{ article.url }}">
+                {% render "basic-responsive-image", type: article.image, data_widths: '[180, 360, 540, 720, 900, 1080, 1296]' %}
+                <noscript>
+                  <img src="{{ article.image | img_url: '1024x' }}" alt="{{ article.image.alt }}">
+                </noscript>
+              </a>
+            {% endif %}
+          </div>
+          <div class="rte">
+            {% if article.excerpt != blank %}
+              {{ article.excerpt | strip_html | truncatewords: 30 }}
+            {% else %}
+              {{ article.content | strip_html | truncatewords: 30 }} <a href="{{ article.url }}">{{ 'blogs.article.read_more' | t }}</a>
+            {% endif %}
+          </div>
+
+          <div class="clear"></div>
+
+          <div class="post_meta">
+            {% assign published_at = article.published_at | date: "%b %d, %Y" %}
+              <span class="posted">
+                {{ 'blogs.article.posted_on_date_html' | t: date: published_at }}
+              </span>
+            {% if section.settings.show_author %}
+              <span class="posted_by">
+                {% capture article_user_fullname %}
+                  {{ article.user.first_name }} {{ article.user.last_name }}
+                {% endcapture %}
+                &nbsp;{{ 'blogs.article.byline' | t: author: article_user_fullname }}
+              </span>
+            {% endif %}
+            {% if article.tags.size > 0 and section.settings.post_tags %}
+              <ul>
+                {% for tag in article.tags %}
+                  <li class="tags">
+                    <a href="{{ blog.url }}/tagged/{{ tag | handle }}">
+                      {{ tag }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+
+        </div><!-- /.featured_article -->
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  <div class="clear"></div>
+
+</section></div><!-- /.row -->
+{% endif %}
+
+{% schema %}
+{
+  "name": "Similar articles",
+  "max_blocks": 3,
+  "settings":
+  [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Featured posts heading",
+      "default": "Similar articles",
+      "info": "Visible with featured post content has been chosen"
+    },
+    {
+      "type": "checkbox",
+      "id": "post_tags",
+      "label": "Show tags",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show post author",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featured_article",
+      "name": "Similar article",
+      "settings": [
+        {
+          "label": "Article",
+          "id": "article",
+          "type": "article"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,250 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'pb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'pt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'pt0 pb0'
+  endif
+
+-%}
+<section class="rich__text-{{ section.id }} global__section global__section--padding {{ section_padding }}" data-section-id="{{ section.id }}" data-aos="{{ settings.scroll_animation }}">
+  {% if section.settings.title != blank %}
+    <div class="section-title row">
+      <h2>{{ section.settings.title | escape }}</h2>
+    </div>
+  {% endif %}
+  <div class="row grid_wrapper">
+
+    {% for block in section.blocks %}
+
+    {% liquid
+
+      case block.settings.block_size
+        when 1
+          assign block_width = 'span-2'
+        when 2
+          assign block_width = 'span-4'
+        when 3
+          assign block_width = 'span-6'
+        when 4
+          assign block_width = 'span-8'
+        when 5
+          assign block_width = 'span-10'
+        when 6
+          assign block_width = 'span-12'
+      endcase
+
+      assign center = false
+      assign single_block = false
+
+      if block.settings.center
+        assign center = true
+      endif
+
+      if section.blocks.size == 1
+        assign single_block = true
+        assign offset = 12 | divided_by: 2 | minus: block.settings.block_size
+      endif
+
+    -%}
+
+      <div class="rich__text-block {{ block.id }} {{ block_width }} sm-span-12 auto{% if single_block %} push-{{ offset }}{% endif %}{% if center %} center{% endif %}" {{ block.shopify_attributes }}>
+        {% if block.settings.heading != blank %}
+          <h3>{{ block.settings.heading }}</h3>
+        {% endif %}
+
+        {% if block.type == "page" %}
+          {%- assign feat_page = pages[block.settings.page] -%}
+          {{ feat_page.content }}
+        {% else %}
+          <div class="rte">
+            {{ block.settings.rich_text }}
+          </div>
+        {% endif %}
+      </div>
+
+    {% endfor %}
+
+  </div>
+</section>
+<div class="clear"></div>
+
+{% unless section.settings.color_scheme == 'none' %}
+<style>
+  section.rich__text-{{ section.id }} {
+    background: var(--{{ section.settings.color_scheme }}-background) !important;
+  }
+  section.rich__text-{{ section.id }} .rte,
+  section.rich__text-{{ section.id }} h1,
+  section.rich__text-{{ section.id }} h2,
+  section.rich__text-{{ section.id }} h3,
+  section.rich__text-{{ section.id }} h4,
+  section.rich__text-{{ section.id }} h5,
+  section.rich__text-{{ section.id }} h6,
+  section.rich__text-{{ section.id }} a,
+  section.rich__text-{{ section.id }} p,
+  section.rich__text-{{ section.id }} li {
+    color: var(--{{ section.settings.color_scheme }}-color) !important;
+  }
+  section.rich__text-{{ section.id }} .section-title:after {
+    background: var(--{{ section.settings.color_scheme }}-color) !important;
+  }
+</style>
+{% endunless %}
+
+
+{% schema %}
+{
+  "name": "Rich text",
+  "settings":
+  [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Welcome"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "blocks":
+  [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings":
+      [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Text",
+          "default": "Block heading"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text",
+          "label": "Text",
+          "default": "<p>Use rich text blocks to add more content to your pages. Further describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "center",
+          "label": "Center align text",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "block_size",
+          "min": 1,
+          "max": 6,
+          "step": 1,
+          "label": "Block size (6 per row)",
+          "default": 3
+        }
+      ]
+    },
+    {
+      "type":"page",
+      "name":"Page content",
+      "settings":
+      [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Text",
+          "default": "Block heading"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "Or Show content from a page"
+        },
+        {
+          "type": "range",
+          "id": "block_size",
+          "min": 1,
+          "max": 6,
+          "step": 1,
+          "label": "Block size (6 per row)",
+          "default": 3
+        }
+      ]
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Rich text",
+      "blocks":
+      [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search",
+    "customers/account"
+  ]
+}
+{% endschema %}

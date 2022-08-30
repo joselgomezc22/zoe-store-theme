@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "display_wide": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "40e4cbd5-0224-4f3b-854a-e66e9ba0b7cf": {
+          "type": "side_filter",
+          "settings": {
+            "two_column_labels": false,
+            "scroll_long_lists": true,
+            "filter_color_swatches": true,
+            "show_filter_count": true
+          }
+        },
+        "10f255d3-5584-4411-abf7-4a3278902c34": {
+          "type": "dropdown_filter",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "40e4cbd5-0224-4f3b-854a-e66e9ba0b7cf",
+        "10f255d3-5584-4411-abf7-4a3278902c34"
+      ],
+      "settings": {
+        "full_width": true,
+        "grid": 4,
+        "products_per_page": 30,
+        "infinite_scroll": true,
+        "description_position": "top_description",
+        "is_sticky": false,
+        "sort_by": true
+      }
+    },
+    "162811572000d249af": {
+      "type": "image-gallery",
+      "disabled": true,
+      "blocks": {
+        "162811572000d249af-0": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "vertical_position": 50,
+            "horizontal_position": 50,
+            "align_text": "center"
+          }
+        },
+        "162811572000d249af-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "vertical_position": 50,
+            "horizontal_position": 50,
+            "align_text": "center"
+          }
+        },
+        "162811572000d249af-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "vertical_position": 50,
+            "horizontal_position": 50,
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "162811572000d249af-0",
+        "162811572000d249af-1",
+        "162811572000d249af-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Image gallery",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "162811576510380c29": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "layout": "left",
+        "image_width": "50%",
+        "text_align": "left",
+        "text_position": "center",
+        "title": "Image with text",
+        "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "link": "",
+        "button": "",
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "16281157712b2ded17": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "layout": "right",
+        "image_width": "50%",
+        "text_align": "left",
+        "text_position": "center",
+        "title": "Image with text",
+        "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "link": "",
+        "button": "",
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "162811572000d249af",
+    "162811576510380c29",
+    "16281157712b2ded17"
+  ]
+}

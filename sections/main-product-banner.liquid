@@ -1,0 +1,150 @@
+{%- liquid
+
+  assign has_image = false
+
+  if section.settings.image != blank
+    assign has_image = true
+  endif
+
+  if has_image
+
+    assign scale = section.settings.scale
+
+    assign section_padding = ''
+    if section.settings.section_padding == 'top'
+      assign section_padding = 'mb0'
+    elsif section.settings.section_padding == 'bottom'
+      assign section_padding = 'mt0'
+    elsif section.settings.section_padding == 'none'
+      assign section_padding = 'mt0 mb0'
+    endif
+
+  else
+
+    assign section_padding = 'mt0 mb0'
+
+  endif
+
+-%}
+<section
+  class="parallax-{{ section.id }} parallax lazyload lazyload-fade product__banner-image global__section global__section--margin {{ section_padding }}"
+  data-section-type="iwto-section"
+  data-scale="1.{{ scale }}"
+  data-section-id="{{ section.id }}"
+  data-aos="{{ settings.scroll_animation }}">
+
+  {% if has_image %}
+  <article class="row">
+     {% render 'basic-responsive-image', type: section.settings.image, data_widths: '[180, 360, 540, 720, 900, 1080, 1296, 1512]' %}
+  </article>
+  {% endif %}
+
+</section>
+
+<div class="clear"></div>
+
+
+  <style>
+  {% if has_image %}
+    .no-js .parallax-{{ section.id }} {
+      background-image: url('{{ section.settings.image | img_url: '1600x' }}');
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      background-position: center center !important;
+    }
+    .parallax-{{ section.id }} article {
+      height: {{ section.settings.page_height }}px;
+      min-height: {{ section.settings.page_height }}px;
+    }
+    @media screen and ( max-width: 740px ) {
+      .parallax-{{ section.id }} article {
+        height: initial;
+        min-height: 200px;
+      }
+    }
+    @media screen and ( max-width: 1024px ) {
+      .parallax-{{ section.id }} {
+        background-attachment: scroll !important;
+        background-size: cover !important;
+      }
+    }
+  {% else %}
+    .parallax-{{ section.id }}.parallax {
+      min-height: 0;
+    }
+  {% endif %}
+  </style>
+
+
+
+{% schema %}
+{
+  "name": "Product banner image",
+  "settings":
+  [
+    {
+      "type": "paragraph",
+      "content": "Add a banner image specific to each product using [metafields](https:\/\/www.weareunderground.com/blogs/icon-support/using-metafields-for-product-content), or override metafields by adding an image that will be commonly shared by all products."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1920px x 1000px recommended"
+    },
+    {
+      "type": "range",
+      "id": "scale",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "label": "Image scale",
+      "default": 2,
+      "info": "The higher the scale the greater the effect, 0 removes parallax scrolling"
+    },
+    {
+      "type": "range",
+      "id": "page_height",
+      "min": 200,
+      "max": 800,
+      "step": 100,
+      "label": "Image height",
+      "default": 400
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Product banner image"
+    }
+  ],
+  "templates":
+  [
+    "product"
+  ]
+}
+{% endschema %}

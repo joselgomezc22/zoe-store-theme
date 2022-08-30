@@ -1,0 +1,189 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'pb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'pt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'pt0 pb0'
+  endif
+
+  assign blog_is_grid = false
+
+  if section.settings.blog_layout_grid
+    assign blog_is_grid = true
+  endif
+
+-%}
+<section class="global__blog-{{ section.id }} blog-template global__section global__section--padding {{ section_padding }}"
+  data-aos="{{ settings.scroll_animation }}"
+  data-section-id="{{ section.id }}">
+
+  {%- assign blog = blogs[section.settings.blog] -%}
+
+  {% if section.settings.title != blank %}
+    <div class="section-title row">
+      <h2><a href="{{ blog.url }}">{{ section.settings.title | escape }}</a></h2>
+    </div>
+  {% endif %}
+
+  {%- assign post_limit = section.settings.post_limit -%}
+  <div class="row articles{% if blog_is_grid %} blog__grid{% else %} blog__alternate{% endif %}">
+    {% if blog == blank %}
+      {% render 'onboard-blog', post_limit: post_limit %}
+    {% else %}
+      {% for article in blog.articles limit: post_limit %}
+      {% capture articleCycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% render 'article-loop', article: article, blog: blog, forloop: forloop, articleCycle: articleCycle %}
+      {% endfor %}
+    {% endif %}
+  </div>
+
+</section>
+<div class="clear"></div>
+
+<style>
+  {% unless section.settings.color_scheme == 'none' %}
+    section.global__blog-{{ section.id }},
+    section.global__blog-{{ section.id }} .article-body {
+      background: var(--{{ section.settings.color_scheme }}-background) !important;
+    }
+    section.global__blog-{{ section.id }} .section-title:after {
+      background: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__blog-{{ section.id }} h2,
+    section.global__blog-{{ section.id }} h2 a,
+    section.global__blog-{{ section.id }} .article-body,
+    section.global__blog-{{ section.id }} .article-body h3,
+    section.global__blog-{{ section.id }} .article-body a {
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+  {% endunless %}
+  {% unless section.settings.blog_layout_grid %}
+    .article-body .post_meta {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+  {% endunless %}
+</style>
+
+
+{% schema %}
+{
+  "name": "Featured blog",
+  "settings":
+  [
+    {
+      "id": "blog",
+      "type": "blog",
+      "label": "Blog"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured blog"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "label": "Posts shown",
+      "default": 2
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_layout_grid",
+      "label": "Layout as a grid",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "post_tags",
+      "label": "Show tags",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show post author",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Featured blog",
+      "settings":
+      {
+        "blog": "News",
+        "post_limit": 2
+      }
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search"
+  ]
+}
+{% endschema %}

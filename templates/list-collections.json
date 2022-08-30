@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+      }
+    },
+    "grid": {
+      "type": "main-list-collections-all",
+      "settings": {
+        "full_width": false,
+        "grid": 3
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "full_width": false,
+        "text": "<p>Our unique collections <\/p>",
+        "text_align": "center"
+      }
+    },
+    "162811562610f7b2e1": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Featured collection",
+        "collection": "",
+        "carousel": false,
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "grid",
+    "main",
+    "162811562610f7b2e1"
+  ]
+}

@@ -1,0 +1,212 @@
+{%- liquid
+
+  assign grid = section.settings.grid
+  assign product_limit = section.settings.grid | times: section.settings.rows
+
+  case section.settings.grid
+  when 2
+    assign grid_item_width = 'span-6 md-span-6 sm-span-6 auto'
+  when 3
+    assign grid_item_width = 'span-4 md-span-4 sm-span-6 auto'
+  when 4
+    assign grid_item_width = 'span-3 md-span-4 sm-span-6 auto'
+  endcase
+
+ assign show_filters = false
+
+ if section.settings.show_filters
+   assign show_filters = true
+ endif
+
+ assign filter_count = 0
+ for filter in search.filters
+   if filter.type == 'price_range'
+     if filter.min_value.value != nil or filter.max_value.value != nil
+       assign filter_count = 1
+     endif
+   endif
+
+   assign filter_count = filter_count | plus: filter.active_values.size
+ endfor
+
+-%}
+
+<div class="main__section"
+data-section-id="{{ section.id }}"
+data-section-type="search-section">
+{% paginate search.results by product_limit %}
+  <div id="searchResultsWrapper" class="row">
+    <div class="section-title desktop-12 mobile-3">
+      <h1>{{ 'general.search.title' | t }}</h1>
+    </div>
+
+    <div id="page" class="desktop-12 tablet-6 mobile-3">
+
+      <div id="search-bar">
+        <form action="{{ routes.search_url }}" method="get">
+          <input type="text" name="q" id="searchbox-{{ section.id }}" class="searchbox__input" placeholder="{{ 'general.search.placeholder' | t }}"/>
+          {% if settings.search_show_products_only %}
+            <input type="hidden" name="type" value="product">
+          {% endif %}
+          <input value="{{ 'general.search.submit' | t }}" name="submit" id="search_button" class="button" type="submit">
+          {% if search.performed and show_filters == false %}
+            {% if search.results_count == 0 %}
+              <p>{{ 'general.search.no_results_html' | t: terms: search.terms }}</p>
+            {% else %}
+              <p>{{ 'general.search.results_for_html' | t: terms: search.terms }}</p>
+            {% endif %}
+          {% endif %}
+
+        </form>
+      </div>
+    </div>
+
+    {% if search.performed %}
+      {%- if show_filters -%}
+       {% render 'search-filters', filter_count: filter_count, terms: search.terms, count: search.results_count %}
+      {%- endif -%}
+      {%- if search.results_count < 1 -%}
+        <div id="main-search-results"
+          class="search--empty desktop-12 tablet-6 mobile-3"
+          data-id="{{ section.id }}">
+          <span class="rte">{{ 'sections.search_template.use_fewer_filters_html' | t: link: routes.search_url, class: "underline" }}</span>
+        </div>
+      {%- else -%}
+       <div id="main-search-results"
+        class="desktop-12 tablet-6 mobile-3"
+        data-id="{{ section.id }}">
+        {%- liquid
+          assign has_products = false
+          assign has_articles = false
+          assign has_pages = false
+
+          for item in search.results
+            if item.object_type == 'product'
+             assign has_products = true
+             continue
+            endif
+            if item.object_type == 'article'
+             assign has_articles = true
+             continue
+            endif
+            if item.object_type == 'page'
+             assign has_pages = true
+             continue
+            endif
+          endfor
+        -%}
+        {%- if has_pages -%}
+          <div class="section-title desktop-12 tablet-6 mobile-3">
+            <h2>
+              {{ 'general.search.pages' | t }}
+            </h2>
+          </div>
+          <div class="grid_wrapper">
+            {% for item in search.results %}
+              {% if item.object_type == 'page' %}
+                <div class="{{ grid_item_width }}">
+                  <!--'item' is a page. All page object properties can be accessed. -->
+                  <a class="search__page_results--link" href="{{ item.url }}" title="{{ item.title | escape }}">
+                    {% if item.content contains "img" %}
+                      {%- liquid
+                        assign feat_image = item.content | split: 'src="'
+                        assign feat_image = feat_image[1] | split: '"' | first | replace: '//cdn', 'http://cdn' | replace: 'http:http://', 'http://' | remove: 'https:'
+                      -%}
+                      <div class="search__page_results--img">
+                        <img src="{{ feat_image }}" alt="{{ item.title }}">
+                      </div>
+                    {% endif %}
+                    <div class="search__page_results--text">
+                      {{ item.title }}
+                    </div>
+                  </a>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {%- endif -%}
+        {%- if has_articles -%}
+          <div class="section-title desktop-12 tablet-6 mobile-3">
+            <h2>
+              {{ 'general.search.articles' | t }}
+            </h2>
+          </div>
+          <div class="grid_wrapper">
+            {% for item in search.results %}
+              {% if item.object_type == 'article' %}
+                <div class="{{ grid_item_width }}">
+                  <!--'item' is an article All article object properties can be accessed. -->
+                  <a class="search__page_results--link" href="{{ item.url }}" title="{{ item.title | escape }}">
+                    {% if item.image %}
+                      <div class="search__page_results--img">
+                        {%- render 'basic-responsive-image', type: item.image, data_widths: '[180, 360, 540, 720, 900]'  -%}
+                        <noscript>
+                          <img src="{{ item.image | img_url: '800x' }}" alt="{{ item.image.alt }}">
+                        </noscript>
+                      </div>
+                    {% endif %}
+                    <div class="search__page_results--text">
+                      {{ item.title }}
+                    </div>
+                  </a>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {%- endif -%}
+        {%- if has_products -%}
+          <div class="section-title desktop-12 tablet-6 mobile-3">
+            <h2>
+              {{ 'general.search.products' | t }}
+            </h2>
+          </div>
+          <div class="product-loop grid_wrapper">
+            {% for item in search.results %}
+              {% if item.object_type == 'product' %}
+                <div class="{{ grid_item_width }} product-index" id="prod-{{ product.id }}" data-alpha="{{ product.title }}" data-price="{{ product.price }}" data-aos="{{ settings.scroll_animation }}" data-product-id="{{ product.id }}">
+                  {% render 'product-listing', collection: collection, product: item %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {%- endif -%}
+       </div>
+      {%- endif -%}
+      {% render 'pagination', paginate: paginate %}
+    {% endif %}
+
+  </div>
+{% endpaginate %}
+</div><!-- /.row -->
+
+{% schema %}
+{
+  "name": "Search",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_filters",
+      "label": "Show search filters",
+      "info": "Learn how to add storefront filters [here](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/os20\/customize\/filters)"
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "label": "Products per row",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "rows",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "label": "Rows",
+      "default": 4
+    }
+]
+}
+{% endschema %}

@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_size": "thin",
+        "sidebar_positon": "left"
+      }
+    },
+    "16281164377b72f53d": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Subscribe to our newsletter",
+        "newsletter_subheading": "<p>Join our mailing list - no spam!<\/p>",
+        "mail_gdpr_text": "<p>*You're signing up to receive our emails and can unsubscribe at any time.<\/p>",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16281164377b72f53d"
+  ]
+}

@@ -1,0 +1,38 @@
+{%- liquid
+
+  case settings.product_image_size
+    when 'natural'
+      assign aspect_ratio = 'natural'
+    when 'square'
+      assign aspect_ratio = 'square'
+    when 'landscape'
+      assign aspect_ratio = 'landscape'
+    when 'portrait'
+      assign aspect_ratio = 'portrait'
+  endcase
+
+-%}
+
+<div class="collection-image ci image_{{ aspect_ratio }}">
+  <a href="{{ collection.url }}" title="{{ collection_title }}">
+    {% if collection.image %}
+      {% render "basic-responsive-image", type: collection.image, data_widths: '[180, 360, 540, 720, 900]' %}
+      <noscript>
+        <img src="{{ collection.image | img_url: '1024x1024' }}" alt="{{ collection.image.alt | escape }}" class="collection__image">
+      </noscript>
+    {% elsif collection.products.first and collection.products.first.media != empty %}
+      {% render "basic-responsive-image", type: collection.products.first.featured_media.preview_image, data_widths: '[180, 360, 540, 720, 900]' %}
+      <noscript>
+        <img src="{{ collection.products.first.featured_media.preview_image | img_url: '1024x1024' }}" alt="{{ collection.products.first.featured_media.preview_image.alt | escape }}" class="collection__image">
+      </noscript>
+    {% else %}
+      {% render "basic-responsive-image", type: blank, data_widths: '[180, 360, 540, 720, 900]' %}
+      <noscript>
+        <img src="{{ blank | img_url: '1024x1024' }}" alt="{{ collection.products.first.featured_media.alt | escape }}" class="collection__image">
+      </noscript>
+    {% endif %}
+  </a>
+</div>
+<div class="product-details">
+  <h3><a href="{{ collection.url }}" title="{{ collection_title }}">{{ collection.title }}</a></h3>
+</div>

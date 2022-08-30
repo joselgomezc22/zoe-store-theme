@@ -1,0 +1,133 @@
+{%- liquid
+
+  assign option_name = option.name | downcase
+  assign color_swatch_options = "color, colour" | split: ", "
+  assign current_option = "option" | append: option.position
+  assign other_options = "option1 option2 option3" | remove: current_option | strip | split: " "
+
+-%}
+
+<div class="swatches__container js-variant-selector" data-option-index="{{ option.position }}" data-other-options='{{ other_options | json }}'>
+  <p class="swatches__option-name h5"><strong>{{ option.name }}:</strong> {% for value in option.values %}{% if option.selected_value == value %}<span id="selected-option-{{ option.position }}" class="swatches__option-value">{{ value }}</span>{% endif %}{% endfor %}</p>
+
+  {% for value in option.values %}
+    {%- liquid
+
+      assign image_url = value | handle | append: '.png' | file_url
+      assign css_color = value | split: ' ' | last | handle
+      assign available = false
+
+    -%}
+
+    <!-- Checking Availability -->
+    {%- liquid
+
+      assign available = false
+
+      for variant in product.variants
+        unless variant.available
+          continue
+        endunless
+
+        unless variant[current_option] == value
+          continue
+        endunless
+
+        unless variant[other_options[0]] == current_variant[other_options[0]]
+          continue
+        endunless
+
+        unless variant[other_options[1]] == current_variant[other_options[1]]
+          continue
+        endunless
+
+        assign available = true
+      endfor
+
+    -%}
+
+    <!-- Building Variant Image -->
+    {%- liquid
+
+      for variant in product.variants
+        unless variant[current_option] == value
+          continue
+        endunless
+
+        unless variant[other_options[0]] == current_variant[other_options[0]]
+          continue
+        endunless
+
+        unless variant[other_options[1]] == current_variant[other_options[1]]
+          continue
+        endunless
+
+        if variant.image
+          assign variant_image_url =  variant.image | img_url: '100x'
+        endif
+      endfor
+
+      assign checked = ""
+
+      if current_variant[current_option] == value
+        assign checked = 'checked="checked"'
+      endif
+
+      assign swatch_img = null
+      assign swatch_color_name = value | handle | append: '.png'
+
+      if images[swatch_color_name] != blank
+        assign swatch_img = swatch_color_name | file_url
+      endif
+
+    -%}
+
+    {% capture radio_button %}
+      <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
+          class="swatches__form--input"
+          name="{{ option_name }}"
+          value="{{ value | escape }}"
+          form="product-form-{{ section.id }}"
+          data-position="{{ option.position }}"
+          {{ checked }}>
+    {% endcapture %}
+
+    {% capture sold_out_image %}
+      <img class="swatches__sold-out--image crossed-out" src="{{ 'soldout.png' | asset_url }}" alt="Sold out image" />
+    {% endcapture %}
+
+    {% capture regular_swatch %}
+      <div class="swatches__swatch--regular swatch-element {% unless available %}soldout{% endunless %} js-swatch-element">
+        {{ radio_button }}
+
+        <label class="swatches__form--label" for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}" tabindex="0">
+          {{ value }}
+          {{ sold_out_image }}
+        </label>
+      </div>
+    {% endcapture %}
+
+    {% capture color_swatch %}
+      <div class="swatches__swatch--color swatch-element color swatches__shape--{{ color_swatch_shape }} {% unless available %}soldout{% endunless %} js-swatch-element">
+
+        {{ radio_button }}
+
+        <label class="swatches__form--label"
+        for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
+        tabindex="0"
+        style="background-color: {{ css_color }};
+        {% unless color_swatch_style == 'default-color' %}
+          background-image: url({% if color_swatch_style == 'custom-image' %}{{ image_url }}{% elsif color_swatch_style == 'variant-image' %}{{ variant_image_url }}{% endif %}); background-position: center center;
+        {% endunless %}">
+          {{ sold_out_image }}
+        </label>
+      </div>
+    {% endcapture %}
+
+    {% if show_color_swatches and color_swatch_options contains option_name %}
+      {{ color_swatch }}
+    {% else %}
+      {{ regular_swatch }}
+    {% endif %}
+  {% endfor %}
+</div>

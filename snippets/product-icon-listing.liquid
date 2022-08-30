@@ -1,0 +1,67 @@
+{% comment %}
+product-icon-listing.liquid
+
+Renders product's icon/badge on the product grid.
+Accompanies product listings (collection page, search result) and not updated dynamically
+Accepts:
+- product: {Object} Product Liquid object (optional)
+
+Usage:
+{% include 'product-icon-listing', product: product %}
+{% endcomment %}
+
+{%- liquid
+
+  if settings.custom_icon
+    assign has_custom_icon = false
+    if product.tags.size > 0
+      assign product_tags = product.tags | join: ','
+      if product_tags contains 'icon_'
+        for tag in product.tags
+          if tag contains 'icon_'
+            assign has_custom_icon = true
+            assign custom_icon = tag | replace: 'icon_', ''
+          endif
+        endfor
+      endif
+    endif
+  endif
+
+-%}
+
+
+{% if has_custom_icon and custom_icon != blank %}
+  <div class="icn icn--custom icn--custom--{{ custom_icon | handle }}">
+    <span class="icn__inner">
+      {{ custom_icon }}
+    </span>
+  </div>
+{% endif %}
+
+  {% for col in product.collections %}
+    {% if col.handle == 'new' %}
+      <div class="new icn">
+        <span class="icn__inner">
+          {{ 'products.general.new' | t }}
+        </span>
+      </div>
+    {% endif %}
+  {% endfor %}
+
+  {% if product.price < product.compare_at_price %}
+    <div class="sale-item sale-item--{{ settings.sale_items }} icn">
+      <span class="icn__inner">
+        {% case settings.sale_items %}
+          {% when 'percentage' %}
+            {% assign discount = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price %}
+            {% assign discount = discount | round | append: '%' %}
+            {{ 'products.general.savings' | t: savings: discount }}
+          {% when 'amount' %}
+            {% assign discount = product.compare_at_price | minus: product.price | money %}
+            {{ 'products.general.savings' | t: savings: discount }}
+          {% when 'icon' %}
+            {{ 'products.general.sale' | t }}
+        {% endcase %}
+      </span>
+    </div><!-- /.sale-item -->
+  {% endif %}

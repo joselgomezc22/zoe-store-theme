@@ -1,0 +1,43 @@
+<!-- Shown on Mobile Only -->
+<ul id="mobile-cart" class="sm-span-3 md-span-2 auto mobile-only">
+  <li class="my-cart-link-container">
+    {% if settings.cart_type == 'page_only' %}
+      <a href="{{ routes.cart_url }}">
+        <span class="my-cart-text vib-center">{{ 'cart.general.title' | t }}</span>
+        {% render 'snip-icons',
+             wrapper: wrapper,
+             type: 'icon-theme',
+             icon: 'cart',
+             classes: 'my-cart-link-container--icon vib-center',
+             size: '14px',
+             fill: fill_color,
+             hover: fill_color %}
+        <span class="js-cart-count vib-center">{{ cart.item_count }}</span>
+      </a>
+    {% else %}
+      {%- if settings.cart_type == 'drawer' -%}
+        {% assign cart_classes = 'js-slideout-open' %}
+        {% assign cart_settings = 'data-wau-slideout-target="ajax-cart" data-slideout-direction="right"' %}
+      {% elsif settings.cart_type == 'modal_cart' %}
+        {% assign cart_classes = 'js-modal-open' %}
+        {% assign cart_settings = 'data-wau-modal-target="ajax-cart"' %}
+      {%- endif -%}
+      <div class="slideout__trigger--open">
+        <a href="{{ routes.cart_url }}">
+          <button class="slideout__trigger-mobile-menu js-mini-cart-trigger {{ cart_classes }}" {{ cart_settings }} aria-label="Open cart" tabindex="0" type="button" name="button">
+            <span class="my-cart-text vib-center">{{ 'cart.general.title' | t }}</span>
+            {% render 'snip-icons',
+                 wrapper: wrapper,
+                 type: 'icon-theme',
+                 icon: 'cart',
+                 classes: 'my-cart-link-container--icon vib-center',
+                 size: '14px',
+                 fill: fill_color,
+                 hover: fill_color %}
+            <span class="js-cart-count vib-center">{{ cart.item_count }}</span>
+          </button>
+        </a>
+      </div>
+    {% endif %}
+  </li>
+</ul>

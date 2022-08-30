@@ -1,0 +1,220 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'pb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'pt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'pt0 pb0'
+  endif
+
+-%}
+<section id="global__newsletter-{{ section.id }}" class="global__newsletter gridlock-fluid global__newsletter-{{ section.id }} global__section global__section--padding {{ section_padding }}"
+data-aos="{{ settings.scroll_animation }}">
+  <div class="row">
+    <div class="section-header desktop-12 tablet-6 mobile-3">
+      {% if section.settings.title != blank %}
+        <div class="section-title">
+          <h2>{{ section.settings.title | escape }}</h2>
+        </div>
+      {% endif %}
+      {%- if section.settings.newsletter_subheading != blank -%}
+        <div class="section-subheading rte">
+          {{ section.settings.newsletter_subheading }}
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="section-newsletter desktop-6 desktop-push-3 tablet-6 mobile-3">
+      {% form 'customer' %}
+        {{ form.errors | default_errors }}
+        {% if form.posted_successfully? %}
+          <p class="form--success">{{ 'general.newsletter_form.confirmation' | t }}</p>
+        {% else %}
+          <div class="input-group password__input-group">
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <input type="email"
+              name="contact[email]"
+              id="Email"
+              class="input-group__field newsletter__input"
+              value="{% if customer %}{{ customer.email }}{% endif %}"
+              placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"
+              autocorrect="off"
+              autocapitalize="off">
+              <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe">
+                <span class="newsletter__submit-text--large">{{ 'general.newsletter_form.submit' | t }}</span>
+              </button>
+          </div>
+          {% if section.settings.mail_gdpr_text %}
+            <div class="gdpr-text before-signup rte a-center">{{ section.settings.mail_gdpr_text }}</div>
+          {% endif %}
+        {% endif %}
+      {% endform %}
+    </div>
+    <div class="section-icons desktop-8 desktop-push-2 tablet-6 mobile-3">
+      {% render 'social-icons', fill_color: 'var(--text-color)', wrapper: '.section-icons' %}
+    </div>
+  </div>
+</section>
+<style>
+  #shopify-section-{{ section.id }} {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  {% unless section.settings.color_scheme == 'none' %}
+    .global__newsletter-{{ section.id }} {
+      background: var(--{{ section.settings.color_scheme }}-background) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }} h2 {
+      border-color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }} .section-title:after {
+      background: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }} h2,
+    section.global__newsletter.global__newsletter-{{ section.id }} .section-subheading p,
+    section.global__newsletter.global__newsletter-{{ section.id }} ul.social-icons__wrapper li a,
+    section.global__newsletter.global__newsletter-{{ section.id }} ul.social-icons__wrapper li a:visited,
+    section.global__newsletter.global__newsletter-{{ section.id }} .gdpr-text,
+    section.global__newsletter.global__newsletter-{{ section.id }} .gdpr-text p a,
+    section.global__newsletter.global__newsletter-{{ section.id }} .newsletter__input#Email { /* Internet Explorer 10+ */
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }} .newsletter__input#Email::-webkit-input-placeholder {
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }} .newsletter__input#Email:-moz-placeholder {
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }}.newsletter__input#Email::-moz-placeholder {
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }} .newsletter__input#Email:-ms-input-placeholder {
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__newsletter.global__newsletter-{{ section.id }} .social-icons__wrapper svg .hover-fill {
+      fill: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+  {% endunless %}
+  section.global__newsletter .section-subheading p {
+    max-width: 60%;
+    margin: 0 auto !important;
+    line-height: 30px;
+    padding-bottom: 20px !important;
+  }
+  @media screen and (max-width: 500px) {
+    section.global__newsletter p {
+      max-width: 100%;
+    }
+  }
+  section.global__newsletter ul.social-icons__wrapper li a:hover {
+    opacity: 0.8;
+  }
+  section.global__newsletter ul.social-icons__wrapper li a,
+  section.global__newsletter ul.social-icons__wrapper li a:visited,
+  section.global__newsletter .gdpr-text,
+  section.global__newsletter .gdpr-text p a {
+    line-height: 1.2em;
+  }
+  section.global__newsletter .gdpr-text {
+    margin: 0;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Newsletter",
+  "settings":
+  [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Subscribe to our newsletter"
+    },
+    {
+      "type": "richtext",
+      "id": "newsletter_subheading",
+      "label": "Subheading",
+      "default": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "mail_gdpr_text",
+      "label": "GDPR text",
+      "default": "<p>*You're signing up to receive our emails and can unsubscribe at any time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any customers who sign up will have an account created for them in Shopify. [View customers](/admin/customers?query=&accepts_marketing=1)"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Newsletter"
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search"
+  ]
+}
+{% endschema %}

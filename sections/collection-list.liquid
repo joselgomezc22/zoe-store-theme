@@ -1,0 +1,217 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'pb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'pt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'pt0 pb0'
+  endif
+
+-%}
+<section class="global__collection-list-{{ section.id }} collection-loop global__section global__section--padding {{ section_padding }}" data-section-id="{{ section.id }}" data-aos="{{ settings.scroll_animation }}">
+{% if section.settings.full_width %}<div class="gridlock-fluid"><div class="row">{% endif %}
+
+    {% if section.settings.title != blank %}
+      <div class="section-title row">
+        <h2>
+          {{ section.settings.title | escape }}
+        </h2>
+      </div>
+    {% endif %}
+
+    <div class="clear"></div>
+
+    {%- liquid
+
+      case section.settings.grid
+        when 2
+          assign grid_item_width = 'span-6'
+        when 3
+          assign grid_item_width = 'span-4 sm-span-6'
+        when 4
+          assign grid_item_width = 'span-3 sm-span-6'
+      endcase
+
+    -%}
+
+    <article class="row grid_wrapper collection-loop">
+      {% for block in section.blocks limit: section.blocks.size %}
+        <div class="collection-item {{ grid_item_width }} auto" data-alpha="{{ collection.title }}" {{ block.shopify_attributes }}>
+          {% assign collection = collections[block.settings.collection] %}
+          {% if collection == blank %}
+            {% capture current %}{{ forloop.index }}{% endcapture %}
+      	    {%- assign placeholder = 'collection-' | append: current -%}
+            <div class="collection-image ci onboard">
+              <a href="#" title="Collection image">
+                {{ placeholder | placeholder_svg_tag }}
+              </a>
+            </div>
+            <div class="product-details">
+              <h3><a href="#" title="Sample collection">Sample collection {{ forloop.index }}</a></h3>
+            </div>
+          {% else %}
+            {% render 'collection-grid-item', collection: collection %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </article>
+
+  {% if section.blocks.size == 0 %}
+    <article class="row collection-loop">
+      {% render 'onboard-collection' %}
+    </article>
+  {% endif %}
+{% if section.settings.full_width %}</div></div>{% endif %}
+</section>
+<div class="clear"></div>
+
+<style>
+  section.global__collection-list-{{ section.id }} {
+    background: var(--{{ section.settings.color_scheme }}-background);
+  }
+  section.global__collection-list-{{ section.id }} .collection-image {
+    display: block;
+  }
+  {% unless section.settings.color_scheme == 'none' %}
+    section.global__collection-list-{{ section.id }} h2,
+    section.global__collection-list-{{ section.id }} h2 a,
+    section.global__collection-list-{{ section.id }} .product-details h3,
+    section.global__collection-list-{{ section.id }} .product-details h3 a {
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    section.global__collection-list-{{ section.id }} .section-title:after {
+      background: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+  {% endunless %}
+</style>
+
+{% schema %}
+{
+  "name": "Collection list",
+  "max_blocks": 12,
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collection list"
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "label": "Collections per row",
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "blocks":
+  [
+    {
+      "type": "featured_collection",
+      "name": "Collection",
+      "settings":
+      [
+        {
+          "label": "Collection",
+          "id": "collection",
+          "type": "collection"
+        }
+      ]
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Collection list",
+      "settings":
+      {
+        "grid": 3
+      },
+      "blocks":
+      [
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        }
+      ]
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search",
+    "customers/account"
+  ]
+}
+{% endschema %}

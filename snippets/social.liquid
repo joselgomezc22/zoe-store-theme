@@ -1,0 +1,69 @@
+<div class="share-icons {{ class }}">
+  <a href="//www.facebook.com/sharer.php?u={{ shop.url | append: share_permalink }}{% if template == 'blog' or template == 'article' %}{{ article.url }}{% else %}{{ product.url }}{% endif %}"
+    class="facebook"
+    title="{{ 'social.icons.facebook' | t }}"
+    target="_blank">
+
+    {% render 'snip-icons',
+     wrapper: '.share-icons',
+     type: 'social',
+     icon: 'facebook',
+     classes: 'share-icons--icon',
+     size: '14px',
+     fill: '#fff',
+     hover: '#fff' %}
+
+  </a>
+  <a href="//twitter.com/intent/tweet?status={{ shop.url | append: share_permalink }}{% if template contains 'blog' or template == 'article' %}{{ article.url }}{% else %}{{ product.url }}{% endif %}"
+    title="{{ 'social.icons.twitter' | t }}"
+    target="_blank"
+    class="twitter">
+
+    {% render 'snip-icons',
+     wrapper: '.share-icons',
+     type: 'social',
+     icon: 'twitter',
+     classes: 'share-icons--icon',
+     size: '14px',
+     fill: '#fff',
+     hover: '#fff' %}
+
+  </a>
+  {% if template == 'collection' or template == 'product' or template == 'index' %}
+    <a href="//pinterest.com/pin/create/button/?url={{ shop.url | append: share_permalink }}{{ product.url }}&amp;media={{ product.featured_media | img_url: '1024x1024' | prepend: 'http:' }}"
+      title="{{ 'social.icons.pinterest' | t }}"
+      target="_blank"
+      class="pinterest">
+
+      {% render 'snip-icons',
+       wrapper: '.share-icons',
+       type: 'social',
+       icon: 'pinterest',
+       classes: 'share-icons--icon',
+       size: '14px',
+       fill: '#fff',
+       hover: '#fff' %}
+
+    </a>
+  {% endif %}
+
+  {% if template contains 'blog' or template contains 'article' %}
+    {% if article.image %}
+      <a href="//pinterest.com/pin/create/button/?url={{ shop.url | append: share_permalink }}{{ article.url }}&amp;media={{ article.image.src | img_url: 'grande' | prepend: 'http:' }}"
+        title="{{ 'social.icons.pinterest' | t }}"
+        target="_blank"
+        class="pinterest">
+
+        {% render 'snip-icons',
+         wrapper: '.share-icons',
+         type: 'social',
+         icon: 'pinterest',
+         classes: 'share-icons--icon',
+         size: '14px',
+         fill: '#fff',
+         hover: '#fff' %}
+
+        </a>
+    {% endif %}
+  {% endif %}
+</div>

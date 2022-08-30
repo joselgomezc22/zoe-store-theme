@@ -1,0 +1,194 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'mb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'mt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'mt0 mb0'
+  endif
+
+-%}
+
+  {% capture slideshow_config %}{
+  "wrapAround":false,
+  "cellAlign": "center",
+  "dragThreshold":"5",
+  "contain": true,
+  "freeScroll": false,
+  "prevNextButtons": false,
+  "pageDots": true,
+  "watchCSS": true,
+  "cellSelector": ".testimonial"
+  }{% endcapture %}
+
+
+<section class="global__testimonial-text-{{ section.id }} global__section global__section--margin {{ section_padding }} flickity__section"
+  data-section-id="{{ section.id }}"
+  data-aos="{{ settings.scroll_animation }}"
+  data-section-type="testimonials">
+
+  {% if section.settings.title != blank %}
+    <div class="section-title row">
+      <h2>{{ section.settings.title | escape }}</h2>
+    </div>
+  {% endif %}
+  <div class="row">
+    <div class="grid_wrapper testimonial__container flickity-section js-carousel" data-flickity='{{ slideshow_config }}'>
+      {% for block in section.blocks %}
+        <div class="span-4 auto sm-span-12 testimonial__block-{{ block.id }} testimonial" {{ block.shopify_attributes }}>
+          <div class="testimonial__title">
+            <h3>{{ block.settings.title }}</h3>
+          </div>
+          <div class="rte testomonial__content">
+            {{ block.settings.content }}
+          </div>
+          <div class="testimonial__author">
+            {{ block.settings.author }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<div class="clear"></div>
+
+{% unless section.settings.color_scheme == 'none' %}
+<style>
+  section.global__testimonial-text-{{ section.id }} .testimonial {
+    background: var(--{{ section.settings.color_scheme }}-background) !important;
+  }
+  section.global__testimonial-text-{{ section.id }} .testimonial .rte,
+  section.global__testimonial-text-{{ section.id }} .testimonial h3,
+  section.global__testimonial-text-{{ section.id }} .testimonial a,
+  section.global__testimonial-text-{{ section.id }} .testimonial p,
+  section.global__testimonial-text-{{ section.id }} .testimonial .testimonial__author {
+    color: var(--{{ section.settings.color_scheme }}-color);
+  }
+</style>
+{% endunless %}
+
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "settings":
+  [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Testimonials"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "blocks":
+  [
+    {
+    "type": "testimonial",
+    "name": "Testimonial",
+    "settings":
+      [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Testimonials"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Customer testimonial content about your products or service</p>"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author",
+          "default": "Author"
+        }
+      ]
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Testimonials",
+      "blocks":
+      [
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        }
+      ]
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search",
+    "customers/account"
+  ]
+}
+{% endschema %}

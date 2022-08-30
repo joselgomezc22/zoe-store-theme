@@ -1,0 +1,351 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'pb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'pt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'pt0 pb0'
+  endif
+
+-%}
+<section class="global__image-column-{{ section.id }} global__section global__section--padding {{ section_padding }}"
+  data-section-id="{{ section.id }}"
+  data-aos="{{ settings.scroll_animation }}">
+
+  {% if section.settings.full_width %}<div class="gridlock-fluid"><div class="row">{% endif %}
+
+  {% if section.settings.title != blank %}
+    <div class="section-title row">
+      <h2>{{ section.settings.title | escape }}</h2>
+    </div>
+  {% endif %}
+
+  <article id="image-columns" class="row grid_wrapper">
+    {% for block in section.blocks %}
+      {%- liquid
+
+        case block.settings.image_width
+          when '25%'
+            assign image_width = 'span-3'
+          when '33%'
+            assign image_width = 'span-4'
+          when '50%'
+            assign image_width = 'span-6'
+          when '66%'
+            assign image_width = 'span-8'
+          when '75%'
+            assign image_width = 'span-9'
+          when '100%'
+            assign image_width = 'span-12'
+        endcase
+
+        assign wrap_image_with_link = false
+        assign show_button = false
+
+        if block.settings.button == blank and block.settings.link != blank
+          assign wrap_image_with_link = true
+        endif
+
+        if block.settings.button != blank and block.settings.link != blank
+          assign show_button = true
+        endif
+
+      -%}
+      <div class="image-column {{ image_width }} sm-span-12 auto image-column-{{ block.id }}" {{ block.shopify_attributes }}>
+        <div class="image-container">
+          {% if block.settings.image != blank %}
+            {% if wrap_image_with_link %}
+            <a href="{{ block.settings.link }}">
+            {% endif %}
+            {% render 'basic-responsive-image', type: block.settings.image, data_widths: '[180, 360, 540, 720, 900]' %}
+            <noscript>
+              <img src="{{ block.settings.image | img_url: '800x' }}" alt="{{ block.settings.image.alt }}">
+            </noscript>
+            {% if wrap_image_with_link %}
+            </a>
+            {% endif %}
+          {% else %}
+            <div class="onboard">
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            </div><!-- /.onboard -->
+          {% endif %}
+          <div class="text-container">
+            <div class="text-content">
+              {% if block.settings.heading != blank %}
+              <h3 class="text-title">
+                {{ block.settings.heading | escape }}
+              </h3><!-- /.text-title -->
+              {% endif %}
+                {% if block.settings.rich_text != blank %}
+                <div class="rte">
+                  {{ block.settings.rich_text }}
+                </div><!-- /.rte -->
+                {% endif %}
+                {% if show_button %}
+                <span class="cta">
+                  <a href="{{ block.settings.link }}">{{ block.settings.button | escape }}</a>
+                </span><!-- /.cta -->
+            {% endif %}
+             </div><!-- /.text-content -->
+          </div><!-- /.text-container -->
+        </div><!-- /.image-container -->
+      </div><!-- /.image-column -->
+
+      <style>
+        /* IMAGE BLOCKS */
+        {% unless section.settings.color_scheme == 'none' %}
+          .global__image-column-{{ section.id }} {
+            background: var(--{{ section.settings.color_scheme }}-background) !important;
+          }
+          .global__image-column-{{ section.id }} .section-title:after {
+            background: var(--{{ section.settings.color_scheme }}-color) !important;
+          }
+          .global__image-column-{{ section.id }} .section-title h2,
+          .image-column-{{ block.id }} .text-content h3,
+          .image-column-{{ block.id }} .text-content p,
+          .image-column-{{ block.id }} .text-content .rte a {
+            color: var(--{{ section.settings.color_scheme }}-color);
+          }
+        {% endunless %}
+        .image-column-{{ block.id }} {
+          text-align: {{ block.settings.text_align }};
+        }
+        .image-column-{{ block.id }} .text-content h3 {
+          font-size: {{ section.settings.heading_size }}px;
+          margin-top: 10px;
+        }
+        .image-column-{{ block.id }} .text-content p {
+          font-size: {{ section.settings.text_size }}px;
+          margin-top: 10px;
+        }
+        .image-column-{{ block.id }} .text-content .cta {
+          margin-top: 10px;
+        }
+
+      </style>
+    {% endfor %}
+    {% if section.blocks.size == 0 %}
+      {% render 'no-blocks' %}
+    {% endif %}
+  </article>
+  {% if section.settings.full_width %}</div></div>{% endif %}
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Editorial columns",
+  "max_blocks": 4,
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Welcome"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 14
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "blocks":
+  [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings":
+      [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "800px x 600px recommended if 3 per row"
+        },
+        {
+          "type": "select",
+          "id": "image_width",
+          "label": "Container width",
+          "default": "33%",
+          "options":
+          [
+            {
+              "value": "25%",
+              "label": "25%"
+            },
+            {
+              "value": "33%",
+              "label": "33%"
+            },
+            {
+              "value": "50%",
+              "label": "50%"
+            },
+            {
+              "value": "66%",
+              "label": "66%"
+            },
+            {
+              "value": "75%",
+              "label": "75%"
+            },
+            {
+              "value": "100%",
+              "label": "100%"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Our collections"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text",
+          "label": "Text",
+          "default": "<p>Enter text to accompany your image.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button",
+          "label": "Button text",
+          "info": "Visible only if a link is chosen",
+          "default": "Explore"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link",
+          "info": "Required in order to display a button. Will link the image if no button text."
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "label": "Text alignment",
+          "default": "left",
+          "options":
+          [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Editorial columns",
+      "blocks":
+      [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search"
+  ]
+}
+{% endschema %}

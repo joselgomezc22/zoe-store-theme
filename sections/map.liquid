@@ -1,0 +1,521 @@
+{%- liquid
+
+  assign bg_image = section.settings.background_image | default: false
+  assign address = section.settings.map_address | default: false
+  assign api_key = section.settings.api_key | default: false
+
+  if api_key and address
+    assign state = 'display-map'
+  elsif bg_image
+    assign state = 'display-bg-image'
+  else
+    assign state = 'onboarding'
+  endif
+
+  assign state = state | strip
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'mb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'mt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'mt0 mb0'
+  endif
+
+-%}
+
+<section id="MapSection--{{ section.id }}"
+  class="map-section map-section--{{ state }} global__section global__section--margin {{ section_padding }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="map"
+  data-aos="{{ settings.scroll_animation }}">
+
+  {% if section.settings.color_scheme != 'none' %}
+    {% assign cs_color_handle = section.settings.color_scheme | append: "_color"  %}
+    {% assign cs_background_handle = section.settings.color_scheme | append: "_background"  %}
+    {% assign color_scheme_color = settings[cs_color_handle] %}
+    {% assign color_scheme_background = settings[cs_background_handle] %}
+  {% endif %}
+
+  {% assign light0 = color_scheme_background | default: "#ffffff" %}
+  {% assign light1 = color_scheme_background | color_lighten: 1 | default: '#fefefe' %}
+  {% assign light4 = color_scheme_background | color_lighten: 4 | default: '#f5f5f5' %}
+  {% assign light5 = color_scheme_background | color_lighten: 5 | default: '#f2f2f2' %}
+  {% assign light9 = color_scheme_background | color_lighten: 9 | default: '#e9e9e9' %}
+  {% assign light13 = color_scheme_background | color_lighten: 13 | default: '#dedede' %}
+  {% assign dark0 = color_scheme_color | default: '#333333' %}
+
+  {% if light13 == '#ffffff' %}
+    {% assign light1 = color_scheme_background | color_darken: 1 | default: '#fefefe' %}
+    {% assign light4 = color_scheme_background | color_darken: 4 | default: '#f5f5f5' %}
+    {% assign light5 = color_scheme_background | color_darken: 5 | default: '#f2f2f2' %}
+    {% assign light9 = color_scheme_background | color_darken: 9 | default: '#e9e9e9' %}
+    {% assign light13 = color_scheme_background | color_darken: 13 | default: '#dedede' %}
+  {% endif %}
+
+  <script data-map-config type="application/json">
+    {
+      "address_no_results": {{ "general.map_errors.address_no_results" | t | json }},
+      "address_query_limit": {{ "general.map_errors.address_query_limit" | t | json }},
+      "address_error": {{ "general.map_errors.address_error" | t | json }},
+      "auth_error": {{ "general.map_errors.auth_error" | t | json }},
+      "api_key": {{ api_key | json }},
+      "address": {{ address | json }},
+      "zoom": 12,
+      "styles": [
+         {
+            "featureType":"water",
+            "elementType":"geometry",
+            "stylers":[
+               {
+                  "color": "{{ light9 }}"
+               },
+               {
+                  "lightness":17
+               }
+            ]
+         },
+         {
+            "featureType":"landscape",
+            "elementType":"geometry",
+            "stylers":[
+               {
+                  "color":"{{ light4 }}"
+               },
+               {
+                  "lightness":20
+               }
+            ]
+         },
+         {
+            "featureType":"road.highway",
+            "elementType":"geometry.fill",
+            "stylers":[
+               {
+                  "color":"{{ light0 }}"
+               },
+               {
+                  "lightness":17
+               }
+            ]
+         },
+         {
+            "featureType":"road.highway",
+            "elementType":"geometry.stroke",
+            "stylers":[
+               {
+                  "color":"{{ light0 }}"
+               },
+               {
+                  "lightness":29
+               },
+               {
+                  "weight":0.2
+               }
+            ]
+         },
+         {
+            "featureType":"road.arterial",
+            "elementType":"geometry",
+            "stylers":[
+               {
+                  "color":"{{ light0 }}"
+               },
+               {
+                  "lightness":18
+               }
+            ]
+         },
+         {
+            "featureType":"road.local",
+            "elementType":"geometry",
+            "stylers":[
+               {
+                  "color":"{{ light0 }}"
+               },
+               {
+                  "lightness":16
+               }
+            ]
+         },
+         {
+            "featureType":"poi",
+            "elementType":"geometry",
+            "stylers":[
+               {
+                  "color":"{{ light4 }}"
+               },
+               {
+                  "lightness":21
+               }
+            ]
+         },
+         {
+            "featureType":"poi.park",
+            "elementType":"geometry",
+            "stylers":[
+               {
+                  "color":"{{ light13 }}"
+               },
+               {
+                  "lightness":21
+               }
+            ]
+         },
+         {
+            "elementType":"labels.text.stroke",
+            "stylers":[
+               {
+                  "visibility":"on"
+               },
+               {
+                  "color":"{{ light0 }}"
+               },
+               {
+                  "lightness":16
+               }
+            ]
+         },
+         {
+            "elementType":"labels.text.fill",
+            "stylers":[
+               {
+                  "saturation":36
+               },
+               {
+                  "color":"{{ dark0 }}"
+               },
+               {
+                  "lightness":40
+               }
+            ]
+         },
+         {
+            "elementType":"labels.icon",
+            "stylers":[
+               {
+                  "visibility":"off"
+               }
+            ]
+         },
+         {
+            "featureType":"transit",
+            "elementType":"geometry",
+            "stylers":[
+               {
+                  "color":"{{ light5 }}"
+               },
+               {
+                  "lightness":19
+               }
+            ]
+         },
+         {
+            "featureType":"administrative",
+            "elementType":"geometry.fill",
+            "stylers":[
+               {
+                  "color":"{{ light1 }}"
+               },
+               {
+                  "lightness":20
+               }
+            ]
+         },
+         {
+            "featureType":"administrative",
+            "elementType":"geometry.stroke",
+            "stylers":[
+               {
+                  "color":"{{ light1 }}"
+               },
+               {
+                  "lightness":17
+               },
+               {
+                  "weight":1.2
+               }
+            ]
+         }
+      ]
+    }
+  </script>
+
+  {% if section.settings.title != blank %}
+    <div class="map-section-title">
+      <div class="section-title row">
+        <h2>{{ section.settings.title | escape }}</h2>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="map-section-wrapper gridlock-fluid">
+    <div class="row">
+      <div class="row {{ section.settings.text_position }}">
+        <div class="map-section-content-wrapper desktop-3 tablet-2 mobile-3">
+          <div class="map-section-content">
+            {% if section.settings.hours_heading != blank %}
+              <h3>{{ section.settings.hours_heading }}</h3>
+            {% endif %}
+
+            {% if section.settings.hours != blank %}
+              <div class="rte">
+                {{ section.settings.hours }}
+              </div><!-- /.rte -->
+            {% endif %}
+
+            {% if address and section.settings.address_heading != blank %}
+              <h3>{{ section.settings.address_heading }}</h3>
+            {% endif %}
+
+            {% if section.settings.map_address != blank %}
+              <div class="rte">
+                {{ section.settings.map_address }}
+              </div><!-- /.rte -->
+
+              {% if section.settings.button_text != blank %}
+                <div class="cta">
+                  <a href="https://maps.google.com?daddr={{ section.settings.map_address | escape }}"
+                     class="button"
+                     target="_blank">
+                    <span>{{ section.settings.button_text | escape }}</span>
+                  </a>
+                </div>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+        <div class="map-section-background-wrapper contained desktop-9 tablet-4 mobile-3">
+          {%- if bg_image -%}
+            <div
+              class="map-section-background-image lazyload"
+              data-bgset="{% render 'bgset', image: bg_image %}"
+              data-sizes="auto"
+            ></div>
+          {%- endif -%}
+
+          <div class="placeholder-background">
+            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+
+          <div class="map-section-container" data-map></div>
+
+          <div class="map-section-overlay" data-map-overlay></div>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+
+{% unless section.settings.color_scheme == 'none' %}
+  #MapSection--{{ section.id }} .map-section-wrapper {
+    background: var(--{{ section.settings.color_scheme }}-background) !important;
+  }
+  #MapSection--{{ section.id }} .map-section-content h3,
+  #MapSection--{{ section.id }} .map-section-content {
+    color: var(--{{ section.settings.color_scheme }}-color) !important;
+  }
+{% endunless %}
+
+#MapSection--{{ section.id }} .map-section-background-image {
+  background-position: {{ section.settings.background_image_position }};
+}
+</style>
+
+{% schema %}
+{
+  "name": "Map",
+  "settings":
+  [
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Heading",
+      "default": "Visit Us"
+    },
+    {
+      "id": "hours_heading",
+      "type": "text",
+      "label": "Hours heading",
+      "default": "Our Hours"
+    },
+    {
+      "id": "hours",
+      "type": "richtext",
+      "label": "Hours",
+      "default": "<p>Mon - Fri, 10am - 9pm<br>Saturday, 11am - 9pm<br>Sunday, 11am - 5pm</p>"
+    },
+    {
+      "id": "address_heading",
+      "type": "text",
+      "label": "Address heading",
+      "default": "Our Location"
+    },
+    {
+      "id": "map_address",
+      "type": "text",
+      "label": "Map address",
+      "info": "Google Maps will find the exact location"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "Map link label",
+      "default": "Get directions"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Choose text position",
+      "options":
+      [
+        {
+          "value": "text_left",
+          "label": "Left"
+        },
+        {
+          "value": "text_right",
+          "label": "Right"
+        }
+      ],
+      "default": "text_right"
+    },
+    {
+      "type": "header",
+      "content": "Map or Image Background"
+    },
+    {
+      "id": "api_key",
+      "type": "text",
+      "label": "Google maps API key",
+      "info": "You’ll need to [register a Google Maps API Key](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) and paste it here to display the map in the background"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image",
+      "info": "Displayed as a fallback if the map isn’t loaded"
+    },
+    {
+      "type": "select",
+      "id": "background_image_position",
+      "label": "Image position",
+      "default": "center center",
+      "options":
+      [
+        {
+          "label": "Top left",
+          "value": "top left"
+        },
+        {
+          "label": "Top center",
+          "value": "top center"
+        },
+        {
+          "label": "Top right",
+          "value": "top right"
+        },
+        {
+          "label": "Middle left",
+          "value": "center left"
+        },
+        {
+          "label": "Middle center",
+          "value": "center center"
+        },
+        {
+          "label": "Middle right",
+          "value": "center right"
+        },
+        {
+          "label": "Bottom left",
+          "value": "bottom left"
+        },
+        {
+          "label": "Bottom center",
+          "value": "bottom center"
+        },
+        {
+          "label": "Bottom right",
+          "value": "bottom right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Map"
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search"
+  ]
+}
+{% endschema %}

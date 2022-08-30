@@ -1,0 +1,40 @@
+{% layout none %}
+{%- liquid
+  assign drawer = false
+  assign modal = false
+  assign page_only = false
+  assign no_js_cart = false
+
+  if settings.cart_type == 'drawer'
+    assign drawer = true
+  elsif settings.cart_type == 'modal_cart'
+    assign modal = true
+  elsif settings.cart_type == 'page_only'
+    assign page_only = true
+  else
+    assign no_js_cart = false
+  endif
+
+  if cart.item_count < 1
+    assign isEmpty = ''
+    assign formEmpty = 'hide'
+  else
+    assign isEmpty = 'hide'
+    assign formEmpty = ''
+  endif
+
+-%}
+<template data-options>
+  {
+    "item_count": {{ cart.item_count }}
+  }
+</template>
+<template data-html="content">
+  <p class="ajax-cart__empty-cart a-center js-cart-empty {{ isEmpty }}">{{ 'cart.general.empty' | t }}</p>
+  {% render 'cart-form',
+     drawer: drawer,
+     modal: modal,
+     page_only: page_only,
+     no_js_cart: no_js_cart,
+     formEmpty: formEmpty %}
+</template>

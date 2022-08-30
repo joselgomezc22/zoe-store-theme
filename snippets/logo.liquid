@@ -1,0 +1,20 @@
+<div id="logo" class="sm-span-6 md-span-8 auto {{ logo_width }} {{ section.settings.logo_position }}">
+{% if section.settings.logo != blank %}
+{%- assign image_size = '400x' -%}
+<div class="first_logo">
+<a href="{{ routes.root_url }}">
+  <img src="{{ section.settings.logo | img_url: image_size }}" itemprop="logo">
+</a>
+</div>
+  {% if section.settings.logo_alt != blank %}
+  {%- assign image_size = '400x' -%}
+  <div class="second_logo">
+  <a href="{{ routes.root_url }}">
+    <img src="{{ section.settings.logo_alt | img_url: image_size }}" itemprop="logo">
+  </a>
+  </div>
+  {% endif %}
+{% else %}
+  <a href="{{ routes.root_url }}">{{ shop.name }}</a>
+{% endif %}
+</div>

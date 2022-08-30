@@ -1,0 +1,54 @@
+<section class="cart-page ajax-cart__page-wrapper cart-type--{{ settings.cart_type }} main__section" data-section-type="cart">
+  <div class="row">
+    <div class="loading-wrapper js-mini-cart-loader">
+      <div class="loading-ripple"><div></div><div></div></div>
+    </div>
+
+    <div class="ajax-cart__header-wrapper grid__wrapper edge">
+      <div class="span-4 sm-span-4 auto a-left v-center">
+        {%- if section.settings.link != blank -%}
+          {%- assign continue_link = section.settings.link -%}
+        {%- else -%}
+          {%- assign continue_link = routes.collections_url -%}
+        {%- endif -%}
+        <a class="ajax-cart__header__continue-link mb0" href="{{ continue_link }}">
+          {% render 'snip-icons',
+             wrapper: '.ajax-cart__header__continue-link',
+             type: 'apollo',
+             icon: 'left-carrot',
+             classes: 'ajax-cart__header__continue-link--icon vib-center',
+             size: '10px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+          <span class="ajax-cart__header__continue-link-text sm-hide vib-center">{{ 'products.product.continue' | t }}</span>
+        </a>
+      </div>
+      <div class="span-4 sm-span-4 auto v-center">
+        <h1 class="section-heading a-center mb0">{{ 'cart.general.title' | t }}</h1>
+      </div>
+      <div class="span-4 sm-span-4 auto a-right v-center">
+        <p class="mb0"><span class="js-cart-count inline-block">{{ cart.item_count }}</span> {{ 'cart.general.items' | t }}</p>
+      </div>
+    </div>
+
+    <div class="ajax-cart__form-wrapper--nojs js-ajax-cart-content-nojs">
+      {% include "cart-no-js" %}
+    </div>
+    <div class="ajax-cart__form-wrapper cart-wrapper js-ajax-cart-content">
+
+    </div>
+  </div><!-- /.row -->
+</section>
+{% schema %}
+{
+  "name": "Cart Page",
+  "settings":
+  [
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Continue shopping link"
+    }
+  ]
+}
+{% endschema %}

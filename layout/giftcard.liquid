@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" lang="{{ request.locale.iso_code }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Establish early connection to external domains -->
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
+  <link rel="preconnect" href="//ajax.googleapis.com" crossorigin />
+
+  {%- liquid
+
+    assign main_font = settings.main_font
+    assign heading_font = settings.heading_font
+    assign nav_font = settings.nav_font
+    assign main_font_bold = main_font | font_modify: 'weight', 'bolder'
+    assign main_font_italic = main_font | font_modify: 'style', 'italic'
+    assign main_font_bold_italic = main_font_bold | font_modify: 'style', 'italic'
+
+  -%}
+
+  <!-- Preload onDomain stylesheets and script libraries -->
+  <link rel="preload" href="{{ 'stylesheet.css' | asset_url }}" as="style">
+  <link rel="preload" as="font" href="{{ main_font | font_url }}" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="{{ nav_font | font_url }}" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="{{ heading_font | font_url }}" type="font/woff2" crossorigin>
+
+  {% if settings.favicon %}<link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />{% endif %}
+  <link rel="canonical" href="{{ canonical_url }}" />
+
+  <title>{% if template == 'index' %}{% if page_title contains 'Welcome' %}{{ shop.name }} &ndash; Welcome{% else %}{{ page_title }}{% endif %}{% elsif template == '404' %}Page Not Found{% elsif page_title contains shop.name %}{{ page_title }}{% else %}{{ page_title }} &ndash; {{ shop.name }}{% endif %}</title>
+  {% if page_description %}<meta name="description" content="{{ page_description }}" />{% endif %}
+
+  {% render 'social-media-meta-tags' %}
+  {% render 'structured-data' %}
+  {% render 'css-variables' %}
+
+  {{ 'vendor/qrcode.js' | shopify_asset_url | script_tag }}
+
+  <link rel="stylesheet" href="{{ 'stylesheet.css' | asset_url }}" type="text/css">
+
+  {% style %}
+    .gift-card-page {
+      background: var(--background);
+      padding: 100px 40px;
+    }
+
+    .gift-card-page .gift-cart-image {
+      width: auto;
+      height: 310px;
+      border-radius: 10px;
+      margin: 50px auto;
+      position: relative;
+      max-width: 480px;
+    }
+
+    .gift-card-page .gift-cart-image p.amount {
+      font-size: 40px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: var(--main-spacing);
+      color: #fff;
+      position: absolute;
+      top: 25px;
+      right: 25px
+    }
+
+    .gift-card__shop {
+      margin-top: 20px;
+    }
+
+    .gift-card__print {
+      display: inline-block;
+      width: 100%;
+      margin: 20px 0;
+    }
+    .gift-card-actions {
+      width: 200px;
+      margin: auto;
+    }
+    @media (max-width:767px) {
+      .gift-card-page .gift-cart-image {
+        width: auto;
+        height: 180px
+      }
+
+      .gift-card-page .gift-cart-image p.amount {
+        font-size: 20px
+      }
+
+      .gift-card-page .gift-cart-image svg {
+        width: 50px
+      }
+    }
+
+    .gift-card-page .gift-card-code {
+      font-size: 40px;
+      font-weight: 500;
+      font-stretch: normal;
+      margin-bottom: 30px;
+      display: inline-block;
+      line-height: 1.2;
+    }
+
+    @media (max-width:767px) {
+      .gift-card-page .gift-card-code {
+        font-size: 30px
+      }
+    }
+
+    .gift-card-page #qr-code img {
+      display: inline-block !important
+    }
+  {% endstyle %}
+
+  <style>
+  {{ main_font | font_face: font_display: 'swap' }}
+  {{ nav_font | font_face: font_display: 'swap' }}
+  {{ heading_font | font_face: font_display: 'swap' }}
+  {{ main_font_bold | font_face: font_display: 'swap' }}
+  {{ main_font_italic | font_face: font_display: 'swap' }}
+  {{ main_font_bold_italic | font_face: font_display: 'swap' }}
+  </style>
+
+  {{ content_for_header }}
+
+</head>
+<body class="gridlock template-{{ template | handleize }} {% render 'body-classes' %}">
+  <div class="site-wrap">
+
+    <div class="page-wrap">
+
+      <main class="content-wrapper" role="main">
+
+        {{ content_for_layout }}
+
+      </main>
+
+    </div><!-- /.page-wrap -->
+
+  </div><!-- /.site-wrap -->
+
+</body>
+</html>

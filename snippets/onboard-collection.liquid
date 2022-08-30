@@ -1,0 +1,28 @@
+{% comment %}Used for home page sections only when featured collections is chosen but no content has been selected{% endcomment %}
+{% for i in (1..section.settings.grid) %}
+  {% capture current %}{{ forloop.index }}{% endcapture %}
+  {%- assign placeholder = 'collection-' | append: current -%}
+
+  {% case section.settings.grid %}
+  {% when 2 %}
+    {%- assign grid_item_width = 'desktop-6 tablet-3 mobile-half' -%}
+  {% when 3 %}
+    {%- assign grid_item_width = 'desktop-4 tablet-2 mobile-half' -%}
+  {% when 4 %}
+    {%- assign grid_item_width = 'desktop-3 tablet-2 mobile-half' -%}
+  {% endcase %}
+
+  <div class="{{ grid_item_width }}" {{ block.shopify_attributes }}>
+    {%- assign image_size = '500x' -%}
+    <div class="collection-image ci onboard">
+      <a href="" title="Collection image">
+        {{ placeholder | placeholder_svg_tag }}
+      </a>
+    </div>
+    <div class="product-details">
+      <h3>
+        <a href="#" title="Sample collection">Sample collection {{ forloop.index }}</a>
+      </h3>
+    </div>
+  </div>
+{% endfor %}

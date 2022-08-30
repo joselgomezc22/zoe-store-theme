@@ -1,0 +1,198 @@
+
+{% if product.media.size > 1 %}
+  {% capture thumbnails %}
+    {%- liquid
+
+      if thumbnail_position == 'bottom'
+        assign style = 'horizontal-carousel'
+        assign js_class = 'js-thumb-horizontal-wrapper'
+        assign width = 'span-12'
+      else
+        assign style = 'vertical-carousel'
+        assign js_class = 'js-thumb-vertical-wrapper'
+        assign width = ''
+      endif
+
+      if product.media.size >= 4 and thumbnail_position == 'bottom'
+        assign flickity_slider = true
+      else
+        assign flickity_slider = false
+      endif
+
+    -%}
+
+    <div id="thumbnails" class="thumb-slider thumbnail-slider custom {{ style }} {{ width }} auto mobile-hide flickity-slider--{{ flickity_slider }} {{ js_class }} js-thumb-wrapper"
+    data-thumbnail-position="{{ thumbnail_position }}">
+      <div class="thumb-slider-wrapper js-thumb-carousel-scroll" id="thumb-slider-wrapper">
+        <div class="carousel-nav thumb-slider-slides slides product-single__thumbnails-{{ section.id }} js-thumb-carousel-nav">
+          {% for media in product.media %}
+            {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+            <div class="{{ media.media_type }}-thumbnail product-single__thumbnails-item carousel-cell {% if forloop.first %}is-nav-selected{% endif %} js-thumb-item" data-slide-index="{{ forloop.index0 }}"
+            data-image-id="{{ media.id }}" tabindex="0">
+              <div class="product-single__thumbnail product-single__thumbnail--{{ section.id }} js-thumb-item-img-wrap" data-thumbnail-id="product-template-{{ media.id }}">
+                <img class="lazyload lazyload-fade js-thumb-item-img"
+                  src="{{ media | img_url: '150x' }}"
+                  data-src="{{ img_url }}"
+                  data-sizes="auto"
+                  data-image-id="{{ media.id }}"
+                  alt="{{ media.alt | escape }}">
+                <noscript>
+                  <img src="{{ media | img_url: '100x' }}" alt="{{ media.alt | escape }}" />
+                </noscript>
+                {%- if media.media_type == 'video' or media.media_type =='external_video' -%}
+                  <div class="thumbnail-icon">
+                    {% render 'snip-icons',
+                       wrapper: '.thumbnail-icon',
+                       type: 'media-icons',
+                       icon: 'play',
+                       classes: 'thumbnail-icon-video--icon vib-center',
+                       size: '25px',
+                       fill: 'var(--text-color)',
+                       hover: 'var(--text-color)' %}
+                  </div>
+                {%- endif -%}
+                {%- if media.media_type == 'model' -%}
+                  <div class="thumbnail-icon">
+                    {% render 'snip-icons',
+                       wrapper: '.thumbnail-icon',
+                       type: 'media-icons',
+                       icon: '3d-icon',
+                       classes: 'thumbnail-icon-model--icon vib-center',
+                       size: '25px',
+                       fill: 'var(--text-color)',
+                       hover: 'var(--text-color)' %}
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endcapture %}
+{% endif %}
+
+{% capture slider %}
+  {%- liquid
+
+    assign grid_width = ""
+    if product.media.size > 1 and thumbnail_position != 'bottom'
+     assign grid_width = ""
+    else
+     assign grid_width = "span-12"
+    endif
+
+    if product.media.size <= 1
+      assign no_slider = 'single-media'
+    endif
+  -%}
+  <div id="slider" class="{{ grid_width }} auto {{ no_slider }}">
+    <div class="slides product-image-container carousel carousel-main js-carousel-main" data-product-id="{{ product.id }}">
+      {% for media in product.media %}
+        <div class="{{ media.media_type }}-slide carousel-cell" data-image-id="{{ media.id }}" data-slide-index="{{ forloop.index0 }}" tabindex="-1">
+          <div class="product-media-container product-media--{{ media.id }} {{ media.media_type }}"
+          data-product-single-media-wrapper
+          {% if media.media_type == 'video' %} data-product-media-type-video data-enable-video-looping="{{ enable_video_looping }}"{% endif %}
+          {% if media.media_type == 'external_video' %} data-product-media-type-video data-enable-video-looping="{{ enable_video_looping }}" data-video-id="{{ media.external_id }}"{% endif %}
+          {% if media.media_type == 'model' %} data-product-media-type-model{% endif %}
+          data-thumbnail-id="product-template-{{ media.id }}"
+          data-media-id="product-template-{{ media.id }}">
+            {% case media.media_type %}
+              {% when 'image' %}
+                {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                <img id="{{ media.id }}" class="product__image lazyload lazyload-fade"
+                  src="{{ media | img_url: '800x' }}"
+                  data-src="{{ img_url }}"
+                  data-sizes="auto"
+                  data-zoom-src="{{ media | img_url: '2400x' }}"
+                  data-aspectratio="{{ media.preview_image.aspect_ratio }}"
+                  data-width="{{ media.preview_image.width }}"
+                  data-height="{{ media.preview_image.height }}"
+                  alt="{{ media.alt | escape }}">
+                  {% if section.settings.click_to_enlarge and template != 'product.quick' %}
+                    <a class="zoom_btn" title="Click to zoom" href="{{ media | img_url: '2400x' }}" itemprop="contentUrl" tabindex="-1" data-index="{{ forloop.index0 }}" data-count="{{ forloop.length }}" data-ps-slide-index="{% increment my_counter %}">
+                      {% render 'snip-icons',
+                         wrapper: '.zoom_btn',
+                         type: 'icon-theme',
+                         icon: 'search',
+                         classes: 'zoom_btn--icon vib-center',
+                         size: '16px',
+                         fill: 'var(--text-color)',
+                         hover: 'var(--text-color)' %}
+                    </a>
+                  {% endif %}
+              {% when 'external_video' %}
+                <div class="product-video videoWrapper product-single__media js-video-external-wrapper">
+                  {{ media | external_video_tag }}
+                </div>
+              {% when 'video' %}
+                {% style %}
+                  @media screen and (max-width: 320px) {
+                    .product-media--{{ media.id }} .plyr__poster {
+                      background-image: url({{ media.preview_image | img_url: '360x'}}) !important;
+                    }
+                  }
+                  @media screen and (min-width: 320px) and (max-width: 780px) {
+                    .product-media--{{ media.id }} .plyr__poster {
+                      background-image: url({{ media.preview_image | img_url: '900x'}}) !important;
+                    }
+                  }
+                  @media screen and (min-width: 780px) and (max-width: 1080px) {
+                    .product-media--{{ media.id }} .plyr__poster {
+                      background-image: url({{ media.preview_image | img_url: '1080x'}}) !important;
+                    }
+                  }
+                  @media screen and (min-width: 1080px) {
+                    .product-media--{{ media.id }} .plyr__poster {
+                      background-image: url({{ media.preview_image | img_url: '2048x'}}) !important;
+                    }
+                  }
+                {% endstyle %}
+                <div class="product-video product-single__media js-video-plyr-wrapper">
+                  {{ media | video_tag: controls: true, class: 'media-video', image_size: '800x' }}
+                </div>
+              {% when 'model' %}
+                <div class="product-model product-single__media js-model-wrapper" style="padding-bottom: 100%">
+                  {{ media | model_viewer_tag: image_size: '800x', reveal: 'interaction', toggleable: true, data-model-id: media.id }}
+                </div>
+            {% endcase %}
+          </div>
+          <noscript>
+            <img id="{{ product.id }}" class="product-main-image" src="{{ media | img_url: '800x' }}" alt='{{ media.alt | escape }}'/>
+          </noscript>
+        </div>
+      {% endfor %}
+    </div>
+    {% assign first_3d_model = product.media | where: "media_type", "model" | first %}
+    {%- if first_3d_model -%}
+      <button
+        aria-label="{{ 'products.product.view_in_space_label' | t }}"
+        class="media-button product-single__view-in-space"
+        data-shopify-xr
+        data-shopify-model3d-id="{{ first_3d_model.id }}"
+        data-shopify-title="{{ product.title | escape }}"
+        data-shopify-xr-hidden>
+        {% render 'snip-icons',
+           wrapper: '.product-single__view-in-space',
+           type: 'media-icons',
+           icon: '3d-icon',
+           classes: 'product-single__view-in-space--icon vib-center',
+           size: '25px',
+           fill: 'var(--button-text)',
+           hover: 'var(--button-text)' %}
+        <span class='product-single__view-in-space-text vib-center'>{{ 'products.product.view_in_space' | t }}</span>
+      </button>
+    {%- endif -%}
+  </div>
+{% endcapture %}
+
+
+{%- if thumbnail_position == 'left' -%}
+  <div class="product__gallery--container is_sticky">
+    {{ thumbnails }}
+    {{ slider }}
+  </div>
+{%- else -%}
+  {{ slider }}
+  {{ thumbnails }}
+{%- endif -%}

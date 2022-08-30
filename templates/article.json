@@ -1,0 +1,88 @@
+{
+  "wrapper": "section[data-section-type=article-section]",
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "text_note": {
+          "type": "text_note",
+          "settings": {
+            "textbox_heading": "Heading",
+            "textbox_subheading": "<p>Additional content<\/p>"
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "side_nav": "",
+            "title": "Explore"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text_note",
+        "menu"
+      ],
+      "settings": {
+        "post_tags": true,
+        "show_author": true,
+        "social": true
+      }
+    },
+    "featured": {
+      "type": "main-article-featured",
+      "blocks": {
+        "featured_article1": {
+          "type": "featured_article",
+          "settings": {
+            "article": ""
+          }
+        },
+        "featured_article2": {
+          "type": "featured_article",
+          "settings": {
+            "article": ""
+          }
+        },
+        "featured_article3": {
+          "type": "featured_article",
+          "settings": {
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_article1",
+        "featured_article2",
+        "featured_article3"
+      ],
+      "settings": {
+        "title": "Similar articles",
+        "post_tags": true,
+        "show_author": true
+      }
+    },
+    "162811601477530d9f": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Subscribe to our newsletter",
+        "newsletter_subheading": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "mail_gdpr_text": "<p>*You're signing up to receive our emails and can unsubscribe at any time.<\/p>",
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured",
+    "162811601477530d9f"
+  ]
+}

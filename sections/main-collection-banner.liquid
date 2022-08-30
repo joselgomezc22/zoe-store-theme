@@ -1,0 +1,73 @@
+{%- liquid
+
+  assign collection_banner = false
+  assign shortcode_banner = false
+  assign section_banner = false
+  assign full_width = false
+
+  assign shortcode_banner_img = collection.handle | append: '.jpg'
+
+  if collection.image
+    assign collection_banner = true
+  endif
+
+  if images[shortcode_banner_img] != blank and collection.description contains '[banner]'
+    assign shortcode_banner = true
+    assign collection_banner = false
+  endif
+
+  if section.settings.image != blank
+    assign section_banner = true
+    assign shortcode_banner = false
+    assign collection_banner = false
+  endif
+
+  if section.settings.display_wide
+   assign full_width = true
+  endif
+
+-%}
+
+{%- if shortcode_banner or section_banner or collection_banner -%}
+  <section class="collection__section--banner collection__banner-{{ section.id }} lazyload lazyload-fade {% unless full_width %}row grid_wrapper{% endunless %}"
+  data-aos="fade"
+  data-section-id="{{ section.id }}" >
+    <div class="collection__banner-image {% unless full_width %}span-12 auto{% endunless %}">
+      {%- if collection_banner -%}
+        {% render 'basic-responsive-image', type:  collection.image, data_widths: '[180, 360, 540, 720, 900, 1080, 1296, 1500, 1650, 1850]' %}
+      {%- elsif shortcode_banner -%}
+        {% assign img_url = shortcode_banner_img | file_img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+        <img class="lazyload lazyload-fade"
+          data-src="{{ img_url }}"
+          data-sizes="auto"
+          alt="{{ collection.title | escape }}">
+      {%- elsif section_banner -%}
+        {% render 'basic-responsive-image', type:  section.settings.image, data_widths: '[180, 360, 540, 720, 900, 1080, 1296, 1500, 1650, 1850]' %}
+      {% endif %}
+    </div>
+  </section>
+  <div class="clear"></div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Collection banner",
+  "settings": [{
+      "type": "paragraph",
+      "content": "Shows the collection featured image as a banner above products. Override this by selecting a specific banner image for all collections or show an alternate unique image per collection by following this [guide](https:\/\/www.weareunderground.com\/blogs\/theme-support\/add-a-custom-banner-image-to-each-collection-page)."
+    },
+    {
+      "type": "checkbox",
+      "id": "display_wide",
+      "label": "Enable full width",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background image",
+      "info": "1920px x 600px recommended"
+    }
+  ]
+}
+{% endschema %}

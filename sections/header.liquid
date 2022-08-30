@@ -1,0 +1,438 @@
+{%- liquid
+
+
+-%}
+
+<header class="header-section{% if section.settings.header_cover and template == 'index' %} overlap__section{% endif %}"
+data-section-id="{{ section.id }}"
+data-section-type="header-section"
+data-sticky="{{ section.settings.enable_sticky_header }}">
+
+  <div id="navigation"{% if section.settings.full_width_header %} class="gridlock-fluid"{% endif %}>
+    <div class="row">
+      <div class="nav-container grid__wrapper {{ section.settings.logo_position }}"><!-- start nav container -->
+
+        <!-- Mobile menu trigger -->
+        <div class="mobile-menu__trigger mobile-only sm-span-3 md-span-2 auto gr1">
+          <div class="slideout__trigger--open text-left">
+            <button class="slideout__trigger-mobile-menu js-slideout-open text-left" data-wau-slideout-target="mobile-navigation" data-slideout-direction="left" aria-label="Open navigation" tabindex="0" type="button" name="button">
+              {% render 'snip-icons',
+                 wrapper: '.slideout__trigger-mobile-menu',
+                 type: 'icon-theme',
+                 icon: 'menu-bars',
+                 classes: 'slideout__trigger-mobile-menu--icon vib-center',
+                 size: '14px',
+                 fill: 'var(--pre-scroll-color)',
+                 hover: 'var(--pre-scroll-color)' %}
+            </button>
+          </div>
+        </div>
+
+        {%- liquid
+
+          if section.settings.logo_align == 'center'
+            assign logo_align_center = true
+          else
+            assign logo_align_left = true
+          endif
+
+          if section.settings.logo_position == 'inline'
+            assign logo_position_inline = true
+          else
+            assign logo_position_above = true
+          endif
+
+          assign logo_width = ''
+          assign nav_width = ''
+          assign spacer_width = ''
+          assign header_cart_links_width = ''
+
+          if logo_align_center and logo_position_inline
+            assign logo_width = 'span-2'
+            assign nav_width = 'span-5 auto'
+            assign header_cart_links_width = 'span-5 auto'
+          elsif logo_align_left and logo_position_inline
+            assign logo_width = 'span-2'
+            assign nav_width = 'span-7 auto'
+            assign header_cart_links_width = 'span-3 auto'
+          elsif logo_align_left and logo_position_above
+            assign logo_width = 'span-9 gr1'
+            assign nav_width = 'span-12 auto gr2'
+            assign header_cart_links_width = 'span-3 auto gr1 gc10'
+          elsif logo_align_center and logo_position_above
+            assign logo_width = 'span-6 push-3 gr1'
+            assign nav_width = 'span-12 auto gr2'
+            assign header_cart_links_width = 'span-3 auto gr1 gc10'
+          endif
+
+          assign show_cart_links = true
+
+        -%}
+
+        {% if logo_align_left or logo_position_above %}
+          {% render 'logo', logo_width: logo_width %}
+        {% endif %}
+
+        <nav aria-label="Primary Navigation" class="navigation header-navigation {{ nav_width }}">
+          <ul role="menubar" aria-label="Primary Navigation" id="main-nav" class="navigation__menu">
+            {% for link in linklists[section.settings.main_nav].links %}
+              {% render 'navigation', link: link %}
+            {% endfor %}
+          </ul>
+        </nav>
+
+        {% if logo_align_center and logo_position_inline %}
+          {% render 'logo', logo_width: logo_width %}
+        {% endif %}
+
+
+        <ul class="header__shopping-cart shopping__cart-links {{ header_cart_links_width }}">
+          {% render 'shopping-cart-links',
+            cart: cart,
+            show_cart_links: show_cart_links,
+            fill_color: 'var(--pre-scroll-color)',
+            wrapper: '.header__shopping-cart' %}
+        </ul>
+        {% render 'mobile-cart', cart: cart %}
+
+      </div><!-- end nav container -->
+
+    </div>
+  </div>
+  <div class="clear"></div>
+
+</header>
+<div id="phantom" class="phantom js-phantom"></div>
+<div class="clear"></div>
+
+<style>
+  {% if section.settings.logo != blank %}
+    @media screen and ( min-width: 740px ) {
+      #logo img { max-width: {{ section.settings.logo_max_width }}px; }
+    }
+  {% endif %}
+
+  {% if section.settings.header_border %}
+    .nav-container { border-bottom: 1px solid {{ settings.nav_border_color }}; }
+  {% endif %}
+
+  {% if section.settings.logo_align == 'center' %}
+    #logo { text-align: center !important; }
+    #logo a { float: none; }
+  {% endif %}
+
+  {% unless section.settings.logo_align == 'center' %}
+    #logo {
+      margin-right: 20px;
+      text-align: left;
+    }
+  {% endunless  %}
+
+  {% if section.settings.logo_align == 'left' and section.settings.nav_style == 'mobile' %}
+    .mobile-menu__trigger { margin-left: 20px; }
+  {% endif %}
+
+  {%- if logo_align_left and logo_position_inline -%}
+    ul#main-nav { padding-left: 20px;}
+  {% endif %}
+
+  .nav-container ul.shopping__cart-links li a { padding: 0;}
+  {%- if logo_position_above and logo_align_center -%}
+    ul#main-nav li a,
+    .nav-container ul.shopping__cart-links li {
+      padding: 0 10px;
+    }
+  {%- endif -%}
+  {% if logo_position_above and logo_align_center and cart_position_header %}
+    ul#main-nav { text-align: center; }
+  {% elsif logo_align_center and logo_position_inline %}
+  	ul#main-nav { text-align: left; }
+  {% else %}
+    ul#main-nav {text-align: {{ section.settings.logo_align }}; }
+  {% endif %}
+
+  {% if section.settings.logo_alt !=  blank %}
+    header .second_logo { display: none; }
+    header .first_logo { display: block; }
+    header.scrolling .second_logo { display: block; }
+    header.scrolling .first_logo { display: none; }
+  {% endif %}
+
+
+  {% if section.settings.nav_hover_effect %}
+    .navigation__menulink:focus,
+    .navigation__menulink:hover {
+      text-decoration: none;
+    }
+
+    .navigation__menu {
+      --hover-underline-height: 2px;
+      --hover-underline-transition-duration: 0.25s;
+      --hover-underline-bottom:  0.2rem;
+      --hover-homepage-pre-scroll-color: var(--homepage-pre-scroll-color);
+      --hover-homepage-scroll-color: var(--homepage-scroll-color);
+      --hover-pre-scroll-color: var(--pre-scroll-color);
+    }
+
+    .navigation__menu > .navigation__menuitem .navigation__menulink {
+      display: inline-block;
+      position: relative;
+      padding: 0;
+      margin-right: 15px;
+    }
+
+    @media screen and (prefers-reduced-motion: reduce) {
+      .navigation__menu > .navigation__menuitem:hover .navigation__menulink:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        height:  var(--hover-underline-height, 2px);
+        bottom: 0.5rem;
+        bottom:  var(--hover-underline-bottom, 0.5rem);
+        left: 0;
+        right: 0;
+        -webkit-transition: background-color 0.3s ease-in;
+        -o-transition: background-color 0.3s ease-in;
+        transition: background-color 0.3s ease-in;
+      }
+    }
+
+    @media screen and (prefers-reduced-motion: no-preference) {
+      .navigation__menu > .navigation__menuitem .navigation__menulink:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        height: 2px;
+        height:  var(--hover-underline-height, 2px);
+        bottom: 0.5rem;
+        bottom:  var(--hover-underline-bottom, 0.5rem);
+        left: 0;
+        -webkit-transform-origin: bottom right;
+            -ms-transform-origin: bottom right;
+                transform-origin: bottom right;
+        -webkit-transition: background-color 0.3s ease-in, -webkit-transform 0.25s ease-out;
+        transition: background-color 0.3s ease-in, -webkit-transform 0.25s ease-out;
+        -o-transition: transform 0.25s ease-out, background-color 0.3s ease-in;
+        transition: transform 0.25s ease-out, background-color 0.3s ease-in;
+        transition: transform 0.25s ease-out, background-color 0.3s ease-in, -webkit-transform 0.25s ease-out;
+        -webkit-transition: background-color 0.3s ease-in, -webkit-transform var(--hover-underline-transition-duration, 0.25s) ease-out;
+        transition: background-color 0.3s ease-in, -webkit-transform var(--hover-underline-transition-duration, 0.25s) ease-out;
+        -o-transition: transform var(--hover-underline-transition-duration, 0.25s) ease-out, background-color 0.3s ease-in;
+        transition: transform var(--hover-underline-transition-duration, 0.25s) ease-out, background-color 0.3s ease-in;
+        transition: transform var(--hover-underline-transition-duration, 0.25s) ease-out, background-color 0.3s ease-in, -webkit-transform var(--hover-underline-transition-duration, 0.25s) ease-out;
+      }
+
+      .navigation__menu > .navigation__menuitem:hover .navigation__menulink:before {
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+        -webkit-transform-origin: bottom left;
+            -ms-transform-origin: bottom left;
+                transform-origin: bottom left;
+      }
+    }
+
+    .template-index header .navigation__menu > .navigation__menuitem .navigation__menulink:before {
+      background-color: var(--homepage-pre-scroll-color);
+      background-color: var(--hover-homepage-pre-scroll-color);
+    }
+    .template-index header.scrolling .navigation__menu > .navigation__menuitem .navigation__menulink:before,
+    .template-index header.overlap__section:hover .navigation__menu > .navigation__menuitem .navigation__menulink:before {
+      background-color:  var(--homepage-scroll-color);
+      background-color:  var(--hover-homepage-scroll-color);
+    }
+    header .navigation__menu > .navigation__menuitem .navigation__menulink:before {
+      background-color:  var(--pre-scroll-color);
+      background-color:  var(--hover-pre-scroll-color);
+    }
+  {% endif %}
+  {% unless section.settings.show_mobile_search %}
+    .mobile__search--container {
+      display: none;
+    }
+  {% endunless %}
+</style>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "full_width_header",
+      "label": "Full width header"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sticky_header",
+      "label": "Enable sticky header",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "header_cover",
+      "label": "Overlay header over homepage"
+    },
+    {
+      "type": "checkbox",
+      "id": "header_border",
+      "label": "Add bottom border"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_mobile_search",
+      "label": "Show mobile search form"
+    },
+    {
+      "type": "header",
+      "content": "Header Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image",
+      "info": "250px x 80px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_alt",
+      "label": "Alternative logo image",
+      "info": "You can switch to an alternative logo when scrolling."
+    },
+    {
+      "type": "range",
+      "id": "logo_max_width",
+      "min": 100,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "label": "Logo image max width",
+      "default": 200
+    },
+    {
+      "type": "select",
+      "id": "logo_position",
+      "label": "Logo position",
+      "options":
+      [
+        {
+          "value": "above",
+          "label": "Above navigation"
+        },
+        {
+          "value": "inline",
+          "label": "Inline with navigation"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "logo_align",
+      "label": "Logo alignment",
+      "options":
+      [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Navigation"
+    },
+    {
+      "type": "link_list",
+      "id": "main_nav",
+      "label": "Choose navigation menu",
+      "default": "main-menu"
+    },
+    {
+      "type": "checkbox",
+      "id": "product_menu",
+      "label": "Show products in drop downs",
+      "info": "When your main nav item links to a collection, products from that are shown in any drop down menus"
+    },
+    {
+      "type": "checkbox",
+      "id": "nav_hover_effect",
+      "label": "Show hover effect on main navigation items",
+      "default": true
+    }
+  ],
+  "blocks":
+  [
+    {
+      "type": "submenu_with_image",
+      "name": "Submenu with image",
+      "settings":
+      [
+        {
+          "type": "text",
+          "id": "menu_item",
+          "label": "Menu item",
+          "info": "Enter menu item to add image to submenu (case-sensitive)"
+        },
+        {
+          "type": "image_picker",
+          "id": "nav_image",
+          "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "nav_image_position",
+          "label": "Image position",
+          "options":
+          [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "mega_menu",
+      "name": "Mega menu",
+      "settings":
+      [
+        {
+          "type": "text",
+          "id": "menu_item",
+          "label": "Menu item",
+          "info": "Enter menu item to apply a mega menu"
+        },
+        {
+          "type": "image_picker",
+          "id": "nav_image",
+          "label": "Featured image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Slide link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

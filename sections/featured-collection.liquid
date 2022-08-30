@@ -1,0 +1,253 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'pb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'pt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'pt0 pb0'
+  endif
+
+  assign collection = collections[section.settings.collection]
+
+-%}
+<section class="featured__collection--{{ section.id }} global__section global__section--padding {{ section_padding }}" data-section-id="{{ section.id }}" data-section-type="carousel-section" data-aos="{{ settings.scroll_animation }}">
+  {% if section.settings.full_width %}<div class="gridlock-fluid"><div class="row">{% endif %}
+    {% if section.settings.title != blank %}
+      <div class="section-title row"><h2><a href="{{ collection.url }}">{{ section.settings.title | escape }}</a></h2></div>
+      <div class="clear"></div>
+    {% endif %}
+    {% if section.settings.carousel %}{%- assign is_carousel = true -%}{%- endif -%}
+    {%- liquid
+
+      assign prod_limit = section.settings.limit
+      assign grid = section.settings.grid
+
+      assign enough_to_wrap = true
+      if prod_limit <= grid
+        assign enough_to_wrap = false
+      endif
+      if collection.products.size <= grid
+        assign enough_to_wrap = false
+      endif
+
+    -%}
+    {% capture slideshow_config %}{
+      "wrapAround":true,
+      "cellAlign": "left",
+      "dragThreshold":"15",
+      "pauseAutoPlayOnHover":false,
+      "prevNextButtons":{{ enough_to_wrap }},
+      "pageDots": false
+    }{% endcapture %}
+    <div class="featured__collection{% if is_carousel %}-carousel flickity__section js-carousel{% endif %} product-loop row"{% if is_carousel %} data-flickity='{{ slideshow_config }}'{% endif %}>
+      {% if collection == blank %}
+        {% render 'onboard-product', prod_limit: prod_limit, grid: grid %}
+      {% else %}
+        {% for product in collection.products limit: prod_limit %}
+          <div class="featured__collection-product product-index" id="product-listing-{{ product.id }}" data-product-id="{{ product.id }}" data-alpha="{{ product.title }}" data-price="{{ product.price }}">
+            {% render 'product-listing', product: product, collection: collection %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    {% if section.settings.button and section.settings.button_text != blank %}
+      <div class="row grid__wrapper">
+        <div class="fc__button-wrapper span-12 auto">
+          <a href="{{ collection.url }}" class="button-as-link button">
+            {{ section.settings.button_text }}
+          </a>
+        </div>
+      </div>
+    {% endif %}
+
+  {% if section.settings.full_width %}</div></div>{% endif %}
+  {%- liquid
+
+    case section.settings.grid
+      when 2
+        assign prod_grid = 50
+      when 3
+        assign prod_grid = 33.333
+      when 4
+        assign prod_grid = 25
+      when 5
+        assign prod_grid = 20
+    endcase
+
+  -%}
+  <style>
+    {% unless section.settings.color_scheme == 'none' %}
+      section.featured__collection--{{ section.id }},
+      section.featured__collection--{{ section.id }} .button {
+        background: var(--{{ section.settings.color_scheme }}-background) !important;
+      }
+      section.featured__collection--{{ section.id }} .section-title:after {
+        background: var(--{{ section.settings.color_scheme }}-background) !important;
+      }
+      section.featured__collection--{{ section.id }} .section-title h2,
+      section.featured__collection--{{ section.id }} .section-title h2 a,
+      section.featured__collection--{{ section.id }} .product-index h3,
+      section.featured__collection--{{ section.id }} .product-index a,
+      section.featured__collection--{{ section.id }} .product-index .price,
+      section.featured__collection--{{ section.id }} .product-index .price__regular .price-item,
+      section.featured__collection--{{ section.id }} .product-index .price__compare .price-item,
+      section.featured__collection--{{ section.id }} .button,
+      section.featured__collection--{{ section.id }} .price--on-sale .price-item--regular,
+      section.featured__collection--{{ section.id }} .price__badge--sold-out {
+        color: var(--{{ section.settings.color_scheme }}-color) !important;
+      }
+      section.featured__collection--{{ section.id }} .section-title:after {
+        background: var(--{{ section.settings.color_scheme }}-color) !important;
+      }
+    {% endunless %}
+    section.featured__collection--{{ section.id }} .product-index a {
+      display: block;
+    }
+    section.featured__collection--{{ section.id }} .product-index a:focus {
+      outline-offset: unset !important;
+    }
+    {% if is_carousel %}
+    section.featured__collection--{{ section.id }} .featured__collection-carousel .featured__collection-product {
+      width: {{ prod_grid }}%;
+    }
+    {% else %}
+    section.featured__collection--{{ section.id }} .featured__collection {
+      display: grid;
+      grid-template-columns: repeat({{ grid }}, {{ prod_grid }}%);
+    }
+  {% endif %}
+  </style>
+
+</section>
+<div class="clear"></div>
+
+
+{% schema %}
+{
+  "name": "Featured collection",
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured collection"
+    },
+    {
+      "id": "collection",
+      "type": "collection",
+      "label": "Collection"
+    },
+    {
+      "id": "carousel",
+      "type": "checkbox",
+      "label": "Display in carousel"
+    },
+    {
+      "id": "button",
+      "type": "checkbox",
+      "label": "Show view all link"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "View all text",
+      "default": "View all"
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Products per row",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "limit",
+      "min": 2,
+      "max": 30,
+      "step": 1,
+      "label": "Products shown",
+      "default": 8
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "cs1"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Featured collection"
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search",
+    "customers/account"
+  ]
+}
+{% endschema %}

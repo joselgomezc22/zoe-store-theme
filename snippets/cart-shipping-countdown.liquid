@@ -1,0 +1,38 @@
+{%- liquid
+  assign cart_total = cart.total_price | money_without_currency
+
+  if settings.free_shipping_threshold contains '.'
+    assign free_shipping_threshold = settings.free_shipping_threshold | split: '.' | first
+    assign free_shipping_threshold = free_shipping_threshold | append: '00'
+    assign free_shipping_threshold = free_shipping_threshold | plus: 0
+    assign free_shipping_threshold_cents = free_shipping_threshold | plus: 0
+    assign free_shipping_threshold = free_shipping_threshold | money_without_currency
+  else
+    assign free_shipping_threshold = settings.free_shipping_threshold | append: '00'
+    assign free_shipping_threshold = free_shipping_threshold | plus: 0
+    assign free_shipping_threshold_cents = free_shipping_threshold | plus: 0
+    assign free_shipping_threshold = free_shipping_threshold | money_without_currency
+  endif
+
+-%}
+<div class="cart-shipping-countdown a-center js-cart-shipping-countdown">
+  <span>
+    {% if cart.total_price < free_shipping_threshold_cents %}
+      {% assign cart_total = cart.total_price | split: '.' | first %}
+      {% assign cart_total = cart_total | plus: 0 %}
+
+      {% assign amount_remaining = free_shipping_threshold_cents | minus: cart_total %}
+      {% assign cents = amount_remaining | split: "." | last %}
+
+      {% if cents.size == 1 %}
+        {% assign amount_remaining = amount_remaining | append: "0" %}
+      {% endif %}
+
+      {% assign amount_remaining = amount_remaining | replace: ".","" | money %}
+      <p class="mb1">{{ 'cart.general.free_shipping_before' | t }} {{ amount_remaining }} {{ 'cart.general.free_shipping_after' | t }}</p>
+    {% else %}
+      <p class="mb1">{{ 'cart.general.free_shipping_qualified' | t }}</p>
+    {% endif %}
+    <small>{{ 'cart.general.free_shipping_exclusions' | t }}</small>
+  </span>
+</div>

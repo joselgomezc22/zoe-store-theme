@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-account",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "breadcrumbs",
+    "main"
+  ]
+}

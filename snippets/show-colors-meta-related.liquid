@@ -1,0 +1,25 @@
+
+{% assign relationMetafield = product.metafields.custom.prod_relacion_id | strip | replace: ' ', '-' | downcase %}
+{% assign relatedProducts = product.metafields.custom.related_products %}
+
+{% if relatedProducts != null %}
+  <div class="col-swatch">
+    <ul data-option-index="{{ option_index }}" class="{{ option_handle }} options">
+    
+      {% for item in product.metafields.custom.related_products.value %}
+
+        {% assign color = item.options_by_name['Color'].values[0] %}
+        {% assign image_url = color | handle | append: '.png' | file_url %}
+
+        <li class="color ">
+          <a href="{{ item.url }}">
+            <img class="variant-image" src="{{ image_url }}" alt="{{ color }}">
+          </a>
+        </li>
+      
+      {% endfor %}
+
+    </ul>
+  </div>
+{% endif %}
+

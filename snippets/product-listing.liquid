@@ -1,0 +1,133 @@
+{%- liquid
+
+  case settings.product_image_size
+    when 'natural'
+      assign aspect_ratio = 'natural'
+    when 'square'
+      assign aspect_ratio = 'square'
+    when 'landscape'
+      assign aspect_ratio = 'landscape'
+    when 'portrait'
+      assign aspect_ratio = 'portrait'
+  endcase
+
+-%}
+
+<div class="ci">
+
+  {% render 'product-icon-listing', product: product %}
+
+  <div class="prod-image image_{{ aspect_ratio }}">
+    <a href="{{ product.url | within: collection }}" title="{{ product.title | escape }}">
+    {% if product.featured_media %}
+        <div class="reveal">
+          {% if product.featured_media.media_type == 'video' or
+                product.featured_media.media_type == 'external_video' %}
+            {% if settings.product_grid_video %}
+              {% render 'product-loop-video', product: product %}
+            {% endif %}
+            {% render "basic-responsive-image", type: product.featured_media.preview_image, data_widths: '[180, 360, 540, 720, 900, 1080]' %}
+            <noscript>
+              <img src="{{ product.featured_media.preview_image | img_url: '1024x' }}" alt="{{ product.featured_media.preview_image.alt | escape }}">
+            </noscript>
+          {% else %}
+            {% render "basic-responsive-image", type: product.featured_media.preview_image, data_widths: '[180, 360, 540, 720, 900, 1080]' %}
+            <noscript>
+              <img src="{{ product.featured_media.preview_image | img_url: '1024x' }}" alt="{{ product.featured_media.preview_image.alt | escape }}">
+            </noscript>
+          {% endif %}
+
+          {% if settings.image_flip and product.media.size > 1 %}
+            <div class="hidden">
+              {% assign secondary_image = product.media[1].preview_image %}
+              {% render "basic-responsive-image", type: secondary_image, data_widths: '[180, 360, 540, 720, 900, 1080]' %}
+              <noscript>
+                <img src="{{ secondary_image | img_url: '1024x' }}" alt="{{ product.featured_media.preview_image.alt | escape }}">
+              </noscript>
+            </div><!-- /.hidden -->
+          {% endif %}
+        </div><!-- /.reveal -->
+    {%- else -%}
+        <div class="box-ratio" style="padding-bottom: 100%;">
+          {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+          {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+    {%- endif -%}
+    </a>
+    {% if settings.quickview %}
+        <button class="quick-view-{{ product.id }} product-listing__quickview-trigger js-modal-open js-quickview-trigger" type="button" name="button"
+        data-wau-modal-target="quickview"
+        data-product-url="/products/{{ product.handle }}?view=quick">
+        {% render 'snip-icons',
+         wrapper: '.product-listing__quickview-trigger',
+         type: 'icon-theme',
+         icon: 'search',
+         classes: 'vib-center',
+         size: '18px',
+         fill: 'var(--text-color)',
+         hover: 'var(--text-color)' %}
+        </button>
+    {% endif %}
+  </div>
+</div>
+
+<div class="product-details">
+  <a href="{{ product.url | within: collection }}" class="js-product-details-link">
+    {% if settings.vendor %}
+      <p class="h4">{{ product.vendor }}</p>
+    {% endif %}
+    <h3>{{ product.title }}</h3>
+  </a>
+{% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+  {% unless product.template_suffix == 'not-for-sale' %}
+
+  {% render 'product-price-listing', product: product %}
+
+  {%- if settings.show_rating and product.metafields.reviews.rating.value != blank -%}
+    <div class="product__section--rating-wrapper">
+      {% liquid
+        assign rating_decimal = 0
+        assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+        if decimal >= 0.3 and decimal <= 0.7
+          assign rating_decimal = 0.5
+        elsif decimal > 0.7
+          assign rating_decimal = 1
+        endif
+      %}
+      <div class="product__section-rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}">
+        <span aria-hidden="true" class="product__section-rating-star color-icon" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
+      </div>
+      <p class="product__section-rating-text caption">
+        <span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
+      </p>
+      <p class="product__section-rating-count caption">
+        <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
+        <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
+      </p>
+    </div>
+  {%- endif -%}
+
+  <div class="product_listing_options">
+  {%- liquid
+
+  if product.variants.size >= 1
+    if settings.show_colors and product.available
+      render 'show-colors', product: product
+    endif
+     if settings.show_sizes and product.available
+       render 'show-sizes', product: product
+      endif
+   endif
+
+  -%}
+
+  {% render 'show-colors-meta-related', product: product %}
+
+  {% if settings.show_quick_add and product.available %}
+    {% render 'product-grid-add', product: product %}
+  {% endif %}
+
+  </div>
+ {% endunless %}
+
+</div>

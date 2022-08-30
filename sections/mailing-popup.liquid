@@ -1,0 +1,224 @@
+<section data-section-id="{{ section.id }}" data-section-type="mailing-popup">
+<div class="js-popup-overlay newsletter__popup-overlay"></div>
+<div class="js-popup newsletter__popup-container"
+     style="display:none"
+     data-popup-enabled={{ section.settings.popup | json }}
+     data-popup-delay={{ section.settings.popup_delay | json }} data-popup-frequency={{ section.settings.popup_frequency | json }}>
+  <a class="js-popup-close newsletter__popup-container-close" href="" title="Close popup">
+    {% render 'snip-icons',
+     wrapper: '.newsletter__popup-container-close',
+     type: 'apollo',
+     icon: 'close',
+     classes: 'popup-container-close--icon',
+     size: '14px',
+     fill: 'var(--text-color)',
+     hover: 'var(--text-color)' %}
+  </a>
+  <div id="newsletter__popup-content">
+    {% if section.settings.email_image != blank and section.settings.popup_image == 'content' %}
+    <div class="newsletter__popup-image"></div>
+    {% endif %}
+    <div class="newsletter__popup-contentWrapper">
+      <div class="newsletter__popup-text">
+        {% if section.settings.mail_popup_title %}
+          <h3>{{ section.settings.mail_popup_title }}</h3>
+        {% endif %}
+        {% if section.settings.mail_popup_text %}
+          <p>{{ section.settings.mail_popup_text }}</p>
+        {% endif %}
+      </div>
+      <div class="newsletter__popup-form">
+        {% form 'customer' %}
+        <input type="hidden" name="contact[tags]" value="prospect, newsletter">
+        <input type="email" name="contact[email]" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}">
+        <input type="submit" value="{{ 'general.newsletter_form.submit' | t }}">
+        {% if section.settings.mail_gdpr_text %}
+          <p class="gdpr-text before-signup"><em>{{ section.settings.mail_gdpr_text }}</em></p>
+        {% endif %}
+        {% endform %}
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</section>
+<style>
+
+  #newsletter__popup-content {
+    background-color: {{ section.settings.popup_background_color }};
+    {% if section.settings.popup_image == 'content' %}
+    padding: 0;
+    {% endif %}
+    {% if section.settings.popup_image == 'background' %}
+    height: 600px;
+    {% endif %}
+  }
+  .newsletter__popup-text h3,
+  .newsletter__popup-text p {
+    color: {{ section.settings.popup_text_color }};
+  }
+  .newsletter__popup-text h3 {
+    font-size: {{ section.settings.popup_h3_size }}px;
+  }
+  .newsletter__popup-text p {
+    font-size: {{ section.settings.popup_subheading_size }}px;
+  }
+  .newsletter__popup-form input[type="email"]::placeholder {
+    color: {{ section.settings.popup_text_color }} !important;
+  }
+  .newsletter__popup-form input[type="email"] {
+    color: {{ section.settings.popup_text_color }} !important;
+    background: {{ section.settings.popup_background_color }};
+  }
+  p.gdpr-text {
+    color: {{ section.settings.popup_text_color }};
+  }
+
+  {% if section.settings.popup_image == 'background' %}
+    .newsletter__popup-contentWrapper {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+    }
+  {% endif %}
+
+  {% if section.settings.email_image != blank and section.settings.popup_image == 'background' %}
+  #newsletter__popup-content {
+    background: url({{ section.settings.email_image | img_url: '1200x'}});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  {% else %}
+  #newsletter__popup-content .newsletter__popup-image {
+    background: url({{ section.settings.email_image | img_url: '1200x'}});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    min-height: 300px;
+  }
+  {% endif %}
+</style>
+{% schema %}
+{
+  "name": "Mailing popup",
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "popup",
+      "label": "Show mailing list popup"
+    },
+    {
+      "type": "range",
+      "id": "popup_delay",
+      "min": 0,
+      "max": 300,
+      "step": 5,
+      "unit": "sec",
+      "label": "Popup delay in seconds",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "popup_frequency",
+      "min": 1,
+      "max": 30,
+      "step": 1,
+      "unit": "day",
+      "label": "Popup frequency",
+      "default": 7
+    },
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "select",
+      "id": "popup_image",
+      "options":
+      [
+        {
+          "value": "background",
+          "label": "Background image"
+        },
+        {
+          "value": "content",
+          "label": "Content image"
+        }
+      ],
+      "label": "Image type"
+    },
+    {
+      "type": "image_picker",
+      "id": "email_image",
+      "label": "Image",
+      "info": "Background image: 600px x 650px / Content image: 600px x 400px recommended."
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "mail_popup_title",
+      "label": "Heading",
+      "default": "Join us and get nice things"
+    },
+    {
+      "type": "text",
+      "id": "mail_popup_text",
+      "label": "Subheading",
+      "default": "Free stuff and general goodness"
+    },
+    {
+      "type": "text",
+      "id": "mail_gdpr_text",
+      "label": "GDPR text",
+      "default": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time."
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "popup_h3_size",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "popup_subheading_size",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Subheading size",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "popup_text_color",
+      "label": "Text",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "popup_background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    }
+  ]
+}
+{% endschema %}

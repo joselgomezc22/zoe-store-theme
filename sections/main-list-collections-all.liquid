@@ -1,0 +1,55 @@
+<section
+data-section-id="{{ section.id }}"
+class="collection-list-template cl-{{ section.id }} main__section">
+
+  {% case section.settings.grid %}
+    {% when 2 %}
+      {%- assign grid_item_width = 'span-6 md-span-4 sm-span-6 auto' -%}
+    {% when 3 %}
+      {%- assign grid_item_width = 'span-4 md-span-4 sm-span-6 auto' -%}
+    {% when 4 %}
+      {%- assign grid_item_width = 'span-3 md-span-3 sm-span-6 auto' -%}
+  {% endcase %}
+  {% assign lim = section.settings.grid %}
+
+  {% if section.settings.full_width %}<div class="gridlock-fluid">{% endif %}
+    <div class="row">
+
+      {% paginate collections by 24 %}
+      <div class="product-loop grid_wrapper">
+        {% for collection in collections %}
+          <div class="{{ grid_item_width }}" data-alpha="{{ collection.title }}">
+              {% render 'collection-grid-item', collection: collection %}
+          </div>
+      {% endfor %}
+      {% render 'pagination', paginate: paginate %}
+      {% endpaginate %}
+      </div>
+    <div class="clear"></div>
+  </div><!-- /.row -->
+  {% if section.settings.full_width %}</div>{% endif %}
+</section>
+
+
+{% schema %}
+{
+  "name": "All collections",
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width"
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "label": "Collections per row",
+      "default": 4
+    }
+  ]
+}
+{% endschema %}

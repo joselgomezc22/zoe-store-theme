@@ -1,0 +1,58 @@
+{% for option in product.options %}
+
+  {%- liquid
+
+    assign option_handle = option | handle
+    assign option_index = forloop.index0
+
+  -%}
+  {% capture downcased_option %}{{ option | downcase }}{% endcapture %}
+  {% if downcased_option contains 'color' or downcased_option contains 'colour' %}
+    <div class="col-swatch">
+      <ul data-option-index="{{ option_index }}" class="{{ option_handle }} options">
+      {% assign values = '' %}
+      {% for variant in product.variants %}
+        {% assign value = variant.options[option_index] %}
+        {% capture wrapped_value %},{{ value }},{% endcapture %}
+        {% unless values contains wrapped_value %}
+
+          {%- liquid
+
+            assign css_color = value | split: ' ' | last | handle
+            assign image_url = value | handle | append: '.png' | file_url
+            assign variant_image_url = blank
+
+            if variant.image
+              assign variant_image_url =  variant.image | img_url: '1000x'
+            endif
+
+          -%}
+
+          <li data-option-title="{{ value | escape }}" data-href="{{ variant.featured_media | img_url: 'large' }}" class="color {{ value | handle }}">
+            <a href="{{ variant.url | within: collection }}">
+              {% if settings.color_swatch_style == 'variant-image' and variant_image_url != blank %}
+                <img class="variant-image" src="{{ variant_image_url }}" alt="{{ value }}">
+              {% else %}
+                  {%- liquid
+
+                    assign show_custom_image = false
+                    assign bg_image_rule = blank
+
+                    if settings.color_swatch_style == 'custom-image' and image_url != blank
+                      assign show_custom_image = true
+                      assign bg_image_rule = "background-image: url(" | append: image_url | append: ");"
+                    endif
+
+
+                  -%}
+                  <span class="custom-image css-color" style="width: 20px; height: 20px; background-color: {{ css_color }};{% if show_custom_image %}{{ bg_image_rule }}{% endif %}"></span>
+              {% endif %}
+            </a>
+          </li>
+          {% capture values %}{{ values }}{{ wrapped_value }}{% endcapture %}
+        {% endunless %}
+      {% endfor %}
+      </ul>
+    </div><!-- .swatch -->
+  {% endif %}
+{% endfor %}

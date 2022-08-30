@@ -1,0 +1,31 @@
+<div id="shipping-calculator" class="js-shipping-calc-wrapper">
+  <div class="form wrapper">
+    <div class="address_province_container province simple-select" id="address_province_container" style="display: none;">
+      <label for="address_province" id="address_province_label" class="js-shipping-calc-address-province-label">Province</label>
+      <select id="address_province" class="address_form styled-select js-shipping-calc-address-province" name="address[province]" data-default="{% if shop.customer_accounts_enabled and customer and customer.default_address.province != '' %}{{ customer.default_address.province }}{% endif %}"></select>
+    </div>
+    <div class="countrysimple-select">
+      <label for="address_country">Country</label>
+      <select id="address_country" class="styled-select js-shipping-calc-address-country" name="address[country]" data-default="{% if shop.customer_accounts_enabled and customer %}{{ customer.default_address.country }}{% elsif settings.shipping_calculator_default_country != '' %}{{ settings.shipping_calculator_default_country }}{% endif %}">
+        <option value="0">Choose Country</option>
+        {{ country_option_tags }}
+      </select>
+    </div>
+    <div class="postal">
+      <label for="address_zip">Zip/Postal Code</label>
+      <input class="js-shipping-calc-address-zip" type="text" id="address_zip" placeholder="Zip/Postal Code" name="address[zip]"{% if shop.customer_accounts_enabled and customer %} value="{{ customer.default_address.zip }}"{% endif %} />
+    </div>
+    <div class="action_bottom">
+      <input type="submit" data-ajax-shipping-rates class="get-rates button mb0 js-shipping-calc-submit" value="{{ 'cart.general.calc_shipping' | t }}" />
+    </div>
+    <div id="wrapper-response" class="shipping-calc__response js-shipping-calc-response" style="display:none;">
+      <div class="shipping-calc__response--wrapper">
+        <p id="shipping-rates-feedback" class="js-shipping-calc-rates-feedback mb2">
+        </p>
+        <ul id="shipping-rates" class="js-shipping-calc-rates shipping-calc__rates mb0">
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

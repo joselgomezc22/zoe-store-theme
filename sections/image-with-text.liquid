@@ -1,0 +1,302 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'pb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'pt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'pt0 pb0'
+  endif
+
+-%}
+<section class="image__with-text section-{{ section.id }} global__section global__section--padding {{ section_padding }}"
+data-section-id="{{ section.id }}"
+data-aos="{{ settings.scroll_animation }}">
+  {% if section.settings.full_width %}<div class="gridlock-fluid"><div class="row">{% endif %}
+    <div class="row">
+
+        {%- liquid
+
+          case section.settings.image_width
+            when '33%'
+              assign image_size = '700x'
+              assign image_width = 'span-4 auto'
+              assign image_offset = 'span-8 auto'
+            when '50%'
+              assign image_size = '1000x'
+              assign image_width = 'span-6 auto'
+              assign image_offset = 'span-6 auto'
+            when '66%'
+              assign image_size = '1400x'
+              assign image_width = 'span-8 auto'
+              assign image_offset = 'span-4 auto'
+          endcase
+
+        -%}
+
+        {% capture image_layout %}
+          <div class="{{ image_width }} sm-span-12 auto image__section {% if section.settings.layout == 'right' %}image-right{% endif %}">
+            {% if section.settings.image != blank %}
+              {% render 'basic-responsive-image', type: section.settings.image, data_widths: '[180, 360, 540, 720, 900]' %}
+              <noscript>
+                <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.image.alt }}">
+              </noscript>
+            {% else %}
+              <div class="onboard">
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              </div>
+            {% endif %}
+          </div>
+        {% endcapture %}
+
+        <div class="image-with-text-wrapper grid_wrapper">
+          {% if section.settings.layout == 'left' %}
+            {{ image_layout }}
+          {% endif %}
+
+          <div class="{{ image_offset }} mobile-3 {% unless section.settings.full_width %}contained{% endunless %} text__section{% if section.settings.text_align == 'center' %} text-centered{% endif %}"
+          data-aos="{{ settings.scroll_animation }}" data-aos-delay="300" data-aos-duration="1000">
+            {% if section.settings.title != blank %}
+              <h3 class="text-title">
+                {{ section.settings.title | escape }}
+              </h3>
+            {% endif %}
+            {% if section.settings.text != blank %}
+              <div class="rte">
+                {{ section.settings.text }}
+              </div>
+            {% endif %}
+            {% if section.settings.button != blank and section.settings.link != blank %}
+              <div class="cta">
+                <a href="{{ section.settings.link }}">
+                  {{ section.settings.button | escape }}
+                </a>
+              </div>
+            {% endif %}
+          </div>
+
+          {% if section.settings.layout == 'right' %}
+            {{ image_layout }}
+            <style>
+            @media screen and (max-width: 740px) {
+              .image__with-text .text__section {
+                grid-row: 2;
+              }
+            }
+            </style>
+          {% endif %}
+        </div>
+
+    </div>
+  {% if section.settings.full_width %}</div></div>{% endif %}
+</section>
+
+<style>
+  .image__with-text.section-{{ section.id }} {
+    background: var(--{{ section.settings.color_scheme }}-background) !important;
+  }
+  .image__with-text.section-{{ section.id }} .section-title:after {
+    background: var(--{{ section.settings.color_scheme }}-background) !important;
+  }
+  section.featured__collection--{{ section.id }} .section-title:after {
+    background: var(--{{ section.settings.color_scheme }}-color) !important;
+  }
+
+  .image__with-text.section-{{ section.id }} h3.text-title,
+  .image__with-text.section-{{ section.id }} .rte,
+  .image__with-text.section-{{ section.id }} .rte p,
+  .image__with-text.section-{{ section.id }} .rte a {
+    color: var(--{{ section.settings.color_scheme }}-color) !important;
+  }
+
+  .image__with-text.section-{{ section.id }} .image-with-text-wrapper.grid_wrapper {
+      align-items: {{ section.settings.text_position }};
+  }
+
+</style>
+
+{% schema %}
+  {
+  "name": "Image with text",
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1200px x 800px recommended"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Position",
+      "default": "left",
+      "options":
+      [
+        {
+          "value": "left",
+          "label": "Image on left"
+        },
+        {
+          "value": "right",
+          "label": "Image on right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "image_width",
+      "label": "Width",
+      "default": "50%",
+      "options":
+      [
+        {
+          "value": "33%",
+          "label": "33%"
+        },
+        {
+          "value": "50%",
+          "label": "50%"
+        },
+        {
+          "value": "66%",
+          "label": "66%"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text alignment",
+      "default": "left",
+      "options":
+      [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Text position",
+      "default": "center",
+      "options":
+      [
+        {
+          "value": "start",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Bottom"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Image with text"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "button",
+      "label": "Button text"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Image with text"
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search"
+  ]
+}
+{% endschema %}

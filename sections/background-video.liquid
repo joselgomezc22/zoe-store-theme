@@ -1,0 +1,272 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'mb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'mt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'mt0 mb0'
+  endif
+
+  assign alternative_video = false
+  if section.settings.video_url.type == "youtube"
+    assign video_type = 'youtube'
+    assign alternative_video = true
+  endif
+
+  assign show_caption = false
+  if section.settings.title != blank or section.settings.subheading_text != blank or alternative_video
+   assign show_caption = true
+  endif
+
+  assign show_button_only = false
+  if section.settings.title == blank and section.settings.subheading_text == blank and alternative_video
+    assign show_button_only = true
+  endif
+
+-%}
+{%- capture video_config -%}{
+  "mp4": {{ section.settings.mp4_url | json }},
+  "poster": false,
+  "overlay": {{ section.settings.show_overlay_color }},
+  "overlayColor": {{ section.settings.overlay_color | json }},
+  "sectionId": {{ section.id | json }}
+}{%- endcapture -%}
+<section
+  class="global__background-video-{{ section.id }} section-background-video background-video-{{ section.id }} global__section global__section--margin {{ section_padding }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="background-video"
+  data-aos="{{ settings.scroll_animation }}"
+  data-video-config='{{ video_config }}'>
+  {% unless section.settings.full_width %}<div class="grid__wrapper">{% endunless %}
+    <div class="background-video__outer-wrapper js-bg-video-{{ section.id }} span-12">
+      {% if show_caption %}
+      <div class="background-video__caption {% if show_button_only %}table-hide desktop-hide{% endif %}">
+        {% if section.settings.title != blank %}
+          <h3 class="background-video__heading">{{ section.settings.title }}</h3>
+        {% endif %}
+        {% if section.settings.subheading_text != blank %}
+          <p class="background-video__subheading mb0">{{ section.settings.subheading_text }}</p>
+        {% endif %}
+        {% if alternative_video and section.settings.mp4_url == blank %}
+          <button class="section-gallery__play-button js-play-video btn-as-link table-hide desktop-hide" type="button" name="button" data-video-trigger="video-{{ section.id }}" data-video-type="{{ video_type }}">
+            {% render 'snip-icons',
+               wrapper: '.section-gallery__item-inner',
+               type: 'media-icons',
+               icon: 'play',
+               size: '44px',
+               classes: 'no-pe m0 mt3',
+               fill: 'var(--text-color)',
+               hover: 'var(--text-color)' %}
+          </button>
+        {% endif %}
+      </div>
+      {% endif %}
+      {%- if section.settings.fallback_image -%}
+        <div class="background-video__placeholder-image">
+          {%
+            render "basic-responsive-image",
+            type: section.settings.fallback_image,
+            data_widths: '[180, 360, 540, 720, 900, 1080]'
+           %}
+          <noscript>
+            <img
+              src="{{ section.settings.fallback_image | img_url: '1024x' }}"
+              alt="{{ section.settings.fallback_image.alt | escape }}">
+          </noscript>
+        </div>
+      {%- endif -%}
+      {%- if section.settings.video_url.type == "youtube" -%}
+        <div class="alternative-iframe--wrapper">
+          <div id="js-alternative-yt-{{ section.id }}" class="alternative-iframe--youtube js-has-yt" data-id="{{ section.settings.video_url.id }}"></div>
+        </div>
+      {%- endif -%}
+    </div>
+  {% unless section.settings.full_width %}</div>{% endunless %}
+  <style>
+    .background-video-{{ section.id }} .background-video__outer-wrapper {
+      height: {{ section.settings.video_height }}px;
+    }
+    .section-background-video .background-video__placeholder-image {
+      height: {{ section.settings.video_height }}px;
+      background-color: {{ section.settings.overlay_color }};
+    }
+    {% if section.settings.show_overlay_color %}
+     .background-video-{{ section.id }} .background-video__outer-wrapper {
+       box-shadow: inset 0 0 0 2000px {{ section.settings.overlay_color | color_modify: 'alpha', 0.60 }};
+      }
+    {% endif %}
+    .background-video-{{ section.id }} .background-video__caption {
+      top: {{ section.settings.caption_vertical }}%;
+      left: {{ section.settings.caption_horizontal }}%;
+      -webkit-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+      -ms-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+      -moz-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+      -o-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+      transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+    }
+    {% unless section.settings.color_scheme == 'none' %}
+    .background-video-{{ section.id }} .background-video__caption {
+      background-color: var(--{{ section.settings.color_scheme }}-background) !important;
+    }
+    .background-video-{{ section.id }} .background-video__caption h3,
+    .background-video-{{ section.id }} .background-video__caption p {
+      color: var(--{{ section.settings.color_scheme }}-color) !important;
+    }
+    {% endunless %}
+    .background-video-{{ section.id }} .background-video__placeholder-image .box-ratio {
+      padding-bottom: {{ section.settings.video_height }}px !important;
+    }
+    .background-video-{{ section.id }} .background-video__placeholder-image .box-ratio img {
+      height: calc({{ section.settings.video_height }}px + 100px);
+      width: 100%;
+    }
+  </style>
+</section>
+{% schema %}
+{
+  "name":"Background video",
+  "settings": [
+    {
+      "type":"url",
+      "id":"mp4_url",
+      "label":"MP4 url"
+    },
+    {
+      "type": "video_url",
+      "id": "video_url",
+      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+      "label": "or YouTube",
+      "accept": ["youtube"]
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "Fallback image"
+    },
+    {
+      "type": "header",
+      "content": "Caption"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Background Video"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading_text",
+      "label": "Subheading",
+      "default": "Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story."
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "cs1",
+          "label": "1"
+        },
+        {
+          "value": "cs2",
+          "label": "2"
+        },
+        {
+          "value": "cs3",
+          "label": "3"
+        }
+      ],
+      "default": "cs1"
+    },
+    {
+      "type":      "range",
+      "id":        "caption_horizontal",
+      "min":       0,
+      "max":       100,
+      "step":      1,
+      "unit":      "%",
+      "label":     "Caption horizontal position",
+      "default":   50
+    },
+    {
+      "type":      "range",
+      "id":        "caption_vertical",
+      "min":       0,
+      "max":       100,
+      "step":      1,
+      "unit":      "%",
+      "label":     "Caption vertical position",
+      "default":   50
+    },
+    {
+      "type": "header",
+      "content": "Section styles"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type":      "checkbox",
+      "id":        "show_overlay_color",
+      "label":     "Enable overlay color",
+      "default":   false
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Enable full width",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "video_height",
+      "min": 200,
+      "max": 900,
+      "step": 100,
+      "unit": "px",
+      "label": "Section height",
+      "default": 600
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets": [
+   {
+      "name": "Background video"
+    }
+  ],
+  "templates": ["404", "article", "blog", "cart", "collection", "list-collections", "index", "page", "product", "search"]
+}
+{% endschema %}

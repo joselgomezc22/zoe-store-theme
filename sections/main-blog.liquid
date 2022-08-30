@@ -1,0 +1,115 @@
+{%- liquid
+
+  assign blog_is_grid = false
+
+  if section.settings.blog_layout_grid
+    assign blog_is_grid = true
+  endif
+
+-%}
+
+<section class="blog-template main__section" data-section-id="{{ section.id }}">
+
+  <div class="row">
+    <div class="section-title desktop-12 mobile-3">
+      <h1>
+        {% if current_tags %}
+          {{ blog.title | link_to: blog.url }} &raquo; {{ current_tags.first }}
+        {% else %}
+          {{ blog.title }}
+        {% endif %}
+      </h1>
+    </div>
+
+    <div class="clear"></div>
+
+    {% if section.settings.text != blank %}
+      <div id="blog-description" class="desktop-12 tablet-6 mobile-3" style="text-align: {{ section.settings.text_align }}">
+        <div class="rte">
+          {{ section.settings.text }}
+        </div>
+      </div>
+      <div class="clear"></div>
+    {% endif %}
+
+    {% paginate blog.articles by 10 %}
+
+      <div id="blog-articles" class="articles{% if blog_is_grid %} blog__grid{% else %} blog__alternate{% endif %}">
+        {% for article in blog.articles %}
+          {% capture articleCycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+          {% render 'article-loop', article: article, forloop: forloop, articleCycle: articleCycle %}
+        {% endfor %}
+      </div>
+
+      <div class="clear"></div>
+
+    {% render 'pagination', paginate: paginate %}
+
+    {% endpaginate %}
+
+  </div>
+
+  <style media="screen">
+    {% unless section.settings.blog_layout_grid %}
+    .article-body .post_meta {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    {% endunless %}
+  </style>
+
+</section>
+
+
+{% schema %}
+{
+  "name": "Blog",
+  "settings":
+  [
+    {
+      "type": "header",
+      "content": "Blog description"
+    },
+    {
+      "id": "text",
+      "type": "richtext",
+      "label": "Text",
+      "default": "<p>Add some descriptive text to your all Blog.</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Align text",
+      "options":
+      [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_layout_grid",
+      "label": "Layout as a grid",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "post_tags",
+      "label": "Show tags",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show post author",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

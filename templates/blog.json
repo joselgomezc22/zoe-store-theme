@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+      }
+    },
+    "image-gallery": {
+      "type": "image-gallery",
+      "blocks": {
+        "image1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "#",
+            "heading": "",
+            "text": "",
+            "button": "Promo Image Text",
+            "overlay_opacity": 10,
+            "text_color": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "vertical_position": 50,
+            "horizontal_position": 50,
+            "align_text": "left"
+          }
+        },
+        "image2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "#",
+            "heading": "",
+            "text": "",
+            "button": "Promo Image Text",
+            "overlay_opacity": 10,
+            "text_color": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "vertical_position": 50,
+            "horizontal_position": 50,
+            "align_text": "left"
+          }
+        },
+        "image3": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "#",
+            "heading": "",
+            "text": "",
+            "button": "Promo Image Text",
+            "overlay_opacity": 10,
+            "text_color": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "vertical_position": 50,
+            "horizontal_position": 50,
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image1",
+        "image2",
+        "image3"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "text": "<p>Add some descriptive text to your all Blog.<\/p>",
+        "text_align": "center",
+        "blog_layout_grid": false,
+        "post_tags": true,
+        "show_author": true
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "grid": 4,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image-gallery",
+    "main",
+    "collection-list"
+  ]
+}

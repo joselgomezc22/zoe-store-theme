@@ -1,0 +1,57 @@
+<div data-section-id="{{ section.id }}" class="collection-list-template cl-{{ section.id }} main__section">
+  {% if section.settings.full_width %}<div class="gridlock-fluid">{% endif %}
+  <div class="row">
+    <div class="grid_wrapper">
+
+      <div class="section-title span-12 auto">
+        <h1>{{ 'collections.general.all_collections' | t }}</h1>
+      </div>
+
+      {% if section.settings.text != blank %}
+        <div id="collection-description" class="span-12 auto" style="text-align: {{ section.settings.text_align }}">
+          <div class="rte">
+            {{ section.settings.text }}
+          </div>
+        </div>
+      {% endif %}
+    </div><!-- /.grid_wrapper -->
+    <div class="clear"></div>
+  </div><!-- /.row -->
+  {% if section.settings.full_width %}</div>{% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Collections list header",
+  "settings":
+  [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width"
+    },
+    {
+      "id": "text",
+      "type": "richtext",
+      "label": "Text",
+      "default": "<p>Add some descriptive text to your all collections page.</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Align text",
+      "options":
+      [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

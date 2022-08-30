@@ -1,0 +1,219 @@
+{%- liquid
+
+  case section.settings.text_alignment
+    when 'left'
+      assign alignment_class = 'a-left'
+    when 'center'
+      assign alignment_class = 'a-center'
+    when 'right'
+      assign alignment_class = 'a-right'
+    else
+      assign alignment_class = 'a-left'
+  endcase
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'mb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'mt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'mt0 mb0'
+  endif
+
+-%}
+<section class="breadcrumb__section global__section global__section--margin {{ section_padding }}" data-section-id="{{ section.id }}">
+  <div class="row">
+    <div id="breadcrumb" class="desktop-12 tablet-6 mobile-3 span-12 auto {{ alignment_class }}">
+      <a href="{{ routes.root_url }}" class="homepage-link" title="{{ 'general.breadcrumbs.home' | t }}">{{ 'general.breadcrumbs.home' | t }}</a>
+      {% if template contains "product" %}
+        {% if collection %}
+          <span class="separator">
+            {% render 'snip-icons',
+               wrapper: '.breadcrumb__section',
+               type: 'apollo',
+               icon: 'right-carrot',
+               classes: 'breadcrumb__section--icon',
+               size: '6px',
+               fill: 'var(--text-color)',
+               hover: 'var(--text-color)' %}
+          </span>
+          {% if collection.handle %}
+            {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
+            {{ collection.title | link_to: url }}
+          {% elsif collection.all_products_count > 0 and collection.products.first.type == collection.title %}
+            {{ collection.title | link_to_type }}
+          {% elsif collection.all_products_count > 0 and collection.products.first.vendor == collection.title %}
+            {{ collection.title | link_to_vendor }}
+          {% endif %}
+        {% else %}
+          <span class="separator">
+            {% render 'snip-icons',
+               wrapper: '.breadcrumb__section',
+               type: 'apollo',
+               icon: 'right-carrot',
+               classes: 'breadcrumb__section--icon',
+               size: '6px',
+               fill: 'var(--text-color)',
+               hover: 'var(--text-color)' %}
+          </span>
+          {{ product.type | link_to_type }}
+        {% endif %}
+        <span class="separator">
+          {% render 'snip-icons',
+             wrapper: '.breadcrumb__section',
+             type: 'apollo',
+             icon: 'right-carrot',
+             classes: 'breadcrumb__section--icon',
+             size: '6px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+        </span>
+        <span class="page-title">{{ product.title }}</span>
+      {% elsif template == "article" %}
+        <span class="separator">
+          {% render 'snip-icons',
+             wrapper: '.breadcrumb__section',
+             type: 'apollo',
+             icon: 'right-carrot',
+             classes: 'breadcrumb__section--icon',
+             size: '6px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+        </span>
+        {{ blog.title | link_to: blog.url }}
+        <span class="separator">
+          {% render 'snip-icons',
+             wrapper: '.breadcrumb__section',
+             type: 'apollo',
+             icon: 'right-carrot',
+             classes: 'breadcrumb__section--icon',
+             size: '6px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+        </span>
+        <span class="page-title">{{ page_title }}</span>
+      {% elsif template contains "collection" %}
+        {% if current_tags.size > 0 %}
+          <span class="separator">
+            {% render 'snip-icons',
+               wrapper: '.breadcrumb__section',
+               type: 'apollo',
+               icon: 'right-carrot',
+               classes: 'breadcrumb__section--icon',
+               size: '6px',
+               fill: 'var(--text-color)',
+               hover: 'var(--text-color)' %}
+          </span>
+          {{ collection.title | link_to: collection.url }}
+          <span class="separator">
+            {% render 'snip-icons',
+               wrapper: '.breadcrumb__section',
+               type: 'apollo',
+               icon: 'right-carrot',
+               classes: 'breadcrumb__section--icon',
+               size: '6px',
+               fill: 'var(--text-color)',
+               hover: 'var(--text-color)' %}
+          </span>
+          <span class="page-title">{{ current_tags.first }}</span>
+        {% else %}
+          <span class="separator">
+            {% render 'snip-icons',
+               wrapper: '.breadcrumb__section',
+               type: 'apollo',
+               icon: 'right-carrot',
+               classes: 'breadcrumb__section--icon',
+               size: '6px',
+               fill: 'var(--text-color)',
+               hover: 'var(--text-color)' %}
+          </span>
+          <span class="page-title">{{ page_title }}</span>
+        {% endif %}
+      {% else %}
+        <span class="separator">
+          {% render 'snip-icons',
+             wrapper: '.breadcrumb__section',
+             type: 'apollo',
+             icon: 'right-carrot',
+             classes: 'breadcrumb__section--icon',
+             size: '6px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+        </span>
+        <span class="page-title">{{ page_title }}</span>
+      {% endif %}
+    </div><!-- /#breadcrumb -->
+  </div><!-- /.row -->
+</section><!-- /.breadcrumb__section -->
+{% schema %}
+{
+  "name": "Breadcrumbs",
+  "settings":
+  [
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Breadcrumbs text alignment",
+      "options":
+      [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Breadcrumbs"
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "page",
+    "product",
+    "search",
+    "customers/account"
+  ]
+}
+{% endschema %}

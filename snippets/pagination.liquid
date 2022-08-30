@@ -1,0 +1,38 @@
+  <div id="pagination" class="pagination desktop-12 mobile-3 span-12 auto">
+    <span class="count">
+      {% if template != 'list-collections' %}
+      {{ 'general.pagination.showing_items' | t }}{% endif %} {{ paginate.current_offset | plus: 1 }}-{% if paginate.next %}{{ paginate.current_offset | plus: paginate.page_size }}{% else %}{{ paginate.items }}{% endif %} {{ 'general.pagination.of' | t }} {{ paginate.items }}.
+    </span>
+    <div class="clear"></div>
+    {%- if paginate.previous -%}
+      <a href="{{ paginate.previous.url }}" class="paginate_prev">
+        {% render 'snip-icons',
+           wrapper: '.pagination',
+           type: 'apollo',
+           icon: 'left-carrot',
+           classes: 'pagination--icon vib-center',
+           size: '10px',
+           fill: 'var(--text-color)',
+           hover: 'var(--text-color)' %}
+      </a>
+    {%- endif -%}
+    {%- for part in paginate.parts -%}
+      {%- if part.is_link -%}
+        {{ part.title | link_to: part.url }}
+      {%- else -%}
+        <span class="current">{{ part.title }}</span>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if paginate.next -%}
+      <a href="{{ paginate.next.url }}" class="paginate_next">
+        {% render 'snip-icons',
+         wrapper: '.pagination',
+         type: 'apollo',
+         icon: 'right-carrot',
+         classes: 'pagination--icon vib-center',
+         size: '10px',
+         fill: 'var(--text-color)',
+         hover: 'var(--text-color)' %}
+      </a>
+    {%- endif -%}
+  </div>

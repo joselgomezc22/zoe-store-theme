@@ -1,0 +1,36 @@
+{%- liquid
+  if settings.cart_type == 'drawer'
+    assign cart_type_class = 'ajax-cart__drawer-wrapper'
+    assign cart_class = 'js-slideout-close'
+    assign cart_data = 'data-slideout-direction="right" aria-controls="slideout-ajax-cart"'
+  elsif settings.cart_type == 'modal_cart'
+    assign cart_type_class = 'ajax-cart__modal-wrapper'
+    assign cart_class = 'js-modal-close'
+    assign cart_data = 'aria-controls="modal-ajax-cart"'
+  endif
+-%}
+
+<section id="mini-cart" data-ajax-cart-mini class="mini-cart__container js-mini-cart-wrapper {{ cart_type_class }}">
+  <div class="loading-wrapper js-mini-cart-loader">
+    <div class="loading-ripple"><div></div><div></div></div>
+  </div>
+  <div class="ajax-cart__header-wrapper grid__wrapper edge">
+    <div class="span-4 sm-span-4 auto a-left v-center">
+      <div class="slideout__trigger--close">
+        <button class="slideout__trigger-ajax-cart {{ cart_class }}" {{ cart_data }} aria-label="Close cart" tabindex="0" type="button" name="button">
+          <div class="icn-close"></div>
+        </button>
+      </div>
+    </div>
+    <div class="span-4 sm-span-4 auto v-center">
+      <h2 class="section-heading a-center mb0">{{ 'cart.general.title' | t }}</h2>
+    </div>
+    <div class="span-4 sm-span-4 auto a-right v-center">
+      <p class="mb0"><span class="js-cart-count inline-block">{{ cart.item_count }}</span> {{ 'cart.general.items' | t }}</p>
+    </div>
+  </div>
+
+  <div class="ajax-cart__form-wrapper cart-wrapper js-ajax-cart-content">
+
+  </div>
+</section>

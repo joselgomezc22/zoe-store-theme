@@ -1,0 +1,194 @@
+{%- liquid
+
+  assign hd_locale_selector = false
+  assign hd_country_selector = false
+  assign show_cart_links = false
+  assign announcement_cart = false
+
+  if section.settings.show_country_selector and localization.available_countries.size > 1
+    assign hd_country_selector = true
+  endif
+
+  if section.settings.show_locale_selector and shop.published_locales.size > 1
+    assign hd_locale_selector = true
+  endif
+
+  if section.settings.announcement_cart
+    assign announcement_cart = true
+    assign show_cart_links = true
+  endif
+
+-%}
+
+<section class="announcement__bar-section topbar gridlock-fluid js-top-bar"
+  data-section-id="{{ section.id }}"
+  data-section-type="announcement-bar-section">
+
+  <div class="row">
+
+    {% if section.settings.top_nav != blank %}
+      <ul class="announcement__bar-nav desktop-3 tablet-6 mobile-hide">
+        {% for link in linklists[section.settings.top_nav].links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+      <div class="{% if section.settings.top_nav == blank %}desktop-push-3{% endif %} desktop-6 tablet-6 mobile-3" id="banner-message">
+        {% if section.settings.announcement_text != blank %}
+          <div class="rte">
+            {{ section.settings.announcement_text }}
+          </div><!-- /.rte -->
+        {% endif %}
+      </div>
+
+      <ul class="announcement__cart shopping__cart-links desktop-3 tablet-3 mobile-hide right">
+        {% render 'shopping-cart-links',
+          cart: cart,
+          show_cart_links: show_cart_links,
+          hd_locale_selector: hd_locale_selector,
+          hd_country_selector: hd_country_selector,
+          fill_color: 'var(--announcement-bar-text-color)',
+          wrapper: '.announcement__cart' %}
+      </ul>
+
+  </div>
+
+</section>
+
+{% style %}
+
+  .announcement__bar-section {
+    --topbar-font-size: {{ section.settings.announcement_text_size }}px;
+    --topbar-text-color: {{ settings.announcement_bar_text_color }};
+    --topbar-text-color-light: {{ settings.announcement_bar_text_color | color_lighten: 30 }};
+    --topbar-background-color: {{ settings.announcement_bar_background }};
+    --topbar-font-family:  var(--main-family);
+  }
+
+  .announcement__bar-section {
+    font-size: {{ section.settings.announcement_text_size }}px;
+    font-size: var( --topbar-font-size, {{ section.settings.announcement_text_size }}px);
+    text-align: center !important;
+  }
+  .announcement__bar-section,
+  .announcement__bar-section a {
+    color: {{ settings.announcement_bar_text_color }};
+    color: var( --topbar-text-color, {{ settings.announcement_bar_text_color }});
+  }
+
+  .announcement__bar-section .slideout__trigger--open button.button-as-link,
+  .announcement__bar-section ul.shopping__cart-links li a:hover,
+  .announcement__bar-section ul.announcement__bar-nav li a:hover,
+  .announcement__bar-section ul.shopping__cart-links li a:focus,
+  .announcement__bar-section ul.announcement__bar-nav li a:focus,
+  .announcement__bar-section .slideout__trigger-mobile-menu:hover,
+  .announcement__bar-section .slideout__trigger-mobile-menu:focus {
+    color: {{ settings.announcement_bar_text_color | color_lighten: 30 }};
+    color: var( --topbar-text-color-light, {{ settings.announcement_bar_text_color | color_lighten: 30 }});
+  }
+  .announcement__bar-section ul.shopping__cart-links li a {
+    font-size: {{ section.settings.announcement_text_size }}px;
+    font-size: var( --topbar-font-size, {{ section.settings.announcement_text_size }}px);
+  }
+  .announcement__bar-section .disclosure__toggle,
+  .announcement__bar-section .slideout__trigger--open button.button-as-link {
+    font-size: var( --topbar-font-size, {{ section.settings.announcement_text_size }}px) !important;
+    font-family: var(--main-family, {{ settings.main_font.family }}, {{ settings.main_font.fallback_families }}) !important;
+    color: {{ settings.announcement_bar_text_color }};
+    background-color: {{ settings.announcement_bar_background }};
+  }
+  .announcement__bar-section .my-cart-text,
+  .announcement__bar-section .js-cart-count {
+    font-size: var( --topbar-font-size, {{ section.settings.announcement_text_size }}px) !important;
+    font-family: var(--main-family, {{ settings.main_font.family }}, {{ settings.main_font.fallback_families }}) !important;
+  }
+  .announcement__bar-section p {
+    font-size: var( --topbar-font-size, {{ section.settings.announcement_text_size }}px) !important;
+  }
+  .announcement__bar-section .slideout__trigger--open button.button-as-link:hover,
+  .announcement__bar-section .slideout__trigger--open button.button-as-link: visited,
+  .announcement__bar-section .disclosure__toggle:hover {
+    color: {{ settings.announcement_bar_text_color | color_lighten: 30 }};
+  }
+  .announcement__bar-section .disclosure-list {
+     background-color: {{ settings.announcement_bar_background }};
+     border: 1px solid {{ settings.announcement_bar_text_color }};
+   }
+   .announcement__bar-section .disclosure-list__option {
+     color: {{ settings.announcement_bar_background }};
+     text-transform: capitalize;
+   }
+   .announcement__bar-section .disclosure-list__option:focus, .disclosure-list__option:hover {
+     color: {{ settings.announcement_bar_text_color }};
+     border-bottom: 1px solid {{ settings.announcement_bar_text_color }};
+   }
+   .announcement__bar-section .disclosure-list__item--current .disclosure-list__option {
+     color: {{ settings.announcement_bar_text_color }};
+     border-bottom: 1px solid {{ settings.announcement_bar_text_color }};
+   }
+
+   {% if announcement_cart %}
+    .header__shopping-cart { display: none; }
+   {% endif %}
+
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "settings":
+  [
+    {
+      "type": "richtext",
+      "id": "announcement_text",
+      "label": "Text",
+      "default": "<p>Share a shop announcement or message</p>"
+    },
+    {
+      "type": "range",
+      "id": "announcement_text_size",
+      "min": 13,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 14
+    },
+    {
+      "type": "link_list",
+      "id": "top_nav",
+      "label": "Add additional links with a menu"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_cart",
+      "label": "Cart links in announcement bar",
+      "info":"Not recommended if country/region selector enabled",
+      "default": false
+    },
+    {
+       "type": "header",
+       "content": "Language Selector",
+       "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "Enable language selector",
+      "default": false
+    },
+    {
+       "type": "header",
+       "content": "Country/Region Selector",
+       "info": "To add a country/region, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_selector",
+      "label": "Enable country/region selector",
+      "default": false
+    }
+  ]
+}
+{% endschema %}

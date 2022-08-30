@@ -1,0 +1,92 @@
+{%- comment -%}
+body-classes.liquid
+
+snippet used to render theme features as classes on the body tag, removed liquid from stylesheet.
+
+theme feature classes (in order)
+
+- section-titles
+- section-title-align
+- details-align
+- rounded-buttons
+- breadcrumb
+- zoom-effect
+- icon-position
+- icon-shape
+- new-icon
+- sale-icon
+- sold-out-icon
+- image-flip
+- product-variants
+- secondary-color-not-black (true/false)
+- ghost-buttons
+
+{%- endcomment -%}
+{%- liquid
+
+  assign body_classes = ''
+  assign base_class = 'theme-features__'
+
+
+
+  if settings.secondary_color != 'rgba(0,0,0,0)'
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'secondary-color-not-black--' | append: 'true'
+  else
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'secondary-color-not-black--' | append: 'false'
+  endif
+
+  assign body_classes = body_classes | append: ' ' | append: base_class | append: 'product-variants--' | append: settings.product_variants
+
+  if settings.image_flip
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'image-flip--' | append: 'enabled'
+  else
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'image-flip--' | append: 'disabled'
+  endif
+
+  if settings.sold_out_icon
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'sold-out-icon--' | append: 'enabled'
+  else
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'sold-out-icon--' | append: 'disabled'
+  endif
+
+  if settings.sale_icon
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'sale-icon--' | append: 'enabled'
+  else
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'sale-icon--' | append: 'disabled'
+  endif
+
+  if settings.new_icon
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'new-icon--' | append: 'enabled'
+  else
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'new-icon--' | append: 'disabled'
+  endif
+
+  assign body_classes = body_classes | append: ' ' | append: base_class | append: 'section-titles--' | append: settings.section_titles
+
+  assign body_classes = body_classes | append: ' ' | append: base_class | append: 'section-title-align--' | append: settings.section_title_align
+
+  assign body_classes = body_classes | append: ' ' | append: base_class | append: 'details-align--' | append: settings.details_align
+
+  if settings.rounded_buttons
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'rounded-buttons--' | append: 'enabled'
+  else
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'rounded-buttons--' | append: 'disabled'
+  endif
+
+  if settings.ghost_buttons
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'ghost-buttons--' | append: 'enabled'
+  endif
+
+  if settings.zoom_effect
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'zoom-effect--' | append: 'enabled'
+  else
+    assign body_classes = body_classes | append: ' ' | append: base_class | append: 'zoom-effect--' | append: 'disabled'
+  endif
+
+  assign body_classes = body_classes | append: ' ' | append: base_class | append: 'icon-position--' | append: settings.icon_position
+
+  assign body_classes = body_classes | append: ' ' | append: base_class | append: 'icon-shape--' | append: settings.icon_shape
+
+  echo body_classes | strip
+
+ -%}

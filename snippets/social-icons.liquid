@@ -1,0 +1,135 @@
+{%- liquid
+
+  if hover_color == blank
+    assign hover_color = fill_color
+  endif
+
+-%}
+<ul class="social-icons__wrapper">
+  {% if settings.facebook_url != blank %}
+    <li>
+      <a href="{{ settings.facebook_url }}" target="_blank" aria-label="Facebook">
+        {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'social',
+           icon: 'facebook',
+           classes: 'share-icons--icon',
+           size: '14px',
+           fill: fill_color,
+           hover: hover_color %}
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.instagram-id != blank %}
+    <li>
+      <a href="//instagram.com/{{ settings.instagram-id }}" target="_blank" aria-label="Instagram">
+        {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'social',
+           icon: 'instagram',
+           classes: 'share-icons--icon',
+           size: '14px',
+           fill: fill_color,
+           hover: hover_color %}
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.twittername != blank %}
+    <li>
+      <a href="{{ settings.twittername }}" target="_blank" aria-label="Twitter">
+        {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'social',
+           icon: 'twitter',
+           classes: 'share-icons--icon',
+           size: '14px',
+           fill: fill_color,
+           hover: hover_color %}
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.pinterest_url != blank %}
+    <li>
+      <a href="{{ settings.pinterest_url }}" target="_blank" aria-label="Pinterest">
+        {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'social',
+           icon: 'pinterest',
+           classes: 'share-icons--icon',
+           size: '14px',
+           fill: fill_color,
+           hover: hover_color %}
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.tumblr_url != blank %}
+    <li>
+      <a href="{{ settings.tumblr_url }}" target="_blank" aria-label="Tumblr">
+        {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'social',
+           icon: 'tumblr',
+           classes: 'share-icons--icon',
+           size: '14px',
+           fill: fill_color,
+           hover: hover_color %}
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.youtube_url != blank %}
+    <li>
+      <a href="{{ settings.youtube_url }}" target="_blank" aria-label="Youtube">
+        {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'social',
+           icon: 'youtube',
+           classes: 'share-icons--icon',
+           size: '14px',
+           fill: fill_color,
+           hover: hover_color %}
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.snapchat_id != blank %}
+    <li>
+      <a href="//snapchat.com/add/{{ settings.snapchat_tid }}" target="_blank" aria-label="Snapchat">
+        {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'social',
+           icon: 'snapchat',
+           classes: 'share-icons--icon',
+           size: '14px',
+           fill: fill_color,
+           hover: hover_color %}
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.tiktok != blank %}
+  <li>
+    <a href="{{ settings.tiktok }}" target="_blank" title="Tiktok">
+      {% render 'snip-icons',
+       wrapper: wrapper,
+       type: 'social',
+       icon: 'tiktok',
+       classes: 'share-icons--icon',
+       size: '14px',
+       fill: fill_color,
+       hover: hover_color %}
+    </a>
+  </li>
+{% endif %}
+{% if settings.etsy != blank %}
+  <li>
+    <a href="{{ settings.etsy }}" target="_blank" title="Etsy">
+      {% render 'snip-icons',
+       wrapper: wrapper,
+       type: 'social',
+       icon: 'etsy',
+       classes: 'share-icons--icon',
+       size: '14px',
+       fill: fill_color,
+       hover: hover_color %}
+    </a>
+  </li>
+{% endif %}
+</ul>

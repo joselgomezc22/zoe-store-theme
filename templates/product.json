@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_info": {
+          "type": "product_info",
+          "settings": {
+          }
+        },
+        "product_variants": {
+          "type": "product_variants",
+          "settings": {
+          }
+        },
+        "product_sku": {
+          "type": "product_sku",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "product_quantity": {
+          "type": "product_quantity",
+          "settings": {
+          }
+        },
+        "product_buttons": {
+          "type": "product_buttons",
+          "settings": {
+            "back_in_stock": true,
+            "back_in_stock_text": "<p>Email me when this is available<\/p>"
+          }
+        },
+        "f7704069-17c8-42f6-ae27-646be7b277dd": {
+          "type": "additional_content",
+          "settings": {
+            "ac_text": "Envío gratis a todo Colombia",
+            "ac_link": "",
+            "ac_icon": "ship-truck"
+          }
+        },
+        "519d2af3-1da3-4d6b-a7cc-157f37606a4e": {
+          "type": "additional_content",
+          "settings": {
+            "ac_text": "Recibe el mismo día por solo $8.000",
+            "ac_link": "",
+            "ac_icon": "wish"
+          }
+        },
+        "product_description": {
+          "type": "product_description",
+          "settings": {
+          }
+        },
+        "ba479e68-3314-4f60-9111-e6b5ca5ab1c1": {
+          "type": "additional_content",
+          "settings": {
+            "ac_text": "Lavar a mano preferiblemente, no escurrir, retocar o frotar, o utilizar blanqueador ",
+            "ac_link": "",
+            "ac_icon": "bag"
+          }
+        },
+        "metafield_popup": {
+          "type": "metafield_popup",
+          "settings": {
+            "popup_label": "Care guide",
+            "popup_metafield_content": "<p>{{ product.metafields.descriptors.care_guide.value }}<\/p>"
+          }
+        },
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
+          "type": "shortcode_popup",
+          "settings": {
+            "popup_label": "Guía de tallas",
+            "shortcode_name": "Tallas"
+          }
+        },
+        "0b98c94e-46ad-44b2-983d-78b7a5f606fc": {
+          "type": "additional_content",
+          "settings": {
+            "ac_text": "Necesitas ayuda? Escribenos por Whatsapp",
+            "ac_link": "https:\/\/wa.me\/message\/ON6QDKVRBPA3L1",
+            "ac_icon": "user-circle"
+          }
+        }
+      },
+      "block_order": [
+        "product_info",
+        "product_variants",
+        "product_sku",
+        "product_quantity",
+        "product_buttons",
+        "f7704069-17c8-42f6-ae27-646be7b277dd",
+        "519d2af3-1da3-4d6b-a7cc-157f37606a4e",
+        "product_description",
+        "ba479e68-3314-4f60-9111-e6b5ca5ab1c1",
+        "metafield_popup",
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
+        "0b98c94e-46ad-44b2-983d-78b7a5f606fc"
+      ],
+      "settings": {
+        "click_to_enlarge": false,
+        "image_section_size": "medium",
+        "image_options": "static",
+        "thumbnail_position": "left",
+        "slide_controls": "arrows",
+        "enable_video_looping": false,
+        "description_background": "",
+        "show_social_share": true,
+        "product_description_position": "below",
+        "lower_description": "small",
+        "lower_description_background": ""
+      }
+    },
+    "16281158786d72aa6c": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Estas también te van a encantar",
+        "items_shown": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16281158786d72aa6c",
+    "product-recommendations"
+  ]
+}

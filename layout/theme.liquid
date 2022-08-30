@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ request.locale.iso_code }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Establish early connection to external domains -->
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
+  <link rel="preconnect" href="//ajax.googleapis.com" crossorigin />
+
+  {%- liquid
+
+    assign main_font = settings.main_font
+    assign heading_font = settings.heading_font
+    assign nav_font = settings.nav_font
+    assign main_font_bold = main_font | font_modify: 'weight', 'bolder'
+    assign main_font_italic = main_font | font_modify: 'style', 'italic'
+    assign main_font_bold_italic = main_font_bold | font_modify: 'style', 'italic'
+
+  -%}
+
+  <!-- Preload onDomain stylesheets and script libraries -->
+  <link rel="preload" href="{{ 'stylesheet.css' | asset_url }}" as="style">
+  <link rel="preload" as="font" href="{{ main_font | font_url }}" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="{{ nav_font | font_url }}" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="{{ heading_font | font_url }}" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ 'eventemitter3.min.js' | asset_url }}" as="script">
+  <link rel="preload" href="{{ 'vendor-video.js' | asset_url }}" as="script">
+  <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
+
+
+  {% if settings.favicon %}<link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />{% endif %}
+  <link rel="canonical" href="{{ canonical_url }}" />
+
+  <title>{% if template == 'index' %}{% if page_title contains 'Welcome' %}{{ shop.name }} &ndash; Welcome{% else %}{{ page_title }}{% endif %}{% elsif template == '404' %}Page Not Found{% elsif page_title contains shop.name %}{{ page_title }}{% else %}{{ page_title }} &ndash; {{ shop.name }}{% endif %}</title>
+  {% if page_description %}<meta name="description" content="{{ page_description }}" />{% endif %}
+
+  {% render 'social-media-meta-tags' %}
+  {% render 'structured-data' %}
+  {% render 'css-variables' %}
+
+  <link rel="stylesheet" href="{{ 'stylesheet.css' | asset_url }}" type="text/css">
+
+  <style>
+  {{ main_font | font_face: font_display: 'swap' }}
+  {{ nav_font | font_face: font_display: 'swap' }}
+  {{ heading_font | font_face: font_display: 'swap' }}
+  {{ main_font_bold | font_face: font_display: 'swap' }}
+  {{ main_font_italic | font_face: font_display: 'swap' }}
+  {{ main_font_bold_italic | font_face: font_display: 'swap' }}
+  </style>
+
+  {{ content_for_header }}
+
+  {% render 'judgeme_core' %}
+</head>
+<body class="gridlock template-{{ template | handleize }} js-slideout-toggle-wrapper js-modal-toggle-wrapper {% render 'body-classes' %}">
+
+  <div class="js-slideout-overlay site-overlay"></div>
+  <div class="js-modal-overlay site-overlay"></div>
+
+  <aside class="slideout slideout__drawer-left" data-wau-slideout="mobile-navigation" id="slideout-mobile-navigation">
+    {% section 'mobile-navigation' %}
+  </aside>
+
+  <div class="site-wrap">
+
+    {% section 'announcement-bar' %}
+    {% section 'header' %}
+
+    <div class="page-wrap">
+
+      <main class="content-wrapper" role="main">
+
+        {% render 'mobile-search' %}
+        {{ content_for_layout }}
+
+      </main>
+
+    </div><!-- /.page-wrap -->
+
+    {% section 'footer' %}
+
+    <div style="display:none;" data-wau-slideout-content="search-sidebar" data-wau-slideout="search-sidebar">
+      <div class="slideout__trigger--close">
+        <button class="slideout__trigger-search-sidebar js-slideout-close" data-slideout-direction="right" aria-label="Close sidebar" tabindex="0" type="button" name="button">
+          <div class="icn-close"></div>
+        </button>
+      </div>
+      <div class="sidebar__search-container">
+        <form action="{{ routes.search_url }}" method="get">
+          {%- if settings.predictive_search_enabled -%}
+          <predictive-search
+            data-routes="{{ routes.predictive_search_url | default: '/search/suggest' }}"
+            data-show-only-products="{{ settings.search_show_products_only | default: 'false' }}"
+            data-results-per-resource="6"
+            data-input-selector='input[name="q"]'
+            data-results-selector="#predictive-search"
+            >
+          {%- endif -%}
+            <input
+              type="text"
+              name="q"
+              id="searchbox-{{ section.id }}"
+              class="searchbox__input"
+              placeholder="{{ 'general.search.placeholder' | t }}"
+              value="{{ search.terms | escape }}"
+              {%- if settings.predictive_search_enabled -%}
+                role="combobox"
+                aria-expanded="false"
+                aria-owns="predictive-search-results-list"
+                aria-controls="predictive-search-results-list"
+                aria-haspopup="listbox"
+                aria-autocomplete="list"
+                autocorrect="off"
+                autocomplete="off"
+                autocapitalize="off"
+                spellcheck="false"
+              {%- endif -%}>
+            <input value="{{ 'general.search.submit' | t }}" name="submit" id="search_button" class="button" type="submit">
+
+            <input name="options[prefix]" type="hidden" value="last">
+
+            {% if settings.search_show_products_only %}
+              <input type="hidden" name="type" value="product">
+            {% endif %}
+
+            {%- if settings.predictive_search_enabled -%}
+              <div id="predictive-search" class="predictive-search" tabindex="-1"></div>
+            {%- endif -%}
+        </form>
+        {%- if settings.predictive_search_enabled -%}
+        </predictive-search>
+        {%- endif -%}
+      </div>
+    </div>
+
+  </div><!-- /.site-wrap -->
+
+  {%- if settings.cart_type == 'drawer' -%}
+  <aside class="slideout slideout__drawer-right mini-cart" data-wau-slideout="ajax-cart" id="slideout-ajax-cart">
+    {% render 'cart-mini' %}
+  </aside>
+  {% elsif settings.cart_type == 'modal_cart' %}
+  <div class="modal__container" data-wau-modal="ajax-cart" id="modal-ajax-cart">
+    <div class="modal__inner-wrapper">
+      {% render 'cart-mini' %}
+    </div>
+  </div>
+  {%- endif -%}
+  {%- if settings.quickview -%}
+  <div class="modal__container" data-wau-modal="quickview" id="modal-quickview-cart">
+    <div class="modal__inner-wrapper">
+      {%- render 'product-quickview' -%}
+    </div>
+  </div>
+{%- endif -%}
+
+  {% render 'cart-config' %}
+  <script src="{{ 'eventemitter3.min.js' | asset_url }}"></script>
+  <script src="{{ 'vendor-video.js' | asset_url }}" defer></script>
+  <script src="{{ 'theme.js' | asset_url }}"></script>
+
+  <a href="#" title="Click to scroll to top" class="scrollup">
+    {% render 'snip-icons',
+       wrapper: '.scrollup',
+       type: 'apollo',
+       icon: 'up-carrot',
+       classes: 'scrollup--icon',
+       size: '14px',
+       fill: 'var(--text-color)',
+       hover: 'var(--text-color)' %} TOP
+  </a>
+  {% section 'mailing-popup' %}
+  <div class="clear"></div>
+
+  <script>
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    window.lazySizesConfig.minSize = 360;
+  </script>
+
+  {%- if request.page_type contains 'customers/' or template == 'cart' -%}
+    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+  {%- endif -%}
+  {%- if request.page_type contains 'customers/' -%}
+    <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer="defer"></script>
+  {%- endif -%}
+
+  <script>
+    document.documentElement.className = document.documentElement.className.replace("no-js","js");
+  </script>
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            {% render 'snip-icons',
+             wrapper: '.pswp__button',
+             type: 'apollo',
+             icon: 'left-carrot',
+             classes: 'pswp__button--icon',
+             size: '14px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+          </button>
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            {% render 'snip-icons',
+             wrapper: '.pswp__button',
+             type: 'apollo',
+             icon: 'right-carrot',
+             classes: 'pswp__button--icon',
+             size: '14px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+          </button>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)">
+            {% render 'snip-icons',
+             wrapper: '.pswp__button',
+             type: 'apollo',
+             icon: 'close',
+             classes: 'pswp__button--icon',
+             size: '15px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+          </button>
+        </div>
+    </div>
+  </div>
+  <script>
+   AOS.init();
+ </script>
+  <script
+data-name="shopifyAddiWidget"
+data-id="zoestore"
+data-ally-slug="zoe-ecommerce"
+data-element-reference=".product-add"
+src="https://s3.amazonaws.com/statics.addi.com/shopify/js/shopify-co-widget-wrapper.bundle.min.js"
+></script>
+</body>
+</html>

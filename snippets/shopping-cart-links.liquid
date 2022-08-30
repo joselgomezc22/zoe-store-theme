@@ -1,0 +1,195 @@
+{% if show_cart_links == true %}
+  <li class="cart-links__item seeks slideout__trigger--open">
+    <button class="button-as-link slideout__trigger-search js-slideout-open" data-wau-slideout-target="search-sidebar" data-slideout-direction="right" aria-label="Open Search" tabindex="0" type="button" name="button">
+      {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'icon-theme',
+           icon: 'search',
+           classes: 'slideout__trigger-search--icon vib-center',
+           size: '14px',
+           fill: fill_color,
+           hover: fill_color %}
+    </button>
+  </li>
+  {% if shop.customer_accounts_enabled %}
+    {% if customer  %}
+      <li class="cart-links__item cust">
+        <a href="{{ routes.account_url }}">
+          {% render 'snip-icons',
+             wrapper: wrapper,
+             type: 'icon-theme',
+             icon: 'user',
+             classes: 'cart-links__link-account--icon vib-center',
+             size: '14px',
+             fill: fill_color,
+             hover: fill_color %}
+        </a>
+      </li>
+      <li class="cart-links__item cust">
+        <a href="{{ routes.account_logout_url }}" class="logout-link">
+          {% render 'snip-icons',
+             wrapper: wrapper,
+             type: 'icon-theme',
+             icon: 'user-logout',
+             classes: 'cart-links__link-account--icon vib-center',
+             size: '14px',
+             fill: fill_color,
+             hover: fill_color %}
+        </a>
+      </li>
+    {% else %}
+      <li class="cart-links__item cust">
+        <a href="{{ routes.account_login_url }}">
+          {% render 'snip-icons',
+             wrapper: wrapper,
+             type: 'icon-theme',
+             icon: 'user',
+             classes: 'cart-links__link-login--icon vib-center',
+             size: '14px',
+             fill: fill_color,
+             hover: fill_color %}
+        </a>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{%- if hd_locale_selector -%}
+  <li class="cart-links__item lang-selector">
+      <div class="selectors-form__item">
+        <h2 class="visually-hidden" id="lang-heading">
+          {{ 'general.language.dropdown_label' | t }}
+        </h2>
+
+        <noscript>
+          {%- form 'localization', id: 'HeaderLanguageFormNoScript', class: 'selectors-form', data-disclosure-form: '' -%}
+            <select name="locale_code" class="localization-selector" aria-labelledby="lang-heading">
+              <option value="" disabled>{{ 'general.language.dropdown_label' | t }}</option>
+              {%- for language in localization.available_languages -%}
+                <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
+                  {{ language.endonym_name | capitalize }}
+                </option>
+              {%- endfor -%}
+            </select>
+            <button class="localization-form__noscript-btn button mb0 v-center button-as-link">
+              {% render 'snip-icons',
+                 wrapper: '.section-top-bar__lang',
+                 type: 'apollo',
+                 icon: 'checkmark',
+                 size: '12px',
+                 fill: 'var(--topbar-text-color)',
+                 hover: 'var(--topbar-background-color)' %}
+            </button>
+          {%- endform -%}
+        </noscript>
+
+        {%- form 'localization', id: 'HeaderLanguageForm', class: 'selectors-form', data-disclosure-form: '' -%}
+        <div class="disclosure" data-disclosure-locale>
+          <button type="button" class="disclosure__toggle" aria-expanded="false" aria-controls="lang-list" aria-describedby="lang-heading" data-disclosure-toggle>
+            {{ form.current_locale.iso_code }}
+          </button>
+          <ul id="lang-list" class="disclosure-list" data-disclosure-list>
+            {% for locale in form.available_locales %}
+              <li class="disclosure-list__item {% if locale.iso_code == form.current_locale.iso_code %}disclosure-list__item--current{% endif %}">
+                <a class="disclosure-list__option" href="#" title="{{ locale.endonym_name | escape }}" lang="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %} data-value="{{ locale.iso_code }}" data-disclosure-option>
+                  {{ locale.endonym_name }}
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+          <input type="hidden" name="locale_code" id="LocaleSelector" value="{{ form.current_locale.iso_code }}" data-disclosure-input/>
+        </div><!-- /.disclosure -->
+        {%- endform -%}
+      </div><!-- /.selectors-form__item -->
+  </li>
+{%- endif -%}
+{%- if hd_country_selector -%}
+  <li class="cart-links__item curr-selector">
+    <div class="selectors-form__item">
+      <h2 class="visually-hidden" id="currency-heading">
+        {{ 'general.currency.dropdown_label' | t }}
+      </h2>
+      <noscript>
+        {%- form 'localization', id: 'HeaderCountryFormNoScript', class: 'selectors-form', data-disclosure-form: '' -%}
+          <select class="localization-selector link" name="country_code" aria-labelledby="currency-heading">
+            <option value="" disabled>{{ 'general.currency.dropdown_label' | t }}</option>
+            {%- for country in localization.available_countries -%}
+              <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
+                {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
+              </option>
+            {%- endfor -%}
+          </select>
+          <button class="localization-form__noscript-btn button mb0 btn-as-link inline-block v-center button-as-link">
+            {% render 'snip-icons',
+               wrapper: '.section-top-bar__lang',
+               type: 'apollo',
+               icon: 'checkmark',
+               size: '12px',
+               fill: 'var(--topbar-text-color)',
+               hover: 'var(--topbar-background-color)' %}
+          </button>
+        {%- endform -%}
+      </noscript>
+      {%- form 'localization', id: 'HeaderCountryForm', class: 'selectors-form', data-disclosure-form: '' -%}
+        <div class="disclosure" data-disclosure-currency>
+          <button type="button" class="disclosure__toggle" aria-expanded="false" aria-controls="currency-list" aria-describedby="currency-heading" data-disclosure-toggle>
+            {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
+          </button>
+          <ul id="currency-list" class="disclosure-list" data-disclosure-list>
+            {%- for country in localization.available_countries -%}
+              <li class="disclosure-list__item {% if currency.iso_code == localization.country.iso_code %}disclosure-list__item--current{% endif %}">
+                <a class="disclosure-list__option" href="#" title="{{ country.iso_code | escape }}" {% if country.iso_code == localization.country.iso_code %}aria-current="true"{% endif %} data-value="{{ country.iso_code }}" data-disclosure-option>
+                  {{ country.name }} <span class="localization-form__currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+          <input type="hidden" name="country_code" id="HeaderCurrencySelector" value="{{ localization.country.iso_code }}" data-disclosure-input/>
+        </div>
+      {%- endform -%}
+    </div>
+  </li>
+{%- endif -%}
+
+{% if show_cart_links == true %}
+  <li class="cart-links__item my-cart-link-container">
+  {% if settings.cart_type == 'page_only' %}
+    <a href="{{ routes.cart_url }}">
+      <span class="my-cart-text vib-center">{{ 'cart.general.title' | t }}</span>
+      {% render 'snip-icons',
+           wrapper: wrapper,
+           type: 'icon-theme',
+           icon: 'cart',
+           classes: 'my-cart-link-container--icon vib-center',
+           size: '14px',
+           fill: fill_color,
+           hover: fill_color %}
+      <span class="js-cart-count vib-center">{{ cart.item_count }}</span>
+    </a>
+  {% else %}
+    {%- if settings.cart_type == 'drawer' -%}
+      {% assign cart_classes = 'js-slideout-open' %}
+      {% assign cart_settings = 'data-wau-slideout-target="ajax-cart" data-slideout-direction="right"' %}
+    {% elsif settings.cart_type == 'modal_cart' %}
+      {% assign cart_classes = 'js-modal-open' %}
+      {% assign cart_settings = 'data-wau-modal-target="ajax-cart"' %}
+    {%- endif -%}
+    <div class="slideout__trigger--open">
+      <a href="{{ routes.cart_url }}">
+        <button class="slideout__trigger-mobile-menu js-mini-cart-trigger {{ cart_classes }}" {{ cart_settings }} aria-label="Open cart" tabindex="0" type="button" name="button">
+          <span class="my-cart-text vib-center">{{ 'cart.general.title' | t }}</span>
+          {% render 'snip-icons',
+               wrapper: wrapper,
+               type: 'icon-theme',
+               icon: 'cart',
+               classes: 'my-cart-link-container--icon vib-center',
+               size: '14px',
+               fill: fill_color,
+               hover: fill_color %}
+          <span class="js-cart-count vib-center">{{ cart.item_count }}</span>
+        </button>
+      </a>
+    </div>
+  {% endif %}
+  </li>
+{% endif %}

@@ -1,0 +1,295 @@
+
+<div class="collection__filter-toggleWrapper">
+
+  <div class="filtering__pagination">
+    <p class="mb0">{{ paginate.items }} {{ 'sections.collection_template.products' | t }}</p>
+  </div>
+
+  <div class="sort__filter--triggers">
+
+    {% if horizontal_filtering_enabled %}
+    <button class="filter-price__trigger js-show-filters">
+      <span class="vib-center">{{ 'sections.collection_template.filter' | t }}</span>
+      {% render 'snip-icons',
+         wrapper: '.filter-price__trigger',
+         type: 'apollo',
+         icon: 'filter',
+         classes: 'collection__filter-toggle--icon vib-center',
+         size: '12px',
+         fill: 'var(--text-color)',
+         hover: 'var(--text-color)' %}
+    </button>
+    {% endif %}
+
+    {% if sort_by_enabled %}
+      <div class="collection__horizontal-toolbar sort-by__wrapper" data-collection-sort-by>
+        {% render 'snip-icons',
+             wrapper: '.sort-by__wrapper',
+             type: 'apollo',
+             icon: 'down-carrot',
+             classes: 'filter--icon vib-center',
+             size: '6px',
+             fill: 'var(--text-color)',
+             hover: 'var(--text-color)' %}
+        <div class="collection__filtering js-hz-filter">
+          <input class="chosen-value js-hz-filter-input" type="text" value="" data-filter-type="sort-by" data-placeholder="{{ 'sections.collection_template.sort_by_placeholder' | t }}" data-generic-placeholder="{{ 'sections.collection_template.type_to_filter' | t }}" placeholder="{{ 'sections.collection_template.sort_by_placeholder' | t }}">
+          <ul class="value-list js-hz-filter-list">
+            {% for option in collection.sort_options %}
+              {%- liquid
+                if option.value == collection.sort_by
+                  assign status = 'current'
+                else
+                  assign status = 'available'
+                endif
+              -%}
+              <li class="{{ status }}" data-placeholder="{{ option.name }}" data-option-value="{{ option.value }}">
+                <input type="checkbox"
+                       name="sort_by"
+                       value="{{ option.value | escape }}">
+                <span class="js-hz-filter-label">{{ option.name }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endif %}
+
+  </div>
+</div>
+
+{% if horizontal_filtering_enabled %}
+<div class="collection__filter-wrapper" id="collection__filter-wrapper">
+  <div class="collection__page-filter desktop-12 tablet-6 mobile-3 contained" data-collection-filters-hz {{ block.shopify_attributes }}>
+    <div class="collection__horizontal-toolbar filtering__wrapper">
+      <p>{{ 'sections.collection_template.filter_by_label' | t }}</p>
+      <ul id="collection--filters" role="list">
+        {%- if horizontal_filtering_enabled -%}
+          {%- for filter in collection.filters -%}
+            {%- assign total_active_values = total_active_values | plus: filter.active_values.size -%}
+            {% case filter.type %}
+            {% when 'list' %}
+              {%- liquid
+
+                assign is_size_filter = false
+                assign is_color_filter = false
+                assign filter_label_to_lowercase = filter.label | downcase
+
+                if filter_label_to_lowercase contains "color"
+                  assign is_color_filter = true
+                elsif filter_label_to_lowercase contains "colour"
+                  assign is_color_filter = true
+                elsif filter_label_to_lowercase contains "size"
+                  assign is_size_filter = true
+                endif
+
+                if is_color_filter
+                  assign filter_type = 'color'
+                elsif is_size_filter
+                  assign filter_type = 'size'
+                else
+                  assign filter_type = 'regular'
+                endif
+
+              -%}
+
+              <li class="clearfix filter filter--{{ filter_type }}" data-index="{{ forloop.index }}">
+                {% render 'snip-icons',
+                   wrapper: '.filtering__wrapper',
+                   type: 'apollo',
+                   icon: 'down-carrot',
+                   classes: 'filter--icon vib-center',
+                   size: '6px',
+                   fill: 'var(--text-color)',
+                   hover: 'var(--text-color)' %}
+                <div class="collection__filtering js-hz-filter">
+                  <input class="chosen-value js-hz-filter-input" type="text" value="" data-filter-type="filter" data-placeholder="{{ filter.label }}" data-generic-placeholder="{{ 'sections.collection_template.type_to_filter' | t }}" placeholder="{{ filter.label }}">
+                  <ul class="value-list js-hz-filter-list">
+                    {% for value in filter.values %}
+
+                      {%- liquid
+
+                        for product in collection.products
+                          unless is_color_filter
+                            continue
+                          endunless
+
+                          for option in product.options_with_values
+                            assign option_name = option.name | downcase
+
+                            unless option_name contains "color" or option_name contains "colour"
+                              continue
+                            endunless
+
+                            assign variant_img_url = null
+                            assign swatch_color_name = value.label | handleize | downcase | append: '.png'
+                            assign swatch_image_url = swatch_color_name | file_url
+                            assign css_color = value.label | split: ' ' | last | downcase
+
+                            if images[swatch_color_name] != blank
+                              assign bg_img = 'background-image:url(' | append:  swatch_image_url | append: ');'
+                            else
+                              assign bg_img = ''
+                            endif
+                            assign bg_color = 'background-color:' | append:  css_color | append: ';'
+
+                          endfor
+                        endfor
+
+                        if value.active
+                          assign status = 'current'
+                        elsif value.count == 0 and value.active == false
+                          assign status = 'disabled'
+                        else
+                          assign status = ''
+                        endif
+                      -%}
+
+                      {% if is_color_filter %}
+                        <li id="Filter-{{ filter.label | escape }}-{{ forloop.index }}" class="{{ status }}" data-remove="{{ value.url_to_remove }}" data-add="{{ value.url_to_add }}">
+                          <input type="checkbox"
+                                 name="{{ value.param_name }}"
+                                 value="{{ value.value }}"
+                                 {% if value.active %}checked{% endif %}
+                                 {% if value.count == 0 and value.active == false %}disabled{% endif%}>
+                          <span class="color-filter color-filter--rounded color-filter--{{ status }} {{ status }}" style="{{ bg_color }}{{ bg_img }}"></span>
+                          <span class="js-hz-filter-label color-filter--label">{{ value.label | escape }} <span class="filter__count">({{ value.count }})</span></span>
+                        </li>
+                      {% else %}
+                        <li id="Filter-{{ filter.label | escape }}-{{ forloop.index }}" class="{{ status }}" data-remove="{{ value.url_to_remove }}" data-add="{{ value.url_to_add }}">
+                          <input type="checkbox"
+                                 name="{{ value.param_name }}"
+                                 value="{{ value.value }}"
+                                 {% if value.active %}checked{% endif %}
+                                 {% if value.count == 0 and value.active == false %}disabled{% endif%}>
+                          <span class="js-hz-filter-label">{{ value.label | escape }} <span class="filter__count">({{ value.count }})</span></span>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+
+                <noscript>
+                  <!-- No js filters submits with button -->
+                  <label for="Filter-{{ filter.label | escape }}">{{ filter.label | escape }}</label>
+                  <select id="Filter-{{ filter.label | escape }}" class="styled-select m0 coll-filter">
+                    <option value="">{{ 'sections.collection_template.filters_selected' | t: count: filter.active_values.size }}</option>
+                    {% for value in filter.values %}
+                      {% if value.active %}
+                        <option id="Filter-{{ filter.label | escape }}-{{ forloop.index }}" value="{{ value.url_to_add }}" selected>{{ value.label | escape }} ({{ value.count }})</option>
+                      {% elsif value.count == 0 and value.active == false %}
+                        <option id="Filter-{{ filter.label | escape }}-{{ forloop.index }}" value="{{ value.url_to_add }}" disabled>{{ value.label | escape }} ({{ value.count }})</option>
+                      {% else %}
+                        <option id="Filter-{{ filter.label | escape }}-{{ forloop.index }}" value="{{ value.url_to_add }}">{{ value.label | escape }} ({{ value.count }})</option>
+                      {% endif %}
+                    {% endfor %}
+                  </select>
+                </noscript>
+              </li>
+            {% when 'price_range' %}
+              {%- liquid
+                assign currencies_using_comma_decimals = "ANG,ARS,BRL,BYN,BYR,CLF,CLP,COP,CRC,CZK,DKK,EUR,HRK,HUF,IDR,ISK,MZN,NOK,PLN,RON,RUB,SEK,TRY,UYU,VES,VND" | split: ','
+                assign uses_comma_decimals = false
+
+                if currencies_using_comma_decimals contains cart.currency.iso_code
+                  assign uses_comma_decimals = true
+                endif
+              -%}
+
+              <li class="clearfix filter filter--price-range js-hz-filter-price" data-collection-filters-price-range data-index="{{ forloop.index }}">
+                <button class="filter-price__trigger js-hz-filter-price-trigger">
+                  {{ filter.label | escape }}
+                  {% render 'snip-icons',
+                     wrapper: '.filtering__wrapper',
+                     type: 'apollo',
+                     icon: 'down-carrot',
+                     classes: 'filter--icon vib-center',
+                     size: '6px',
+                     fill: 'var(--text-color)',
+                     hover: 'var(--text-color)' %}
+                </button>
+                <div class="filter-price__dropdown js-hz-filter-price-dropdown" style="display: none;">
+                  <div class="filter-range__boxes js-price-range">
+                    <div class="filter-range__field">
+                      <label class="filter-range__field__label visually-hidden" for="Filter-{{ filter.label | escape }}-{{ forloop.index }}">{{ 'sections.collection_template.from' | t }}</label>
+                      <span class="filter-range__field__currency">{{ cart.currency.symbol }}</span>
+                      <input class="filter-range__field__input js-filter-range-input js-price-min-output"
+                        name="{{ filter.min_value.param_name }}"
+                        id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
+                        {%- if filter.min_value.value -%}
+                          {%- if uses_comma_decimals -%}
+                            value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                          {%- else -%}
+                            value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
+                          {% endif %}
+                        {%- endif -%}
+                        type="number"
+                        placeholder="{{ 'sections.collection_template.from' | t }}"
+                        min="0"
+                        max="{{ filter.range_max | money_without_currency | replace: ',', '' }}">
+                      </input>
+                    </div>
+                    <div class="filter-range__field">
+                      <label class="filter-range__field__label visually-hidden" for="Filter-{{ filter.label | escape }}-{{ forloop.index }}">{{ 'sections.collection_template.to' | t }}</label>
+                      <span class="filter-range__field__currency">{{ cart.currency.symbol }}</span>
+                      <input class="filter-range__field__input js-filter-range-input js-price-max-output"
+                        name="{{ filter.max_value.param_name }}"
+                        id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
+                        {%- if filter.max_value.value -%}
+                          {%- if uses_comma_decimals -%}
+                            value="{{ filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                          {%- else -%}
+                            value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
+                          {% endif %}
+                        {%- endif -%}
+                        type="number"
+                        placeholder="{{ 'sections.collection_template.to' | t }}"
+                        min="0"
+                        max="{{ filter.range_max | money_without_currency | replace: ',', '' }}">
+                      </input>
+                    </div>
+
+                    <div class="filter-range__slider--wrapper span-2 auto">
+                      <input class="filter-range__slider--input"
+                        {%- if filter.min_value.value -%}
+                          {%- if uses_comma_decimals -%}
+                            value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                          {%- else -%}
+                            value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
+                          {% endif %}
+                        {%- else -%}
+                          value="0"
+                        {%- endif -%}
+                        min="0"
+                        max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                        step="1.00"
+                        type="range"/>
+                      <input class="filter-range__slider--input"
+                        {%- if filter.max_value.value -%}
+                          {%- if uses_comma_decimals -%}
+                            value="{{ filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                          {%- else -%}
+                            value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
+                          {% endif %}
+                        {%- else -%}
+                          value="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                        {%- endif -%}
+                        min="0"
+                        max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                        step="1.00"
+                        type="range"/>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            {% endcase %}
+          {%- endfor -%}
+        {%- endif -%}
+      </ul>
+      <noscript>
+        <!-- No js filters button to submit select filters -->
+        <button type="submit" class="button">{{ 'sections.collection_template.filter_button' | t }}</button>
+      </noscript>
+    </div>
+  </div>
+</div>
+{% endif %}

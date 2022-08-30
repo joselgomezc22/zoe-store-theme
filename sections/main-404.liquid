@@ -1,0 +1,25 @@
+<div class="row main__section">
+  <div class="section-title desktop-12 mobile-3">
+    <h1>{{ 'general.404.title' | t }}</h1>
+  </div>
+
+  <div id="page" class="desktop-12 tablet-6 mobile-3">
+    <p class="a-center">{{ 'general.404.subtext' | t }}</p>
+    <div id="search-bar">
+      <form action="{{ routes.search_url }}" method="get">
+        <input type="text" name="q" id="searchbox-{{ section.id }}" class="searchbox__input" placeholder="{{ 'general.search.placeholder' | t }}"/>
+        {% if settings.search_show_products_only %}
+          <input type="hidden" name="type" value="product">
+        {% endif %}
+        <input value="{{ 'general.search.submit' | t }}" name="submit" id="search_button" class="button" type="submit">
+        {% if search.performed %}
+          {% if search.results_count == 0 %}
+            <p>{{ 'general.search.no_results_html' | t: terms: search.terms }}</p>
+          {% else %}
+            <p>{{ 'general.search.results_for_html' | t: terms: search.terms }}</p>
+          {% endif %}
+        {% endif %}
+      </form>
+    </div>
+  </div>
+</div><!-- /.row -->

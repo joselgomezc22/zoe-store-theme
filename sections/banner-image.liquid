@@ -1,0 +1,38 @@
+{% if section.settings.image != blank %}
+  <div class="collection-banner">
+      {%- render 'basic-responsive-image', type: section.settings.image, data_widths: '[180, 360, 540, 720, 900, 1080, 1296, 1512]' -%}
+      <noscript>
+        <img src="{{ section.settings.image | img_url: '1024x' }}" alt="{{ section.settings.image.alt }}">
+      </noscript>
+  </div><!-- /.collection-banner -->
+{% endif %}
+
+{% schema %}
+{
+  "name": "Banner image",
+  "settings":
+  [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1800px x 400px recommended"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Banner image"
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "list-collections",
+    "search",
+    "customers/account"
+  ]
+}
+{% endschema %}

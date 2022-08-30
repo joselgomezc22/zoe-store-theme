@@ -1,0 +1,69 @@
+{% for i in (1..post_limit) %}
+{% capture articleCycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+<div data-aos="{{ settings.scroll_animation }}" class="single-article {% if articleCycle == 'even' %}even{% elsif articleCycle == 'odd' %}odd{% endif %}{% if template contains 'article' %}odd{% endif %}">
+  {% capture articleImage %}
+    <div class="article-image">
+      {% capture placeholderCycle %}{% cycle 'collection-1', 'collection-2', 'collection-3' %}{% endcapture %}
+      <div class="onboard">
+        {{ placeholderCycle | placeholder_svg_tag }}
+      </div>
+    </div>
+  {% endcapture %}
+
+   {% if section.settings.blog_layout_grid %}
+    {{ articleImage }}
+   {% endif %}
+
+  {% unless section.settings.blog_layout_grid %}
+    {% if articleCycle == 'odd' %}
+      {{ articleImage }}
+    {% else %}
+      <div class="mobile-image">
+        {{ articleImage }}
+      </div>
+    {% endif %}
+  {% endunless %}
+
+  <div class="article-body" data-aos="{{ settings.scroll_animation }}">
+    <h3>
+      <a href="#" title="Blog post">
+        Blog post #{{ forloop.index }}
+      </a>
+    </h3>
+    <div class="clear"></div>
+    <div class="rte">
+      <p>This is a short blog article excerpt to give a small preview of what this blog post content is about.</p>
+    </div>
+    <div class="clear"></div>
+    <div class="post_meta">
+        <span class="posted">
+          {{ 'now' | date: "%a, %b %d, %y" }}
+        </span>
+        {% if section.settings.show_author %}
+          <span class="posted_by">
+            By Author Name
+          </span>
+        {% endif %}
+        {% if section.settings.post_tags %}
+          <ul>
+              <li class="tags">
+                <a href="" title="Blog tag">
+                  Blog Tag #1
+                </a>
+              </li>
+              <li class="tags">
+                <a href="" title="Blog tag">
+                  Blog Tag #2
+                </a>
+              </li>
+          </ul>
+        {% endif %}
+    </div>
+  </div>
+
+  {% if articleCycle == 'even' and section.settings.blog_layout_grid == false %}
+  {{ articleImage }}
+  {% endif %}
+
+</div>
+{% endfor %}

@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1628116575355cde55": {
+      "type": "collection-list",
+      "blocks": {
+        "1628116575355cde55-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1628116575355cde55-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1628116575355cde55-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1628116575355cde55-0",
+        "1628116575355cde55-1",
+        "1628116575355cde55-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Collection list",
+        "grid": 3,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "162811656934a787d4": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Featured collection",
+        "collection": "",
+        "carousel": false,
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "1628116575355cde55",
+    "162811656934a787d4"
+  ]
+}

@@ -1,0 +1,29 @@
+<div class="mobile__search--container row grid__wrapper full desktop-hide tablet-hide">
+  <div class="sm-span-12 auto mobile__search">
+    <form action="/search" method="get">
+      <input
+        type="text"
+        name="q"
+        id="mobile__global--search"
+        class="mobile__search-input"
+        placeholder="{{ 'general.search.placeholder' | t }}"
+        value="{{ search.terms | escape }}"
+        />
+      <input name="options[prefix]" type="hidden" value="last">
+      {% if settings.search_show_products_only %}
+        <input type="hidden" name="type" value="product">
+      {% endif %}
+
+      <button class="button-as-link mobile__search--button" type="submit" name="button">
+        {% render 'snip-icons',
+             wrapper: wrapper,
+             type: 'icon-theme',
+             icon: 'search',
+             classes: 'slideout__trigger-search--icon vib-center',
+             size: '14px',
+             fill: fill_color,
+             hover: fill_color %}
+      </button>
+    </form>
+  </div>
+</div>

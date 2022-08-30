@@ -1,0 +1,190 @@
+{%- liquid
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'mb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'mt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'mt0 mb0'
+  endif
+
+-%}
+<section id="contact-form-{{ section.id }}" class="contact-form contact-form--{{ section.id }} global__section global__section--margin {{ section_padding }}" data-section-id="{{ section.id }}" data-aos="{{ settings.scroll_animation }}">
+  <div class="row">
+    {% if section.settings.title != blank %}
+    <div class="section-title row">
+      <h2>
+        {{ section.settings.title | escape }}
+      </h2>
+    </div>
+    {% endif %}
+    <div style="max-width:{{ section.settings.cf_max_width }}px; margin: 0 auto;" >
+      {% render 'custom-contact' type: section %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact form",
+  "settings":
+  [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Contact Us"
+    },
+    {
+      "type": "range",
+      "id": "cf_max_width",
+      "min": 600,
+      "max": 1000,
+      "step": 100,
+      "unit": "px",
+      "label": "Form width",
+      "default": 800
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_first_name",
+      "label": "Show first name",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_last_name",
+      "label": "Show last name",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_company_name",
+      "label": "Show company name",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_address",
+      "label": "Show address",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_website_url",
+      "label": "Show website url",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_phone",
+      "label": "Show phone number",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Custom Field One"
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_custom_field_one",
+      "label": "Show custom field one",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "cf_custom_field_one",
+      "label": "Placeholder",
+      "default": "Custom Field One"
+    },
+    {
+      "type": "select",
+      "id": "cf_custom_field_one_type",
+      "label": "Type",
+      "default": "input",
+      "options":
+      [
+        {
+          "value": "textarea",
+          "label": "Multiple line text"
+        },
+        {
+          "value": "input",
+          "label": "Single line text"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Custom Field Two"
+    },
+    {
+      "type": "checkbox",
+      "id": "cf_show_custom_field_two",
+      "label": "Show custom field two",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "cf_custom_field_two",
+      "label": "Placeholder",
+      "default": "Custom Field Two"
+    },
+    {
+      "type": "select",
+      "id": "cf_custom_field_two_type",
+      "label": "Type",
+      "default": "input",
+      "options":
+      [
+        {
+          "value": "textarea",
+          "label": "Multiple line text"
+        },
+        {
+          "value": "input",
+          "label": "Single line text"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Contact form"
+    }
+  ],
+  "templates":
+  [
+    "article",
+    "index",
+    "page",
+    "product"
+  ]
+}
+{% endschema %}

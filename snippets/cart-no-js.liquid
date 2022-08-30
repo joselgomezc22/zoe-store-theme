@@ -1,0 +1,11 @@
+{% if cart.item_count == 0 %}
+  <p class="ajax-cart__empty-cart a-center js-cart-empty {{ isEmpty }}">{{ 'cart.general.empty' | t }}</p>
+{% else %}
+  {% render 'cart-form',
+     drawer: false,
+     modal: false,
+     page_only: false,
+     no_js_cart: true,
+     formEmpty: false,
+     is_narrow: true  %}
+{% endif %}

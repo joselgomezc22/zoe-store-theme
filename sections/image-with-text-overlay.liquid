@@ -1,0 +1,347 @@
+{%- liquid
+
+  assign scale = section.settings.scale
+
+  assign section_padding = ''
+  if section.settings.section_padding == 'top'
+    assign section_padding = 'mb0'
+  elsif section.settings.section_padding == 'bottom'
+    assign section_padding = 'mt0'
+  elsif section.settings.section_padding == 'none'
+    assign section_padding = 'mt0 mb0'
+  endif
+
+-%}
+<section
+  class="parallax-{{ section.id }} parallax lazyload lazyload-fade global__section global__section--margin {{ section_padding }}"
+  data-section-type="iwto-section"
+  data-scale="1.{{ scale }}"
+  data-section-id="{{ section.id }}"
+  data-aos="{{ settings.scroll_animation }}">
+
+  <article class="row">
+    {% if section.settings.image != blank %}
+     {% render 'basic-responsive-image', type: section.settings.image, data_widths: '[180, 360, 540, 720, 900, 1080, 1296, 1512]' %}
+    {% endif %}
+
+    <div class="image-overlay"></div>
+
+    <div class="parallax-content">
+
+      {%- liquid
+
+        assign has_caption = false
+        assign has_heading = false
+        assign has_text = false
+        assign has_button = false
+
+        if section.settings.title != blank
+          assign has_heading = true
+        endif
+        if section.settings.subheading != blank
+          assign has_text = true
+        endif
+        if section.settings.link != blank and section.settings.button_text != blank
+          assign has_button = true
+        endif
+        if has_heading == true or has_text == true or has_button == true
+          assign has_caption = true
+        endif
+
+      -%}
+
+      {% if has_caption %}
+        <div class="parallax-text">
+          {%- if has_heading -%}
+            <h2>{{ section.settings.title | escape }}</h2>
+          {%- endif %}
+          {%- if has_text -%}
+            <div class="rte">
+              <p>{{ section.settings.subheading }}</p>
+            </div><!-- .rte -->
+          {%- endif -%}
+          {%- if has_button -%}
+            <div class="clear"></div>
+            <a class="button" href="{{ section.settings.link }}">
+              {{ section.settings.button_text }}
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+
+    </div>
+    {% if section.settings.image == blank %}
+      <div class="onboard plax-placehold">
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      </div>
+    {% endif %}
+  </article>
+
+</section>
+
+<div class="clear"></div>
+<style>
+  .no-js .parallax-{{ section.id }} {
+    background-image: url('{{ section.settings.image | img_url: '1600x' }}');
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+  }
+  .parallax-{{ section.id }} article {
+    height: {{ section.settings.page_height }}px;
+    min-height: {{ section.settings.page_height }}px;
+  }
+  .parallax-{{ section.id }} .parallax-content {
+    width: fit-content;
+    max-width:  80%;
+    position: absolute;
+    z-index: 2;
+    top: {{ section.settings.caption_vertical }}%;
+    left: {{ section.settings.caption_horizontal }}%;
+    -webkit-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+      -ms-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+        -moz-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%); -o-transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%); transform: translate(-{{ section.settings.caption_horizontal }}%, -{{ section.settings.caption_vertical }}%);
+  }
+  .parallax-{{ section.id }} .parallax-text {
+    padding: 20px;
+    text-align: {{ section.settings.text_align }};
+    background: {{ section.settings.background }};
+  }
+  .parallax-{{ section.id }} .parallax-text h2 {
+    display: inline-block;
+  }
+  .parallax-{{ section.id }} .parallax-text h2,
+  .parallax-{{ section.id }} .parallax-text a h2,
+  .parallax-{{ section.id }} .parallax-text a:visited h2 {
+    color: {{ section.settings.text_color }};
+  }
+  .parallax-{{ section.id }} .parallax-text a:hover h2 {
+    opacity: 0.8;
+  }
+  .parallax-{{ section.id }} .parallax-text p {
+    color: {{ section.settings.text_color }};
+    margin-bottom: 10px;
+  }
+  .parallax-{{ section.id }} .parallax-text a.button,
+  .parallax-{{ section.id }} .parallax-text a.button:visited {
+    background: {{ section.settings.button_color }};
+    color: {{ section.settings.button_text_color }};
+    margin-bottom: 5px;
+  }
+  .parallax-text a.button:hover {
+    text-decoration: underline;
+  }
+  .parallax-{{ section.id }} .image-overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    {% assign bg_color = '#000000' %}
+    {% assign number = section.settings.overlay_opacity %}
+    {% assign overlay_opacity = number | divided_by: 100.0 %}
+    background: {{ bg_color | color_modify: 'alpha', overlay_opacity }};
+  }
+  @media screen and ( max-width: 740px ) {
+    .parallax-{{ section.id }} article {
+      height: initial;
+      min-height: 200px;
+    }
+  }
+  @media screen and ( max-width: 1024px ) {
+    .parallax-{{ section.id }} {
+      background-attachment: scroll !important;
+      background-size: cover !important;
+    }
+  }
+</style>
+
+
+{% schema %}
+{
+  "name": "Image with text overlay",
+  "settings":
+  [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1920px x 1000px recommended"
+    },
+    {
+      "type": "range",
+      "id": "scale",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "label": "Image scale",
+      "default": 2,
+      "info": "The higher the scale the greater the effect, 0 removes parallax scrolling"
+    },
+    {
+      "type": "range",
+      "id": "page_height",
+      "min": 200,
+      "max": 800,
+      "step": 100,
+      "label": "Image height",
+      "default": 400
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "<p>Add a sentence of overlay text to your image</p>"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "Button text",
+      "default": "Button"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Caption style"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Image overlay opacity",
+      "info": "Adding an overlay to your image can help with text contrast",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button background",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Caption background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "header",
+      "content": "Caption position"
+    },
+    {
+      "type": "range",
+      "id": "caption_horizontal",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Horizontal position",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "caption_vertical",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Vertical position",
+      "default": 50
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Caption alignment",
+      "default": "center",
+      "options":
+      [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section spacing",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both"
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Image with text overlay"
+    }
+  ],
+  "templates":
+  [
+    "404",
+    "article",
+    "blog",
+    "cart",
+    "collection",
+    "list-collections",
+    "index",
+    "page",
+    "product",
+    "search"
+  ]
+}
+{% endschema %}

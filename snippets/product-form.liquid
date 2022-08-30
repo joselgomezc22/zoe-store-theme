@@ -1,0 +1,147 @@
+{%- liquid
+
+  assign call_to_action = 'products.product.add_to_cart' | t
+  unless current_variant.available
+    assign call_to_action = 'products.product.sold_out' | t
+  endunless
+
+    assign product_form_id = 'product-form-' | append: section.id
+
+-%}
+
+{% form 'product', product,
+    id: product_form_id,
+    class: "product_form",
+    data-product-form: product_form_config,
+    data-product-id: product.id %}
+
+  {%- unless product.has_only_default_variant -%}
+   {%- if settings.product_variants == 'swatches' -%}
+     <div class="product__variants-swatches mt4 mb6 no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
+       {% for option in product.options_with_values %}
+         {% render "swatch",
+           option: option,
+           current_variant: current_variant,
+           product: product,
+           show_color_swatches: settings.show_color_swatches,
+           color_swatch_shape: settings.color_swatch_shape,
+           color_swatch_style: settings.color_swatch_style %}
+       {% endfor %}
+     </div>
+   {%- else -%}
+     <div class="product__variants-select no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
+       {%- for option in product.options_with_values -%}
+         <div class="product-form__input product-form__input--dropdown">
+           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+             {{ option.name }}
+           </label>
+           <div class="select">
+             <select id="Option-{{ section.id }}-{{ forloop.index0 }}"
+               class="js-variant-selector styled-select"
+               name="options[{{ option.name | escape }}]"
+               form="product-form-{{ section.id }}"
+             >
+               {%- for value in option.values -%}
+                 <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
+                   {{ value }}
+                 </option>
+               {%- endfor -%}
+             </select>
+           </div>
+         </div>
+       {%- endfor -%}
+     </div>
+   {%- endif -%}
+  {%- endunless -%}
+
+  <noscript class="product__variants-select product-form__noscript-wrapper-{{ section.id }}">
+    <div class="product-form__input product-form__input--dropdown{% if product.has_only_default_variant %} hidden{% endif %}">
+      <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.select_option' | t }}</label>
+      <div class="select">
+        <select name="id" id="Variants-{{ section.id }}" class="styled-select">
+          {%- for variant in product.variants -%}
+            <option
+              {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+              {% if variant.available == false %}disabled{% endif %}
+              value="{{ variant.id }}"
+            >
+              {{ variant.title }}
+              {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
+              - {{ variant.price | money | strip_html }}
+            </option>
+          {%- endfor -%}
+        </select>
+      </div>
+    </div>
+  </noscript>
+
+  <input class="formQty" type="hidden" name="quantity" value="1" />
+
+ {% if settings.stock_level_threshold > 0 %}
+
+   {%- liquid
+
+     assign show_hidden_class = false
+     if current_variant.inventory_management and current_variant.inventory_quantity < settings.stock_level_threshold and current_variant.inventory_quantity > 0
+       assign show_hidden_class = true
+     endif
+
+   -%}
+
+   {% capture variant_stock_levels_classes %}
+     variant-stock-levels js-variant-stock-levels variant-stock-levels--{{ section.id }} {% unless show_hidden_class %}visually-hidden{% endunless %}
+   {% endcapture %}
+
+   <div
+     id="variant-stock-levels--{{ section.id }}"
+     class="{{ variant_stock_levels_classes | strip }}"
+     data-stock-level-threshold="{{ settings.stock_level_threshold }}"
+   >
+     <div class="variant-stock-levels__inner">
+       {% render 'snip-icons',
+         wrapper: '.variant-stock-levels__icon',
+         type: 'apollo',
+         icon: 'error',
+         classes: 'variant-stock-levels__svg',
+         size: '14px',
+         fill: 'var(--text-color)',
+         hover: 'var(--text-color)' %}
+       <span class="js-variant-stock-levels__message">
+         {{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
+       </span>
+     </div>
+   </div><!-- /#variant-stock-levels -->
+ {% endif %}
+
+  <div class="product-add">
+    <input class="formVariantId" name="id" type="hidden" value="{{ product.selected_or_first_available_variant.id }}">
+    <div class="note note-success js-added-msg" style="display: none">
+      <b>{{ 'products.product.added' | t }}</b>&nbsp;&nbsp;&nbsp;<a class="underline" href="{{ routes.cart_url }}">{{ 'products.product.view_cart' | t }}</a> {{ 'products.product.or' | t }} <a class="underline" href="{{ routes.all_products_collection_url }}">{{ 'products.product.continue' | t }}</a>.
+    </div>
+    <div class="note note-error js-error-msg" style="display: none">
+      <b>{{ 'cart.general.cart_error' | t }}</b>&nbsp;&nbsp;&nbsp;{{ 'cart.general.update_qty_error' | t }}
+    </div>
+    <input id="addToCart" type="submit" name="button" class="add clearfix AddtoCart js-ajax-submit {% if show_payment_button and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" value="{{ call_to_action }}" {% unless current_variant.available %}disabled{% endunless %} />
+  </div>
+
+  {% if show_payment_button %}
+    {{ form | payment_button }}
+  {% endif %}
+
+  {% if show_back_in_stock %}
+    <div class="back_in_stock js-back-in-stock"{% if current_variant.available %} style="display: none"{% endif %}>
+      <div class="rte">
+      {% if back_in_stock_text != blank %}
+        {{ back_in_stock_text }}
+      {% else %}
+        <p>Add back in stock text within the Theme Editor.</p>
+      {% endif %}
+      </div><!-- /.rte -->
+    </div>
+  {% endif %}
+
+{% endform %}
+
+{% if show_back_in_stock %}
+{% render 'back-in-stock-form', product: product %}
+{% endif %}

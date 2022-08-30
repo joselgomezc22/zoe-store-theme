@@ -1,0 +1,57 @@
+{%- liquid
+  assign bg_video = false
+  assign videos = product.media | where: "media_type", "video"
+  for video in videos
+    if forloop.first
+        for source in video.sources
+          if source.format == 'mp4'
+            assign video_url = source.url
+          endif
+        endfor
+
+        assign bg_video = true
+      continue
+    endif
+  endfor
+
+  assign image_box_ratio = product.featured_media.preview_image.height | append: ".0" | times: 1 | divided_by: product.featured_media.preview_image.width | times: 100 | append: "%"
+
+-%}
+{%- if bg_video -%}
+  <div class="product-loop__video-outer-wrapper absolute js-bg-video-wrapper" data-product-id="{{ product.id }}" data-video-url="{{ video_url }}">
+    <div class="product-loop__video-inner-wrapper inline-block w100 js-bg-video-{{ product.id }}" style="padding-bottom: {{ image_box_ratio }};">
+
+    </div>
+    <style>
+      .product-loop__video-outer-wrapper {
+        display: inline-block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+      }
+      .product-loop__video-outer-wrapper .vidbg-container {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      .product-loop__video-outer-wrapper .vidbg-container video {
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.25s opacity ease-in-out;
+        max-width: none;
+        opacity: 0;
+      }
+    </style>
+  </div>
+{%- endif -%}
