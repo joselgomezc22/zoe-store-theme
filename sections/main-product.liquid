@@ -683,7 +683,7 @@ data-sale-format="{{ settings.sale_items }}">
                     {% endif %}
                   </div>
                 {% when 'color-options' %}
-                  {% include 'show-colors-meta-related' %}
+                  {% include 'show-colors-meta-related-pdp' %}
               {% endcase %}
             {% endfor %}
           {% endif %}
@@ -807,6 +807,18 @@ data-sale-format="{{ settings.sale_items }}">
 <script type="application/json" id="ModelJson-{{ section.id }}">
   {{ product.media | where: 'media_type', 'model' | json }}
 </script>
+{% liquid
+  if product.metafields.custom.auto_atc != null
+    assign extrapdc = product.metafields.custom.auto_atc.value.id
+  else 
+    assign extrapdc = '0000'
+  endif
+%}
+{% include 'disscount-aviable-popup' %}
+<script>
+  var ExtraAdd = {{ extrapdc }};
+</script>
+<h1>{{ extrapdc }}</h1>
 {% schema %}
 {
   "name": "Product page",

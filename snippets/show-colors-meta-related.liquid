@@ -2,24 +2,56 @@
 {% assign relationMetafield = product.metafields.custom.prod_relacion_id | strip | replace: ' ', '-' | downcase %}
 {% assign relatedProducts = product.metafields.custom.related_products %}
 
+{%- comment -%}
+   Current Color 
+{%- endcomment -%}
+{% assign currentColor = product.options_by_name['Color'].values[0] %}
+{% assign currentColorImg = currentColor | handle | append: '.png' | file_url %}
+
+
 {% if relatedProducts != null %}
   <div class="col-swatch">
     <ul data-option-index="{{ option_index }}" class="{{ option_handle }} options">
-    
+
+      {%- comment -%} Current Product Color ball {%- endcomment -%}
+      <li class="color ">
+        <a href="{{ product.url }}">
+          <img class="variant-image" src="{{ currentColorImg }}" alt="{{ currentColor }}">
+         
+        </a>
+
+       
+      </li>
+
       {% for item in product.metafields.custom.related_products.value %}
+        {% if item.id != product.id and item.available  %}
+          {% assign color = item.options_by_name['Color'].values[0] %}
+          {% assign image_url = color | handle | append: '.png' | file_url %}
+          {% assign itemStock = item.variants[0].inventory_quantity %}
 
-        {% assign color = item.options_by_name['Color'].values[0] %}
-        {% assign image_url = color | handle | append: '.png' | file_url %}
+          {% assign tooltipMessage = "" %}
 
-        <li class="color ">
-          <a href="{{ item.url }}">
-            <img class="variant-image" src="{{ image_url }}" alt="{{ color }}">
-          </a>
-        </li>
-      
+          {% if itemStock < 2 %}
+            {% assign tooltipMessage = "Ultimas unidades" %}
+          {% endif %}
+
+
+          <li class="color ">
+            <a href="{{ item.url }}" title="{{ tooltipMessage }}">
+              <img class="variant-image" src="{{ image_url }}" alt="{{ color }}"> 
+              
+            </a> 
+            
+          </li>
+        {% endif %}
       {% endfor %}
 
     </ul>
   </div>
 {% endif %}
+
+
+
+
+<link rel="stylesheet" href="{{ 'show-colors-meta-related.css' | asset_url }}">
 

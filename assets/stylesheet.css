@@ -4776,13 +4776,16 @@ span.next-prod {
   display:block;
 }
 
+.col-swatch li.color:hover {
+  transform: scale(1.1);
+}
 .col-swatch li.color {
   width: 20px;
   height: 20px;
   margin:0;
   border-radius: 20px;
   border: 1px solid #eee;
-  overflow: hidden;
+  transition: all 0.5s;
 }
 
 .col-swatch li.color span {
@@ -4793,7 +4796,7 @@ span.next-prod {
 }
 
 .col-swatch li.color img.variant-image {
-  transform: scale(3);
+  border-radius: 20px;
 }
 
 .col-swatch .options li {

@@ -1,0 +1,143 @@
+
+{% assign relationMetafield = product.metafields.custom.prod_relacion_id | strip | replace: ' ', '-' | downcase %}
+{% assign relatedProducts = product.metafields.custom.related_products %}
+
+{%- comment -%}
+   Current Color 
+{%- endcomment -%}
+{% assign currentColor = product.options_by_name['Color'].values[0] %}
+{% assign currentColorImg = currentColor | handle | append: '.png' | file_url %}
+
+
+{% if relatedProducts != null %}
+  <div class="col-swatch">
+    {% assign sale = false %}
+    {% if product.tags contains " Vendidos" %}
+      {% assign sale = true %}
+    {% endif %}
+
+    {% liquid
+      assign itemStock = product.variants[0].inventory_quantity 
+      assign tags = product.tags 
+      assign tooltipMessage = "" 
+      assign sale = false 
+
+      if tags contains "sale" 
+        assign sale = true  
+      endif 
+
+      if itemStock < 3 
+        assign tooltipMessage = "Ultimas unidades" 
+      elsif item.price < item.compare_at_price 
+        assign tooltipMessage = "Descuento" 
+      elsif tags contains "new" 
+        assign tooltipMessage = "Nuevo"  
+      endif 
+    %}
+  
+    <ul data-option-index="{{ option_index }}" class="{{ option_handle }} options">
+    
+      {%- comment -%} Current Product Color ball {%- endcomment -%}
+      
+      <li class="color color-pdp {% if sale %}color-pdp--sale {% endif %}" >
+        <a href="{{ product.url }}" class="" style="">
+          <img class="variant-image" src="{{ currentColorImg }}" alt="{{ currentColor }}" >
+          {% if sale %}
+            <div class="sale__div" >
+              <span
+              class="sale__span" 
+              style="
+              background: #000;
+              color: white; 
+              width: auto;
+              height: auto;
+              line-height: normal;
+              padding: 2px 3px;
+              font-size: 10px;
+              text-transform: uppercase;
+              transform: scale(0.8);"
+              >
+                SALE
+              </span>
+            </div>
+          {% endif %}
+
+        </a>
+
+        <div class="color-tooltip" >
+          <p class="">
+            Ult. Unidades
+          </p>
+        </div>
+      </li>
+
+      {% for item in product.metafields.custom.related_products.value %}
+        {% if item.id != product.id and item.available  %}
+
+        {% liquid
+          assign color = item.options_by_name['Color'].values[0] 
+          assign image_url = color | handle | append: '.png' | file_url 
+          assign itemStock = item.variants[0].inventory_quantity 
+          assign tags = item.tags 
+          assign tooltipMessage = "" 
+          assign sale = false 
+
+          if tags contains "SALE" 
+            assign sale = true 
+          endif 
+
+          if itemStock < 3 
+            assign tooltipMessage = "Ultimas unidades" 
+          elsif item.price < item.compare_at_price 
+            assign tooltipMessage = "Descuento" 
+          elsif tags contains "new" 
+            assign tooltipMessage = "Nuevo"  
+          endif 
+        %}
+
+
+          <li class="color color-pdp {% if sale %}color-pdp--sale {% endif %}">
+            <a href="{{ item.url }}" title="{{ tooltipMessage }}">
+              <img class="variant-image" src="{{ image_url }}" alt="{{ color }}"> 
+             
+              {% if sale %}
+                <div class="sale__div" >
+                  <span
+                  class="sale__span" 
+                  style="
+                  background: #000;
+                  color: white; 
+                  width: auto;
+                  height: auto;
+                  line-height: normal;
+                  padding: 2px 3px;
+                  font-size: 10px;
+                  text-transform: uppercase;
+                  transform: scale(0.8);"
+                  >
+                    SALE
+                  </span>
+                </div>
+              {% endif %}
+              
+            </a> 
+            {% if tooltipMessage != "" %}
+              <div class="color-tooltip" >
+                <p class="">
+                  {{ tooltipMessage }}
+                </p>
+              </div>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul>
+  </div>
+{% endif %}
+
+
+
+
+<link rel="stylesheet" href="{{ 'show-colors-meta-related.css' | asset_url }}">
+

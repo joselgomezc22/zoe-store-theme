@@ -1,0 +1,93 @@
+.color:hover {
+  position: relative;
+}
+.color:hover .color-tooltip {
+  position: absolute;
+  display: block;
+  opacity: 1;
+  background: black;
+  color: white;
+  z-index: 99999999;
+  left: -25%;
+  max-height: 900px;
+}
+
+.color-tooltip {
+  display: none;
+  opacity: 0;
+  padding: 3px 6px;
+  border-radius: 5px;
+  max-height: 0px;
+  transition: all 1s;
+  min-width: 82px;
+  text-align: center;
+}
+.color-tooltip:before {
+  content: "";
+  margin: 0 auto;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid #4b4b4b00;
+  border-right: 10px solid #4b4b4b00;
+  border-top: 10px solid #4b4b4b00;
+  border-bottom: 10px solid #000000;
+  position: absolute;
+  top: -60%;
+  right: 70%;
+}
+
+
+.color-tooltip:hover {
+}
+
+
+.color-tooltip p {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  clear: both;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.color-pdp {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.color-pdp--sale {
+  position: relative;
+}
+
+.sale__div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+.color-pdp--sale a {
+  position: relative; 
+  width: 100%; 
+  height: 100%; 
+  display: block;
+}
+.color-pdp--sale a img {
+  z-index: 0;
+  position: absolute;
+  left: 0;top: 0;
+}
+
+.sale__span {
+  background: #000;
+  color: white; 
+  width: auto;
+  height: auto;
+  line-height: normal;
+  padding: 2px 3px;
+  font-size: 10px;
+  text-transform: uppercase;
+  transform: scale(0.85);
+}
