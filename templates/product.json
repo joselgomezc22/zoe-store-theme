@@ -19,6 +19,11 @@
           "settings": {
           }
         },
+        "c8894913-ecea-4d1e-b885-95208ac5cbc9": {
+          "type": "color-options",
+          "settings": {
+          }
+        },
         "product_quantity": {
           "type": "product_quantity",
           "settings": {
@@ -28,13 +33,13 @@
           "type": "product_buttons",
           "settings": {
             "back_in_stock": true,
-            "back_in_stock_text": "<p>Email me when this is available<\/p>"
+            "back_in_stock_text": "<p>Avisame cuando se encuentre disponible !<\/p>"
           }
         },
         "f7704069-17c8-42f6-ae27-646be7b277dd": {
           "type": "additional_content",
           "settings": {
-            "ac_text": "Envío gratis a todo Colombia",
+            "ac_text": "Envío gratis compras mayores $145.000",
             "ac_link": "",
             "ac_icon": "ship-truck"
           }
@@ -42,7 +47,7 @@
         "519d2af3-1da3-4d6b-a7cc-157f37606a4e": {
           "type": "additional_content",
           "settings": {
-            "ac_text": "Recibe el mismo día por solo $8.000",
+            "ac_text": "Recibe el mismo día por $12.000",
             "ac_link": "",
             "ac_icon": "wish"
           }
@@ -87,6 +92,7 @@
         "product_info",
         "product_variants",
         "product_sku",
+        "c8894913-ecea-4d1e-b885-95208ac5cbc9",
         "product_quantity",
         "product_buttons",
         "f7704069-17c8-42f6-ae27-646be7b277dd",

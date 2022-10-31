@@ -11,6 +11,21 @@
   left: -25%;
   max-height: 900px;
 }
+.color:hover .color-tooltip.color-tooltip--Nuevo  {
+
+  left: 0%;
+}
+.color:hover .color-tooltip.color-tooltip--ÚltimasUnidades  {
+
+  left: -50%;
+}
+/* */
+.color:hover .color-tooltip.color-tooltip---Nuevo  {
+
+  left: 0%;
+}
+
+
 
 .color-tooltip {
   display: none;
@@ -22,6 +37,7 @@
   min-width: 82px;
   text-align: center;
 }
+
 .color-tooltip:before {
   content: "";
   margin: 0 auto;
@@ -68,13 +84,13 @@
   align-items: center;
   z-index: 99999;
 }
-.color-pdp--sale a {
+.color-pdp--sale .color-pdp-link {
   position: relative; 
   width: 100%; 
   height: 100%; 
   display: block;
 }
-.color-pdp--sale a img {
+.color-pdp--sale .color-pdp-link img {
   z-index: 0;
   position: absolute;
   left: 0;top: 0;

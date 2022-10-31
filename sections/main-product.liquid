@@ -814,11 +814,8 @@ data-sale-format="{{ settings.sale_items }}">
     assign extrapdc = '0000'
   endif
 %}
-{% include 'disscount-aviable-popup' %}
-<script>
-  var ExtraAdd = {{ extrapdc }};
-</script>
-<h1>{{ extrapdc }}</h1>
+
+
 {% schema %}
 {
   "name": "Product page",

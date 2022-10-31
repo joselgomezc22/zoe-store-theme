@@ -11,25 +11,21 @@
 
 {% if relatedProducts != null %}
   <div class="col-swatch">
-    {% assign sale = false %}
-    {% if product.tags contains " Vendidos" %}
-      {% assign sale = true %}
-    {% endif %}
-
+    
     {% liquid
       assign itemStock = product.variants[0].inventory_quantity 
       assign tags = product.tags 
-      assign tooltipMessage = "" 
+      assign tooltipMessage = ""  
       assign sale = false 
 
-      if tags contains "sale" 
+      if product.price < product.compare_at_price 
         assign sale = true  
       endif 
 
-      if itemStock < 3 
-        assign tooltipMessage = "Ultimas unidades" 
-      elsif item.price < item.compare_at_price 
-        assign tooltipMessage = "Descuento" 
+      if tags contains "best-selling"
+        assign tooltipMessage = "Mas Vendido" 
+      elsif  itemStock < 3
+        assign tooltipMessage = "Ult Unidades"  
       elsif tags contains "new" 
         assign tooltipMessage = "Nuevo"  
       endif 
@@ -40,7 +36,7 @@
       {%- comment -%} Current Product Color ball {%- endcomment -%}
       
       <li class="color color-pdp {% if sale %}color-pdp--sale {% endif %}" >
-        <a href="{{ product.url }}" class="" style="">
+        <a href="{{ product.url }}" class="color-pdp-link" style="">
           <img class="variant-image" src="{{ currentColorImg }}" alt="{{ currentColor }}" >
           {% if sale %}
             <div class="sale__div" >
@@ -63,12 +59,13 @@
           {% endif %}
 
         </a>
-
-        <div class="color-tooltip" >
+        {% if tooltipMessage != "" %}
+        <a href="{{ product.url }}" class="color-tooltip color-tooltip---{{ tooltipMessage | replace: ' ', '' }}" >
           <p class="">
-            Ult. Unidades
+            {{ tooltipMessage }}
           </p>
-        </div>
+        </a>
+        {% endif %}
       </li>
 
       {% for item in product.metafields.custom.related_products.value %}
@@ -82,22 +79,22 @@
           assign tooltipMessage = "" 
           assign sale = false 
 
-          if tags contains "SALE" 
-            assign sale = true 
-          endif 
+          if item.price < item.compare_at_price 
+          assign sale = true  
+        endif 
 
-          if itemStock < 3 
-            assign tooltipMessage = "Ultimas unidades" 
-          elsif item.price < item.compare_at_price 
-            assign tooltipMessage = "Descuento" 
-          elsif tags contains "new" 
-            assign tooltipMessage = "Nuevo"  
-          endif 
+        if tags contains "best-selling"
+          assign tooltipMessage = "Mas Vendido" 
+        elsif  itemStock < 3
+          assign tooltipMessage = "Últimas Unidades"  
+        elsif tags contains "new" 
+          assign tooltipMessage = "Nuevo"  
+        endif 
         %}
 
 
           <li class="color color-pdp {% if sale %}color-pdp--sale {% endif %}">
-            <a href="{{ item.url }}" title="{{ tooltipMessage }}">
+            <a href="{{ item.url }}" class="color-pdp-link" title="{{ tooltipMessage }}">
               <img class="variant-image" src="{{ image_url }}" alt="{{ color }}"> 
              
               {% if sale %}
@@ -122,11 +119,11 @@
               
             </a> 
             {% if tooltipMessage != "" %}
-              <div class="color-tooltip" >
+              <a href="{{ item.url }}" class="color-tooltip   color-tooltip--{{ tooltipMessage | replace: ' ', '' }}" >
                 <p class="">
                   {{ tooltipMessage }}
                 </p>
-              </div>
+              </a>
             {% endif %}
           </li>
         {% endif %}

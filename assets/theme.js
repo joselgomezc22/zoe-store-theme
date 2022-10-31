@@ -2493,52 +2493,15 @@ Shopify.theme.cart = (function (exports) {
 
     return fetchJSON('/cart/add.js', config);
   }
-  
-  /*
-    axios.post('/cart/add.js', {
-      id: ExtraAdd,
-      quantity: 1
-    }).then( (response)=> {
-      return fetchJSON('/cart/add.js', config);
-    }).catch((error)=> {
-      return fetchJSON('/cart/add.js', config);
-    });
-    */
-  async function addExtraItem(extraItem) {
-    try{
-      let add = await axios.post('/cart/add.js', { id: extraItem, quantity: 1 })
-    } catch (err) {
-      console.log(err)
-    }
-  }
-  
+
   function cartAddFromForm(formData) {
-    
-    
-
-    if (ExtraAdd){
-      addExtraItem(ExtraAdd)
-      setTimeout(()=>{
-        var config = getDefaultRequestConfig();
-        delete config.headers['Content-Type'];
-
-        config.method = 'POST';
-        config.body = formData;
-        fetchJSON('/cart/add.js', config);
-        location.reload();
-
-      },500)
-      
-    } else {
-      var config = getDefaultRequestConfig();
+    var config = getDefaultRequestConfig();
     delete config.headers['Content-Type'];
 
     config.method = 'POST';
     config.body = formData;
-      
-      return fetchJSON('/cart/add.js', config);
-    }
 
+    return fetchJSON('/cart/add.js', config);
   }
 
   function cartChange(line, options) {

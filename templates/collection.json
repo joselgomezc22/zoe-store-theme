@@ -22,17 +22,27 @@
           "type": "dropdown_filter",
           "settings": {
           }
+        },
+        "d5193d9d-f7b8-4c05-9fcb-9b43685ddccb": {
+          "type": "text_note",
+          "disabled": true,
+          "settings": {
+            "textbox_heading": "EL DESCUENTO SE VE REFLEJADO EN TU CARRITO DE COMPRAS",
+            "textbox_subheading": "<p>Subheading<\/p>",
+            "subheading_align": "left"
+          }
         }
       },
       "block_order": [
         "40e4cbd5-0224-4f3b-854a-e66e9ba0b7cf",
-        "10f255d3-5584-4411-abf7-4a3278902c34"
+        "10f255d3-5584-4411-abf7-4a3278902c34",
+        "d5193d9d-f7b8-4c05-9fcb-9b43685ddccb"
       ],
       "settings": {
         "full_width": true,
         "grid": 4,
         "products_per_page": 30,
-        "infinite_scroll": true,
+        "infinite_scroll": false,
         "description_position": "top_description",
         "is_sticky": false,
         "sort_by": true
