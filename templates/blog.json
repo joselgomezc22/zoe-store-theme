@@ -3,10 +3,12 @@
     "banner": {
       "type": "banner-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_2_1.jpg"
       }
     },
     "image-gallery": {
       "type": "image-gallery",
+      "disabled": true,
       "blocks": {
         "image1": {
           "type": "image",
@@ -75,10 +77,10 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "text": "<p>Add some descriptive text to your all Blog.<\/p>",
+        "text": "<p>Explora tu estilo, siéntete cómoda y lo más importante ¡sé tú misma!<\/p>",
         "text_align": "center",
         "blog_layout_grid": false,
-        "post_tags": true,
+        "post_tags": false,
         "show_author": true
       }
     },
@@ -88,25 +90,25 @@
         "collection1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cintura"
           }
         },
         "collection2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "atrevete-a-usar-oversize"
           }
         },
         "collection3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "be-colorful"
           }
         },
         "collection4": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "los-infaltables-en-tu-closet"
           }
         }
       },

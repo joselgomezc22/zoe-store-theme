@@ -1262,7 +1262,7 @@
             "settings": {
               "footer_nav": "contacto",
               "title": "Contacto",
-              "block_width": 6
+              "block_width": 4
             }
           },
           "1561574551095": {
@@ -1270,13 +1270,22 @@
             "settings": {
               "footer_nav": "informacion",
               "title": "Información",
-              "block_width": 6
+              "block_width": 4
+            }
+          },
+          "1d20851a-46e7-4044-9c08-a7d3cfd0063a": {
+            "type": "menu",
+            "settings": {
+              "footer_nav": "blog",
+              "title": "Blog",
+              "block_width": 3
             }
           }
         },
         "block_order": [
           "1561574562622",
-          "1561574551095"
+          "1561574551095",
+          "1d20851a-46e7-4044-9c08-a7d3cfd0063a"
         ],
         "settings": {
           "footer_text_align": "left",
@@ -1361,12 +1370,6 @@
     "blocks": {
       "1513253815146976218": {
         "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5918445685253060206": {
-        "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
         "disabled": false,
         "settings": {
         }

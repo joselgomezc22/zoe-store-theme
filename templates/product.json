@@ -117,11 +117,50 @@
         "lower_description_background": ""
       }
     },
-    "16281158786d72aa6c": {
-      "type": "rich-text",
+    "579967df-81c2-458e-9bbe-43ce1b975f43": {
+      "type": "main-product-banner",
+      "disabled": true,
       "settings": {
-        "title": "",
-        "color_scheme": "none",
+        "image": "shopify:\/\/shop_images\/09_1.png",
+        "scale": 2,
+        "page_height": 400,
+        "section_padding": "both"
+      }
+    },
+    "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982": {
+      "type": "accordion",
+      "disabled": true,
+      "blocks": {
+        "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-0": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
+            "content": "<p>gggg<\/p>"
+          }
+        },
+        "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-1": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-2": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-0",
+        "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-1",
+        "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-2"
+      ],
+      "settings": {
+        "heading": "Preguntas Frecuentes",
+        "allow_multiple": true,
         "section_padding": "both"
       }
     },
@@ -135,7 +174,8 @@
   },
   "order": [
     "main",
-    "16281158786d72aa6c",
+    "579967df-81c2-458e-9bbe-43ce1b975f43",
+    "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982",
     "product-recommendations"
   ]
 }

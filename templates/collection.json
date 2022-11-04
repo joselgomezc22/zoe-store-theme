@@ -31,12 +31,29 @@
             "textbox_subheading": "<p>Subheading<\/p>",
             "subheading_align": "left"
           }
+        },
+        "4d3e8985-2b6e-419d-b068-55e4ebba1e41": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09_1.png",
+            "link": ""
+          }
+        },
+        "af54f8b9-43ce-4ace-872d-95e3b3cc7a25": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
         }
       },
       "block_order": [
         "40e4cbd5-0224-4f3b-854a-e66e9ba0b7cf",
         "10f255d3-5584-4411-abf7-4a3278902c34",
-        "d5193d9d-f7b8-4c05-9fcb-9b43685ddccb"
+        "d5193d9d-f7b8-4c05-9fcb-9b43685ddccb",
+        "4d3e8985-2b6e-419d-b068-55e4ebba1e41",
+        "af54f8b9-43ce-4ace-872d-95e3b3cc7a25"
       ],
       "settings": {
         "full_width": true,
@@ -48,105 +65,137 @@
         "sort_by": true
       }
     },
-    "162811572000d249af": {
-      "type": "image-gallery",
+    "86105da5-8a65-4d86-8865-6da74da4ca7c": {
+      "type": "shop-the-look",
       "disabled": true,
       "blocks": {
-        "162811572000d249af-0": {
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-0": {
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "link": "",
-            "heading": "Heading",
-            "text": "Subheading",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
-            "vertical_position": 50,
-            "horizontal_position": 50,
-            "align_text": "center"
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000000"
           }
         },
-        "162811572000d249af-1": {
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-1": {
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "link": "",
-            "heading": "Heading",
-            "text": "Subheading",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
-            "vertical_position": 50,
-            "horizontal_position": 50,
-            "align_text": "center"
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000000"
           }
         },
-        "162811572000d249af-2": {
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-2": {
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "link": "",
-            "heading": "Heading",
-            "text": "Subheading",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
-            "vertical_position": 50,
-            "horizontal_position": 50,
-            "align_text": "center"
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000000"
           }
         }
       },
       "block_order": [
-        "162811572000d249af-0",
-        "162811572000d249af-1",
-        "162811572000d249af-2"
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-0",
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-1",
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-2"
       ],
       "settings": {
         "full_width": false,
-        "title": "Image gallery",
+        "title": "Shop the Look",
+        "section_padding": "both"
+      }
+    },
+    "2d36f1f6-0ae2-4726-9cfd-fa56629768bf": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Testimonials",
+            "content": "<p>Customer testimonial content about your products or service<\/p>",
+            "author": "Author"
+          }
+        },
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Testimonials",
+            "content": "<p>Customer testimonial content about your products or service<\/p>",
+            "author": "Author"
+          }
+        },
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Testimonials",
+            "content": "<p>Customer testimonial content about your products or service<\/p>",
+            "author": "Author"
+          }
+        }
+      },
+      "block_order": [
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-0",
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-1",
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
         "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
-    "162811576510380c29": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "layout": "left",
-        "image_width": "50%",
-        "text_align": "left",
-        "text_position": "center",
-        "title": "Image with text",
-        "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "link": "",
-        "button": "",
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
-    "16281157712b2ded17": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "layout": "right",
-        "image_width": "50%",
-        "text_align": "left",
-        "text_position": "center",
-        "title": "Image with text",
-        "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "link": "",
-        "button": "",
-        "color_scheme": "cs1",
         "section_padding": "both"
       }
     }
@@ -154,8 +203,7 @@
   "order": [
     "banner",
     "main",
-    "162811572000d249af",
-    "162811576510380c29",
-    "16281157712b2ded17"
+    "86105da5-8a65-4d86-8865-6da74da4ca7c",
+    "2d36f1f6-0ae2-4726-9cfd-fa56629768bf"
   ]
 }
