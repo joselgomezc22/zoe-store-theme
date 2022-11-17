@@ -27,7 +27,7 @@
         "d05957d4-8379-4896-90c4-cc26aa85d056": {
           "type": "discount-product",
           "settings": {
-            "text": "por la compra de este producto tienes un -p- gratis",
+            "text": "por la compra de este producto tienes un -p- en descuento",
             "file": "gift_box.jpg"
           }
         },
