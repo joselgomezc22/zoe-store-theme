@@ -26,6 +26,7 @@
         },
         "d05957d4-8379-4896-90c4-cc26aa85d056": {
           "type": "discount-product",
+          "disabled": true,
           "settings": {
             "text": "por la compra de este producto tienes un -p- gratis",
             "file": "gift_box.jpg"
@@ -33,6 +34,7 @@
         },
         "7749ac3d-59d7-4da3-a17b-41df7c9e920d": {
           "type": "discount-collection",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este producto tienes un producto de la Coleccion -c- gratis",
             "file": "gift_box.jpg"
@@ -40,6 +42,7 @@
         },
         "d56dffc3-91b5-402f-939a-f5e3456837ec": {
           "type": "discount-product-atc",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este producto tienes un regalo sorpresa -v- .",
             "file": "gift_box.jpg"
