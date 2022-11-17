@@ -31,6 +31,13 @@
             "file": "gift_box.jpg"
           }
         },
+        "7749ac3d-59d7-4da3-a17b-41df7c9e920d": {
+          "type": "discount-collection",
+          "settings": {
+            "text": "Por la compra de este producto tienes un producto de la Coleccion -c- gratis",
+            "file": "gift_box.jpg"
+          }
+        },
         "product_quantity": {
           "type": "product_quantity",
           "settings": {
@@ -101,6 +108,7 @@
         "product_sku",
         "c8894913-ecea-4d1e-b885-95208ac5cbc9",
         "d05957d4-8379-4896-90c4-cc26aa85d056",
+        "7749ac3d-59d7-4da3-a17b-41df7c9e920d",
         "product_quantity",
         "product_buttons",
         "f7704069-17c8-42f6-ae27-646be7b277dd",
