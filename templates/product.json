@@ -33,6 +33,7 @@
         },
         "7749ac3d-59d7-4da3-a17b-41df7c9e920d": {
           "type": "discount-collection",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este producto tienes un producto de la Coleccion -c- gratis",
             "file": "gift_box.jpg"
