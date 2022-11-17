@@ -1101,7 +1101,7 @@
     "color_swatch_shape": "circle",
     "color_swatch_style": "custom-image",
     "cart_added_event": "product_page",
-    "cart_type": "drawer",
+    "cart_type": "modal_cart",
     "show_tax_note": false,
     "show_shipping_note": false,
     "show_cart_notes": false,
