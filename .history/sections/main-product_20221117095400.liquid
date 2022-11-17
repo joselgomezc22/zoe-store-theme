@@ -738,10 +738,7 @@ data-sale-format="{{ settings.sale_items }}">
                       </div>
                       <div style="width: 65%;">
                         <p>
-                        {{ texto[0] }} 
-                        {%- if texto.size > 1 -%} 
-                          <a class="button-as-link" href="{{collection.url}}" >{{ collection.title }}</a>  {{ texto[1] }}
-                        {%- endif -%} 
+                        {{ texto[0] }} <a class="button-as-link" href="{{collection.url}}" >{{ collection.title }}</a>  {{ texto[1] }}
                         </p>
                       </div>
                     </div>

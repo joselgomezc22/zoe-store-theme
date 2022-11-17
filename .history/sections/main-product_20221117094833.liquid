@@ -686,19 +686,14 @@ data-sale-format="{{ settings.sale_items }}">
                   {% assign variant_meta = product.metafields.custom.auto_atc.value %}
                   {%- if variant_meta != null -%}
                     {% assign image = block.settings.file | file_img_url: 'thumb' %}
-                    {% assign texto = block.settings.text | split : '-v-' %} 
+                    {% assign texto = block.settings.text | split : '-p-' %} 
                     <div style="width:90%;display:flex;align-items:center" class="">
                       <div style="width: 17%;">
                         <img src="{{ image }}" />
                       </div>
                       <div style="width: 65%;">
                         <p>
-                        {{ texto[0] }}
-
-                        {%- if texto.size > 1 -%}
-                          <a class="button-as-link" href="{{variant_meta.url}}" >{{ variant_meta.product.title }} {{ variant_meta.title }}</a>  {{ texto[1] }}
-                        {%- endif -%}
-
+                        {{ texto[0] }} <a class="button-as-link" href="{{product.url}}" >{{ product.title }}</a>  {{ texto[1] }}
                         </p>
                       </div>
                     </div>
@@ -715,11 +710,7 @@ data-sale-format="{{ settings.sale_items }}">
                       </div>
                       <div style="width: 65%;">
                         <p>
-                        {{ texto[0] }}
-
-                        {%- if texto.size > 1 -%} 
-                          <a class="button-as-link" href="{{product.url}}" >{{ product.title }}</a>  {{ texto[1] }}
-                        {%- endif -%} 
+                        {{ texto[0] }} <a class="button-as-link" href="{{product.url}}" >{{ product.title }}</a>  {{ texto[1] }}
                         </p>
                       </div>
                     </div>
@@ -738,10 +729,7 @@ data-sale-format="{{ settings.sale_items }}">
                       </div>
                       <div style="width: 65%;">
                         <p>
-                        {{ texto[0] }} 
-                        {%- if texto.size > 1 -%} 
-                          <a class="button-as-link" href="{{collection.url}}" >{{ collection.title }}</a>  {{ texto[1] }}
-                        {%- endif -%} 
+                        {{ texto[0] }} <a class="button-as-link" href="{{collection.url}}" >{{ collection.title }}</a>  {{ texto[1] }}
                         </p>
                       </div>
                     </div>
@@ -1076,9 +1064,9 @@ data-sale-format="{{ settings.sale_items }}">
         {
           "type": "text",
           "id": "text",
-          "label": "Texto de descuento",
+          "label": "Texto de descuento ",
           "info": "-v- saldra un link con el nombre del Producto de la Variante",
-          "default": "Por la compra de este producto tienes un regalo sorpresa -v-"
+          "default": "Por la compra de este producto tienes un regalo sorpresa"
         },
         {
           "type": "text",

@@ -682,71 +682,13 @@ data-sale-format="{{ settings.sale_items }}">
                       </div>
                     {% endif %}
                   </div>
-                {% when 'discount-product-atc' %}
-                  {% assign variant_meta = product.metafields.custom.auto_atc.value %}
-                  {%- if variant_meta != null -%}
-                    {% assign image = block.settings.file | file_img_url: 'thumb' %}
-                    {% assign texto = block.settings.text | split : '-v-' %} 
-                    <div style="width:90%;display:flex;align-items:center" class="">
-                      <div style="width: 17%;">
-                        <img src="{{ image }}" />
-                      </div>
-                      <div style="width: 65%;">
-                        <p>
-                        {{ texto[0] }}
-
-                        {%- if texto.size > 1 -%}
-                          <a class="button-as-link" href="{{variant_meta.url}}" >{{ variant_meta.product.title }} {{ variant_meta.title }}</a>  {{ texto[1] }}
-                        {%- endif -%}
-
-                        </p>
-                      </div>
-                    </div>
-                  {%- endif -%}
                 {% when 'discount-product' %}
 
-                  {% assign product_meta = product.metafields.custom.product_discount.value %}
-                  {%- if product_meta != null -%}
-                    {% assign image = block.settings.file | file_img_url: 'thumb' %}
-                    {% assign texto = block.settings.text | split : '-p-' %} 
-                    <div style="width:90%;display:flex;align-items:center" class="">
-                      <div style="width: 17%;">
-                        <img src="{{ image }}" />
-                      </div>
-                      <div style="width: 65%;">
-                        <p>
-                        {{ texto[0] }}
-
-                        {%- if texto.size > 1 -%} 
-                          <a class="button-as-link" href="{{product.url}}" >{{ product.title }}</a>  {{ texto[1] }}
-                        {%- endif -%} 
-                        </p>
-                      </div>
-                    </div>
-
+                  {%- if product.metafields.custom.product_discount -%}
+                    {% assign product = product.metafields.custom.product_discount %}
+                    {% assign texto = block.settings.text | split : '-p-' %}
+                    {{ texto[0] }} {{ product.title }}
                   {%- endif -%}
-                {% when 'discount-collection' %}
-
-                  {% assign collection = product.metafields.custom.collection_discount.value %}
-                  
-                    {%- if collection != null -%}
-                    {% assign image = block.settings.file | file_img_url: 'thumb' %}
-                    {% assign texto = block.settings.text | split : '-c-' %} 
-                    <div style="width:90%;display:flex;align-items:center" class="">
-                      <div style="width: 17%;">
-                        <img src="{{ image }}" />
-                      </div>
-                      <div style="width: 65%;">
-                        <p>
-                        {{ texto[0] }} 
-                        {%- if texto.size > 1 -%} 
-                          <a class="button-as-link" href="{{collection.url}}" >{{ collection.title }}</a>  {{ texto[1] }}
-                        {%- endif -%} 
-                        </p>
-                      </div>
-                    </div>
-                  {%- endif -%}
-
                 {% when 'color-options' %}
                   {% include 'show-colors-meta-related-pdp' %}
               {% endcase %}
@@ -761,7 +703,7 @@ data-sale-format="{{ settings.sale_items }}">
   {%- if section.settings.show_social_share -%}
     {% render 'social' with product %}
   {%- endif -%}
-  {%- liquid 
+  {%- liquid
 
     if section.settings.lower_description == 'large'
       assign lower = 'span-12 auto'
@@ -1069,26 +1011,6 @@ data-sale-format="{{ settings.sale_items }}">
       "name": "Color Options"
     },
     {
-      "type": "discount-product-atc",
-      "name": "V Automatic AdddToCart",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Texto de descuento",
-          "info": "-v- saldra un link con el nombre del Producto de la Variante",
-          "default": "Por la compra de este producto tienes un regalo sorpresa -v-"
-        },
-        {
-          "type": "text",
-          "id": "file",
-          "label": "archivo de imagen de descuento",
-          "default": "gift_box.jpg"
-        }
-      ]
-    },
-    {
       "type": "discount-product",
       "name": "Product Auto Discount",
       "limit": 1,
@@ -1096,35 +1018,14 @@ data-sale-format="{{ settings.sale_items }}">
         {
           "type": "text",
           "id": "text",
-          "label": "Texto de descuento ",
-          "info": "-p- saldra un link con el nombre del Producto",
+          "label": "Texto de descuento ( -p- saldra un link con el nombre del producto )",
           "default": "por la compra de este producto tienes un -p- gratis"
         },
         {
           "type": "text",
           "id": "file",
           "label": "archivo de imagen de descuento",
-          "default": "gift_box.jpg"
-        }
-      ]
-    },
-    {
-      "type": "discount-collection",
-      "name": "Collection Auto Discount",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "textarea",
-          "id": "text",
-          "label": "Texto de descuento ",
-          "info": "-c- saldra un link con el nombre de la Coleccion",
-          "default": "Por la compra de este producto tienes un producto de la Coleccion -c- gratis"
-        },
-        {
-          "type": "text", 
-          "id": "file",
-          "label": "archivo de imagen de descuento",
-          "default": "gift_box.jpg"
+          "default": "gift_box.png"
         }
       ]
     },

@@ -2494,15 +2494,58 @@ Shopify.theme.cart = (function (exports) {
     return fetchJSON('/cart/add.js', config);
   }
 
-  function cartAddFromForm(formData) {
+  async function  cartAddFromForm(formData) {
     var config = getDefaultRequestConfig();
     delete config.headers['Content-Type'];
 
     config.method = 'POST';
     config.body = formData;
+    if(autoAddToCart){
+      const prods = [
+          {
+            id: autoAddToCart,
+            quantity: 1
+          }
+        ];
 
-    return fetchJSON('/cart/add.js', config);
+      let formDatax =  new FormData();
+
+      formDatax.append('form_type','product');
+      formDatax.append('utf8','✓');
+      formDatax.append('quantity',1);
+      formDatax.append('id',autoAddToCart);
+
+      const data = {
+        method: 'POST',  
+        body: formDatax 
+      }
+      try {
+        const extraAdd = await fetch('/cart/add.js', data);
+        if (extraAdd){
+
+          const normalAdd = fetchJSON('/cart/add.js', config);
+
+         
+            return normalAdd;
+          
+          
+        }
+
+      } catch (error) {
+        console.log(error)
+      }
+
+      
+
+       
+
+    } else {
+      return fetchJSON('/cart/add.js', config);
+    }
+
   }
+
+
 
   function cartChange(line, options) {
     var config = getDefaultRequestConfig();
