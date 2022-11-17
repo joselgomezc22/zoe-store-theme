@@ -718,7 +718,7 @@ data-sale-format="{{ settings.sale_items }}">
                         {{ texto[0] }}
 
                         {%- if texto.size > 1 -%} 
-                          <a class="button-as-link" href="{{product.url}}" >{{ product.title }}</a>  {{ texto[1] }}
+                          <a class="button-as-link" href="{{product_meta.url}}" >{{ product_meta.title }}</a>  {{ texto[1] }}
                         {%- endif -%} 
                         </p>
                       </div>
@@ -1069,7 +1069,7 @@ data-sale-format="{{ settings.sale_items }}">
       "name": "Color Options"
     },
     {
-      "type": "discount-product-atc",
+      "type": "discount-product-atc", 
       "name": "V Automatic AdddToCart",
       "limit": 1,
       "settings": [
