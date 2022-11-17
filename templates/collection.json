@@ -198,12 +198,35 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "<p>En el día a día, las mujeres nos enfrentamos a diferentes escenarios: ir al trabajo,<a href=\"https:\/\/zoe-tejidos-culturales.myshopify.com\/blogs\/noticias\/5-lugares-para-la-cita-perfecta-en-medellin\" title=\"5 lugares para la cita perfecta en Medellín\">tener una cita<\/a>, salir con amigas, ir de rumba, entre otros, y en todos queremos lucir divinas y elegir las prendas adecuadas, sin embargo, entendemos que a veces por cuestiones de tiempo sea difícil para ti pensar qué ponerte. Por supuesto, en Zoé te asesoramos y te damos ideas que te facilitarán la vida.<\/p><p><strong>Para conciertos: <\/strong><a href=\"\/collections\/bad-bunny\" title=\"Bad Bunny\"><strong>Bad Bunny<\/strong><\/a><\/p><p>¿Ya tienes tu pinta para este fin de semana? Bad Bunny hizo <em>sold out<\/em> en Bogotá y Medellín, y si corriste con la suerte de poder adquirir tus entradas ¡no temas destacar! Aquí encontrarás los <a href=\"\/collections\/crop-tops\" title=\"Crop Tops\">crop tops<\/a> y <a href=\"\/collections\/pantalones\" title=\"Pantalones\">pantalones<\/a> perfectos para verte divina. Además chaquetas con colores en tendencia para darle un punch de color a tu outfit.<\/p><p><a href=\"\/collections\/elegante\" title=\"Elegante\"><strong>Para el trabajo<\/strong><\/a><\/p><p>Vestir bien para el trabajo es un propósito con el que luchamos todas en la mañana cuando realmente no debería de tomarnos más de unos cuantos minutos. La clave para que esto no ocurra es invertir en prendas de buena calidad y minimalistas. Pues bien, aquí podrás encontrar tus mejores aliados: <a href=\"\/collections\/bodies-basicos\" title=\"Bodies básicos\">bodies básicos<\/a>, <a href=\"\/collections\/bodies-manga-larga\" title=\"Bodies manga larga\">bodies manga larga<\/a>, <a href=\"\/collections\/blusas-elegante\" title=\"Blusas elegante\">blusas elegantes<\/a>, <a href=\"\/collections\/pantalones-anchos\" title=\"Pantalones anchos\">pantalones anchos<\/a>, entre otras opciones que te motivarán.<\/p><p><a href=\"\/collections\/fiesta\" title=\"Fiesta\"><strong>Salir de fiesta<\/strong><\/a><\/p><p>En el plan rumba la prioridad es la comodidad. Y verte linda, obvio. Aquí te mostramos cómo tener el equilibrio entre estos dos. Busca siempre darle una proporción a tu cuerpo con <a href=\"\/collections\/crop-tops-asimetricos\" title=\"Crop tops asimétricos\">crop tops asimétricos<\/a>, <a href=\"\/collections\/crop-tops-basicos\" title=\"Crop tops básicos\">crop tops básicos<\/a>, <a href=\"\/collections\/pantalones-anchos\" title=\"Pantalones anchos\">pantalones anchos<\/a>, chaquetas con colores en tendencia y prendas estampadas.<\/p><p><a href=\"\/collections\/vacaciones\" title=\"Vacaciones\"><strong>Irte de vacaciones<\/strong><\/a><\/p><p>¡El momento favorito del año! Si tus vacaciones son playa-mar-arena, opta por colores vivos y brillantes, <a href=\"\/collections\/crop-tops\" title=\"Crop Tops\">crop tops<\/a>, <a href=\"\/collections\/vestidos\" title=\"Vestidos y Faldas\">faldas y vestidos largos<\/a> y <a href=\"\/collections\/pantalones-estampados\" title=\"Pantalones estampados\">pantalones estampados<\/a>. Si tu plan es a una casita en la montaña, elige lo último en <a href=\"\/collections\/capas\" title=\"Capas\">capas<\/a>, <a href=\"\/collections\/sacos\" title=\"Abrigos y Sacos\">sacos<\/a> y chalecos cuello tortuga.<\/p><p><a href=\"\/collections\/ano-nuevo\" title=\"Año nuevo\"><strong>Felices fiestas: Año Nuevo\/Navidad<\/strong><\/a><\/p><p>Llega un año lleno de ilusiones y oportunidades, y es motivo para celebrar estas festividades con una pinta divina. Una de las piezas claves de la temporada son <a href=\"\/collections\/bodies-escote-en-v\" title=\"Blusas y bodies con escote en V\">bodies y blusas con escote en V<\/a> y cuello bandeja que puedes combinar con <a href=\"\/collections\/pantalones-elegantes\" title=\"Pantalones elegantes\">pantalones elegantes<\/a>. <\/p>",
+            "center": false,
+            "block_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0"
+      ],
+      "settings": {
+        "title": "COMPRA POR OCASIÓN",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "banner",
     "main",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
-    "2d36f1f6-0ae2-4726-9cfd-fa56629768bf"
+    "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
+    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365"
   ]
 }
