@@ -24,6 +24,13 @@
           "settings": {
           }
         },
+        "d05957d4-8379-4896-90c4-cc26aa85d056": {
+          "type": "discount-product",
+          "settings": {
+            "text": "por la compra de este producto tienes un -p- gratis",
+            "file": "gift_box.jpg"
+          }
+        },
         "product_quantity": {
           "type": "product_quantity",
           "settings": {
@@ -93,6 +100,7 @@
         "product_variants",
         "product_sku",
         "c8894913-ecea-4d1e-b885-95208ac5cbc9",
+        "d05957d4-8379-4896-90c4-cc26aa85d056",
         "product_quantity",
         "product_buttons",
         "f7704069-17c8-42f6-ae27-646be7b277dd",
