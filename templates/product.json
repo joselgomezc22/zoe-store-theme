@@ -63,7 +63,7 @@
             "star_size": 15,
             "text_align": "flex-start",
             "product": "{{product}}",
-            "stars_text_empty": "Te gustó ? Sé el primero de calificar"
+            "stars_text_empty": "No hay comentario aun !"
           }
         },
         "product_buttons": {
