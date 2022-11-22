@@ -6,7 +6,7 @@
         "19f76a7b-3bd9-42e3-a3a3-565de8082405": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#ffef20",
+            "stars_fill_color": "#f9bd00",
             "star_size": 25,
             "text_align": "flex-start",
             "product": "{{product}}",
