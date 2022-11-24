@@ -43,6 +43,7 @@
       "blocks": {
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/01.jpg",
             "overlay": false,
@@ -54,7 +55,7 @@
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "https:\/\/zoestore.co\/collections\/lo-nuevo",
+            "link": "https:\/\/zoestore.co\/collections\/ropa",
             "button_text": "Comprar",
             "second_link": "",
             "second_button_text": "Button 2 text",
