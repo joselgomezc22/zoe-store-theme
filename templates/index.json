@@ -43,12 +43,11 @@
       "blocks": {
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/01.jpg",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 67,
+            "caption_horizontal": 51,
             "caption_vertical": 94,
             "mobile_image": "shopify:\/\/shop_images\/01-cel.jpg",
             "hide_caption_background": false,
@@ -61,7 +60,7 @@
             "second_button_text": "Button 2 text",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
-            "cta_background": "#834a41",
+            "cta_background": "#000",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
