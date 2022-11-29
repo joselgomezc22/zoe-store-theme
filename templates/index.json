@@ -43,7 +43,6 @@
       "blocks": {
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/01.Editable_30_155190cf-0c81-4ba2-b390-cee74ba2cffa.jpg",
             "overlay": false,
@@ -121,6 +120,7 @@
         },
         "59a316c9-d1ec-437d-8f50-b03be970bd5f": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/16_b95b5743-21e3-4716-9fac-c9a5eaaa31ff.jpg",
             "overlay": false,
