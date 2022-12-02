@@ -297,6 +297,24 @@
             "horizontal_position": 50,
             "align_text": "left"
           }
+        },
+        "9d8329ce-a431-4c9f-908b-73d3df4eb3d3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03.png",
+            "image_width": "100%",
+            "link": "https:\/\/zoestore.co\/collections\/simona-pomona",
+            "heading": "",
+            "text": "",
+            "button": "",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
         }
       },
       "block_order": [
@@ -305,7 +323,8 @@
         "1625752962aa2a6ebb-2",
         "9e905f30-8cb4-4acd-89ae-18ac0c1e47ac",
         "057649ca-c8b0-4833-8ecf-b175a337a13e",
-        "8b2dd955-dcd0-4c72-b61d-55fcb58e76bc"
+        "8b2dd955-dcd0-4c72-b61d-55fcb58e76bc",
+        "9d8329ce-a431-4c9f-908b-73d3df4eb3d3"
       ],
       "settings": {
         "full_width": false,
