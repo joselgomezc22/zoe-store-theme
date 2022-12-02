@@ -201,6 +201,7 @@
     },
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0": {
           "type": "text",
@@ -220,6 +221,28 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "31feefcf-4218-4b64-9128-5dd938082ba5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17060951097658__31feefcf-4218-4b64-9128-5dd938082ba5-1670005298f5c2e294-0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "<p>Bodies de moda para mujer.<\/p><p>Los bodies son la prenda más versátil que puedes tener, un diseño te funciona para diferentes ocasiones de uso. En Zoé, tenemos una amplia selección de bodies en colores en tendencia, colores neutros, diseños básicos, estilos exclusivos y todas las tallas. <\/p><p><strong>Evento laboral<\/strong><\/p><p>Opta por colores sobrios y diseños recatados, nuestras referencias como Carlotta, Lauren, Adele y Amazonico son <\/p>",
+            "center": false,
+            "block_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--17060951097658__31feefcf-4218-4b64-9128-5dd938082ba5-1670005298f5c2e294-0"
+      ],
+      "settings": {
+        "title": "Bodies",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -227,6 +250,7 @@
     "main",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
-    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365"
+    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "31feefcf-4218-4b64-9128-5dd938082ba5"
   ]
 }
