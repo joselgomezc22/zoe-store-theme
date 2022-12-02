@@ -228,10 +228,10 @@
         "template--17130010804538__f6638843-7a65-4129-b983-f2b2af4f87c7-16699871714d77b4c4-0": {
           "type": "text",
           "settings": {
-            "heading": "Block heading",
-            "rich_text": "<p>hbsdfkñjzndsñkjndsnad<\/p>",
+            "heading": "Navidad",
+            "rich_text": "<p>¡Amamos la navidad! Es época de pasar tiempo en familia, comer mucho, festejar el año que se fue y recibir el que viene con la mejor energía.<\/p>",
             "center": false,
-            "block_size": 3
+            "block_size": 4
           }
         }
       },
@@ -239,7 +239,7 @@
         "template--17130010804538__f6638843-7a65-4129-b983-f2b2af4f87c7-16699871714d77b4c4-0"
       ],
       "settings": {
-        "title": "Welcome",
+        "title": "Zoé te desea Felices Fiestas",
         "color_scheme": "none",
         "section_padding": "both"
       }
