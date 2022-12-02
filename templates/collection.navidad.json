@@ -228,7 +228,7 @@
           "type": "text",
           "settings": {
             "heading": "Block heading",
-            "rich_text": "<p>hbsdf<\/p>",
+            "rich_text": "<p>hbsdfkñjzndsñkjndsnad<\/p>",
             "center": false,
             "block_size": 3
           }
