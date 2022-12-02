@@ -247,7 +247,7 @@
         "9e905f30-8cb4-4acd-89ae-18ac0c1e47ac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_8bd9fb72-0b0c-42d8-a5b4-c6958526c7fe.jpg",
+            "image": "shopify:\/\/shop_images\/Sin_titulo_800_x_800_px_1.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/zapatos",
             "heading": "",
@@ -257,7 +257,7 @@
             "text_color": "#ffffff",
             "button_color": "#ffffff",
             "button_background": "#000000",
-            "vertical_position": 14,
+            "vertical_position": 16,
             "horizontal_position": 50,
             "align_text": "center"
           }
