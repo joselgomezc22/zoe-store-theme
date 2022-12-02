@@ -300,6 +300,7 @@
         },
         "9d8329ce-a431-4c9f-908b-73d3df4eb3d3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/03.png",
             "image_width": "100%",
