@@ -228,8 +228,8 @@
         "template--17130010804538__f6638843-7a65-4129-b983-f2b2af4f87c7-16699871714d77b4c4-0": {
           "type": "text",
           "settings": {
-            "heading": "Navidad",
-            "rich_text": "<p>¡Amamos la navidad! Es época de pasar tiempo en familia, dejar la dieta de lado, festejar el año que se fue y recibir el que viene con la mejor energía.<\/p><p>Ya se siente el espíritu navideño y hay una gran cantidad de planes para hacer en estas fechas, y obvio, no nos podíamos quedar sin recomendarte nuestros favoritos:<\/p><p>- <\/p>",
+            "heading": "",
+            "rich_text": "<p>¡Amamos la navidad! Es época de pasar tiempo en familia, dejar la dieta de lado, festejar el año que se fue y recibir el que viene con la mejor energía.<\/p><p><strong>Planes para hacer en familia<\/strong><\/p><p>Ya se siente el espíritu navideño y hay una gran cantidad de planes para hacer en estas fechas con los que más quieres, y obvio, no nos podíamos quedar sin recomendarte nuestros favoritos:<\/p><p>- Recorrido nocturno por los mejores alumbrados de tu ciudad.<\/p><p>- Cocinar juntos. Los buñuelos más redonditos ¡ganan!<\/p><p>- Las pelis navideñas NUNCA fallan. <\/p><p>- Donar juguetes y ayudar a otros a tener una buena navidad. <\/p><p><strong>Guía de regalos<\/strong><\/p><p>Los regalos son la parte más estresante de navidad y más si es a último minuto. Pero tranqui que acá te ayudamos.<\/p><p><\/p>",
             "center": false,
             "block_size": 6
           }
@@ -239,7 +239,7 @@
         "template--17130010804538__f6638843-7a65-4129-b983-f2b2af4f87c7-16699871714d77b4c4-0"
       ],
       "settings": {
-        "title": "Zoé te desea Felices Fiestas",
+        "title": "✨Zoé te desea Felices Fiestas✨",
         "color_scheme": "none",
         "section_padding": "both"
       }
