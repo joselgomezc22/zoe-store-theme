@@ -3,7 +3,8 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "display_wide": true
+        "display_wide": true,
+        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_652cabba-acdb-400d-a1c1-b55659bb7cda.jpg"
       }
     },
     "main": {
