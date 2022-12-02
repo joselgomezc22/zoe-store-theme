@@ -220,6 +220,28 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "f6638843-7a65-4129-b983-f2b2af4f87c7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17130010804538__f6638843-7a65-4129-b983-f2b2af4f87c7-16699871714d77b4c4-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Block heading",
+            "rich_text": "<p>hbsdf<\/p>",
+            "center": false,
+            "block_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--17130010804538__f6638843-7a65-4129-b983-f2b2af4f87c7-16699871714d77b4c4-0"
+      ],
+      "settings": {
+        "title": "Welcome",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -227,6 +249,7 @@
     "main",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
-    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365"
+    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "f6638843-7a65-4129-b983-f2b2af4f87c7"
   ]
 }
