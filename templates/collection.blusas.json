@@ -201,6 +201,7 @@
     },
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0": {
           "type": "text",
@@ -220,6 +221,28 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "5ededd92-d625-4207-9db2-dd967e372572": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17132172247354__5ededd92-d625-4207-9db2-dd967e372572-16700079556fad95b9-0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "<p>Las blusas modernas y juveniles <\/p>",
+            "center": false,
+            "block_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--17132172247354__5ededd92-d625-4207-9db2-dd967e372572-16700079556fad95b9-0"
+      ],
+      "settings": {
+        "title": "Blusas para mujer",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -227,6 +250,7 @@
     "main",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
-    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365"
+    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "5ededd92-d625-4207-9db2-dd967e372572"
   ]
 }
