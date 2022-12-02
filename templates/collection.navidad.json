@@ -229,7 +229,7 @@
           "type": "text",
           "settings": {
             "heading": "Navidad",
-            "rich_text": "<p>¡Amamos la navidad! Es época de pasar tiempo en familia, comer mucho, festejar el año que se fue y recibir el que viene con la mejor energía.<\/p>",
+            "rich_text": "<p>¡Amamos la navidad! Es época de pasar tiempo en familia, dejar la dieta a un lado, festejar el año que se fue y recibir el que viene con la mejor energía.<\/p><p><\/p>",
             "center": false,
             "block_size": 4
           }
