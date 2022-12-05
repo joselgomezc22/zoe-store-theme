@@ -9,7 +9,6 @@
     },
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "blocks": {
         "40e4cbd5-0224-4f3b-854a-e66e9ba0b7cf": {
           "type": "side_filter",
