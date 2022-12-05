@@ -1203,6 +1203,7 @@
         "blocks": {
           "1561573654669": {
             "type": "mega_menu",
+            "disabled": true,
             "settings": {
               "menu_item": "EXPLORE",
               "link": "shopify:\/\/collections"
