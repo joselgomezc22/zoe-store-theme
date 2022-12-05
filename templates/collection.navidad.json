@@ -2,10 +2,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "display_wide": true,
-        "image": "shopify:\/\/shop_images\/Omnisend.jpg"
+        "image": "shopify:\/\/shop_images\/Banners.jpg"
       }
     },
     "main": {
