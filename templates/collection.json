@@ -4,7 +4,8 @@
       "type": "main-collection-banner",
       "disabled": true,
       "settings": {
-        "display_wide": true
+        "display_wide": true,
+        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_9.jpg"
       }
     },
     "main": {
