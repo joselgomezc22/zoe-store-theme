@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "display_wide": false,
+        "display_wide": true,
         "image": "shopify:\/\/shop_images\/Banners.jpg"
       }
     },
