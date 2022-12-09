@@ -340,7 +340,7 @@
         "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tiempos_de_entrega_pc.jpg",
+            "image": "shopify:\/\/shop_images\/PIE_DE_PAGINA_Mesa_de_trabajo_1.jpg",
             "overlay": false,
             "text_align": "right",
             "caption_horizontal": 0,
@@ -358,7 +358,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
         },
@@ -382,7 +382,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
         }
@@ -609,7 +609,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -633,7 +633,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
