@@ -365,11 +365,12 @@
         "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_32.jpg",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_29.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 0,
             "caption_vertical": 0,
+            "mobile_image": "shopify:\/\/shop_images\/Diseno_sin_titulo_32.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -383,7 +384,7 @@
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
             "caption_background": "transparent",
-            "caption_background_opacity": 20
+            "caption_background_opacity": 10
           }
         }
       },
