@@ -315,7 +315,6 @@
     },
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63": {
       "type": "image-gallery",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__cd4a03f7-073b-44a8-8b97-a73ce5506f63-1670460357593d0062-0": {
           "type": "image",

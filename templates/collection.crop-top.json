@@ -222,28 +222,6 @@
         "section_padding": "both"
       }
     },
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "rich_text": "<p>Los crop tops se han convertido en una prenda esencial, ya que te hace lucir moderna, juvenil, sale con todo y si los usas adecuadamente, puedes resaltar partes de tu cuerpo. Un pro absoluto de los crop tops es que puedes usarlos con muchos tipos de prenda y siempre va a funcionar tu look, además de tener topo tipo de diseños y colores. En Zoé, tenemos una amplia selección de propuesta para ti, ya sea que estés buscando uno informal para todos los días o algo más <a href=\"https:\/\/zoestore.co\/collections\/elegante\" title=\"Elegante\">elegante<\/a>, lo tenemos. Arriésgate a usarlos y descubre su facilidad para combinar. <\/p><p><strong>Estilos clásicos<\/strong><\/p><p>Estos los puedes usar tanto en un día tranquilo en casa con <a href=\"\/collections\/jeans\" title=\"Jeans\">jeans<\/a> como para un evento importante con una <a href=\"\/collections\/faldas\" title=\"Faldas\">falda larga<\/a> o <a href=\"\/collections\/pantalones-anchos\" title=\"Pantalones anchos\">pantalones palazzo<\/a>. <a href=\"\/products\/crop-top-escote-cruzado-manga-bombacha-larga-nicola-terra\" title=\"Crop Top Escote Cruzado Manga Bombacha - Nicola Terra\">Nicola<\/a>, <a href=\"\/products\/crop-top-gardenia-blanco\" title=\"Crop Top - Gardenia Blanco\">Gardenia<\/a> y <a href=\"\/products\/crop-top-escote-corazon-manga-con-bolero-destiny-terracota\" title=\"Crop Top Manga con Bolero - Destiny Terra\">Destiny<\/a> son nuestras recomendaciones. <\/p><p><a href=\"\/collections\/crop-tops-asimetricos\" title=\"Cortes asimétricos\"><strong>Cortes asimétricos<\/strong><\/a><\/p><p>Son geniales para lucir diferente y con estilo. Puedes encontrar un sinfín de diseños que te harán resaltar. Estos benefician a todo tipo de cuerpo puesto que dejan el cuello a la vista, lo que genera un efecto visual que estiliza tu figura y rostro. <\/p><p><strong>Diseños básicos<\/strong><\/p><p><a href=\"\/products\/crop-top-manga-sisa-botanico-verde-agua\" title=\"Crop Top Manga Sisa - Botánico Verde Agua\">Botánico<\/a>, <a href=\"\/products\/copy-of-crop-top-manga-sisa-blow-blanco\" title=\"Crop Top Manga Sisa - Blow Blanco\">Blow<\/a> y <a href=\"\/products\/crop-top-corte-asimetrico-manga-larga-laureana-azul-bebe\" title=\"Crop Top Corte Asimétrico Manga Larga - Laureana Azul Bebé\">Laureana<\/a> son los infaltables y que sirven para todo, tenerlos en todos los colores te van a salvar la vida gracias a su versatilidad. <\/p><p><strong>Pop de color<\/strong><\/p><p>Anímate a usar colores vibrantes. Un pantalón de un color neutro con un crop top de un color que te siente bien, te hará sobresaltar y lucir divertida. <\/p>",
-            "center": false,
-            "block_size": 6
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
-      ],
-      "settings": {
-        "title": "Crop tops para mujer",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "3c3e2ea8-aa1a-417d-88ff-d4dbdb7d6744": {
       "type": "slideshow",
       "blocks": {
@@ -310,6 +288,28 @@
         "cta_size": 14,
         "section_padding": "both"
       }
+    },
+    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "<p>Los crop tops se han convertido en una prenda esencial, ya que te hace lucir moderna, juvenil, sale con todo y si los usas adecuadamente, puedes resaltar partes de tu cuerpo. Un pro absoluto de los crop tops es que puedes usarlos con muchos tipos de prenda y siempre va a funcionar tu look, además de tener topo tipo de diseños y colores. En Zoé, tenemos una amplia selección de propuesta para ti, ya sea que estés buscando uno informal para todos los días o algo más <a href=\"https:\/\/zoestore.co\/collections\/elegante\" title=\"Elegante\">elegante<\/a>, lo tenemos. Arriésgate a usarlos y descubre su facilidad para combinar. <\/p><p><strong>Estilos clásicos<\/strong><\/p><p>Estos los puedes usar tanto en un día tranquilo en casa con <a href=\"\/collections\/jeans\" title=\"Jeans\">jeans<\/a> como para un evento importante con una <a href=\"\/collections\/faldas\" title=\"Faldas\">falda larga<\/a> o <a href=\"\/collections\/pantalones-anchos\" title=\"Pantalones anchos\">pantalones palazzo<\/a>. <a href=\"\/products\/crop-top-escote-cruzado-manga-bombacha-larga-nicola-terra\" title=\"Crop Top Escote Cruzado Manga Bombacha - Nicola Terra\">Nicola<\/a>, <a href=\"\/products\/crop-top-gardenia-blanco\" title=\"Crop Top - Gardenia Blanco\">Gardenia<\/a> y <a href=\"\/products\/crop-top-escote-corazon-manga-con-bolero-destiny-terracota\" title=\"Crop Top Manga con Bolero - Destiny Terra\">Destiny<\/a> son nuestras recomendaciones. <\/p><p><a href=\"\/collections\/crop-tops-asimetricos\" title=\"Cortes asimétricos\"><strong>Cortes asimétricos<\/strong><\/a><\/p><p>Son geniales para lucir diferente y con estilo. Puedes encontrar un sinfín de diseños que te harán resaltar. Estos benefician a todo tipo de cuerpo puesto que dejan el cuello a la vista, lo que genera un efecto visual que estiliza tu figura y rostro. <\/p><p><strong>Diseños básicos<\/strong><\/p><p><a href=\"\/products\/crop-top-manga-sisa-botanico-verde-agua\" title=\"Crop Top Manga Sisa - Botánico Verde Agua\">Botánico<\/a>, <a href=\"\/products\/copy-of-crop-top-manga-sisa-blow-blanco\" title=\"Crop Top Manga Sisa - Blow Blanco\">Blow<\/a> y <a href=\"\/products\/crop-top-corte-asimetrico-manga-larga-laureana-azul-bebe\" title=\"Crop Top Corte Asimétrico Manga Larga - Laureana Azul Bebé\">Laureana<\/a> son los infaltables y que sirven para todo, tenerlos en todos los colores te van a salvar la vida gracias a su versatilidad. <\/p><p><strong>Pop de color<\/strong><\/p><p>Anímate a usar colores vibrantes. Un pantalón de un color neutro con un crop top de un color que te siente bien, te hará sobresaltar y lucir divertida. <\/p>",
+            "center": false,
+            "block_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
+      ],
+      "settings": {
+        "title": "Crop tops para mujer",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -318,7 +318,7 @@
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
-    "3c3e2ea8-aa1a-417d-88ff-d4dbdb7d6744"
+    "3c3e2ea8-aa1a-417d-88ff-d4dbdb7d6744",
+    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b"
   ]
 }
