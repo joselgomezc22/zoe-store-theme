@@ -104,6 +104,7 @@
         },
         "metafield_popup": {
           "type": "metafield_popup",
+          "disabled": true,
           "settings": {
             "popup_label": "Care guide",
             "popup_metafield_content": "<p>{{ product.metafields.descriptors.care_guide.value }}<\/p>"
