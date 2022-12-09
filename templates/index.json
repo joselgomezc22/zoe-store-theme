@@ -615,6 +615,7 @@
         },
         "template--16986105381178__407672da-8be9-4719-848b-4a4910c26d9e-16705997610e3e5009-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
