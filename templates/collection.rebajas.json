@@ -298,7 +298,7 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "rich_text": "<p>Los pantalones anchos volvieron, ya dejamos atrás los skinny y ahora la comodidad es una prioridad. Un plus para estos pantalones es que en la tela apropiada, siempre se verán elegantes y sofisticados. <\/p><p>En Zoé, tenemos una amplia selección de <a href=\"\/collections\/pantalones-estampados\" title=\"Pantalones estampados\">pantalones en estampados<\/a>, anchos de bota, colores neutros, estilos exclusivos y todas las tallas. Ya sea que estés buscando uno para tu día a día o para una ocasión más inusual, lo tenemos.<\/p><p><strong>Look clásico para todo<\/strong><\/p><p>Un palazzo tiro alto de un color sobrios con un body ajustado son una opción ideal. Puedes acompañarlo con accesorios como collares o pañuelos en el cuello para estilizar tu figura.<\/p>",
+            "rich_text": "",
             "center": false,
             "block_size": 6
           }
@@ -308,7 +308,7 @@
         "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
       ],
       "settings": {
-        "title": "Pantalones para mujer",
+        "title": "Rebajas",
         "color_scheme": "none",
         "section_padding": "both"
       }
