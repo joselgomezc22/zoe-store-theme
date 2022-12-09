@@ -230,8 +230,8 @@
         "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
           "type": "text",
           "settings": {
-            "heading": "",
-            "rich_text": "<p><\/p>",
+            "heading": "Los pantalones anchos volvieron. Ya dejamos atrás los skinny, la comodidad es una prioridad ahora, y un plus para estos pantalones es que en la tela apropiada, siempre se verán elegantes y apropiados.",
+            "rich_text": "",
             "center": false,
             "block_size": 3
           }
@@ -261,7 +261,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -278,7 +278,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -295,7 +295,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -338,7 +338,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -362,7 +362,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
