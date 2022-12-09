@@ -225,15 +225,14 @@
     },
     "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
           "type": "text",
           "settings": {
-            "heading": "Los pantalones anchos volvieron, ya dejamos atrás los skinny y ahora la comodidad es una prioridad. Un plus para estos pantalones es que en la tela apropiada, siempre se verán elegantes y apropiados.",
-            "rich_text": "",
+            "heading": "",
+            "rich_text": "<p>Los pantalones anchos volvieron, ya dejamos atrás los skinny y ahora la comodidad es una prioridad. Un plus para estos pantalones es que en la tela apropiada, siempre se verán elegantes y sofisticados. <\/p>",
             "center": false,
-            "block_size": 3
+            "block_size": 6
           }
         }
       },
