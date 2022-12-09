@@ -222,28 +222,6 @@
         "section_padding": "both"
       }
     },
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "rich_text": "<p>Destaca con la variedad de nuestros diseños. Los vestidos ahora se usan para todo: la playa, un día soleado en la ciudad, una noche de coctél. Y las faldas se unen a esas ocasiones, solo es cuestión de buscar algo indicado para la parte de arriba y quedas con tu look perfecto. En Zoé creemos que encontrar buenos y lindos vestidos y faldas debe ser simple y fácil.<\/p><p><strong>Para tierra cálida<\/strong><\/p><p>Opta por vestidos largos. Estos alargarán tu cuerpo y estilizarán tu figura, te harán lucir más alta y delgada. Nuestros diseños agregan un toque distinto a tu look, <a href=\"\/products\/vestido-largo-estampado-escote-asimetrico-filadelfia-azul-bebe-y-blanco\" title=\"Vestido Largo Estampado Escote Asimétrico - Filadelfia Azul Bebé y Blanco\">cortes en cintura<\/a>, escotes profundos en espalda, <a href=\"\/products\/vestido-largo-con-apertura-bohemio-terra\" title=\"Vestido Largo con Apertura - Bohemio Terra\">abertura en pierna<\/a> y <a href=\"\/products\/vestido-corto-escote-con-tiras-tiki-azul-bebe\" title=\"Vestido Largo Escote con Tiras - Tiki Azul Bebé\">vestidos con accesorios<\/a>. Una sola prenda y muchos beneficios. <\/p><p><strong>Para resaltar en un evento<\/strong><\/p><p>Los boleros, cortes asimétricos, apertura en una pierna son opciones espectaculares para lucir increíble en tus vacaciones. Nuestras telas son frescas y livianas, te sentirás cómoda y arreglada con la <a href=\"\/products\/falda-asimetrica-con-bolero-bahamas-azul-y-blanco\" title=\"Falda Asimétrica con Bolero - Bahamas Azul y Blanco\">Bahamas<\/a>, <a href=\"\/products\/falda-valencia-print-zebra-negro\" title=\"Falda - Valencia Print Zebra Negro\">Valencia<\/a> y <a href=\"\/products\/falda-larga-nala-negro\" title=\"Falda Larga -Nala Negro\">Nala<\/a>.<\/p><p> <\/p>",
-            "center": false,
-            "block_size": 6
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
-      ],
-      "settings": {
-        "title": "Vestidos y faldas para mujer",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "7858d819-f6ff-4fba-9ec3-e164281347ce": {
       "type": "slideshow",
       "blocks": {
@@ -310,6 +288,28 @@
         "cta_size": 14,
         "section_padding": "both"
       }
+    },
+    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "<p>Destaca con la variedad de nuestros diseños. Los vestidos ahora se usan para todo: la playa, un día soleado en la ciudad, una noche de coctél. Y las faldas se unen a esas ocasiones, solo es cuestión de buscar algo indicado para la parte de arriba y quedas con tu look perfecto. En Zoé creemos que encontrar buenos y lindos vestidos y faldas debe ser simple y fácil.<\/p><p><strong>Para tierra cálida<\/strong><\/p><p>Opta por vestidos largos. Estos alargarán tu cuerpo y estilizarán tu figura, te harán lucir más alta y delgada. Nuestros diseños agregan un toque distinto a tu look, <a href=\"\/products\/vestido-largo-estampado-escote-asimetrico-filadelfia-azul-bebe-y-blanco\" title=\"Vestido Largo Estampado Escote Asimétrico - Filadelfia Azul Bebé y Blanco\">cortes en cintura<\/a>, escotes profundos en espalda, <a href=\"\/products\/vestido-largo-con-apertura-bohemio-terra\" title=\"Vestido Largo con Apertura - Bohemio Terra\">abertura en pierna<\/a> y <a href=\"\/products\/vestido-corto-escote-con-tiras-tiki-azul-bebe\" title=\"Vestido Largo Escote con Tiras - Tiki Azul Bebé\">vestidos con accesorios<\/a>. Una sola prenda y muchos beneficios. <\/p><p><strong>Para resaltar en un evento<\/strong><\/p><p>Los boleros, cortes asimétricos, apertura en una pierna son opciones espectaculares para lucir increíble en tus vacaciones. Nuestras telas son frescas y livianas, te sentirás cómoda y arreglada con la <a href=\"\/products\/falda-asimetrica-con-bolero-bahamas-azul-y-blanco\" title=\"Falda Asimétrica con Bolero - Bahamas Azul y Blanco\">Bahamas<\/a>, <a href=\"\/products\/falda-valencia-print-zebra-negro\" title=\"Falda - Valencia Print Zebra Negro\">Valencia<\/a> y <a href=\"\/products\/falda-larga-nala-negro\" title=\"Falda Larga -Nala Negro\">Nala<\/a>.<\/p><p> <\/p>",
+            "center": false,
+            "block_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
+      ],
+      "settings": {
+        "title": "Vestidos y faldas para mujer",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -318,7 +318,7 @@
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
-    "7858d819-f6ff-4fba-9ec3-e164281347ce"
+    "7858d819-f6ff-4fba-9ec3-e164281347ce",
+    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b"
   ]
 }
