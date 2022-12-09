@@ -229,9 +229,9 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "rich_text": "",
+            "rich_text": "<p>Dale a tu pinta el protagonismo que se merece con una chaqueta que te haga sobresalir. Te damos un tipo cuando no quieras pensar mucho qué ponerte: un total look con un toque de color. <\/p>",
             "center": false,
-            "block_size": 3
+            "block_size": 6
           }
         }
       },
