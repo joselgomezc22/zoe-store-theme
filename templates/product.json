@@ -18,6 +18,13 @@
           "settings": {
           }
         },
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
+          "type": "shortcode_popup",
+          "settings": {
+            "popup_label": "Guía de tallas",
+            "shortcode_name": "Tallas"
+          }
+        },
         "product_variants": {
           "type": "product_variants",
           "settings": {
@@ -64,13 +71,6 @@
           "type": "stock_levels",
           "settings": {
             "threshold": 5
-          }
-        },
-        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
-          "type": "shortcode_popup",
-          "settings": {
-            "popup_label": "Guía de tallas",
-            "shortcode_name": "Tallas"
           }
         },
         "product_buttons": {
@@ -128,6 +128,7 @@
       "block_order": [
         "19f76a7b-3bd9-42e3-a3a3-565de8082405",
         "product_info",
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
         "product_variants",
         "product_sku",
         "c8894913-ecea-4d1e-b885-95208ac5cbc9",
@@ -136,7 +137,6 @@
         "d56dffc3-91b5-402f-939a-f5e3456837ec",
         "product_quantity",
         "cb0314b7-8d93-4eb3-bf92-562bb07273c7",
-        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
         "product_buttons",
         "f7704069-17c8-42f6-ae27-646be7b277dd",
         "519d2af3-1da3-4d6b-a7cc-157f37606a4e",
@@ -230,7 +230,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -254,7 +254,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
