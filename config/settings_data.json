@@ -1280,12 +1280,21 @@
               "title": "Blog",
               "block_width": 3
             }
+          },
+          "f7695c04-f27c-4c6c-8304-711f479d8f9f": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Suscríbete a nuestro Newsletter !",
+              "mailing_subheading": "<p>Recibirás información relevante de moda y estilo <\/p>",
+              "block_width": 8
+            }
           }
         },
         "block_order": [
           "1561574562622",
           "1561574551095",
-          "1d20851a-46e7-4044-9c08-a7d3cfd0063a"
+          "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
+          "f7695c04-f27c-4c6c-8304-711f479d8f9f"
         ],
         "settings": {
           "footer_text_align": "left",
