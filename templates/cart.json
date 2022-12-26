@@ -8,13 +8,30 @@
     },
     "dca0dd16-2b7c-4bdc-85b9-fd42e84b56a1": {
       "type": "judgeme_carousel_section",
+      "disabled": true,
       "settings": {
         "maxwidth": 1080
+      }
+    },
+    "3c40a5d8-3726-4ba4-aa22-a39358a5e61a": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Tambien vas a amar !",
+        "collection": "lo-nuevo",
+        "carousel": true,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 22,
+        "color_scheme": "cs1",
+        "section_padding": "both"
       }
     }
   },
   "order": [
     "main",
-    "dca0dd16-2b7c-4bdc-85b9-fd42e84b56a1"
+    "dca0dd16-2b7c-4bdc-85b9-fd42e84b56a1",
+    "3c40a5d8-3726-4ba4-aa22-a39358a5e61a"
   ]
 }
