@@ -3,10 +3,18 @@
     "main": {
       "type": "main-cart",
       "settings": {
+        "link": ""
+      }
+    },
+    "dca0dd16-2b7c-4bdc-85b9-fd42e84b56a1": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dca0dd16-2b7c-4bdc-85b9-fd42e84b56a1"
   ]
 }
