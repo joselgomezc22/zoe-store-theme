@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "display_wide": true,
+        "image": "shopify:\/\/shop_images\/04_98435ed0-74bc-4258-8e6f-7cad4fcc9855.png"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "40e4cbd5-0224-4f3b-854a-e66e9ba0b7cf": {
+          "type": "side_filter",
+          "settings": {
+            "two_column_labels": false,
+            "scroll_long_lists": true,
+            "filter_color_swatches": true,
+            "show_filter_count": true
+          }
+        },
+        "10f255d3-5584-4411-abf7-4a3278902c34": {
+          "type": "dropdown_filter",
+          "settings": {
+          }
+        },
+        "d5193d9d-f7b8-4c05-9fcb-9b43685ddccb": {
+          "type": "text_note",
+          "disabled": true,
+          "settings": {
+            "textbox_heading": "EL DESCUENTO SE VE REFLEJADO EN TU CARRITO DE COMPRAS",
+            "textbox_subheading": "<p>Subheading<\/p>",
+            "subheading_align": "left"
+          }
+        },
+        "4d3e8985-2b6e-419d-b068-55e4ebba1e41": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09_1.png",
+            "link": ""
+          }
+        },
+        "af54f8b9-43ce-4ace-872d-95e3b3cc7a25": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "40e4cbd5-0224-4f3b-854a-e66e9ba0b7cf",
+        "10f255d3-5584-4411-abf7-4a3278902c34",
+        "d5193d9d-f7b8-4c05-9fcb-9b43685ddccb",
+        "4d3e8985-2b6e-419d-b068-55e4ebba1e41",
+        "af54f8b9-43ce-4ace-872d-95e3b3cc7a25"
+      ],
+      "settings": {
+        "full_width": true,
+        "grid": 4,
+        "products_per_page": 30,
+        "infinite_scroll": false,
+        "description_position": "top_description",
+        "is_sticky": false,
+        "sort_by": true
+      }
+    },
+    "86105da5-8a65-4d86-8865-6da74da4ca7c": {
+      "type": "shop-the-look",
+      "disabled": true,
+      "blocks": {
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-0": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000000"
+          }
+        },
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000000"
+          }
+        },
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-0",
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-1",
+        "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Shop the Look",
+        "section_padding": "both"
+      }
+    },
+    "2d36f1f6-0ae2-4726-9cfd-fa56629768bf": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Testimonials",
+            "content": "<p>Customer testimonial content about your products or service<\/p>",
+            "author": "Author"
+          }
+        },
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Testimonials",
+            "content": "<p>Customer testimonial content about your products or service<\/p>",
+            "author": "Author"
+          }
+        },
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Testimonials",
+            "content": "<p>Customer testimonial content about your products or service<\/p>",
+            "author": "Author"
+          }
+        }
+      },
+      "block_order": [
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-0",
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-1",
+        "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "<p>En el día a día, las mujeres nos enfrentamos a diferentes escenarios: ir al trabajo,<a href=\"https:\/\/zoe-tejidos-culturales.myshopify.com\/blogs\/noticias\/5-lugares-para-la-cita-perfecta-en-medellin\" title=\"5 lugares para la cita perfecta en Medellín\">tener una cita<\/a>, salir con amigas, ir de rumba, entre otros, y en todos queremos lucir divinas y elegir las prendas adecuadas, sin embargo, entendemos que a veces por cuestiones de tiempo sea difícil para ti pensar qué ponerte. Por supuesto, en Zoé te asesoramos y te damos ideas que te facilitarán la vida.<\/p><p><strong>Para conciertos: <\/strong><a href=\"\/collections\/bad-bunny\" title=\"Bad Bunny\"><strong>Bad Bunny<\/strong><\/a><\/p><p>¿Ya tienes tu pinta para este fin de semana? Bad Bunny hizo <em>sold out<\/em> en Bogotá y Medellín, y si corriste con la suerte de poder adquirir tus entradas ¡no temas destacar! Aquí encontrarás los <a href=\"\/collections\/crop-tops\" title=\"Crop Tops\">crop tops<\/a> y <a href=\"\/collections\/pantalones\" title=\"Pantalones\">pantalones<\/a> perfectos para verte divina. Además chaquetas con colores en tendencia para darle un punch de color a tu outfit.<\/p><p><a href=\"\/collections\/elegante\" title=\"Elegante\"><strong>Para el trabajo<\/strong><\/a><\/p><p>Vestir bien para el trabajo es un propósito con el que luchamos todas en la mañana cuando realmente no debería de tomarnos más de unos cuantos minutos. La clave para que esto no ocurra es invertir en prendas de buena calidad y minimalistas. Pues bien, aquí podrás encontrar tus mejores aliados: <a href=\"\/collections\/bodies-basicos\" title=\"Bodies básicos\">bodies básicos<\/a>, <a href=\"\/collections\/bodies-manga-larga\" title=\"Bodies manga larga\">bodies manga larga<\/a>, <a href=\"\/collections\/blusas-elegante\" title=\"Blusas elegante\">blusas elegantes<\/a>, <a href=\"\/collections\/pantalones-anchos\" title=\"Pantalones anchos\">pantalones anchos<\/a>, entre otras opciones que te motivarán.<\/p><p><a href=\"\/collections\/fiesta\" title=\"Fiesta\"><strong>Salir de fiesta<\/strong><\/a><\/p><p>En el plan rumba la prioridad es la comodidad. Y verte linda, obvio. Aquí te mostramos cómo tener el equilibrio entre estos dos. Busca siempre darle una proporción a tu cuerpo con <a href=\"\/collections\/crop-tops-asimetricos\" title=\"Crop tops asimétricos\">crop tops asimétricos<\/a>, <a href=\"\/collections\/crop-tops-basicos\" title=\"Crop tops básicos\">crop tops básicos<\/a>, <a href=\"\/collections\/pantalones-anchos\" title=\"Pantalones anchos\">pantalones anchos<\/a>, chaquetas con colores en tendencia y prendas estampadas.<\/p><p><a href=\"\/collections\/vacaciones\" title=\"Vacaciones\"><strong>Irte de vacaciones<\/strong><\/a><\/p><p>¡El momento favorito del año! Si tus vacaciones son playa-mar-arena, opta por colores vivos y brillantes, <a href=\"\/collections\/crop-tops\" title=\"Crop Tops\">crop tops<\/a>, <a href=\"\/collections\/vestidos\" title=\"Vestidos y Faldas\">faldas y vestidos largos<\/a> y <a href=\"\/collections\/pantalones-estampados\" title=\"Pantalones estampados\">pantalones estampados<\/a>. Si tu plan es a una casita en la montaña, elige lo último en <a href=\"\/collections\/capas\" title=\"Capas\">capas<\/a>, <a href=\"\/collections\/sacos\" title=\"Abrigos y Sacos\">sacos<\/a> y chalecos cuello tortuga.<\/p><p><a href=\"\/collections\/ano-nuevo\" title=\"Año nuevo\"><strong>Felices fiestas: Año Nuevo\/Navidad<\/strong><\/a><\/p><p>Llega un año lleno de ilusiones y oportunidades, y es motivo para celebrar estas festividades con una pinta divina. Una de las piezas claves de la temporada son <a href=\"\/collections\/bodies-escote-en-v\" title=\"Blusas y bodies con escote en V\">bodies y blusas con escote en V<\/a> y cuello bandeja que puedes combinar con <a href=\"\/collections\/pantalones-elegantes\" title=\"Pantalones elegantes\">pantalones elegantes<\/a>. <\/p>",
+            "center": false,
+            "block_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0"
+      ],
+      "settings": {
+        "title": "COMPRA POR OCASIÓN",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "86105da5-8a65-4d86-8865-6da74da4ca7c",
+    "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
+    "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365"
+  ]
+}

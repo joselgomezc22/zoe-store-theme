@@ -1093,7 +1093,7 @@
     "new_icon": true,
     "sale_icon": true,
     "custom_icon": true,
-    "sale_items": "icon",
+    "sale_items": "percentage",
     "product_show_vendor": false,
     "product_show_payment_button": false,
     "product_variants": "swatches",
@@ -1106,11 +1106,11 @@
     "show_shipping_note": false,
     "show_cart_notes": false,
     "show_shipping_calculator": false,
-    "shipping_calculator_default_country": "United States",
-    "show_shipping_countdown": false,
-    "free_shipping_threshold": "25",
-    "free_shipping_bg": "#ff7a5f",
-    "free_shipping_text": "#ffffff",
+    "shipping_calculator_default_country": "Colombia",
+    "show_shipping_countdown": true,
+    "free_shipping_threshold": "145000",
+    "free_shipping_bg": "#f5c4d0",
+    "free_shipping_text": "#db242d",
     "facebook_url": "https:\/\/www.facebook.com\/zoe.tejidosculturales",
     "instagram-id": "https:\/\/www.instagram.com\/zoe.tejidosculturales\/",
     "twittername": "",
@@ -1262,7 +1262,7 @@
             "settings": {
               "footer_nav": "contacto",
               "title": "Contacto",
-              "block_width": 6
+              "block_width": 4
             }
           },
           "1561574551095": {
@@ -1270,13 +1270,31 @@
             "settings": {
               "footer_nav": "informacion",
               "title": "Información",
-              "block_width": 6
+              "block_width": 4
+            }
+          },
+          "1d20851a-46e7-4044-9c08-a7d3cfd0063a": {
+            "type": "menu",
+            "settings": {
+              "footer_nav": "blog",
+              "title": "Blog",
+              "block_width": 3
+            }
+          },
+          "f7695c04-f27c-4c6c-8304-711f479d8f9f": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Suscríbete a nuestro Newsletter !",
+              "mailing_subheading": "<p>Recibirás información relevante de moda y estilo <\/p>",
+              "block_width": 8
             }
           }
         },
         "block_order": [
           "1561574562622",
-          "1561574551095"
+          "1561574551095",
+          "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
+          "f7695c04-f27c-4c6c-8304-711f479d8f9f"
         ],
         "settings": {
           "footer_text_align": "left",
@@ -1330,7 +1348,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "announcement_text": "<p>ENVÍOS Y CAMBIOS GRATIS<\/p>",
+          "announcement_text": "<p>Envío gratis compras mayores $145.000<\/p>",
           "announcement_text_size": 13,
           "top_nav": "",
           "announcement_cart": false,
@@ -1361,12 +1379,6 @@
     "blocks": {
       "1513253815146976218": {
         "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5918445685253060206": {
-        "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
         "disabled": false,
         "settings": {
         }

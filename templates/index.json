@@ -9,43 +9,27 @@
             "text": "<p>Pide HOY, recibe HOY<\/p>"
           }
         },
-        "1651341173c6b66629-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Envíos y cambios GRATIS<\/p>"
-          }
-        },
         "1651341173c6b66629-1": {
           "type": "text",
           "settings": {
             "text": "<p>Compra hoy y paga a 3 CUOTAS<\/p>"
           }
         },
-        "1651341173c6b66629-2": {
+        "1651341173c6b66629-0": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Pago contraentrega<\/p><p>Paga cuando recibas<\/p>"
-          }
-        },
-        "a73b8abf-b4ec-406e-9e4e-31f9f98c9018": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Add content to a sliding text message bar<\/p>"
+            "text": "<p>Envíos gratis por compras mayores a $145.000<\/p>"
           }
         }
       },
       "block_order": [
         "32b47019-0813-44bf-a486-753e80258060",
-        "1651341173c6b66629-0",
         "1651341173c6b66629-1",
-        "1651341173c6b66629-2",
-        "a73b8abf-b4ec-406e-9e4e-31f9f98c9018"
+        "1651341173c6b66629-0"
       ],
       "settings": {
         "sa_grid": 3,
-        "slider_speed": 5,
+        "slider_speed": 1,
         "border_top": false,
         "border_bottom": false,
         "text_size": 19,
@@ -57,26 +41,104 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
-        "59a316c9-d1ec-437d-8f50-b03be970bd5f": {
+        "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_fcc64e65-419a-4ab5-b77b-7aee91a4be71.png",
+            "image": "shopify:\/\/shop_images\/Banners_home_page_93916cd1-c693-4f00-b1ff-7eec2db17f9a.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 64,
-            "caption_vertical": 100,
+            "caption_horizontal": 12,
+            "caption_vertical": 91,
+            "mobile_image": "shopify:\/\/shop_images\/Banners_mobile.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/sale-oferta",
+            "link": "https:\/\/zoestore.co\/collections\/guia-de-regalos-para-navidad",
+            "button_text": "Comprar",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
+        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17_19bb15f9-65b3-4f78-8b6e-a3c9ca79f008.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 21,
+            "caption_vertical": 57,
+            "mobile_image": "shopify:\/\/shop_images\/17-cel.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "https:\/\/zoestore.co\/collections\/lo-nuevo?page=2",
+            "button_text": "",
+            "second_link": "shopify:\/\/collections\/navidad-lovers",
+            "second_button_text": "Comprar",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#c50000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
+        "1625752154523bf545-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_1.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 95,
+            "mobile_image": "shopify:\/\/shop_images\/10-cel.png",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "https:\/\/zoestore.co\/collections\/ropa",
+            "button_text": "Comprar",
+            "second_link": "",
+            "second_button_text": "Button 2",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#c50000",
+            "cta_background_hover": "#ffffff",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "59a316c9-d1ec-437d-8f50-b03be970bd5f": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16_b95b5743-21e3-4716-9fac-c9a5eaaa31ff.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 57,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/16-cel.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/simona-pomona",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#ffffff",
             "cta_color": "#ffffff",
-            "cta_background": "#000000",
+            "cta_background": "#b50917",
             "cta_background_hover": "#ffffff",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
@@ -84,12 +146,12 @@
         },
         "1625752154523bf545-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copia_de_BANNERS-8.png",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 10,
-            "caption_vertical": 50,
+            "caption_horizontal": 51,
+            "caption_vertical": 95,
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
@@ -105,87 +167,14 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
-        },
-        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BANNERS_DESDE_20_DE_JUNIO-6.png",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 60,
-            "caption_vertical": 100,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "shopify:\/\/products\/lupe-botines-altos",
-            "second_button_text": "Comprar",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#ffffff",
-            "cta_background": "#db242d",
-            "cta_background_hover": "#ffffff",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
-        },
-        "1625752154523bf545-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BANNERS_DESDE_20_DE_JUNIO-5.png",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/simona-pomona",
-            "button_text": "Comprar",
-            "second_link": "",
-            "second_button_text": "Button 2",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#db242d",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
-        "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BANNERS_DESDE_20_DE_JUNIO-8.png",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "Comprar",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#db242d",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
         }
       },
       "block_order": [
-        "59a316c9-d1ec-437d-8f50-b03be970bd5f",
-        "1625752154523bf545-0",
+        "da7a1b01-8668-4068-a8a3-967fe445c0b1",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "1625752154523bf545-1",
-        "da7a1b01-8668-4068-a8a3-967fe445c0b1"
+        "59a316c9-d1ec-437d-8f50-b03be970bd5f",
+        "1625752154523bf545-0"
       ],
       "settings": {
         "enable_autoplay": true,
@@ -204,7 +193,7 @@
         "1625752962aa2a6ebb-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_0f844878-99de-4fb7-a01b-b224cbb14015.jpg",
+            "image": "shopify:\/\/shop_images\/5.png",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/bodies",
             "heading": "",
@@ -222,7 +211,7 @@
         "1625752962aa2a6ebb-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo.jpg",
+            "image": "shopify:\/\/shop_images\/Sin_titulo_800_x_800_px_1.png",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/sacos",
             "heading": "",
@@ -240,7 +229,7 @@
         "1625752962aa2a6ebb-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4.jpg",
+            "image": "shopify:\/\/shop_images\/5_03018f7d-453f-49f8-8efd-bb297301a049.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/blusas",
             "heading": "",
@@ -258,7 +247,7 @@
         "9e905f30-8cb4-4acd-89ae-18ac0c1e47ac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_a5dc29c0-35b6-4144-b59f-54eea2cdb9e1.jpg",
+            "image": "shopify:\/\/shop_images\/Sin_titulo_800_x_800_px_1.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/zapatos",
             "heading": "",
@@ -268,7 +257,7 @@
             "text_color": "#ffffff",
             "button_color": "#ffffff",
             "button_background": "#000000",
-            "vertical_position": 14,
+            "vertical_position": 16,
             "horizontal_position": 50,
             "align_text": "center"
           }
@@ -276,7 +265,7 @@
         "057649ca-c8b0-4833-8ecf-b175a337a13e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.jpg",
+            "image": "shopify:\/\/shop_images\/6_d1b1e5c2-3e2a-4ad8-96df-f373d5e7a2dd.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/chaquetas",
             "heading": "",
@@ -294,7 +283,7 @@
         "8b2dd955-dcd0-4c72-b61d-55fcb58e76bc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_221c4746-29f1-4317-a9b2-72c29ca3676d.jpg",
+            "image": "shopify:\/\/shop_images\/2.png",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/pantalones",
             "heading": "",
@@ -308,6 +297,25 @@
             "horizontal_position": 50,
             "align_text": "left"
           }
+        },
+        "9d8329ce-a431-4c9f-908b-73d3df4eb3d3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03.png",
+            "image_width": "100%",
+            "link": "https:\/\/zoestore.co\/collections\/simona-pomona",
+            "heading": "",
+            "text": "",
+            "button": "",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
         }
       },
       "block_order": [
@@ -316,13 +324,82 @@
         "1625752962aa2a6ebb-2",
         "9e905f30-8cb4-4acd-89ae-18ac0c1e47ac",
         "057649ca-c8b0-4833-8ecf-b175a337a13e",
-        "8b2dd955-dcd0-4c72-b61d-55fcb58e76bc"
+        "8b2dd955-dcd0-4c72-b61d-55fcb58e76bc",
+        "9d8329ce-a431-4c9f-908b-73d3df4eb3d3"
       ],
       "settings": {
         "full_width": false,
         "title": "CATEGORÍAS",
         "color_scheme": "none",
         "section_padding": "none"
+      }
+    },
+    "bc4fbee7-6341-4959-a759-f1423af62006": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PIE_DE_PAGINA_Mesa_de_trabajo_1.jpg",
+            "overlay": false,
+            "text_align": "right",
+            "caption_horizontal": 0,
+            "caption_vertical": 45,
+            "mobile_image": "shopify:\/\/shop_images\/PIE_DE_PAGINA_Mesa_de_trabajo_1.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
+        "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 0,
+            "caption_vertical": 0,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-0",
+        "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
       }
     },
     "1625752966582d2e67": {
@@ -446,6 +523,7 @@
     },
     "1651341263187189d0": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Si_estas_en_Bogota_o_Medellin_recibe_tus_envios_en_4_horas._Escribenos_para_ayudarte.png",
         "scale": 0,
@@ -512,6 +590,7 @@
     "1651341173e18e2e00",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
+    "bc4fbee7-6341-4959-a759-f1423af62006",
     "1625752966582d2e67",
     "16522107484f6b2502",
     "16257529781b844d78",
