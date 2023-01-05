@@ -1281,14 +1281,6 @@
               "block_width": 3
             }
           },
-          "ac5c6a12-3c9e-4191-b779-2a8e8080a861": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Logo_super_industria_y_comercio.jpg",
-              "link": "",
-              "block_width": 3
-            }
-          },
           "f7695c04-f27c-4c6c-8304-711f479d8f9f": {
             "type": "newsletter",
             "settings": {
@@ -1297,7 +1289,15 @@
               "block_width": 8
             }
           },
-          "67d2ecb2-e959-49b8-ab3d-3696ca607253": {
+          "ac5c6a12-3c9e-4191-b779-2a8e8080a861": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Logo_super_industria_y_comercio.jpg",
+              "link": "",
+              "block_width": 3
+            }
+          },
+          "a93c7246-8019-468f-8d8f-7e23da9716c9": {
             "type": "text",
             "settings": {
               "title": "",
@@ -1310,9 +1310,9 @@
           "1561574562622",
           "1561574551095",
           "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
-          "ac5c6a12-3c9e-4191-b779-2a8e8080a861",
           "f7695c04-f27c-4c6c-8304-711f479d8f9f",
-          "67d2ecb2-e959-49b8-ab3d-3696ca607253"
+          "ac5c6a12-3c9e-4191-b779-2a8e8080a861",
+          "a93c7246-8019-468f-8d8f-7e23da9716c9"
         ],
         "settings": {
           "footer_text_align": "left",
