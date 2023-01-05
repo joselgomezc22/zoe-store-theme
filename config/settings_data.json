@@ -1301,7 +1301,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "footer_text": "<p>https:\/\/www.sic.gov.co\/<\/p>",
+              "footer_text": "<p><a href=\"https:\/\/www.sic.gov.co\/\" target=\"_blank\" title=\"https:\/\/www.sic.gov.co\/\">https:\/\/www.sic.gov.co\/<\/a><\/p>",
               "block_width": 3
             }
           }
