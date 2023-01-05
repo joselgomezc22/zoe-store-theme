@@ -1296,6 +1296,14 @@
               "mailing_subheading": "<p>Recibirás información relevante de moda y estilo.<\/p>",
               "block_width": 8
             }
+          },
+          "67d2ecb2-e959-49b8-ab3d-3696ca607253": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "footer_text": "<p>https:\/\/www.sic.gov.co\/<\/p>",
+              "block_width": 3
+            }
           }
         },
         "block_order": [
@@ -1303,7 +1311,8 @@
           "1561574551095",
           "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
           "ac5c6a12-3c9e-4191-b779-2a8e8080a861",
-          "f7695c04-f27c-4c6c-8304-711f479d8f9f"
+          "f7695c04-f27c-4c6c-8304-711f479d8f9f",
+          "67d2ecb2-e959-49b8-ab3d-3696ca607253"
         ],
         "settings": {
           "footer_text_align": "left",
