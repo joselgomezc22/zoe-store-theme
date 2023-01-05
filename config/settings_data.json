@@ -1293,16 +1293,8 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2_08dd474d-1928-48eb-b533-c58c42371735.jpg",
-              "link": "",
+              "link": "https:\/\/www.sic.gov.co\/",
               "block_width": 6
-            }
-          },
-          "a491bea1-6b33-47aa-8be6-21ce2b40a015": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "footer_text": "<p><a href=\"https:\/\/www.sic.gov.co\/\" target=\"_blank\" title=\"https:\/\/www.sic.gov.co\/\">https:\/\/www.sic.gov.co\/<\/a><\/p>",
-              "block_width": 3
             }
           }
         },
@@ -1311,8 +1303,7 @@
           "1561574551095",
           "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
           "f7695c04-f27c-4c6c-8304-711f479d8f9f",
-          "ac5c6a12-3c9e-4191-b779-2a8e8080a861",
-          "a491bea1-6b33-47aa-8be6-21ce2b40a015"
+          "ac5c6a12-3c9e-4191-b779-2a8e8080a861"
         ],
         "settings": {
           "footer_text_align": "left",
