@@ -1296,6 +1296,14 @@
               "link": "https:\/\/www.sic.gov.co\/",
               "block_width": 6
             }
+          },
+          "a37f3a47-aa12-458e-8095-12a2afe45b4b": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "footer_text": "<p><a href=\"https:\/\/www.sic.gov.co\/\" target=\"_blank\" title=\"https:\/\/www.sic.gov.co\/\">https:\/\/www.sic.gov.co\/<\/a><\/p>",
+              "block_width": 3
+            }
           }
         },
         "block_order": [
@@ -1303,7 +1311,8 @@
           "1561574551095",
           "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
           "f7695c04-f27c-4c6c-8304-711f479d8f9f",
-          "ac5c6a12-3c9e-4191-b779-2a8e8080a861"
+          "ac5c6a12-3c9e-4191-b779-2a8e8080a861",
+          "a37f3a47-aa12-458e-8095-12a2afe45b4b"
         ],
         "settings": {
           "footer_text_align": "left",
