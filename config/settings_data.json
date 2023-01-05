@@ -1292,17 +1292,9 @@
           "ac5c6a12-3c9e-4191-b779-2a8e8080a861": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Logo_super_industria_y_comercio.jpg",
+              "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_4bd31f97-a025-4946-92a0-53c0852a2c7c.jpg",
               "link": "",
-              "block_width": 2
-            }
-          },
-          "165a73e1-3539-44a4-a6de-7931c3aa18df": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "footer_text": "<p>https:\/\/www.sic.gov.co\/<\/p>",
-              "block_width": 3
+              "block_width": 6
             }
           }
         },
@@ -1311,8 +1303,7 @@
           "1561574551095",
           "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
           "f7695c04-f27c-4c6c-8304-711f479d8f9f",
-          "ac5c6a12-3c9e-4191-b779-2a8e8080a861",
-          "165a73e1-3539-44a4-a6de-7931c3aa18df"
+          "ac5c6a12-3c9e-4191-b779-2a8e8080a861"
         ],
         "settings": {
           "footer_text_align": "left",
