@@ -3,8 +3,8 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "display_wide": true,
-        "image": "shopify:\/\/shop_images\/Banner-drop-del-mes-pc.jpg"
+        "display_wide": false,
+        "image": "shopify:\/\/shop_images\/Plantillas_banner_categorias_1.jpg"
       }
     },
     "main": {
