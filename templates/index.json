@@ -68,13 +68,12 @@
         },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/17_19bb15f9-65b3-4f78-8b6e-a3c9ca79f008.jpg",
+            "image": "shopify:\/\/shop_images\/Banner-pop-of-color.jpg",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 21,
-            "caption_vertical": 57,
+            "caption_horizontal": 51,
+            "caption_vertical": 90,
             "mobile_image": "shopify:\/\/shop_images\/17-cel.jpg",
             "hide_caption_background": true,
             "caption_below": true,
@@ -86,7 +85,7 @@
             "second_button_text": "Comprar",
             "slide_text_color": "#ffffff",
             "cta_color": "#ffffff",
-            "cta_background": "#c50000",
+            "cta_background": "#000000",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
