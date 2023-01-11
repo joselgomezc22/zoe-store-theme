@@ -3,8 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "display_wide": true,
-        "image": "shopify:\/\/shop_images\/Ropa-para-mujer-de-moda.jpg"
+        "display_wide": true
       }
     },
     "main": {
