@@ -95,7 +95,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/10_1.jpg",
+            "image": "shopify:\/\/shop_images\/Gratis-regalo-compra.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
@@ -111,7 +111,7 @@
             "second_button_text": "Button 2",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
-            "cta_background": "#c50000",
+            "cta_background": "#000000",
             "cta_background_hover": "#ffffff",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
