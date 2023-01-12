@@ -2,9 +2,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
-        "display_wide": true
+        "display_wide": true,
+        "image": "shopify:\/\/shop_images\/Pantalon-mujer-palazzo-skinny.jpg"
       }
     },
     "main": {
