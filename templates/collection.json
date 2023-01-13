@@ -2,9 +2,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
-        "display_wide": true
+        "display_wide": true,
+        "image": "shopify:\/\/shop_images\/Pantalon-mujer-palazzo-skinny.jpg"
       }
     },
     "main": {
@@ -308,7 +308,7 @@
         "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
       ],
       "settings": {
-        "title": "Pantalones para mujer",
+        "title": "Drop del Mes",
         "color_scheme": "none",
         "section_padding": "both"
       }

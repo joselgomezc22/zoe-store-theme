@@ -1285,8 +1285,16 @@
             "type": "newsletter",
             "settings": {
               "title": "Suscríbete a nuestro Newsletter !",
-              "mailing_subheading": "<p>Recibirás información relevante de moda y estilo <\/p>",
+              "mailing_subheading": "<p>Recibirás información relevante de moda y estilo.<\/p>",
               "block_width": 8
+            }
+          },
+          "ac5c6a12-3c9e-4191-b779-2a8e8080a861": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Agregar_un_subtitulo.jpg",
+              "link": "https:\/\/www.sic.gov.co\/",
+              "block_width": 6
             }
           }
         },
@@ -1294,7 +1302,8 @@
           "1561574562622",
           "1561574551095",
           "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
-          "f7695c04-f27c-4c6c-8304-711f479d8f9f"
+          "f7695c04-f27c-4c6c-8304-711f479d8f9f",
+          "ac5c6a12-3c9e-4191-b779-2a8e8080a861"
         ],
         "settings": {
           "footer_text_align": "left",
