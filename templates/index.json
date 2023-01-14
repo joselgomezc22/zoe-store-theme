@@ -43,6 +43,7 @@
       "blocks": {
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner-pop-of-color.jpg",
             "overlay": false,
@@ -68,6 +69,7 @@
         },
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/601B9584-D6EB-4A93-B56B-860DD4469BE8.jpg",
             "overlay": false,
