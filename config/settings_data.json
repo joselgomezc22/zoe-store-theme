@@ -1243,7 +1243,7 @@
           "full_width_header": true,
           "enable_sticky_header": true,
           "header_cover": false,
-          "header_border": false,
+          "header_border": true,
           "show_mobile_search": false,
           "logo": "shopify:\/\/shop_images\/Zoe_rojo_2_86c4cd5b-2272-4a7e-ad62-152d99d7b9c9.png",
           "logo_max_width": 100,
