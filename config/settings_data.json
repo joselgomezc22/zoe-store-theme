@@ -1231,13 +1231,23 @@
               "menu_item": "",
               "link": ""
             }
+          },
+          "36b333c9-ac32-498c-b133-dfe6bcec7d39": {
+            "type": "submenu_with_image",
+            "settings": {
+              "menu_item": "",
+              "nav_image": "shopify:\/\/shop_images\/Chaquetas-blazer-mujer-colombia_c7a40983-d572-42bb-9a07-d95cbd9454db.jpg",
+              "nav_image_position": "left",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "1561573654669",
           "1561573685623",
           "95501d34-88e2-4247-9ea0-33930cc9fa92",
-          "0ca48d71-9f53-4254-9488-c2394d0134b8"
+          "0ca48d71-9f53-4254-9488-c2394d0134b8",
+          "36b333c9-ac32-498c-b133-dfe6bcec7d39"
         ],
         "settings": {
           "full_width_header": true,
