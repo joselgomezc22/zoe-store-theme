@@ -48,7 +48,7 @@
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
-            "caption_vertical": 83,
+            "caption_vertical": 85,
             "mobile_image": "shopify:\/\/shop_images\/Banner-home-mobile.jpg",
             "hide_caption_background": true,
             "caption_below": true,
