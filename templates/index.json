@@ -54,7 +54,7 @@
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
+            "link": "https:\/\/omniform1.com\/forms\/v1\/landingPage\/606d01554c7fa454543343d1\/6392223d8c1d4fbca7b4f778",
             "button_text": "Quiero mi envío gratis",
             "second_link": "",
             "second_button_text": "",
@@ -632,7 +632,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
