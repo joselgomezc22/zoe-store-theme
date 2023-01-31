@@ -4,7 +4,7 @@
       "type": "breadcrumbs",
       "settings": {
         "text_alignment": "left",
-        "section_padding": "both"
+        "section_padding": "top"
       }
     },
     "main": {
