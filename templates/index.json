@@ -41,31 +41,6 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
-        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_home_page_PC_1.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 86,
-            "mobile_image": "shopify:\/\/shop_images\/Banners_home_page_mobile_2_1.jpg",
-            "hide_caption_background": true,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "https:\/\/omniform1.com\/forms\/v1\/landingPage\/606d01554c7fa454543343d1\/6392223d8c1d4fbca7b4f778",
-            "button_text": "Quiero mi envío gratis",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
-        },
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
           "disabled": true,
@@ -115,6 +90,31 @@
             "cta_background_hover": "#ffffff",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
+          }
+        },
+        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banners_home_page_PC_1.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 86,
+            "mobile_image": "shopify:\/\/shop_images\/Banners_home_page_mobile_2_1.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "https:\/\/omniform1.com\/forms\/v1\/landingPage\/606d01554c7fa454543343d1\/6392223d8c1d4fbca7b4f778",
+            "button_text": "Quiero mi envío gratis",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
           }
         },
         "59a316c9-d1ec-437d-8f50-b03be970bd5f": {
@@ -169,9 +169,9 @@
         }
       },
       "block_order": [
-        "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "da7a1b01-8668-4068-a8a3-967fe445c0b1",
         "1625752154523bf545-1",
+        "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "59a316c9-d1ec-437d-8f50-b03be970bd5f",
         "1625752154523bf545-0"
       ],
