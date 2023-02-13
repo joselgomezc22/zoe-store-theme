@@ -548,7 +548,7 @@
         "template--16986105381178__57ed3583-e547-455c-8fb3-546f2524a5ed-16760408178ae8bfce-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ropa-mujer-tiendas-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/Ropa-mujer-tiendas-fisicas.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 49,
@@ -566,7 +566,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#ffffff",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 30
           }
         },
@@ -590,7 +590,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
