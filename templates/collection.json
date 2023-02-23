@@ -4,7 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "display_wide": true,
-        "image": "shopify:\/\/shop_images\/Pantalon-mujer-palazzo-skinny.jpg"
+        "image": "shopify:\/\/shop_images\/Promociones-ropa-mujer-bodies-2.jpg"
       }
     },
     "main": {
@@ -298,7 +298,7 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "rich_text": "",
+            "rich_text": "<p>Febrero es el mes del amor y de regalar cosas bonitas a todos los que queremos. Y como nos encanta hacerte feliz, en este mes de puros colores te obsequiamos la tercera prenda para sigas luciendo divina. Este mes te traemos Pop of Color, una colección inpirada en la combinación de colores vibrantes, fuertes y con los que te proyectarás como una mujer innovadora y diferente. <\/p>",
             "center": false,
             "block_size": 6
           }

@@ -1,5 +1,12 @@
 {
   "sections": {
+    "b845bc5e-31a6-4f67-b9a2-59fd775b550c": {
+      "type": "breadcrumbs",
+      "settings": {
+        "text_alignment": "left",
+        "section_padding": "top"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -300,6 +307,7 @@
     }
   },
   "order": [
+    "b845bc5e-31a6-4f67-b9a2-59fd775b550c",
     "main",
     "579967df-81c2-458e-9bbe-43ce1b975f43",
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982",
