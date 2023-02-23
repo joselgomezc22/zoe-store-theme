@@ -70,11 +70,11 @@
         "1625752154523bf545-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Promociones-ropa-mujer-bodies.jpg",
+            "image": "shopify:\/\/shop_images\/Descuentos-promociones-ropa-mujer.jpg",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 95,
+            "caption_horizontal": 13,
+            "caption_vertical": 48,
             "mobile_image": "shopify:\/\/shop_images\/Banners_home_page_mobile_4.jpg",
             "hide_caption_background": false,
             "caption_below": true,
