@@ -69,6 +69,7 @@
         },
         "1625752154523bf545-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Descuentos-promociones-ropa-mujer.jpg",
             "overlay": false,
