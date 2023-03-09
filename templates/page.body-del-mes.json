@@ -181,7 +181,7 @@
         "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Road-trip-outfit.jpg",
+            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v.jpg",
             "image_width": "33%",
             "heading": "Road trip",
             "rich_text": "<p>Cómoda y fresca.<\/p>",
@@ -193,10 +193,10 @@
         "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Office-day-outfit.jpg",
+            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v-2.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "heading": "Ir a la oficina",
+            "rich_text": "<p>Elegante y sofisticada.<\/p>",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -205,10 +205,10 @@
         "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Brunch-outfit.jpg",
+            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v-3.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "heading": "Brunch",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
