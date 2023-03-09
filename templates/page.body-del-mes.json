@@ -1,26 +1,9 @@
 {
   "sections": {
-    "1216e52f-1501-4719-bd92-d44f2d1f531f": {
-      "type": "background-video",
-      "settings": {
-        "mp4_url": "",
-        "video_url": "",
-        "title": "Background Video",
-        "subheading_text": "Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.",
-        "color_scheme": "cs1",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "overlay_color": "#000000",
-        "show_overlay_color": false,
-        "full_width": true,
-        "video_height": 600,
-        "section_padding": "both"
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
-        "page_size": "thin",
+        "page_size": "full_width",
         "sidebar_positon": "left"
       }
     },
@@ -38,21 +21,10 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
-    },
-    "cd549171-0a3c-4c9a-b6da-fc670011bd74": {
-      "type": "video",
-      "settings": {
-        "title": "Video",
-        "video_url": "",
-        "description": "Describe the video for customers using screen readers",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
-    "1216e52f-1501-4719-bd92-d44f2d1f531f",
     "main",
-    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c",
-    "cd549171-0a3c-4c9a-b6da-fc670011bd74"
+    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c"
   ]
 }
