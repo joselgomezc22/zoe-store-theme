@@ -1,5 +1,146 @@
 {
   "sections": {
+    "a7b38dbe-25b7-438b-9018-5c83a136eae3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body-del-mes-ropa-mujer-1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body-del-mes-ropa-mujer-2.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "6e4f0b14-f738-472c-bdcb-a8f5760a35c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body-del-mes-ropa-mujer-3.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "7bc2030d-2c31-49a0-8289-b861543f9ad1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body-del-mes-ropa-mujer-6.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "ead0e000-9d28-4c01-9dbe-30883def486a": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-1",
+        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0",
+        "6e4f0b14-f738-472c-bdcb-a8f5760a35c5",
+        "7bc2030d-2c31-49a0-8289-b861543f9ad1",
+        "ead0e000-9d28-4c01-9dbe-30883def486a"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -24,6 +165,7 @@
     }
   },
   "order": [
+    "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "main",
     "26e80558-f6a7-4ca6-9641-c75f3ddbe02c"
   ]
