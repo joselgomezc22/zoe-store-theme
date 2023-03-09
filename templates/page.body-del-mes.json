@@ -16,10 +16,26 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Más y más colores",
+        "collection": "lauren-body-del-mes",
+        "carousel": true,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "main",
-    "16281164377b72f53d"
+    "16281164377b72f53d",
+    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c"
   ]
 }
