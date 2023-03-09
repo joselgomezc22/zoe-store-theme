@@ -12,6 +12,7 @@
     },
     "1628116575355cde55": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "1628116575355cde55-0": {
           "type": "featured_collection",
@@ -49,9 +50,11 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "Featured collection",
-        "collection": "",
+        "title": "Más y más colores",
+        "collection": "lauren-body-del-mes",
         "carousel": false,
+        "button": false,
+        "button_text": "View all",
         "grid": 4,
         "limit": 8,
         "color_scheme": "cs1",
