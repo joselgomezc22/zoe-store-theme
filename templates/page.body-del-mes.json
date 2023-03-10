@@ -24,7 +24,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -49,7 +49,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -74,7 +74,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -98,7 +98,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -122,7 +122,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -151,6 +151,21 @@
       "settings": {
         "page_size": "full_width",
         "sidebar_positon": "left"
+      }
+    },
+    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Más y más colores",
+        "collection": "lauren-body-del-mes",
+        "carousel": true,
+        "button": false,
+        "button_text": "View all",
+        "grid": 5,
+        "limit": 14,
+        "color_scheme": "cs1",
+        "section_padding": "both"
       }
     },
     "a18898a4-13f4-4b37-9579-fe0a590e37aa": {
@@ -301,31 +316,16 @@
         "color_scheme": "cs2",
         "section_padding": "none"
       }
-    },
-    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "Más y más colores",
-        "collection": "lauren-body-del-mes",
-        "carousel": true,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 8,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "main",
+    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c",
     "a18898a4-13f4-4b37-9579-fe0a590e37aa",
     "ed51c6bf-8959-465e-84cf-99447b7c43ae",
     "41411ac0-b4b7-48ea-a0b8-f092cf1e4f07",
     "f71a2b7b-39b1-45a4-aaef-89938e8014ca",
-    "fe9d89d1-fb26-4550-9a0c-08b425b5d04f",
-    "26e80558-f6a7-4ca6-9641-c75f3ddbe02c"
+    "fe9d89d1-fb26-4550-9a0c-08b425b5d04f"
   ]
 }
