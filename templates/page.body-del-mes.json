@@ -7,7 +7,6 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Body-del-mes-ropa-mujer-1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -57,7 +56,6 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Body-del-mes-ropa-mujer-4.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -80,8 +78,8 @@
         },
         "7bc2030d-2c31-49a0-8289-b861543f9ad1": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Body-del-mes-ropa-mujer-6.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -157,7 +155,7 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "Más y más colores",
+        "title": "BODY DEL MES - COLORES",
         "collection": "lauren-body-del-mes",
         "carousel": true,
         "button": false,
