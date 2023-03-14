@@ -140,13 +140,38 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "cdd6de33-d744-479c-9217-7dfde4da2790": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body-del-mes.gif",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
         "da7a1b01-8668-4068-a8a3-967fe445c0b1",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "59a316c9-d1ec-437d-8f50-b03be970bd5f",
-        "1625752154523bf545-0"
+        "1625752154523bf545-0",
+        "cdd6de33-d744-479c-9217-7dfde4da2790"
       ],
       "settings": {
         "enable_autoplay": true,
