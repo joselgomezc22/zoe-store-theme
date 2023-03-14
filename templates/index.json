@@ -69,11 +69,12 @@
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Body-del-mes.gif",
+            "image": "shopify:\/\/shop_images\/Body-mujer-versatil-basico.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Body-mujer-versatil-basico-2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
