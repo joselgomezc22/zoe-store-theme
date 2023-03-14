@@ -44,11 +44,11 @@
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/601B9584-D6EB-4A93-B56B-860DD4469BE8.jpg",
+            "image": "shopify:\/\/shop_images\/Ropa-mujer-colombia-print.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 73,
-            "caption_vertical": 92,
+            "caption_horizontal": 87,
+            "caption_vertical": 87,
             "mobile_image": "shopify:\/\/shop_images\/A6A7B186-6601-457F-A844-8AB9E6A64BFD.jpg",
             "hide_caption_background": false,
             "caption_below": true,
@@ -60,10 +60,34 @@
             "second_button_text": "Button 2 text",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
-            "cta_background": "#9d0000",
+            "cta_background": "#535353",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
+          }
+        },
+        "cdd6de33-d744-479c-9217-7dfde4da2790": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body-del-mes.gif",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
           }
         },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
@@ -140,38 +164,14 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
-        },
-        "cdd6de33-d744-479c-9217-7dfde4da2790": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Body-del-mes.gif",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "transparent",
-            "caption_background_opacity": 20
-          }
         }
       },
       "block_order": [
         "da7a1b01-8668-4068-a8a3-967fe445c0b1",
+        "cdd6de33-d744-479c-9217-7dfde4da2790",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "59a316c9-d1ec-437d-8f50-b03be970bd5f",
-        "1625752154523bf545-0",
-        "cdd6de33-d744-479c-9217-7dfde4da2790"
+        "1625752154523bf545-0"
       ],
       "settings": {
         "enable_autoplay": true,
