@@ -67,163 +67,6 @@
         "section_padding": "both"
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "page_size": "full_width",
-        "sidebar_positon": "left"
-      }
-    },
-    "fe9d89d1-fb26-4550-9a0c-08b425b5d04f": {
-      "type": "testimonials",
-      "blocks": {
-        "template--18269919543610__fe9d89d1-fb26-4550-9a0c-08b425b5d04f-1678385346536ae4c8-0": {
-          "type": "testimonial",
-          "settings": {
-            "title": "",
-            "content": "<p>¡Lo amooo! Me sirve para todo, me lo pongo para ir a la oficina, salir de rumba, ir a comer con mi familia. Súper recomendado. <\/p>",
-            "author": "Sofía Z."
-          }
-        },
-        "template--18269919543610__fe9d89d1-fb26-4550-9a0c-08b425b5d04f-1678385346536ae4c8-1": {
-          "type": "testimonial",
-          "settings": {
-            "title": "",
-            "content": "<p>Lo tengo en todos los colores, lo complemento con accesorios y queda top, me siento divina cada vez que me lo pongo. <\/p>",
-            "author": "Annie B."
-          }
-        },
-        "template--18269919543610__fe9d89d1-fb26-4550-9a0c-08b425b5d04f-1678385346536ae4c8-2": {
-          "type": "testimonial",
-          "settings": {
-            "title": "",
-            "content": "<p>Lo compré para mi grado y me lo terminé poniendo para todo, ¡es espectacular! Y un excelente regalo.<\/p>",
-            "author": "Camila D."
-          }
-        }
-      },
-      "block_order": [
-        "template--18269919543610__fe9d89d1-fb26-4550-9a0c-08b425b5d04f-1678385346536ae4c8-0",
-        "template--18269919543610__fe9d89d1-fb26-4550-9a0c-08b425b5d04f-1678385346536ae4c8-1",
-        "template--18269919543610__fe9d89d1-fb26-4550-9a0c-08b425b5d04f-1678385346536ae4c8-2"
-      ],
-      "settings": {
-        "title": "Reviews",
-        "color_scheme": "cs2",
-        "section_padding": "none"
-      }
-    },
-    "41411ac0-b4b7-48ea-a0b8-f092cf1e4f07": {
-      "type": "image-with-text",
-      "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/Cuello-V-body-mujer.jpg",
-        "layout": "left",
-        "image_width": "50%",
-        "text_align": "left",
-        "text_position": "center",
-        "title": "Escote en V",
-        "text": "<p>Estiliza tu cuello y rostro, adelgaza tu figura, alarga tu silueta. Este tipo de escote favorece a todo tipo de cuerpo y da un look más femenino, sofisticado y elegante.<\/p>",
-        "link": "",
-        "button": "",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
-    "f71a2b7b-39b1-45a4-aaef-89938e8014ca": {
-      "type": "image-with-text",
-      "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/Lycra-tela-suave-calidad.jpg",
-        "layout": "right",
-        "image_width": "50%",
-        "text_align": "left",
-        "text_position": "center",
-        "title": "Lycra de alta calidad",
-        "text": "<p>Tiene dos capas en el delantero, lo que hace que horme divino y te haga sentir segura con tu cuerpo. Además, gracias a su tela suave y fresca podrás usarlo en todo tipo de clima.<\/p>",
-        "link": "",
-        "button": "",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
-    "a18898a4-13f4-4b37-9579-fe0a590e37aa": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18269919543610__a18898a4-13f4-4b37-9579-fe0a590e37aa-1678385318b190a1a1-0": {
-          "type": "text",
-          "settings": {
-            "heading": "LAUREN",
-            "rich_text": "<p>Es uno de nuestros best sellers, todas lo amamos por su versatilidad y practicidad que lo ha convertido en un must en tu clóset y cuando tienes un color, ¡los vas a querer todos! Tiene un diseño divino y funciona perfecto para cualquier ocasión.<\/p>",
-            "center": false,
-            "block_size": 4
-          }
-        }
-      },
-      "block_order": [
-        "template--18269919543610__a18898a4-13f4-4b37-9579-fe0a590e37aa-1678385318b190a1a1-0"
-      ],
-      "settings": {
-        "title": "¿Conoces nuestro body del mes?",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
-    "ed51c6bf-8959-465e-84cf-99447b7c43ae": {
-      "type": "editorial-columns",
-      "blocks": {
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v.jpg",
-            "image_width": "33%",
-            "heading": "Road trip",
-            "rich_text": "<p>Cómoda y fresca.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        },
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v-2.jpg",
-            "image_width": "33%",
-            "heading": "Ir a la oficina",
-            "rich_text": "<p>Elegante y sofisticada.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        },
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v-3.jpg",
-            "image_width": "33%",
-            "heading": "Brunch",
-            "rich_text": "<p>Casual y con estilo. <\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        }
-      },
-      "block_order": [
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-0",
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-1",
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "title": "¿Cómo y dónde usarlo?",
-        "heading_size": 24,
-        "text_size": 14,
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "c8607b14-4d84-43c7-96c4-4e93f350da92": {
       "type": "collection-list",
       "blocks": {
@@ -251,16 +94,28 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "page_size": "full_width",
+        "sidebar_positon": "left"
+      }
+    },
+    "e4e5e6d8-a0e5-4893-958c-f05fe1d2b21b": {
+      "type": "rich-text",
+      "settings": {
+        "title": "- Testimonios -",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
+    "c8607b14-4d84-43c7-96c4-4e93f350da92",
     "main",
-    "fe9d89d1-fb26-4550-9a0c-08b425b5d04f",
-    "41411ac0-b4b7-48ea-a0b8-f092cf1e4f07",
-    "f71a2b7b-39b1-45a4-aaef-89938e8014ca",
-    "a18898a4-13f4-4b37-9579-fe0a590e37aa",
-    "ed51c6bf-8959-465e-84cf-99447b7c43ae",
-    "c8607b14-4d84-43c7-96c4-4e93f350da92"
+    "e4e5e6d8-a0e5-4893-958c-f05fe1d2b21b"
   ]
 }
