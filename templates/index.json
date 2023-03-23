@@ -185,14 +185,6 @@
         "section_padding": "bottom"
       }
     },
-    "b415ad0c-8e2d-4312-b3a7-5ba572097d67": {
-      "type": "rich-text",
-      "settings": {
-        "title": "- Testimonios de nuestros clientes -",
-        "color_scheme": "none",
-        "section_padding": "none"
-      }
-    },
     "1625752962aa2a6ebb": {
       "type": "image-gallery",
       "blocks": {
@@ -336,6 +328,14 @@
       "settings": {
         "full_width": false,
         "title": "CATEGORÍAS",
+        "color_scheme": "none",
+        "section_padding": "none"
+      }
+    },
+    "b415ad0c-8e2d-4312-b3a7-5ba572097d67": {
+      "type": "rich-text",
+      "settings": {
+        "title": "- Testimonios de nuestros clientes -",
         "color_scheme": "none",
         "section_padding": "none"
       }
@@ -650,8 +650,8 @@
   "order": [
     "1651341173e18e2e00",
     "1625752154523bf545",
-    "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "1625752962aa2a6ebb",
+    "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "bc4fbee7-6341-4959-a759-f1423af62006",
     "1625752966582d2e67",
     "16522107484f6b2502",
