@@ -245,9 +245,9 @@
         "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-1"
       ],
       "settings": {
-        "full_width": false,
-        "title": "Collection list",
-        "grid": 3,
+        "full_width": true,
+        "title": "- Conoce nuestros combos -",
+        "grid": 2,
         "color_scheme": "none",
         "section_padding": "both"
       }
