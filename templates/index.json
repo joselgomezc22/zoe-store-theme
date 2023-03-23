@@ -185,40 +185,12 @@
         "section_padding": "bottom"
       }
     },
-    "c6cdf73f-f356-4d41-a1f9-7f5644390a25": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "template--16986105381178__c6cdf73f-f356-4d41-a1f9-7f5644390a25-1679538381d8ba3f27-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--16986105381178__c6cdf73f-f356-4d41-a1f9-7f5644390a25-1679538381d8ba3f27-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--16986105381178__c6cdf73f-f356-4d41-a1f9-7f5644390a25-1679538381d8ba3f27-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105381178__c6cdf73f-f356-4d41-a1f9-7f5644390a25-1679538381d8ba3f27-0",
-        "template--16986105381178__c6cdf73f-f356-4d41-a1f9-7f5644390a25-1679538381d8ba3f27-1",
-        "template--16986105381178__c6cdf73f-f356-4d41-a1f9-7f5644390a25-1679538381d8ba3f27-2"
-      ],
+    "b415ad0c-8e2d-4312-b3a7-5ba572097d67": {
+      "type": "rich-text",
       "settings": {
-        "full_width": false,
-        "title": "Collection list",
-        "grid": 3,
+        "title": "- Testimonios de nuestros clientes -",
         "color_scheme": "none",
-        "section_padding": "both"
+        "section_padding": "none"
       }
     },
     "1625752962aa2a6ebb": {
@@ -678,7 +650,7 @@
   "order": [
     "1651341173e18e2e00",
     "1625752154523bf545",
-    "c6cdf73f-f356-4d41-a1f9-7f5644390a25",
+    "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "1625752962aa2a6ebb",
     "bc4fbee7-6341-4959-a759-f1423af62006",
     "1625752966582d2e67",
