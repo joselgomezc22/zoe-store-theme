@@ -213,6 +213,29 @@
         "section_padding": "both"
       }
     },
+    "59f318ff-13ce-480f-83b5-49018d2a0dca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "- Testimonios de nuestros clientes -",
+            "rich_text": "",
+            "center": false,
+            "block_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0"
+      ],
+      "settings": {
+        "title": "- Testimonios de nuestros clientes -",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "9f91e942-922e-412d-a328-5b9b11bf4c30": {
       "type": "slideshow",
       "blocks": {
@@ -311,6 +334,7 @@
     "main",
     "579967df-81c2-458e-9bbe-43ce1b975f43",
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982",
+    "59f318ff-13ce-480f-83b5-49018d2a0dca",
     "9f91e942-922e-412d-a328-5b9b11bf4c30",
     "product-recommendations",
     "1668729670a528fb32"
