@@ -204,6 +204,45 @@
         "cta_size": 14,
         "section_padding": "both"
       }
+    },
+    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>¡He probado los Bodies con mangas y sin mangas de esta tienda y estoy encantada! Primero, me llamó la atención la amplia variedad de estilos y diseños que ofrecen, lo que me permitió encontrar el body perfecto para cada ocasión.<\/p>",
+            "author": "Nicolle"
+          }
+        },
+        "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>Pero lo mejor de todo es que pude aprovechar los descuentos increíbles en toda la colección de Bodies ¡Ahorre hasta un 20% en nuestras compras y estamos muy contentos con nuestras prendas nuevas!<\/p>",
+            "author": "Ivonn"
+          }
+        },
+        "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>Los materiales utilizados son de alta calidad y se sienten cómodos en el cuerpo.<\/p>",
+            "author": "Author"
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-0",
+        "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-1",
+        "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -212,6 +251,7 @@
     "main",
     "4c3dd13f-e736-491d-b261-dae6b4595830",
     "58bb7c67-6dbf-4526-9707-d32f935e82c3",
-    "d218b9c6-2e7b-4f79-bff9-c1f12121f013"
+    "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
+    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7"
   ]
 }
