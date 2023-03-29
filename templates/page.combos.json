@@ -121,7 +121,7 @@
           "type": "text",
           "settings": {
             "heading": "Descripción de la Promo",
-            "rich_text": "<p>En esta colección encontrarás una gran variedad de estilos, diseños y colores para que puedas elegir el que mejor se adapte a tus gustos y necesidades. <\/p><p>¡Disfruta de un 15% o 20% de descuento eligiendo 3 productos de nuestras prendas seleccionadas!<\/p>",
+            "rich_text": "<p>En esta colección encontrarás una gran variedad de estilos, diseños y colores para que puedas elegir el que mejor se adapte a tus gustos y necesidades. Están diseñados para ajustarse cómodamente al cuerpo. Los Bodies con mangas son perfectos para cualquier ocasión, desde un evento formal hasta una salida casual y los bodies sin mangas son ideales para combinar con faldas o pantalones de talle alto para crear un look sofisticado. También pueden ser usados con shorts o jeans para un estilo más casual y relajado. En resumen, son una prenda imprescindible para cualquier armario. Son cómodos, elegantes y versátiles, y pueden ser usados en diferentes ocasiones para crear looks impactantes y sofisticados.<\/p><p>¡Disfruta de un 15% y 20% de descuento eligiendo 3 productos de nuestras prendas seleccionadas!<\/p>",
             "center": true,
             "block_size": 3
           }
@@ -201,7 +201,7 @@
       ],
       "settings": {
         "full_width": false,
-        "title": "Ideas de uso",
+        "title": "Ideas de outfits",
         "color_scheme": "none",
         "section_padding": "both"
       }
