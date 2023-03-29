@@ -2,6 +2,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "display_wide": true,
         "image": "shopify:\/\/shop_images\/promo-bodie-mujer-descuento-colombia.jpg"
