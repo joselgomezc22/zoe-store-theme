@@ -124,12 +124,80 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "58bb7c67-6dbf-4526-9707-d32f935e82c3": {
+      "type": "image-gallery",
+      "blocks": {
+        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-0": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
+        },
+        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
+        },
+        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-0",
+        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-1",
+        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Ideas de uso",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "c8607b14-4d84-43c7-96c4-4e93f350da92",
     "main",
-    "4c3dd13f-e736-491d-b261-dae6b4595830"
+    "4c3dd13f-e736-491d-b261-dae6b4595830",
+    "58bb7c67-6dbf-4526-9707-d32f935e82c3"
   ]
 }
