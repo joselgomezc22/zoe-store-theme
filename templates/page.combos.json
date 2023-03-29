@@ -121,7 +121,7 @@
           "type": "text",
           "settings": {
             "heading": "Descripción de la Promo",
-            "rich_text": "<p>En esta colección encontrarás una gran variedad de estilos, diseños y colores para que puedas elegir el que mejor se adapte a tus gustos y necesidades. Están diseñados para ajustarse cómodamente al cuerpo. Los Bodies con mangas son perfectos para cualquier ocasión, desde un evento formal hasta una salida casual y los bodies sin mangas son ideales para combinar con faldas o pantalones de talle alto para crear un look sofisticado. También pueden ser usados con shorts o jeans para un estilo más casual y relajado. En resumen, son una prenda imprescindible para cualquier armario. Son cómodos, elegantes y versátiles, y pueden ser usados en diferentes ocasiones para crear looks impactantes y sofisticados.<\/p><p>¡Disfruta de un 15% y 20% de descuento eligiendo 3 productos de nuestras prendas seleccionadas!<\/p>",
+            "rich_text": "<p>En esta colección encontrarás una gran variedad de estilos, diseños y colores para que puedas elegir el que mejor se adapte a tus gustos y necesidades. Son perfectos para cualquier ocasión, desde un evento formal hasta una salida casual. Son cómodos, elegantes y versátiles, y pueden ser usados en diferentes ocasiones para crear looks impactantes y sofisticados.<\/p><p>¡Disfruta de un 15% y 20% de descuento eligiendo 3 productos de nuestras prendas seleccionadas!<\/p>",
             "center": true,
             "block_size": 3
           }
@@ -151,7 +151,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -169,7 +169,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -187,7 +187,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -281,7 +281,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -304,7 +304,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
