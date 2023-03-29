@@ -103,10 +103,24 @@
         "sidebar_positon": "left"
       }
     },
-    "e4e5e6d8-a0e5-4893-958c-f05fe1d2b21b": {
+    "4c3dd13f-e736-491d-b261-dae6b4595830": {
       "type": "rich-text",
+      "blocks": {
+        "template--18450660131130__4c3dd13f-e736-491d-b261-dae6b4595830-16801179926019e8e4-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Block heading",
+            "rich_text": "<p>En esta colección encontrarás una gran variedad de estilos, diseños y colores para que puedas elegir el que mejor se adapte a tus gustos y necesidades. <\/p><p>¡Disfruta de un 15% o 20% de descuento eligiendo 3 productos de nuestras prendas seleccionadas!<\/p>",
+            "center": true,
+            "block_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__4c3dd13f-e736-491d-b261-dae6b4595830-16801179926019e8e4-0"
+      ],
       "settings": {
-        "title": "- Testimonios -",
+        "title": "Welcome",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -116,6 +130,6 @@
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "c8607b14-4d84-43c7-96c4-4e93f350da92",
     "main",
-    "e4e5e6d8-a0e5-4893-958c-f05fe1d2b21b"
+    "4c3dd13f-e736-491d-b261-dae6b4595830"
   ]
 }
