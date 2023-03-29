@@ -98,6 +98,17 @@
     "main": {
       "type": "main-page",
       "disabled": true,
+      "blocks": {
+        "28deb46f-1111-4780-8962-8dc66c100f8d": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "28deb46f-1111-4780-8962-8dc66c100f8d"
+      ],
       "settings": {
         "page_size": "full_width",
         "sidebar_positon": "left"
@@ -131,10 +142,11 @@
         "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bodie-1_37b686b7-685d-4718-ba9a-0e6e5b78617d.jpg",
             "image_width": "33%",
             "link": "",
             "heading": "01",
-            "text": "Subheading",
+            "text": "",
             "button": "Button",
             "overlay_opacity": 0,
             "text_color": "#000000",
@@ -148,10 +160,11 @@
         "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bodie-2.jpg",
             "image_width": "33%",
             "link": "",
             "heading": "02",
-            "text": "Subheading",
+            "text": "",
             "button": "Button",
             "overlay_opacity": 0,
             "text_color": "#000000",
@@ -165,10 +178,11 @@
         "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bodie-3.jpg",
             "image_width": "33%",
             "link": "",
             "heading": "03",
-            "text": "Subheading",
+            "text": "",
             "button": "Button",
             "overlay_opacity": 0,
             "text_color": "#000000",
@@ -243,6 +257,71 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "b4f5feba-9f3b-4196-96f3-5776a6466311": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18450660131130__b4f5feba-9f3b-4196-96f3-5776a6466311-168011977692a2da3a-0": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--18450660131130__b4f5feba-9f3b-4196-96f3-5776a6466311-168011977692a2da3a-1": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__b4f5feba-9f3b-4196-96f3-5776a6466311-168011977692a2da3a-0",
+        "template--18450660131130__b4f5feba-9f3b-4196-96f3-5776a6466311-168011977692a2da3a-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -252,6 +331,7 @@
     "4c3dd13f-e736-491d-b261-dae6b4595830",
     "58bb7c67-6dbf-4526-9707-d32f935e82c3",
     "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
-    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7"
+    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
+    "b4f5feba-9f3b-4196-96f3-5776a6466311"
   ]
 }
