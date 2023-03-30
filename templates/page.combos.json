@@ -120,8 +120,8 @@
         "template--18450660131130__4c3dd13f-e736-491d-b261-dae6b4595830-16801179926019e8e4-0": {
           "type": "text",
           "settings": {
-            "heading": "Descripción de la Promo",
-            "rich_text": "<p>En esta colección encontrarás una gran variedad de estilos, diseños y colores. Son perfectos para cualquier ocasión. Son cómodos, elegantes y versátiles, y puedes crear looks impactantes y sofisticados.<\/p><p>¡Disfruta de un 15% y 20% de descuento eligiendo 3 productos de nuestras prendas seleccionadas!<\/p>",
+            "heading": "Promo 3-Pack",
+            "rich_text": "<p>El descuento se verá reflejado antes de realizar el pago. Una vez ingreses \t\t\tlas 3 prendas de la misma sección, el descuento se aplicará \t\t\t\t\t\t\tautomáticamente.<\/p><p><br\/>El envío es gratis a todo el país.<\/p>",
             "center": true,
             "block_size": 3
           }
