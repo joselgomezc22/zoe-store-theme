@@ -11,7 +11,6 @@
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Banners_home_page_mobile.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -143,10 +142,10 @@
         "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bodie-1_37b686b7-685d-4718-ba9a-0e6e5b78617d.jpg",
+            "image": "shopify:\/\/shop_images\/chaqueta-mujer-negra-denim-clasica-bolsillos-4.jpg",
             "image_width": "33%",
             "link": "",
-            "heading": "01",
+            "heading": "",
             "text": "",
             "button": "Button",
             "overlay_opacity": 0,
@@ -161,10 +160,10 @@
         "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bodie-2.jpg",
+            "image": "shopify:\/\/shop_images\/Chaqueta-mujer-verde-cali-oversized-flecos1.jpg",
             "image_width": "33%",
             "link": "",
-            "heading": "02",
+            "heading": "",
             "text": "",
             "button": "Button",
             "overlay_opacity": 0,
@@ -179,10 +178,10 @@
         "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bodie-3.jpg",
+            "image": "shopify:\/\/shop_images\/Chaqueta-mujer-marfil-corta-corduroy-clasica-1.jpg",
             "image_width": "33%",
             "link": "",
-            "heading": "03",
+            "heading": "",
             "text": "",
             "button": "Button",
             "overlay_opacity": 0,
