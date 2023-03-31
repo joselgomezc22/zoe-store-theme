@@ -96,6 +96,44 @@
         "section_padding": "both"
       }
     },
+    "2aef6dc0-257a-4ce3-9783-42f89cbfc66a": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--18450660131130__2aef6dc0-257a-4ce3-9783-42f89cbfc66a-1680270814da3f6fad-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El descuento se verá reflejado antes de realizar el pago<\/p>"
+          }
+        },
+        "template--18450660131130__2aef6dc0-257a-4ce3-9783-42f89cbfc66a-1680270814da3f6fad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ENVÍO GRATIS A TODO EL PAÍS<\/p>"
+          }
+        },
+        "template--18450660131130__2aef6dc0-257a-4ce3-9783-42f89cbfc66a-1680270814da3f6fad-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El descuento se aplicará automáticamente una vez agregues las prendas al carrito<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__2aef6dc0-257a-4ce3-9783-42f89cbfc66a-1680270814da3f6fad-0",
+        "template--18450660131130__2aef6dc0-257a-4ce3-9783-42f89cbfc66a-1680270814da3f6fad-1",
+        "template--18450660131130__2aef6dc0-257a-4ce3-9783-42f89cbfc66a-1680270814da3f6fad-2"
+      ],
+      "settings": {
+        "sa_grid": 3,
+        "slider_speed": 5,
+        "border_top": false,
+        "border_bottom": true,
+        "text_size": 16,
+        "height": 60,
+        "color_scheme": "cs3",
+        "section_padding": "both"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -258,29 +296,16 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
-    },
-    "b4f5feba-9f3b-4196-96f3-5776a6466311": {
-      "type": "slideshow",
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "c8607b14-4d84-43c7-96c4-4e93f350da92",
+    "2aef6dc0-257a-4ce3-9783-42f89cbfc66a",
     "main",
     "4c3dd13f-e736-491d-b261-dae6b4595830",
     "58bb7c67-6dbf-4526-9707-d32f935e82c3",
     "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
-    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
-    "b4f5feba-9f3b-4196-96f3-5776a6466311"
+    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7"
   ]
 }
