@@ -7,19 +7,119 @@
         "sidebar_positon": "left"
       }
     },
-    "16281164377b72f53d": {
-      "type": "newsletter",
+    "a231c604-4ddd-4ae6-924a-9913c6c7f779": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-0": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "image": "shopify:\/\/shop_images\/Chaqueta-mujer-marfil-corta-corduroy-clasica-1.jpg",
+            "lookbook_product_1": "accesorio-para-mujer-animal-earcuff-animal",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "accesorio-para-mujer-azul-earcuff-azul",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        },
+        "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        },
+        "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-0",
+        "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-1",
+        "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-2"
+      ],
       "settings": {
-        "title": "Subscribe to our newsletter",
-        "newsletter_subheading": "<p>Join our mailing list - no spam!<\/p>",
-        "mail_gdpr_text": "<p>*You're signing up to receive our emails and can unsubscribe at any time.<\/p>",
-        "color_scheme": "none",
+        "full_width": false,
+        "title": "Shop the Look",
+        "section_padding": "both"
+      }
+    },
+    "04ebe054-fd24-44e0-8bd0-5b9680ecce91": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Featured collection",
+        "collection": "",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
         "section_padding": "both"
       }
     }
   },
   "order": [
     "main",
-    "16281164377b72f53d"
+    "a231c604-4ddd-4ae6-924a-9913c6c7f779",
+    "04ebe054-fd24-44e0-8bd0-5b9680ecce91"
   ]
 }
