@@ -29,6 +29,21 @@
         "section_padding": "both"
       }
     },
+    "04ebe054-fd24-44e0-8bd0-5b9680ecce91": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "¡Todos nuestros colores disponibles!",
+        "collection": "body-coco",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 5,
+        "limit": 5,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "a231c604-4ddd-4ae6-924a-9913c6c7f779": {
       "type": "shop-the-look",
       "blocks": {
@@ -124,28 +139,12 @@
         "title": "Úsalo para...",
         "section_padding": "both"
       }
-    },
-    "04ebe054-fd24-44e0-8bd0-5b9680ecce91": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "title": "Featured collection",
-        "collection": "",
-        "carousel": false,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 8,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
     "main",
     "2475f3c0-c947-4f80-857b-8c068d79a32c",
-    "a231c604-4ddd-4ae6-924a-9913c6c7f779",
-    "04ebe054-fd24-44e0-8bd0-5b9680ecce91"
+    "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
+    "a231c604-4ddd-4ae6-924a-9913c6c7f779"
   ]
 }
