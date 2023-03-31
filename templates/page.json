@@ -103,6 +103,7 @@
     },
     "04ebe054-fd24-44e0-8bd0-5b9680ecce91": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Featured collection",
@@ -115,11 +116,34 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "2475f3c0-c947-4f80-857b-8c068d79a32c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105020730__2475f3c0-c947-4f80-857b-8c068d79a32c-16802770682ed6f6c5-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Block heading",
+            "rich_text": "<p>Use rich text blocks to add more content to your pages. Further describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "center": false,
+            "block_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105020730__2475f3c0-c947-4f80-857b-8c068d79a32c-16802770682ed6f6c5-0"
+      ],
+      "settings": {
+        "title": "Welcome",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "main",
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
-    "04ebe054-fd24-44e0-8bd0-5b9680ecce91"
+    "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
+    "2475f3c0-c947-4f80-857b-8c068d79a32c"
   ]
 }
