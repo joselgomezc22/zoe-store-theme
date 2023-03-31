@@ -37,6 +37,7 @@
         },
         "template--16986105020730__7861a359-2387-4e90-9b41-fc4eb1842812-168029164571b25def-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
@@ -206,6 +207,48 @@
         "title": "Úsalo para...",
         "section_padding": "both"
       }
+    },
+    "600abb3a-45cd-4565-96ee-95acfb1624b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105020730__600abb3a-45cd-4565-96ee-95acfb1624b1-16802770682ed6f6c5-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Reunión laboral",
+            "rich_text": "<p>Elegante y sofisticada.<\/p>",
+            "center": true,
+            "block_size": 2
+          }
+        },
+        "e09bac61-cef5-4a40-a9f6-c3392aed9bb1": {
+          "type": "text",
+          "settings": {
+            "heading": "Coctelear",
+            "rich_text": "<p>Refinada y moderna.<\/p>",
+            "center": true,
+            "block_size": 2
+          }
+        },
+        "b96f1015-0cee-42b4-8b4e-a8bcfbcbe6f5": {
+          "type": "text",
+          "settings": {
+            "heading": "Playa, sol y mar",
+            "rich_text": "<p>Fresca y ligera.<\/p>",
+            "center": true,
+            "block_size": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105020730__600abb3a-45cd-4565-96ee-95acfb1624b1-16802770682ed6f6c5-0",
+        "e09bac61-cef5-4a40-a9f6-c3392aed9bb1",
+        "b96f1015-0cee-42b4-8b4e-a8bcfbcbe6f5"
+      ],
+      "settings": {
+        "title": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -213,6 +256,7 @@
     "7861a359-2387-4e90-9b41-fc4eb1842812",
     "2475f3c0-c947-4f80-857b-8c068d79a32c",
     "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
-    "a231c604-4ddd-4ae6-924a-9913c6c7f779"
+    "a231c604-4ddd-4ae6-924a-9913c6c7f779",
+    "600abb3a-45cd-4565-96ee-95acfb1624b1"
   ]
 }
