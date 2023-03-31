@@ -68,6 +68,34 @@
         "section_padding": "both"
       }
     },
+    "c8607b14-4d84-43c7-96c4-4e93f350da92": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "simona-pomona"
+          }
+        },
+        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pack_mangalarga"
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-0",
+        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "- Conoce nuestros combos -",
+        "grid": 2,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "2aef6dc0-257a-4ce3-9783-42f89cbfc66a": {
       "type": "scrolling-announcements",
       "blocks": {
@@ -106,34 +134,6 @@
         "section_padding": "both"
       }
     },
-    "c8607b14-4d84-43c7-96c4-4e93f350da92": {
-      "type": "collection-list",
-      "blocks": {
-        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "simona-pomona"
-          }
-        },
-        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pack_mangalarga"
-          }
-        }
-      },
-      "block_order": [
-        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-0",
-        "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "- Conoce nuestros combos -",
-        "grid": 2,
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -161,76 +161,6 @@
       ],
       "settings": {
         "title": "",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
-    "58bb7c67-6dbf-4526-9707-d32f935e82c3": {
-      "type": "image-gallery",
-      "blocks": {
-        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/chaqueta-mujer-negra-denim-clasica-bolsillos-4.jpg",
-            "image_width": "33%",
-            "link": "",
-            "heading": "",
-            "text": "",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
-            "vertical_position": 12,
-            "horizontal_position": 14,
-            "align_text": "left"
-          }
-        },
-        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Chaqueta-mujer-verde-cali-oversized-flecos1.jpg",
-            "image_width": "33%",
-            "link": "",
-            "heading": "",
-            "text": "",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
-            "vertical_position": 12,
-            "horizontal_position": 14,
-            "align_text": "left"
-          }
-        },
-        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Chaqueta-mujer-marfil-corta-corduroy-clasica-1.jpg",
-            "image_width": "33%",
-            "link": "",
-            "heading": "",
-            "text": "",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
-            "vertical_position": 12,
-            "horizontal_position": 14,
-            "align_text": "left"
-          }
-        }
-      },
-      "block_order": [
-        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-0",
-        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-1",
-        "template--18450660131130__58bb7c67-6dbf-4526-9707-d32f935e82c3-1680119034b4ec3650-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "title": "Ideas de outfits",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -282,7 +212,7 @@
         "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-2"
       ],
       "settings": {
-        "title": "Testimonials",
+        "title": "Reviews",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -295,8 +225,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/chaqueta-mujer-negra-denim-clasica-bolsillos-4.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "heading": "Plan con amigas",
+            "rich_text": "<p>Cómoda y sobria.<\/p>",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -307,8 +237,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Chaqueta-mujer-verde-cali-oversized-flecos1.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "heading": "Para un concierto",
+            "rich_text": "<p>Colorida y con movimiento. <\/p>",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -319,8 +249,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Chaqueta-mujer-marfil-corta-corduroy-clasica-1.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "heading": "Salir a comer",
+            "rich_text": "<p>Linda y sofisticada.<\/p>",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -340,17 +270,93 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "291c1dda-72a9-4fd1-bb48-ce230386b233": {
+      "type": "featured-product",
+      "blocks": {
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-0": {
+          "type": "product_info",
+          "settings": {
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-1": {
+          "type": "product_variants",
+          "settings": {
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-2": {
+          "type": "product_sku",
+          "settings": {
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-3": {
+          "type": "product_quantity",
+          "settings": {
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-4": {
+          "type": "stock_levels",
+          "settings": {
+            "threshold": 4
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-5": {
+          "type": "product_buttons",
+          "settings": {
+            "back_in_stock": true,
+            "back_in_stock_text": "<p>Email me when this is available<\/p>"
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-6": {
+          "type": "product_availability",
+          "settings": {
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-7": {
+          "type": "product_description",
+          "settings": {
+          }
+        },
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-8": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-0",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-1",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-2",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-3",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-4",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-5",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-6",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-7",
+        "template--18450660131130__291c1dda-72a9-4fd1-bb48-ce230386b233-1680273512d6687f91-8"
+      ],
+      "settings": {
+        "featured_product": "body-para-mujer-vino-cuello-redondo-manga-larga-rebeca-vino",
+        "title": "Featured Product",
+        "click_to_enlarge": true,
+        "image_section_size": "medium",
+        "image_options": "static",
+        "thumbnail_position": "left",
+        "slide_controls": "arrows",
+        "enable_video_looping": false,
+        "show_social_share": true,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
-    "2aef6dc0-257a-4ce3-9783-42f89cbfc66a",
     "c8607b14-4d84-43c7-96c4-4e93f350da92",
+    "2aef6dc0-257a-4ce3-9783-42f89cbfc66a",
     "main",
     "4c3dd13f-e736-491d-b261-dae6b4595830",
-    "58bb7c67-6dbf-4526-9707-d32f935e82c3",
     "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
     "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
-    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c"
+    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c",
+    "291c1dda-72a9-4fd1-bb48-ce230386b233"
   ]
 }
