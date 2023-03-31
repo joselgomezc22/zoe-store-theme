@@ -131,7 +131,7 @@
         "button": false,
         "button_text": "View all",
         "grid": 4,
-        "limit": 5,
+        "limit": 4,
         "color_scheme": "none",
         "section_padding": "both"
       }
