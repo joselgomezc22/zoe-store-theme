@@ -157,6 +157,71 @@
         "section_padding": "both"
       }
     },
+    "eca7ab96-5fe5-4cdb-af44-6c864232dd85": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105020730__eca7ab96-5fe5-4cdb-af44-6c864232dd85-168029164571b25def-0": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--16986105020730__eca7ab96-5fe5-4cdb-af44-6c864232dd85-168029164571b25def-1": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105020730__eca7ab96-5fe5-4cdb-af44-6c864232dd85-168029164571b25def-0",
+        "template--16986105020730__eca7ab96-5fe5-4cdb-af44-6c864232dd85-168029164571b25def-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "a231c604-4ddd-4ae6-924a-9913c6c7f779": {
       "type": "shop-the-look",
       "blocks": {
@@ -302,6 +367,7 @@
     "ef1db471-8940-4942-a768-ec7363208a21",
     "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
     "2475f3c0-c947-4f80-857b-8c068d79a32c",
+    "eca7ab96-5fe5-4cdb-af44-6c864232dd85",
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
     "600abb3a-45cd-4565-96ee-95acfb1624b1"
   ]
