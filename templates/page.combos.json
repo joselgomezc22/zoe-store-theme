@@ -137,17 +137,6 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "blocks": {
-        "28deb46f-1111-4780-8962-8dc66c100f8d": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "28deb46f-1111-4780-8962-8dc66c100f8d"
-      ],
       "settings": {
         "page_size": "full_width",
         "sidebar_positon": "left"
@@ -266,7 +255,7 @@
           "type": "testimonial",
           "settings": {
             "title": "",
-            "content": "<p>¡He probado los Bodies con mangas y sin mangas de esta tienda y estoy encantada! Primero, me llamó la atención la amplia variedad de estilos y diseños que ofrecen, lo que me permitió encontrar el body perfecto para cada ocasión.<\/p>",
+            "content": "<p>Todos sus bodies son perfectos para todo tipo de ocasión, estilos y de todos los colores. ¡Me tienen enamorada!<\/p>",
             "author": "Nicolle G."
           }
         },
@@ -274,7 +263,7 @@
           "type": "testimonial",
           "settings": {
             "title": "",
-            "content": "<p>Pero lo mejor de todo es que pude aprovechar los descuentos increíbles en toda la colección de Bodies ¡Ahorre hasta un 20% en nuestras compras y estamos muy contentos con nuestras prendas nuevas!<\/p>",
+            "content": "<p>Soy fan #1 de esta marca, llevo años comprando sus bodies y están como nuevos. <\/p>",
             "author": "Ivonn R."
           }
         },
@@ -282,7 +271,7 @@
           "type": "testimonial",
           "settings": {
             "title": "",
-            "content": "<p>Los materiales utilizados son de alta calidad y se sienten cómodos en el cuerpo. No puedo esperar para volver a comprar aquí en el futuro. ¡Definitivamente recomiendo esta tienda a cualquiera que busque Bodies de calidad!<\/p>",
+            "content": "<p>Es el complemento perfecto para cualquier pinta, combina súper bien y los puedo usar en el plan que sea. <\/p>",
             "author": "Natis S."
           }
         }
@@ -297,6 +286,60 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chaqueta-mujer-negra-denim-clasica-bolsillos-4.jpg",
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chaqueta-mujer-verde-cali-oversized-flecos1.jpg",
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chaqueta-mujer-marfil-corta-corduroy-clasica-1.jpg",
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-0",
+        "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-1",
+        "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Ideas de outfits",
+        "heading_size": 24,
+        "text_size": 14,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -307,6 +350,7 @@
     "4c3dd13f-e736-491d-b261-dae6b4595830",
     "58bb7c67-6dbf-4526-9707-d32f935e82c3",
     "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
-    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7"
+    "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
+    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c"
   ]
 }
