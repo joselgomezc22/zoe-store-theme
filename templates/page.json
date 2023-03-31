@@ -130,7 +130,7 @@
         "carousel": false,
         "button": false,
         "button_text": "View all",
-        "grid": 5,
+        "grid": 4,
         "limit": 5,
         "color_scheme": "none",
         "section_padding": "both"
