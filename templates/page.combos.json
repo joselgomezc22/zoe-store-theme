@@ -254,6 +254,82 @@
         "section_padding": "both"
       }
     },
+    "86d0e507-71c4-4502-bac7-06c72c49d379": {
+      "type": "featured-product",
+      "blocks": {
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-0": {
+          "type": "product_info",
+          "settings": {
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-1": {
+          "type": "product_variants",
+          "settings": {
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-2": {
+          "type": "product_sku",
+          "settings": {
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-3": {
+          "type": "product_quantity",
+          "settings": {
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-4": {
+          "type": "stock_levels",
+          "settings": {
+            "threshold": 4
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-5": {
+          "type": "product_buttons",
+          "settings": {
+            "back_in_stock": true,
+            "back_in_stock_text": "<p>Email me when this is available<\/p>"
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-6": {
+          "type": "product_availability",
+          "settings": {
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-7": {
+          "type": "product_description",
+          "settings": {
+          }
+        },
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-8": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-0",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-1",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-2",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-3",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-4",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-5",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-6",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-7",
+        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-8"
+      ],
+      "settings": {
+        "featured_product": "body-cuello-redondo-tirantes-anchos-simona-azul-noche",
+        "title": "",
+        "click_to_enlarge": true,
+        "image_section_size": "medium",
+        "image_options": "static",
+        "thumbnail_position": "left",
+        "slide_controls": "arrows",
+        "enable_video_looping": false,
+        "show_social_share": true,
+        "section_padding": "both"
+      }
+    },
     "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7": {
       "type": "testimonials",
       "blocks": {
@@ -346,82 +422,6 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
-    },
-    "86d0e507-71c4-4502-bac7-06c72c49d379": {
-      "type": "featured-product",
-      "blocks": {
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-0": {
-          "type": "product_info",
-          "settings": {
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-1": {
-          "type": "product_variants",
-          "settings": {
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-2": {
-          "type": "product_sku",
-          "settings": {
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-3": {
-          "type": "product_quantity",
-          "settings": {
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-4": {
-          "type": "stock_levels",
-          "settings": {
-            "threshold": 4
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-5": {
-          "type": "product_buttons",
-          "settings": {
-            "back_in_stock": true,
-            "back_in_stock_text": "<p>Email me when this is available<\/p>"
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-6": {
-          "type": "product_availability",
-          "settings": {
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-7": {
-          "type": "product_description",
-          "settings": {
-          }
-        },
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-8": {
-          "type": "rating",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-0",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-1",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-2",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-3",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-4",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-5",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-6",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-7",
-        "template--18450660131130__86d0e507-71c4-4502-bac7-06c72c49d379-1680273512d6687f91-8"
-      ],
-      "settings": {
-        "featured_product": "body-cuello-redondo-tirantes-anchos-simona-uva",
-        "title": "",
-        "click_to_enlarge": true,
-        "image_section_size": "medium",
-        "image_options": "static",
-        "thumbnail_position": "left",
-        "slide_controls": "arrows",
-        "enable_video_looping": false,
-        "show_social_share": true,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -432,8 +432,8 @@
     "main",
     "4c3dd13f-e736-491d-b261-dae6b4595830",
     "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
+    "86d0e507-71c4-4502-bac7-06c72c49d379",
     "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
-    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c",
-    "86d0e507-71c4-4502-bac7-06c72c49d379"
+    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c"
   ]
 }
