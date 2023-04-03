@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "page_size": "thin",
         "sidebar_positon": "left"
@@ -10,6 +9,7 @@
     },
     "7861a359-2387-4e90-9b41-fc4eb1842812": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16986105020730__7861a359-2387-4e90-9b41-fc4eb1842812-168029164571b25def-0": {
           "type": "image",
@@ -32,7 +32,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -56,7 +56,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -78,6 +78,7 @@
     },
     "ef1db471-8940-4942-a768-ec7363208a21": {
       "type": "scrolling-announcements",
+      "disabled": true,
       "blocks": {
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0": {
           "type": "text",
@@ -123,6 +124,7 @@
     },
     "04ebe054-fd24-44e0-8bd0-5b9680ecce91": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "¡Todos nuestros colores disponibles!",
@@ -138,6 +140,7 @@
     },
     "2475f3c0-c947-4f80-857b-8c068d79a32c": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16986105020730__2475f3c0-c947-4f80-857b-8c068d79a32c-16802770682ed6f6c5-0": {
           "type": "text",
@@ -160,6 +163,7 @@
     },
     "eca7ab96-5fe5-4cdb-af44-6c864232dd85": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16986105020730__eca7ab96-5fe5-4cdb-af44-6c864232dd85-168029164571b25def-0": {
           "type": "image",
@@ -182,7 +186,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -205,7 +209,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -227,6 +231,7 @@
     },
     "a231c604-4ddd-4ae6-924a-9913c6c7f779": {
       "type": "shop-the-look",
+      "disabled": true,
       "blocks": {
         "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-0": {
           "type": "image",
@@ -236,23 +241,23 @@
             "lookbook_product_1": "body-escote-asimetrico-manga-larga-coco-vino",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
+            "hotspot_color_1": "#000000",
             "lookbook_product_2": "",
             "hotspot_horizontal_2": 40,
             "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
+            "hotspot_color_2": "#000000",
             "lookbook_product_3": "",
             "hotspot_horizontal_3": 40,
             "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
+            "hotspot_color_3": "#000000",
             "lookbook_product_4": "",
             "hotspot_horizontal_4": 40,
             "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
+            "hotspot_color_4": "#000000",
             "lookbook_product_5": "",
             "hotspot_horizontal_5": 40,
             "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
+            "hotspot_color_5": "#000000"
           }
         },
         "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-1": {
@@ -263,23 +268,23 @@
             "lookbook_product_1": "coco-body-negro",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
+            "hotspot_color_1": "#000000",
             "lookbook_product_2": "",
             "hotspot_horizontal_2": 40,
             "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
+            "hotspot_color_2": "#000000",
             "lookbook_product_3": "",
             "hotspot_horizontal_3": 40,
             "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
+            "hotspot_color_3": "#000000",
             "lookbook_product_4": "",
             "hotspot_horizontal_4": 40,
             "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
+            "hotspot_color_4": "#000000",
             "lookbook_product_5": "",
             "hotspot_horizontal_5": 40,
             "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
+            "hotspot_color_5": "#000000"
           }
         },
         "template--16986105020730__a231c604-4ddd-4ae6-924a-9913c6c7f779-1680276533d6c1e430-2": {
@@ -290,23 +295,23 @@
             "lookbook_product_1": "body-escote-asimetrico-manga-larga-coco-marfil",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
+            "hotspot_color_1": "#000000",
             "lookbook_product_2": "",
             "hotspot_horizontal_2": 40,
             "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
+            "hotspot_color_2": "#000000",
             "lookbook_product_3": "",
             "hotspot_horizontal_3": 40,
             "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
+            "hotspot_color_3": "#000000",
             "lookbook_product_4": "",
             "hotspot_horizontal_4": 40,
             "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
+            "hotspot_color_4": "#000000",
             "lookbook_product_5": "",
             "hotspot_horizontal_5": 40,
             "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
+            "hotspot_color_5": "#000000"
           }
         }
       },
@@ -323,6 +328,7 @@
     },
     "600abb3a-45cd-4565-96ee-95acfb1624b1": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16986105020730__600abb3a-45cd-4565-96ee-95acfb1624b1-16802770682ed6f6c5-0": {
           "type": "text",
