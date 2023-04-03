@@ -266,13 +266,21 @@
             "heading": "¿Cómo puedo pagar y que medios reciben?",
             "content": "<p>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones. <\/p>"
           }
+        },
+        "e8dab342-79b1-4099-8a72-ea87ee16343b": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Cómo se cuál es mi talla?",
+            "content": "<p>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. También puedes contactarnos y te daremos una asesoría personalizada sobre tu talla.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-0",
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-1",
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-2",
-        "a9fed031-9897-4734-8b32-9bcbfd7f77d9"
+        "a9fed031-9897-4734-8b32-9bcbfd7f77d9",
+        "e8dab342-79b1-4099-8a72-ea87ee16343b"
       ],
       "settings": {
         "heading": "FAQs",
