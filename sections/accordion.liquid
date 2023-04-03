@@ -24,6 +24,10 @@
         </div>
       </div>
     {% endif %}
+
+     {% if block.settings.heading != blank %}
+          <h4 style="color: {{ section.settings.color-title }}; font-size:{{ section.settings.title-font-size }}px</h4>
+         {% endif %}
     
     <div
       class="js-accordion c-accordion c-accordion--icon c-accordion--{{ unique_id }} c-accordion--custom-page"
