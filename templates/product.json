@@ -185,6 +185,7 @@
           "settings": {
             "heading": "Heading",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>gggg<\/p>"
           }
         },
@@ -193,6 +194,7 @@
           "settings": {
             "heading": "Heading",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
@@ -201,6 +203,7 @@
           "settings": {
             "heading": "Heading",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
@@ -223,7 +226,8 @@
           "type": "panel",
           "settings": {
             "heading": "¿Los productos tienen garantía?",
-            "color-heading": "#d128ed",
+            "color-heading": "#a319ba",
+            "heading-font-size": 16,
             "content": "<p>Claro que sí, para iniciar con el proceso de cambio, devolución o garantía de tu compra debes diligenciar este <a href=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\" title=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\">formulario<\/a>, una vez recibido iniciaremos con el proceso.<\/p><p><\/p>"
           }
         },
@@ -232,6 +236,7 @@
           "settings": {
             "heading": "¿Puedo cambiar los producto adquiridos en la tienda online?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>Claro que sí, podrás dirigirte a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\">este formulario.<\/a><\/p>"
           }
         },
@@ -240,6 +245,7 @@
           "settings": {
             "heading": "¿Cuánto tarda en llegar mi pedido?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<ul><li>Días hábiles en Bogotá y cuidades principales: de 1 a 5 días.<\/li><li> Ciudades remotas:  de 1 a 7 días.<\/li><li>Envío Express: El mismo día en Bogotá y Medellín.<\/li><\/ul>"
           }
         },
@@ -248,6 +254,7 @@
           "settings": {
             "heading": "¿Cómo puedo pagar y que medios reciben?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones. <\/p><p>Escríbenos a WhatsApp <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">+57 300 212 40 13<\/a><\/p><p><\/p>"
           }
         },
@@ -256,6 +263,7 @@
           "settings": {
             "heading": "¿Cómo se cuál es mi talla?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">WhatsApp +57 300 212 4013<\/a><\/p>"
           }
         },
@@ -264,6 +272,7 @@
           "settings": {
             "heading": "¿Tienen empaque de regalo?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>Ofrecemos un empaque de regalo a $8.900, debes agregarlo buscándolo en productos \"Empaque regalo\" y lo añades al carrito.<\/p>"
           }
         },
@@ -272,6 +281,7 @@
           "settings": {
             "heading": "¿Tienen tienda o punto físico?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>Sí, tenemos tienda y puntos físicos.<\/p><p><strong>Bogotá:<\/strong><\/p><ul><li>Cra. 17a, 119A-94<\/li><li>Cra. 68b #24-39 CC Salitre Plaza Local 212<\/li><\/ul><p><strong>Medellín:<\/strong><\/p><ul><li>Cra 37 #8a-59 Vía Primavera<\/li><li>C.C Viva Envigado, Local (162)-(152)<\/li><li>C.C Fabricato, Local 2214<\/li><li>C.C El Tesoro, Local (3048)-(3524)<\/li><li>C.C Arkadia, Local 0107<\/li><li>C.C Viva Laureles, Local 112<\/li><li>C.C Mall Palma Grande, Local 19836<\/li><\/ul><p><strong>Cali:<\/strong><\/p><ul><li>Barrio Granada, Calle 18 Norte #9-81<\/li><\/ul><p><strong>Pereira: <\/strong><\/p><ul><li>Barrio Los Alpes, Carrera 15b #9-38<\/li><\/ul><p><\/p>"
           }
         },
@@ -280,6 +290,7 @@
           "settings": {
             "heading": "¿Qué opciones de envío hay si quiero mi pedido rápido?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p><strong>Solo en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express<\/strong> (recibes tu pedido en menos de 4 horas): $15.000<\/p><p><strong>2. Entrega Mismo Día Hábil<\/strong> (recibes tu pedido el mismo día hábil): $12.000<\/p><p><strong>3. Recoge en Tienda:<\/strong> (Con un lapso de 4 horas y confirmando disponibilidad)<\/p>"
           }
         },
@@ -288,6 +299,7 @@
           "settings": {
             "heading": "¿A qué partes envían?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>Hacemos envíos a todo Colombia y a todos los países del mundo con DHL. Para envíos internacionales puedes comunicarte por <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">Whatsapp +57 300 212 4013<\/a><\/p>"
           }
         },
@@ -296,6 +308,7 @@
           "settings": {
             "heading": "¿Cuántos días se tarda la empresa transportadora en la entrega?",
             "color-heading": "#333333",
+            "heading-font-size": 16,
             "content": "<p>En colombia y resto del mundo : 1-4 días hábiles.<\/p>"
           }
         }
