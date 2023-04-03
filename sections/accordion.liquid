@@ -71,12 +71,10 @@
                </div>
               </div>
              </div>
-         {% endif %}
-         {% if block.settings.heading != blank %}
            <div
-            <h4 style="color: {{ section.settings.color-title }}</h4>
-           </div>
-           {% endif %}
+            style="color: {{ section.settings.color-title }}
+          </div>
+         {% endif %}
        {% endfor %}
       {% else %}
         <div class="rte">
