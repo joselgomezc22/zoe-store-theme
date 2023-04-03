@@ -269,7 +269,7 @@
           "type": "panel",
           "settings": {
             "heading": "¿Qué opciones de envío hay si quiero mi pedido rápido?",
-            "content": "<ul><li>Recibe el mismo día Bogotá y Medellín por solo $ 12.000.<\/li><li>Bogotá: Retiro en tienda gratis y normalmente está listo en 24 horas.<\/li><li>Ciudades principales: 1 - 4 días hábiles.<\/li><li>Resto del país: 3 a 8 días hábiles.<\/li><\/ul>"
+            "content": "<p><strong>Solo en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express<\/strong> (recibes tu pedido en menos de 4 horas): $15.000<\/p><p><strong>2. Entrega Mismo Día Hábil<\/strong> (recibes tu pedido antes de las 9pm el mismo día hábil y tu pago debe ser aprobado por nosotros antes de las 3pm): $12.000<\/p>"
           }
         }
       },
