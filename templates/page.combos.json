@@ -427,6 +427,59 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "c4de7e86-4211-49d9-81ca-936b4064cdb4": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "title": "You also Viewed",
+        "carousel": false,
+        "grid": 5,
+        "limit": 5,
+        "section_padding": "both"
+      }
+    },
+    "f318b333-e504-4044-ac54-544ec4af8d37": {
+      "type": "slideshow",
+      "blocks": {
+        "7efa4726-ac7d-4902-b6fe-922466bb0f17": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconografia-descuento.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "7efa4726-ac7d-4902-b6fe-922466bb0f17"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -439,6 +492,8 @@
     "4c3dd13f-e736-491d-b261-dae6b4595830",
     "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
     "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
-    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c"
+    "744d3e33-26b8-4b7c-b30b-2c3a6888f85c",
+    "c4de7e86-4211-49d9-81ca-936b4064cdb4",
+    "f318b333-e504-4044-ac54-544ec4af8d37"
   ]
 }
