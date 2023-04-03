@@ -223,7 +223,7 @@
           "type": "panel",
           "settings": {
             "heading": "¿Los productos tienen garantía?",
-            "color-heading": "#d11313",
+            "color-heading": "#d128ed",
             "content": "<p>Claro que sí, para iniciar con el proceso de cambio, devolución o garantía de tu compra debes diligenciar este <a href=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\" title=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\">formulario<\/a>, una vez recibido iniciaremos con el proceso.<\/p><p><\/p>"
           }
         },
