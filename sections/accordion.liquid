@@ -44,7 +44,6 @@
 
          -%}
          {% if block.settings.heading != blank %}
-            style="color: {{ section.settings.color-title }}
             <button
               class="js-accordion-header c-accordion__header"
               aria-expanded="false"
@@ -57,7 +56,7 @@
                      type: 'apollo',
                      icon: 'down-carrot',
                      classes: 'c-accordion__header--icon vib-center',
-                     size: '6px',
+                     size: '6px,
                      fill: 'var(--text-color)',
                      hover: 'var(--text-color)' %}
                 </span>
