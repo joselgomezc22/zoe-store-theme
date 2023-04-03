@@ -41,6 +41,7 @@
         },
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
