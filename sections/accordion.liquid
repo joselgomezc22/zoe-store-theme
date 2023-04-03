@@ -20,7 +20,7 @@
     {% if section.settings.heading != blank %}
       <div class="row">
         <div class="section-title">
-          <h3>{{ section.settings.heading }};style="color:{{ section.settings.color-heading }}</h3>
+          <h3>{{ section.settings.heading }} style="color:{{ section.settings.color-heading }}</h3>
         </div>
       </div>
     {% endif %}
@@ -142,6 +142,16 @@
           "id": "color-heading",
           "label": "Heading-color",
           "default": "#333333"
+        }, 
+        {
+        "type": "range",
+        "id": "heading-font-size",
+        "min": 4,
+        "max": 68,
+        "step": 1,
+        "unit": "px",
+        "label": "heading Font size",
+        "default": 16
         },
         {
           "type": "richtext",
