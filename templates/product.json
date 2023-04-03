@@ -273,6 +273,13 @@
             "heading": "¿Cómo se cuál es mi talla?",
             "content": "<p>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. También puedes contactarnos y te daremos una asesoría personalizada sobre tu talla.<\/p>"
           }
+        },
+        "a09f06a7-82ca-43f0-b411-bbac3b0b1cd3": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Tienen empaque de regalo?",
+            "content": "<p>Ofrecemos un empaque de regalo a $8.900, debes agregarlo buscándolo en productos \"Empaque regalo\" y lo añades al carrito.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -280,7 +287,8 @@
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-1",
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-2",
         "a9fed031-9897-4734-8b32-9bcbfd7f77d9",
-        "e8dab342-79b1-4099-8a72-ea87ee16343b"
+        "e8dab342-79b1-4099-8a72-ea87ee16343b",
+        "a09f06a7-82ca-43f0-b411-bbac3b0b1cd3"
       ],
       "settings": {
         "heading": "FAQs",
