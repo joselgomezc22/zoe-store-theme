@@ -44,6 +44,9 @@
 
          -%}
          {% if block.settings.heading != blank %}
+           style="color: {{ block.settings.color-heading }}
+            {% endif %}
+         {% if block.settings.heading != blank %}
             <button
               class="js-accordion-header c-accordion__header"
               aria-expanded="false"
