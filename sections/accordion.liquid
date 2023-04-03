@@ -73,6 +73,9 @@
               </div>
              </div>
          {% endif %}
+          {% if block.settings.heading != blank %}
+             <h4 style="color: {{ section.settings.color-title }}</h4>
+            {% endif %}
        {% endfor %}
       {% else %}
         <div class="rte">
