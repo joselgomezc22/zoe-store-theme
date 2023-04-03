@@ -227,14 +227,14 @@
           "type": "panel",
           "settings": {
             "heading": "¿Puedo cambiar los producto adquiridos en la tienda online?",
-            "content": "<p>Claro que sí, podrás dirigirte a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de nuestra línea de servicio al cliente. <\/p><p>WhatsApp <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">+57 300 212 4013<\/a><\/p>"
+            "content": "<p>Claro que sí, podrás dirigirte a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\">este formulario.<\/a><\/p>"
           }
         },
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-2": {
           "type": "panel",
           "settings": {
             "heading": "¿Cuánto tarda en llegar mi pedido?",
-            "content": "<p>En Bogotá de 1 a 5 días hábiles, en ciudades principales de 5 a 7 días hábiles y en otros lugares hasta 10 días hábiles.<\/p>"
+            "content": "<ul><li>Días hábiles en Bogotá y cuidades principales: de 1 a 5 días.<\/li><li> Ciudades remotas:  de 1 a 7 días.<\/li><\/ul>"
           }
         },
         "a9fed031-9897-4734-8b32-9bcbfd7f77d9": {
