@@ -72,6 +72,9 @@
               </div>
              </div>
          {% endif %}
+          {% if block.settings.heading != blank %}
+           style="color: {{ block.settings.color-heading }}
+            {% endif %}
        {% endfor %}
       {% else %}
         <div class="rte">
