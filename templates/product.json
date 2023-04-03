@@ -228,7 +228,7 @@
             "heading": "¿Los productos tienen garantía?",
             "color-heading": "#a319ba",
             "heading-font-size": 16,
-            "content": "<p>Claro que sí, para iniciar con el proceso de cambio, devolución o garantía de tu compra debes diligenciar este <a href=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\" title=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\">formulario<\/a>, una vez recibido iniciaremos con el proceso.<\/p><p><\/p>"
+            "content": "<p><strong>Claro que sí, para iniciar con el proceso de cambio, devolución o garantía de tu compra debes diligenciar este <\/strong><a href=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\" title=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\"><strong>formulario<\/strong><\/a><strong>, una vez recibido iniciaremos con el proceso.<\/strong><\/p><p><\/p>"
           }
         },
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-1": {
@@ -237,7 +237,7 @@
             "heading": "¿Puedo cambiar los producto adquiridos en la tienda online?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Claro que sí, podrás dirigirte a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\">este formulario.<\/a><\/p>"
+            "content": "<p><strong>Claro que sí, podrás dirigirte a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de <\/strong><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\"><strong>este formulario.<\/strong><\/a><\/p>"
           }
         },
         "template--16986105479482__c56e92a7-bdcd-43b3-ba88-fc4f5423d96d-1680527634c50b8b9c-2": {
@@ -246,7 +246,7 @@
             "heading": "¿Cuánto tarda en llegar mi pedido?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<ul><li>Días hábiles en Bogotá y cuidades principales: de 1 a 5 días.<\/li><li> Ciudades remotas:  de 1 a 7 días.<\/li><li>Envío Express: El mismo día en Bogotá y Medellín.<\/li><\/ul>"
+            "content": "<ul><li><strong>Días hábiles en Bogotá y cuidades principales: de 1 a 5 días.<\/strong><\/li><li><strong> Ciudades remotas:  de 1 a 7 días.<\/strong><\/li><li><strong>Envío Express: El mismo día en Bogotá y Medellín.<\/strong><\/li><\/ul>"
           }
         },
         "a9fed031-9897-4734-8b32-9bcbfd7f77d9": {
@@ -255,7 +255,7 @@
             "heading": "¿Cómo puedo pagar y que medios reciben?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones. <\/p><p>Escríbenos a WhatsApp <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">+57 300 212 40 13<\/a><\/p><p><\/p>"
+            "content": "<p><strong>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones. <\/strong><\/p><p><strong>Escríbenos a WhatsApp <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>+57 300 212 40 13<\/strong><\/a><\/p><p><\/p>"
           }
         },
         "e8dab342-79b1-4099-8a72-ea87ee16343b": {
@@ -264,7 +264,7 @@
             "heading": "¿Cómo se cuál es mi talla?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">WhatsApp +57 300 212 4013<\/a><\/p>"
+            "content": "<p><strong>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>WhatsApp +57 300 212 4013<\/strong><\/a><\/p>"
           }
         },
         "a09f06a7-82ca-43f0-b411-bbac3b0b1cd3": {
@@ -273,7 +273,7 @@
             "heading": "¿Tienen empaque de regalo?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Ofrecemos un empaque de regalo a $8.900, debes agregarlo buscándolo en productos \"Empaque regalo\" y lo añades al carrito.<\/p>"
+            "content": "<p><strong>Ofrecemos un empaque de regalo a $8.900, debes agregarlo buscándolo en productos \"Empaque regalo\" y lo añades al carrito.<\/strong><\/p>"
           }
         },
         "7b79492b-61f8-4e31-9346-9fc27bd2d7cb": {
@@ -282,7 +282,7 @@
             "heading": "¿Tienen tienda o punto físico?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Sí, tenemos tienda y puntos físicos.<\/p><p><strong>Bogotá:<\/strong><\/p><ul><li>Cra. 17a, 119A-94<\/li><li>Cra. 68b #24-39 CC Salitre Plaza Local 212<\/li><\/ul><p><strong>Medellín:<\/strong><\/p><ul><li>Cra 37 #8a-59 Vía Primavera<\/li><li>C.C Viva Envigado, Local (162)-(152)<\/li><li>C.C Fabricato, Local 2214<\/li><li>C.C El Tesoro, Local (3048)-(3524)<\/li><li>C.C Arkadia, Local 0107<\/li><li>C.C Viva Laureles, Local 112<\/li><li>C.C Mall Palma Grande, Local 19836<\/li><\/ul><p><strong>Cali:<\/strong><\/p><ul><li>Barrio Granada, Calle 18 Norte #9-81<\/li><\/ul><p><strong>Pereira: <\/strong><\/p><ul><li>Barrio Los Alpes, Carrera 15b #9-38<\/li><\/ul><p><\/p>"
+            "content": "<p><strong>Sí, tenemos tienda y puntos físicos.<\/strong><\/p><p><strong>Bogotá:<\/strong><\/p><ul><li><strong>Cra. 17a, 119A-94<\/strong><\/li><li><strong>Cra. 68b #24-39 CC Salitre Plaza Local 212<\/strong><\/li><\/ul><p><strong>Medellín:<\/strong><\/p><ul><li><strong>Cra 37 #8a-59 Vía Primavera<\/strong><\/li><li><strong>C.C Viva Envigado, Local (162)-(152)<\/strong><\/li><li><strong>C.C Fabricato, Local 2214<\/strong><\/li><li><strong>C.C El Tesoro, Local (3048)-(3524)<\/strong><\/li><li><strong>C.C Arkadia, Local 0107<\/strong><\/li><li><strong>C.C Viva Laureles, Local 112<\/strong><\/li><li><strong>C.C Mall Palma Grande, Local 19836<\/strong><\/li><\/ul><p><strong>Cali:<\/strong><\/p><ul><li><strong>Barrio Granada, Calle 18 Norte #9-81<\/strong><\/li><\/ul><p><strong>Pereira: <\/strong><\/p><ul><li><strong>Barrio Los Alpes, Carrera 15b #9-38<\/strong><\/li><\/ul><p><\/p>"
           }
         },
         "b81cc27d-3d20-43ad-a754-df1dd585abb1": {
@@ -291,7 +291,7 @@
             "heading": "¿Qué opciones de envío hay si quiero mi pedido rápido?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p><strong>Solo en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express<\/strong> (recibes tu pedido en menos de 4 horas): $15.000<\/p><p><strong>2. Entrega Mismo Día Hábil<\/strong> (recibes tu pedido el mismo día hábil): $12.000<\/p><p><strong>3. Recoge en Tienda:<\/strong> (Con un lapso de 4 horas y confirmando disponibilidad)<\/p>"
+            "content": "<p><strong>Solo en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express (recibes tu pedido en menos de 4 horas): $15.000<\/strong><\/p><p><strong>2. Entrega Mismo Día Hábil (recibes tu pedido el mismo día hábil): $12.000<\/strong><\/p><p><strong>3. Recoge en Tienda: (Con un lapso de 4 horas y confirmando disponibilidad)<\/strong><\/p>"
           }
         },
         "7e9f8423-67b6-406c-a58f-5a24ee33ee49": {
@@ -300,7 +300,7 @@
             "heading": "¿A qué partes envían?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Hacemos envíos a todo Colombia y a todos los países del mundo con DHL. Para envíos internacionales puedes comunicarte por <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">Whatsapp +57 300 212 4013<\/a><\/p>"
+            "content": "<p><strong>Hacemos envíos a todo Colombia y a todos los países del mundo con DHL. Para envíos internacionales puedes comunicarte por <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>Whatsapp +57 300 212 4013<\/strong><\/a><\/p>"
           }
         },
         "4463d9aa-2ef7-486d-967f-7dd0d52be470": {
@@ -309,7 +309,7 @@
             "heading": "¿Cuántos días se tarda la empresa transportadora en la entrega?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>En colombia y resto del mundo : 1-4 días hábiles.<\/p>"
+            "content": "<p><strong>En colombia y resto del mundo : 1-4 días hábiles.<\/strong><\/p>"
           }
         }
       },
