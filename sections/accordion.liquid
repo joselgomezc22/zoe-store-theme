@@ -15,7 +15,7 @@
   id="section-accordion--{{ section.id }}"
   data-section-id="{{ section.id }}"
   class="section-accordion section-accordion-{{ section.id }} global__section global__section--margin {{ section_padding }}"
-  data-aos="{{ settings.scroll_animation }}">
+  data-aos="{{ settings.scroll_animation }} style="color:{{ section.settings.color-heading }}">
 
     {% if section.settings.heading != blank %}
       <div class="row">
