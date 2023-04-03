@@ -43,7 +43,9 @@
             assign accordion_content_id = accordion_content_class | append: unique_id | append: '-' | append: forloop.index
 
          -%}
-
+      {% if block.settings.heading != blank %}
+          <h4 style="color: {{ section.settings.color-title }}; font-size:{{ section.settings.title-font-size }}px</h4>
+         {% endif %}
          {% if block.settings.heading != blank %}
             <button
               class="js-accordion-header c-accordion__header"
@@ -72,9 +74,6 @@
                </div>
               </div>
              </div>
-         {% endif %}
-       {% if block.settings.heading != blank %}
-          <h4 style="color: {{ section.settings.color-title }}; font-size:{{ section.settings.title-font-size }}px</h4>
          {% endif %}
        {% endfor %}
       {% else %}
