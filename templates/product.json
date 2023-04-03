@@ -287,6 +287,13 @@
             "heading": "¿Tienen tienda o punto físico?",
             "content": "<p>Sí, tenemos tienda y puntos físicos.<\/p><p>Bogotá:<\/p><ul><li>Cra. 17a, 119A-94<\/li><li>Cra. 68b #24-39 CC Salitre Plaza Local 212<\/li><\/ul><p>Medellín:<\/p><ul><li>Cra 37 #8a-59 Vía Primavera<\/li><li>C.C Viva Envigado, Local (162)-(152)<\/li><li>C.C Fabricato, Local 2214<\/li><li>C.C El Tesoro, Local (3048)-(3524)<\/li><li>C.C Arkadia, Local 0107<\/li><li>C.C Viva Laureles, Local 112<\/li><li>C.C Mall Palma Grande, Local 19836<\/li><\/ul><p>Cali:<\/p><ul><li>Barrio Granada, Calle 18 Norte #9-81<\/li><\/ul><p>Pereira: <\/p><ul><li>Barrio Los Alpes, Carrera 15b #9-38<\/li><\/ul><p><\/p>"
           }
+        },
+        "b81cc27d-3d20-43ad-a754-df1dd585abb1": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Qué opciones de envío hay si quiero mi pedido rápido?",
+            "content": "<ul><li>Recibe el mismo día Bogotá y Medellín por solo $ 12.000.<\/li><li>Bogotá: Retiro en tienda gratis y normalmente está listo en 24 horas.<\/li><li>Ciudades principales: 1 - 4 días hábiles.<\/li><li>Resto del país: 3 a 8 días hábiles.<\/li><\/ul>"
+          }
         }
       },
       "block_order": [
@@ -296,7 +303,8 @@
         "a9fed031-9897-4734-8b32-9bcbfd7f77d9",
         "e8dab342-79b1-4099-8a72-ea87ee16343b",
         "a09f06a7-82ca-43f0-b411-bbac3b0b1cd3",
-        "7b79492b-61f8-4e31-9346-9fc27bd2d7cb"
+        "7b79492b-61f8-4e31-9346-9fc27bd2d7cb",
+        "b81cc27d-3d20-43ad-a754-df1dd585abb1"
       ],
       "settings": {
         "heading": "FAQs",
