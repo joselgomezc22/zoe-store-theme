@@ -213,29 +213,6 @@
         "section_padding": "both"
       }
     },
-    "59f318ff-13ce-480f-83b5-49018d2a0dca": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "- Testimonios de nuestros clientes -",
-            "rich_text": "",
-            "center": false,
-            "block_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0"
-      ],
-      "settings": {
-        "title": "- Testimonios de nuestros clientes -",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "c56e92a7-bdcd-43b3-ba88-fc4f5423d96d": {
       "type": "accordion",
       "blocks": {
@@ -264,7 +241,7 @@
           "type": "panel",
           "settings": {
             "heading": "¿Cómo puedo pagar y que medios reciben?",
-            "content": "<p>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones. <\/p>"
+            "content": "<p>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones. <\/p><p>Escríbenos a WhatsApp <a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\">+57 300 212 40 13<\/a><\/p><p><\/p>"
           }
         },
         "e8dab342-79b1-4099-8a72-ea87ee16343b": {
@@ -387,6 +364,29 @@
         "items_shown": 4
       }
     },
+    "59f318ff-13ce-480f-83b5-49018d2a0dca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "- Testimonios de nuestros clientes -",
+            "rich_text": "",
+            "center": false,
+            "block_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0"
+      ],
+      "settings": {
+        "title": "- Testimonios de nuestros clientes -",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "1668729670a528fb32": {
       "type": "apps",
       "blocks": {
@@ -410,10 +410,10 @@
     "main",
     "579967df-81c2-458e-9bbe-43ce1b975f43",
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982",
-    "59f318ff-13ce-480f-83b5-49018d2a0dca",
     "c56e92a7-bdcd-43b3-ba88-fc4f5423d96d",
     "9f91e942-922e-412d-a328-5b9b11bf4c30",
     "product-recommendations",
+    "59f318ff-13ce-480f-83b5-49018d2a0dca",
     "1668729670a528fb32"
   ]
 }
