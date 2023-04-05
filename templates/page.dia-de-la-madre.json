@@ -411,21 +411,6 @@
         "section_padding": "both"
       }
     },
-    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "Featured collection",
-        "collection": "",
-        "carousel": false,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 4,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
     "13c9069c-3cc3-4e36-b6af-88e31dc9b901": {
       "type": "image-with-text",
       "settings": {
@@ -457,6 +442,63 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Featured collection",
+        "collection": "",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 4,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "02b649b8-69df-4d86-a034-fe7562b70060": {
+      "type": "accordion",
+      "blocks": {
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0",
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "allow_multiple": false,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -468,8 +510,9 @@
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
     "600abb3a-45cd-4565-96ee-95acfb1624b1",
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4",
-    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
     "13c9069c-3cc3-4e36-b6af-88e31dc9b901",
-    "c786a155-9f6f-4b16-85b2-97f4821a6b99"
+    "c786a155-9f6f-4b16-85b2-97f4821a6b99",
+    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
+    "02b649b8-69df-4d86-a034-fe7562b70060"
   ]
 }
