@@ -392,7 +392,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/1_8714ab9e-b930-41dc-891b-99769c876244.jpg",
+        "image": "shopify:\/\/shop_images\/bodies-mes-madre-promo.jpg",
         "layout": "left",
         "image_width": "33%",
         "text_align": "left",
@@ -400,7 +400,7 @@
         "title": "BODIES CON 10% OFF",
         "text": "<p>Los bodies son un básico infaltable en tu armario ya que sirven para TODA ocasión y puedes elegir entre múltiples colores y estilos. Lleva mínimo 2 unidades y recibe 10% de descuento. <\/p>",
         "link": "shopify:\/\/collections\/combo1",
-        "button": "Armar mi Look",
+        "button": "COMBO 1",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -409,7 +409,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/2_cc0ae576-463d-471f-a94b-be3aa8ef6e69.jpg",
+        "image": "shopify:\/\/shop_images\/chaquetas-ropa-mes-madre-promo-colombia.jpg",
         "layout": "right",
         "image_width": "33%",
         "text_align": "left",
@@ -417,7 +417,7 @@
         "title": "CHAQUETA + BODIE CON 15% OFF",
         "text": "<p>¡Un combo que te arma el look! Elige una original chaqueta de Zoé junto a nuestro clásico Bodie Simona y recibe un 15% de descuento.<\/p>",
         "link": "shopify:\/\/collections\/combo2",
-        "button": "Armar mi Look",
+        "button": "COMBO 2",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -426,7 +426,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/3_99d8e5ff-0311-4db8-ae51-6a12ed9e2dad.jpg",
+        "image": "shopify:\/\/shop_images\/sacos-sueters-mes-madre-colombia.jpg",
         "layout": "left",
         "image_width": "33%",
         "text_align": "left",
@@ -434,7 +434,7 @@
         "title": "SACOS \/ SUÉTERS",
         "text": "<p>Los sacos tejidos  te acompañarán en los días  más fríos sin perder el estilo. Encuéntralos en colores planos, prints divertidos y muchos estilos. Lleva 2 y recibes un 20% de descuento.<\/p>",
         "link": "",
-        "button": "Armar mi Look",
+        "button": "COMBO 3",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -451,48 +451,6 @@
         "grid": 4,
         "limit": 4,
         "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
-    "02b649b8-69df-4d86-a034-fe7562b70060": {
-      "type": "accordion",
-      "blocks": {
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0": {
-          "type": "panel",
-          "settings": {
-            "heading": "Heading",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
-          "type": "panel",
-          "settings": {
-            "heading": "Heading",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2": {
-          "type": "panel",
-          "settings": {
-            "heading": "Heading",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0",
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2"
-      ],
-      "settings": {
-        "heading": "FAQs",
-        "allow_multiple": false,
         "section_padding": "both"
       }
     },
@@ -515,6 +473,86 @@
         "text_align": "center",
         "section_padding": "both"
       }
+    },
+    "02b649b8-69df-4d86-a034-fe7562b70060": {
+      "type": "accordion",
+      "blocks": {
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Como armo mis combos?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Puedo",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0",
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2"
+      ],
+      "settings": {
+        "heading": "",
+        "allow_multiple": false,
+        "section_padding": "both"
+      }
+    },
+    "dd46d3e8-7874-4a24-813b-7a87aaad19e1": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arma tu combo de mes de madre<\/p>"
+          }
+        },
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Disfruta de tu envío gratis<\/p>"
+          }
+        },
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Los descuentos se añaden automáticamente una vez añadas al carrito<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-0",
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-1",
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-2"
+      ],
+      "settings": {
+        "sa_grid": 3,
+        "slider_speed": 5,
+        "border_top": false,
+        "border_bottom": false,
+        "text_size": 16,
+        "height": 60,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -530,7 +568,8 @@
     "c786a155-9f6f-4b16-85b2-97f4821a6b99",
     "06e289ae-772c-49c4-acd1-ef13d5a4705f",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
+    "8099bb79-2530-40e1-9303-8ef2897d0b9a",
     "02b649b8-69df-4d86-a034-fe7562b70060",
-    "8099bb79-2530-40e1-9303-8ef2897d0b9a"
+    "dd46d3e8-7874-4a24-813b-7a87aaad19e1"
   ]
 }
