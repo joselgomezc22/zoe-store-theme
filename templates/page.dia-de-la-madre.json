@@ -9,12 +9,12 @@
     },
     "7861a359-2387-4e90-9b41-fc4eb1842812": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16986105020730__7861a359-2387-4e90-9b41-fc4eb1842812-168029164571b25def-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/lv_0_20230331143542_3.gif",
+            "image": "shopify:\/\/shop_images\/mes-madres-colombia-promocion.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -38,6 +38,7 @@
         },
         "template--16986105020730__7861a359-2387-4e90-9b41-fc4eb1842812-168029164571b25def-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
@@ -348,40 +349,18 @@
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4": {
       "type": "slideshow",
       "blocks": {
-        "template--18597506646330__de6b0a88-7601-4c7a-96b7-0d3e4b9669f4-1680732933b4f38b91-0": {
-          "type": "image",
-          "settings": {
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
         "template--18597506646330__de6b0a88-7601-4c7a-96b7-0d3e4b9669f4-1680732933b4f38b91-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/mes-madres-colombia-promocion.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
             "hide_caption_background": false,
             "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
+            "heading": "",
+            "subheading": "",
             "link": "",
             "button_text": "Add a button",
             "second_link": "",
@@ -396,7 +375,6 @@
         }
       },
       "block_order": [
-        "template--18597506646330__de6b0a88-7601-4c7a-96b7-0d3e4b9669f4-1680732933b4f38b91-0",
         "template--18597506646330__de6b0a88-7601-4c7a-96b7-0d3e4b9669f4-1680732933b4f38b91-1"
       ],
       "settings": {
@@ -418,7 +396,7 @@
         "image_width": "50%",
         "text_align": "left",
         "text_position": "center",
-        "title": "Image with text",
+        "title": "COMBO 1",
         "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "link": "",
         "button": "",
@@ -430,11 +408,27 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
+        "layout": "right",
+        "image_width": "50%",
+        "text_align": "left",
+        "text_position": "center",
+        "title": "COMBO 2",
+        "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "link": "",
+        "button": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "06e289ae-772c-49c4-acd1-ef13d5a4705f": {
+      "type": "image-with-text",
+      "settings": {
+        "full_width": false,
         "layout": "left",
         "image_width": "50%",
         "text_align": "left",
         "text_position": "center",
-        "title": "Image with text",
+        "title": "COMBO 3",
         "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "link": "",
         "button": "",
@@ -446,14 +440,14 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "Muchos colores disponibles",
-        "collection": "2-pack",
-        "carousel": true,
+        "title": "Featured collection",
+        "collection": "",
+        "carousel": false,
         "button": false,
         "button_text": "View all",
-        "grid": 3,
-        "limit": 9,
-        "color_scheme": "none",
+        "grid": 4,
+        "limit": 4,
+        "color_scheme": "cs1",
         "section_padding": "both"
       }
     },
@@ -463,10 +457,10 @@
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0": {
           "type": "panel",
           "settings": {
-            "heading": "¿Los desciueijjnf",
+            "heading": "Heading",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>La respuesta<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
@@ -498,57 +492,6 @@
         "allow_multiple": false,
         "section_padding": "both"
       }
-    },
-    "e52175ef-21a9-4bf7-8bb4-dd946ba7b566": {
-      "type": "editorial-columns",
-      "blocks": {
-        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-0": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
-            "link": "shopify:\/\/products\/accesorio-para-mujer-dorado-y-fucsia-earcuff-dorado-y-fucsia",
-            "text_align": "left"
-          }
-        },
-        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-1": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        },
-        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-2": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        }
-      },
-      "block_order": [
-        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-0",
-        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-1",
-        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "title": "Welcome",
-        "heading_size": 24,
-        "text_size": 14,
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -562,8 +505,8 @@
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4",
     "13c9069c-3cc3-4e36-b6af-88e31dc9b901",
     "c786a155-9f6f-4b16-85b2-97f4821a6b99",
+    "06e289ae-772c-49c4-acd1-ef13d5a4705f",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
-    "02b649b8-69df-4d86-a034-fe7562b70060",
-    "e52175ef-21a9-4bf7-8bb4-dd946ba7b566"
+    "02b649b8-69df-4d86-a034-fe7562b70060"
   ]
 }
