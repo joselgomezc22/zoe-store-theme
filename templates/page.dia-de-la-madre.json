@@ -9,10 +9,10 @@
     },
     "7861a359-2387-4e90-9b41-fc4eb1842812": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16986105020730__7861a359-2387-4e90-9b41-fc4eb1842812-168029164571b25def-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/lv_0_20230331143542_3.gif",
             "overlay": false,
@@ -38,7 +38,6 @@
         },
         "template--16986105020730__7861a359-2387-4e90-9b41-fc4eb1842812-168029164571b25def-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
@@ -368,7 +367,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -391,7 +390,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -447,14 +446,14 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "Featured collection",
-        "collection": "",
-        "carousel": false,
+        "title": "Muchos colores disponibles",
+        "collection": "2-pack",
+        "carousel": true,
         "button": false,
         "button_text": "View all",
-        "grid": 4,
-        "limit": 4,
-        "color_scheme": "cs1",
+        "grid": 3,
+        "limit": 9,
+        "color_scheme": "none",
         "section_padding": "both"
       }
     },
@@ -464,10 +463,10 @@
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0": {
           "type": "panel",
           "settings": {
-            "heading": "Heading",
+            "heading": "¿Los desciueijjnf",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>La respuesta<\/p>"
           }
         },
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
@@ -499,6 +498,57 @@
         "allow_multiple": false,
         "section_padding": "both"
       }
+    },
+    "e52175ef-21a9-4bf7-8bb4-dd946ba7b566": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-0": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "shopify:\/\/products\/accesorio-para-mujer-dorado-y-fucsia-earcuff-dorado-y-fucsia",
+            "text_align": "left"
+          }
+        },
+        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-0",
+        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-1",
+        "template--18597506646330__e52175ef-21a9-4bf7-8bb4-dd946ba7b566-168115059861c37e26-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Welcome",
+        "heading_size": 24,
+        "text_size": 14,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -513,6 +563,7 @@
     "13c9069c-3cc3-4e36-b6af-88e31dc9b901",
     "c786a155-9f6f-4b16-85b2-97f4821a6b99",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
-    "02b649b8-69df-4d86-a034-fe7562b70060"
+    "02b649b8-69df-4d86-a034-fe7562b70060",
+    "e52175ef-21a9-4bf7-8bb4-dd946ba7b566"
   ]
 }
