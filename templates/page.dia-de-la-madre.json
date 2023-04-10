@@ -392,14 +392,15 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
+        "image": "shopify:\/\/shop_images\/1_8714ab9e-b930-41dc-891b-99769c876244.jpg",
         "layout": "left",
-        "image_width": "50%",
+        "image_width": "33%",
         "text_align": "left",
         "text_position": "center",
-        "title": "COMBO 1",
-        "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "link": "",
-        "button": "",
+        "title": "BODIES CON 10% OFF",
+        "text": "<p>Los bodies son un básico infaltable en tu armario ya que sirven para TODA ocasión y puedes elegir entre múltiples colores y estilos. Lleva mínimo 2 unidades y recibe 10% de descuento. <\/p>",
+        "link": "shopify:\/\/collections\/combo1",
+        "button": "Armar mi Look",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -408,14 +409,15 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
+        "image": "shopify:\/\/shop_images\/2_cc0ae576-463d-471f-a94b-be3aa8ef6e69.jpg",
         "layout": "right",
-        "image_width": "50%",
+        "image_width": "33%",
         "text_align": "left",
         "text_position": "center",
-        "title": "COMBO 2",
+        "title": "CHAQUETA + BODIE CON 15% OFF",
         "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "link": "",
-        "button": "",
+        "link": "shopify:\/\/collections\/combo2",
+        "button": "Armar mi Look",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -424,14 +426,15 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
+        "image": "shopify:\/\/shop_images\/3_99d8e5ff-0311-4db8-ae51-6a12ed9e2dad.jpg",
         "layout": "left",
-        "image_width": "50%",
+        "image_width": "33%",
         "text_align": "left",
         "text_position": "center",
         "title": "COMBO 3",
         "text": "<p>Pair text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "link": "",
-        "button": "",
+        "button": "Armar mi Look",
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -492,6 +495,26 @@
         "allow_multiple": false,
         "section_padding": "both"
       }
+    },
+    "8099bb79-2530-40e1-9303-8ef2897d0b9a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "scale": 1,
+        "page_height": 200,
+        "title": "Heading",
+        "subheading": "<p>Add a sentence of overlay text to your image<\/p>",
+        "button_text": "Button",
+        "link": "",
+        "overlay_opacity": 0,
+        "text_color": "#000",
+        "button_text_color": "#fff",
+        "button_color": "#000",
+        "background": "rgba(0,0,0,0)",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "text_align": "center",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -507,6 +530,7 @@
     "c786a155-9f6f-4b16-85b2-97f4821a6b99",
     "06e289ae-772c-49c4-acd1-ef13d5a4705f",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
-    "02b649b8-69df-4d86-a034-fe7562b70060"
+    "02b649b8-69df-4d86-a034-fe7562b70060",
+    "8099bb79-2530-40e1-9303-8ef2897d0b9a"
   ]
 }
