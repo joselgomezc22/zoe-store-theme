@@ -630,19 +630,28 @@
         "c83a713c-4da7-4e0c-92fd-4ef05d9ce148": {
           "type": "panel",
           "settings": {
-            "heading": "Heading",
+            "heading": "¿Qué opciones de envío hay si quiero mi pedido rápido?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p><strong>Solo en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express (recibes tu pedido en menos de 4 horas): $15.000<\/strong><\/p><p><strong>2. Entrega Mismo Día Hábil (recibes tu pedido el mismo día hábil): $12.000<\/strong><\/p><p><strong>3. Recoge en Tienda: (Con un lapso de 4 horas y confirmando disponibilidad)<\/strong><\/p>"
           }
         },
         "23f57530-5fb9-4572-9bcf-0dc7afe61cc6": {
           "type": "panel",
           "settings": {
-            "heading": "Heading",
+            "heading": "¿A qué partes envían?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p><strong>Hacemos envíos a todo Colombia y a todos los países del mundo con DHL. Para envíos internacionales puedes comunicarte por <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>Whatsapp +57 300 212 4013<\/strong><\/a><\/p>"
+          }
+        },
+        "375a2976-aec6-4125-bbc4-845c57471b1c": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Cuántos días se tarda la empresa transportadora en la entrega?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>En colombia y resto del mundo : 1-4 días hábiles.<\/strong><\/p>"
           }
         }
       },
@@ -657,7 +666,8 @@
         "42a306a8-e3d3-4c2e-a316-84e9ae79843b",
         "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066",
         "c83a713c-4da7-4e0c-92fd-4ef05d9ce148",
-        "23f57530-5fb9-4572-9bcf-0dc7afe61cc6"
+        "23f57530-5fb9-4572-9bcf-0dc7afe61cc6",
+        "375a2976-aec6-4125-bbc4-845c57471b1c"
       ],
       "settings": {
         "heading": "",
