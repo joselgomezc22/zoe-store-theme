@@ -388,6 +388,44 @@
         "section_padding": "both"
       }
     },
+    "dd46d3e8-7874-4a24-813b-7a87aaad19e1": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arma tu combo con múltiples opciones para combinar <\/p>"
+          }
+        },
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Disfruta de tu envío gratis<\/p>"
+          }
+        },
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Los descuentos se añaden automáticamente una vez añadas los productos al carrito<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-0",
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-1",
+        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-2"
+      ],
+      "settings": {
+        "sa_grid": 1,
+        "slider_speed": 2,
+        "border_top": false,
+        "border_bottom": false,
+        "text_size": 16,
+        "height": 60,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "13c9069c-3cc3-4e36-b6af-88e31dc9b901": {
       "type": "image-with-text",
       "settings": {
@@ -443,8 +481,38 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "Featured collection",
-        "collection": "",
+        "title": "SACOS 20% OFF",
+        "collection": "sacos",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 5,
+        "limit": 5,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "1df93a61-3d95-4214-a679-32372d01df4c": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "CHAQUETAS 15% OFF",
+        "collection": "combo2",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 4,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "41aa5a23-d836-40a8-a8b4-ff27a69d5d40": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "BODIES 10% OFF",
+        "collection": "combo2",
         "carousel": false,
         "button": false,
         "button_text": "View all",
@@ -457,10 +525,11 @@
     "8099bb79-2530-40e1-9303-8ef2897d0b9a": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rompetrafico_pc-2_1.jpg",
         "scale": 1,
         "page_height": 200,
-        "title": "Heading",
-        "subheading": "<p>Add a sentence of overlay text to your image<\/p>",
+        "title": "PREGUNTAS QUE PUEDES TENER",
+        "subheading": "<p>Selecciona la pregunta y se desplegará la respuesta<\/p>",
         "button_text": "Button",
         "link": "",
         "overlay_opacity": 0,
@@ -483,19 +552,91 @@
             "heading": "¿Como armo mis combos?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p><strong>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/strong><\/p>"
+          }
+        },
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Cuánto tarda en llegar mi pedido?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<ul><li><strong>Días hábiles en Bogotá y cuidades principales: de 1 a 5 días.<\/strong><\/li><li><strong>Ciudades remotas: de 1 a 7 días.<\/strong><\/li><li><strong>Envío Express: El mismo día en Bogotá y Medellín.<\/strong><\/li><\/ul>"
           }
         },
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
           "type": "panel",
           "settings": {
-            "heading": "¿Puedo",
+            "heading": "¿Puedo obtener descuento si compro varios combos?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/strong><\/p>"
+          }
+        },
+        "67d75b46-fba4-4da2-9ef0-1f64172f735a": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Los productos tienen garantía?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Claro que sí, para iniciar con el proceso de cambio, devolución o garantía de tu compra debes diligenciar este <\/strong><a href=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\" title=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\"><strong>formulario<\/strong><\/a><strong>, una vez recibido iniciaremos con el proceso.<\/strong><\/p>"
+          }
+        },
+        "18ec95d2-6af1-493a-b88b-81ccd1a783f4": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Puedo cambiar los producto adquiridos en la tienda online?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Claro que sí, podrás dirigirte a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de <\/strong><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\"><strong>este formulario.<\/strong><\/a><\/p>"
+          }
+        },
+        "3845cc3f-b174-4ec2-871d-f2a2a458e551": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Cómo puedo pagar y que medios reciben?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones.<\/strong><\/p><p><strong>Escríbenos a WhatsApp <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>+57 300 212 40 13<\/strong><\/a><\/p>"
+          }
+        },
+        "b4815539-fde0-41c9-b948-22b38a4f6ad8": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Cómo se cuál es mi talla?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>WhatsApp +57 300 212 4013<\/strong><\/a><\/p>"
+          }
+        },
+        "42a306a8-e3d3-4c2e-a316-84e9ae79843b": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Tienen empaque de regalo?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Ofrecemos un empaque de regalo a $8.900, debes agregarlo buscándolo en productos \"Empaque regalo\" y lo añades al carrito.<\/strong><\/p>"
+          }
+        },
+        "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Tienen tienda o punto físico?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Sí, tenemos tienda y puntos físicos.<\/strong><\/p><p><strong>Bogotá:<\/strong><\/p><ul><li><strong>Cra. 17a, 119A-94<\/strong><\/li><li><strong>Cra. 68b #24-39 CC Salitre Plaza Local 212<\/strong><\/li><\/ul><p><strong>Medellín:<\/strong><\/p><p><strong>Primavera Tienda de Diseño:<\/strong><\/p><ul><li><strong>Cra 37 #8a-59 Vía Primavera<\/strong><\/li><li><strong>C.C Viva Envigado, Local 162<\/strong><\/li><li><strong>C.C Fabricato, Local 2214<\/strong><\/li><li><strong>C.C El Tesoro, Local 3048<\/strong><\/li><\/ul><p><strong>Tiendas Martina<\/strong><\/p><ul><li><strong>C.C Arkadia, Local 0107<\/strong><\/li><li><strong>C.C Viva Laureles, Local 112<\/strong><\/li><li><strong>C.C Viva Envigado, Local 152<\/strong><\/li><li><strong>C.C Mall Palma Grande, Local 19836<\/strong><\/li><li><strong>C.C El Tesoro, Local 3524<\/strong><\/li><\/ul><p><strong>Cali:<\/strong><\/p><ul><li><strong>LM Concept House: Barrio Granada, Calle 18 Norte #9-81<\/strong><\/li><\/ul><p><strong>Pereira:<\/strong><\/p><ul><li><strong>Magenta Almacen: Barrio Los Alpes, Carrera 15b #9-38<\/strong><\/li><\/ul>"
+          }
+        },
+        "c83a713c-4da7-4e0c-92fd-4ef05d9ce148": {
+          "type": "panel",
+          "settings": {
+            "heading": "Heading",
             "color-heading": "#333333",
             "heading-font-size": 16,
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2": {
+        "23f57530-5fb9-4572-9bcf-0dc7afe61cc6": {
           "type": "panel",
           "settings": {
             "heading": "Heading",
@@ -507,50 +648,20 @@
       },
       "block_order": [
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0",
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2",
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2"
+        "67d75b46-fba4-4da2-9ef0-1f64172f735a",
+        "18ec95d2-6af1-493a-b88b-81ccd1a783f4",
+        "3845cc3f-b174-4ec2-871d-f2a2a458e551",
+        "b4815539-fde0-41c9-b948-22b38a4f6ad8",
+        "42a306a8-e3d3-4c2e-a316-84e9ae79843b",
+        "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066",
+        "c83a713c-4da7-4e0c-92fd-4ef05d9ce148",
+        "23f57530-5fb9-4572-9bcf-0dc7afe61cc6"
       ],
       "settings": {
         "heading": "",
         "allow_multiple": false,
-        "section_padding": "both"
-      }
-    },
-    "dd46d3e8-7874-4a24-813b-7a87aaad19e1": {
-      "type": "scrolling-announcements",
-      "blocks": {
-        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Arma tu combo de mes de madre<\/p>"
-          }
-        },
-        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Disfruta de tu envío gratis<\/p>"
-          }
-        },
-        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Los descuentos se añaden automáticamente una vez añadas al carrito<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-0",
-        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-1",
-        "template--18597506646330__dd46d3e8-7874-4a24-813b-7a87aaad19e1-16811652461f98bd0b-2"
-      ],
-      "settings": {
-        "sa_grid": 3,
-        "slider_speed": 5,
-        "border_top": false,
-        "border_bottom": false,
-        "text_size": 16,
-        "height": 60,
-        "color_scheme": "none",
         "section_padding": "both"
       }
     }
@@ -564,12 +675,14 @@
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
     "600abb3a-45cd-4565-96ee-95acfb1624b1",
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4",
+    "dd46d3e8-7874-4a24-813b-7a87aaad19e1",
     "13c9069c-3cc3-4e36-b6af-88e31dc9b901",
     "c786a155-9f6f-4b16-85b2-97f4821a6b99",
     "06e289ae-772c-49c4-acd1-ef13d5a4705f",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
+    "1df93a61-3d95-4214-a679-32372d01df4c",
+    "41aa5a23-d836-40a8-a8b4-ff27a69d5d40",
     "8099bb79-2530-40e1-9303-8ef2897d0b9a",
-    "02b649b8-69df-4d86-a034-fe7562b70060",
-    "dd46d3e8-7874-4a24-813b-7a87aaad19e1"
+    "02b649b8-69df-4d86-a034-fe7562b70060"
   ]
 }
