@@ -439,7 +439,7 @@
             "rich_text": "<p>Desde 2 unidades recibe 10% de descuento.<\/p>",
             "button": "¡QUIERO LOS MÍOS!",
             "link": "shopify:\/\/collections\/combo1",
-            "text_align": "left"
+            "text_align": "center"
           }
         },
         "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-1": {
@@ -451,7 +451,7 @@
             "rich_text": "<p>Lleva una chaqueta + un body Simona y recibe 15% off.<\/p>",
             "button": "ARMAR MI COMBO",
             "link": "shopify:\/\/collections\/combo-2-mes-madre",
-            "text_align": "left"
+            "text_align": "center"
           }
         },
         "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-2": {
@@ -463,7 +463,7 @@
             "rich_text": "<p>Compra 2 suéters o más y recibe 20% de descuento.<\/p>",
             "button": "COMPRAR",
             "link": "shopify:\/\/collections\/sacos",
-            "text_align": "left"
+            "text_align": "center"
           }
         }
       },
