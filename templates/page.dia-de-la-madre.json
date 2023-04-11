@@ -579,15 +579,6 @@
             "content": "<ul><li><strong>Días hábiles en Bogotá y cuidades principales: de 1 a 5 días.<\/strong><\/li><li><strong>Ciudades remotas: de 1 a 7 días.<\/strong><\/li><li><strong>Envío Express: El mismo día en Bogotá y Medellín.<\/strong><\/li><\/ul>"
           }
         },
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Puedo obtener descuento si compro varios combos?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/strong><\/p>"
-          }
-        },
         "67d75b46-fba4-4da2-9ef0-1f64172f735a": {
           "type": "panel",
           "settings": {
@@ -668,11 +659,19 @@
             "heading-font-size": 16,
             "content": "<p><strong>En colombia y resto del mundo : 1-4 días hábiles.<\/strong><\/p>"
           }
+        },
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Puedo obtener descuento si compro varios combos?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/strong><\/p>"
+          }
         }
       },
       "block_order": [
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2",
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
         "67d75b46-fba4-4da2-9ef0-1f64172f735a",
         "18ec95d2-6af1-493a-b88b-81ccd1a783f4",
         "3845cc3f-b174-4ec2-871d-f2a2a458e551",
@@ -681,7 +680,8 @@
         "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066",
         "c83a713c-4da7-4e0c-92fd-4ef05d9ce148",
         "23f57530-5fb9-4572-9bcf-0dc7afe61cc6",
-        "375a2976-aec6-4125-bbc4-845c57471b1c"
+        "375a2976-aec6-4125-bbc4-845c57471b1c",
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1"
       ],
       "settings": {
         "heading": "",
