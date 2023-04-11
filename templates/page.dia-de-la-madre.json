@@ -492,9 +492,9 @@
         "button_text": "Button",
         "link": "",
         "overlay_opacity": 0,
-        "text_color": "#000",
-        "button_text_color": "#fff",
-        "button_color": "#000",
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
         "background": "rgba(0,0,0,0)",
         "caption_horizontal": 50,
         "caption_vertical": 50,
@@ -574,7 +574,7 @@
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2": {
           "type": "panel",
           "settings": {
-            "heading": "¿Cuánto tarda en llegar mi pedido?",
+            "heading": "¿Cuánto tiempo tarda en llegar mi pedido?",
             "color-heading": "#333333",
             "heading-font-size": 16,
             "content": "<ul><li><strong>Días hábiles en Bogotá y cuidades principales: de 1 a 5 días.<\/strong><\/li><li><strong>Ciudades remotas: de 1 a 7 días.<\/strong><\/li><li><strong>Envío Express: El mismo día en Bogotá y Medellín.<\/strong><\/li><\/ul>"
@@ -583,10 +583,19 @@
         "67d75b46-fba4-4da2-9ef0-1f64172f735a": {
           "type": "panel",
           "settings": {
-            "heading": "¿Los productos tienen garantía?",
+            "heading": "¿Puedo comprar más de 2 productos por combo y tener un descuento?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p><strong>Claro que sí, para iniciar con el proceso de cambio, devolución o garantía de tu compra debes diligenciar este <\/strong><a href=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\" title=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/prefill\"><strong>formulario<\/strong><\/a><strong>, una vez recibido iniciaremos con el proceso.<\/strong><\/p>"
+            "content": "<p><strong>Claro que sí.<\/strong><\/p>"
+          }
+        },
+        "42a306a8-e3d3-4c2e-a316-84e9ae79843b": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Tienen empaque de regalo?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Si, ofrecemos un empaque de regalo a $8.900, lo puedes agregar <\/strong><a href=\"\/products\/empaque-regalo-1\" title=\"Empaque regalo\"><strong>aquí.<\/strong><\/a><\/p>"
           }
         },
         "18ec95d2-6af1-493a-b88b-81ccd1a783f4": {
@@ -614,15 +623,6 @@
             "color-heading": "#333333",
             "heading-font-size": 16,
             "content": "<p><strong>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>WhatsApp +57 300 212 4013<\/strong><\/a><\/p>"
-          }
-        },
-        "42a306a8-e3d3-4c2e-a316-84e9ae79843b": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Tienen empaque de regalo?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>Ofrecemos un empaque de regalo a $8.900, debes agregarlo buscándolo en productos \"Empaque regalo\" y lo añades al carrito.<\/strong><\/p>"
           }
         },
         "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066": {
@@ -674,10 +674,10 @@
       "block_order": [
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2",
         "67d75b46-fba4-4da2-9ef0-1f64172f735a",
+        "42a306a8-e3d3-4c2e-a316-84e9ae79843b",
         "18ec95d2-6af1-493a-b88b-81ccd1a783f4",
         "3845cc3f-b174-4ec2-871d-f2a2a458e551",
         "b4815539-fde0-41c9-b948-22b38a4f6ad8",
-        "42a306a8-e3d3-4c2e-a316-84e9ae79843b",
         "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066",
         "c83a713c-4da7-4e0c-92fd-4ef05d9ce148",
         "23f57530-5fb9-4572-9bcf-0dc7afe61cc6",
