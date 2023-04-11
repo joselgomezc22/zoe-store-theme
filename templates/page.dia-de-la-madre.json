@@ -422,7 +422,7 @@
         "border_top": false,
         "border_bottom": false,
         "text_size": 16,
-        "height": 60,
+        "height": 34,
         "color_scheme": "cs3",
         "section_padding": "both"
       }
