@@ -437,7 +437,7 @@
             "image_width": "33%",
             "heading": "BODIES",
             "rich_text": "<p>Desde 2 unidades recibe 10% de descuento.<\/p>",
-            "button": "¡QUIERO LOS MÍOS!",
+            "button": "COMPRAR",
             "link": "shopify:\/\/collections\/combo1",
             "text_align": "center"
           }
@@ -449,7 +449,7 @@
             "image_width": "33%",
             "heading": "CHAQUETA + BODY",
             "rich_text": "<p>Lleva una chaqueta + un body Simona y recibe 15% off.<\/p>",
-            "button": "ARMAR MI COMBO",
+            "button": "COMPRAR",
             "link": "shopify:\/\/collections\/combo-2-mes-madre",
             "text_align": "center"
           }
