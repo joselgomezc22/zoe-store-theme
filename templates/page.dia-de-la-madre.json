@@ -607,15 +607,6 @@
             "content": "<p><strong>Te ofrecemos estas opciones si estás en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express (recibes tu pedido en menos de 4 horas): $15.000<\/strong><\/p><p><strong>2. Entrega Mismo Día Hábil (recibes tu pedido el mismo día hábil): $12.000<\/strong><\/p><p><strong>3. Recoge en Tienda: (Con un lapso de 4 horas y confirmando disponibilidad)<\/strong><\/p>"
           }
         },
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Puedo comprar varios combos al tiempo y obtener descuento?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/strong><\/p>"
-          }
-        },
         "18ec95d2-6af1-493a-b88b-81ccd1a783f4": {
           "type": "panel",
           "settings": {
@@ -624,6 +615,15 @@
             "heading-font-size": 16,
             "content": "<p><strong>Puedes cambiar los productos adquiridos dirigiéndote a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de <\/strong><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\"><strong>este formulario.<\/strong><\/a><\/p>"
           }
+        },
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
+          "type": "panel",
+          "settings": {
+            "heading": "¿Puedo comprar varios combos al tiempo y obtener descuento?",
+            "color-heading": "#333333",
+            "heading-font-size": 16,
+            "content": "<p><strong>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/strong><\/p>"
+          }
         }
       },
       "block_order": [
@@ -631,8 +631,8 @@
         "67d75b46-fba4-4da2-9ef0-1f64172f735a",
         "42a306a8-e3d3-4c2e-a316-84e9ae79843b",
         "c83a713c-4da7-4e0c-92fd-4ef05d9ce148",
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
-        "18ec95d2-6af1-493a-b88b-81ccd1a783f4"
+        "18ec95d2-6af1-493a-b88b-81ccd1a783f4",
+        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1"
       ],
       "settings": {
         "heading": "",
