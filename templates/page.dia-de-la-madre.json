@@ -547,6 +547,26 @@
         "section_padding": "both"
       }
     },
+    "768eca9e-df0c-456e-81e9-fefd9a91ac03": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "scale": 0,
+        "page_height": 500,
+        "title": "",
+        "subheading": "",
+        "button_text": "Button",
+        "link": "",
+        "overlay_opacity": 0,
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
+        "background": "rgba(0,0,0,0)",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "text_align": "center",
+        "section_padding": "both"
+      }
+    },
     "8099bb79-2530-40e1-9303-8ef2897d0b9a": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -656,6 +676,7 @@
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
     "1df93a61-3d95-4214-a679-32372d01df4c",
     "41aa5a23-d836-40a8-a8b4-ff27a69d5d40",
+    "768eca9e-df0c-456e-81e9-fefd9a91ac03",
     "8099bb79-2530-40e1-9303-8ef2897d0b9a",
     "02b649b8-69df-4d86-a034-fe7562b70060"
   ]
