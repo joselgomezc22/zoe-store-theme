@@ -17,7 +17,7 @@
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/promo-bodie-mujer-descuento-colombia-p_882206ff-f219-4492-b41b-99217dddf67d.jpg",
+            "image": "shopify:\/\/shop_images\/promocion-body-colombia-mujer-ropa_1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -35,7 +35,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
         },
@@ -59,7 +59,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
