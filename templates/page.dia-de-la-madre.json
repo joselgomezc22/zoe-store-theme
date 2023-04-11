@@ -426,36 +426,56 @@
         "section_padding": "both"
       }
     },
-    "13c9069c-3cc3-4e36-b6af-88e31dc9b901": {
-      "type": "image-with-text",
+    "afdfb73d-9076-4a63-bb6e-cecbcc9fc174": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bodies-mes-madre-promo.jpg",
+            "image_width": "33%",
+            "heading": "BODIES 10% OFF",
+            "rich_text": "<p>Lleva mínimo 2 unidades y recibe 10% de descuento. <\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chaquetas-ropa-mes-madre-promo-colombia_6057aa93-01a2-4b77-b53e-56f9806c24a1.jpg",
+            "image_width": "33%",
+            "heading": "CHAQUETA + BODIE 15% OFF",
+            "rich_text": "<p>Elige una original chaqueta de Zoé junto a nuestro clásico Bodie Simona y recibe un 15% de descuento.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sacos-sueters-mes-madre-colombia.jpg",
+            "image_width": "33%",
+            "heading": "SACOS \/ SUÉTERS",
+            "rich_text": "<p>Lleva 2 y recibes un 20% de descuento.<\/p>",
+            "button": "COMPRAR",
+            "link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-0",
+        "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-1",
+        "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-2"
+      ],
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/bodies-mes-madre-promo.jpg",
-        "layout": "left",
-        "image_width": "33%",
-        "text_align": "left",
-        "text_position": "center",
-        "title": "BODIES CON 10% OFF",
-        "text": "<p>Los bodies son un básico infaltable en tu armario ya que sirven para TODA ocasión y puedes elegir entre múltiples colores y estilos. Lleva mínimo 2 unidades y recibe 10% de descuento. <\/p>",
-        "link": "shopify:\/\/collections\/combo1",
-        "button": "COMBO 1",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
-    "c786a155-9f6f-4b16-85b2-97f4821a6b99": {
-      "type": "image-with-text",
-      "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/chaquetas-ropa-mes-madre-promo-colombia.jpg",
-        "layout": "right",
-        "image_width": "33%",
-        "text_align": "left",
-        "text_position": "center",
-        "title": "CHAQUETA + BODIE CON 15% OFF",
-        "text": "<p>¡Un combo que te arma el look! Elige una original chaqueta de Zoé junto a nuestro clásico Bodie Simona y recibe un 15% de descuento.<\/p>",
-        "link": "shopify:\/\/collections\/combo2",
-        "button": "COMBO 2",
+        "title": "Welcome",
+        "heading_size": 24,
+        "text_size": 14,
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -533,9 +553,9 @@
         "button_text": "Button",
         "link": "",
         "overlay_opacity": 0,
-        "text_color": "#000",
-        "button_text_color": "#fff",
-        "button_color": "#000",
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
         "background": "rgba(0,0,0,0)",
         "caption_horizontal": 50,
         "caption_vertical": 50,
@@ -686,8 +706,7 @@
     "600abb3a-45cd-4565-96ee-95acfb1624b1",
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4",
     "dd46d3e8-7874-4a24-813b-7a87aaad19e1",
-    "13c9069c-3cc3-4e36-b6af-88e31dc9b901",
-    "c786a155-9f6f-4b16-85b2-97f4821a6b99",
+    "afdfb73d-9076-4a63-bb6e-cecbcc9fc174",
     "06e289ae-772c-49c4-acd1-ef13d5a4705f",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
     "1df93a61-3d95-4214-a679-32372d01df4c",
