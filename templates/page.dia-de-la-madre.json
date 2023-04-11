@@ -436,8 +436,8 @@
             "image_width": "33%",
             "heading": "BODIES 10% OFF",
             "rich_text": "<p>Lleva mínimo 2 unidades y recibe 10% de descuento. <\/p>",
-            "button": "Explore",
-            "link": "",
+            "button": "¡QUIERO LOS MÍOS!",
+            "link": "shopify:\/\/collections\/combo1",
             "text_align": "left"
           }
         },
@@ -448,8 +448,8 @@
             "image_width": "33%",
             "heading": "CHAQUETA + BODIE 15% OFF",
             "rich_text": "<p>Elige una original chaqueta de Zoé junto a nuestro clásico Bodie Simona y recibe un 15% de descuento.<\/p>",
-            "button": "Explore",
-            "link": "",
+            "button": "ARMAR MI COMBO",
+            "link": "shopify:\/\/collections\/combo-2-mes-madre",
             "text_align": "left"
           }
         },
@@ -499,8 +499,8 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "CHAQUETAS 15% OFF",
-        "collection": "combo2",
+        "title": "CHAQUETA + BODY 15% OFF",
+        "collection": "combo-2-mes-madre",
         "carousel": false,
         "button": false,
         "button_text": "View all",
