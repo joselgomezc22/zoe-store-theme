@@ -110,7 +110,7 @@
             "second_button_text": "Button 2 text",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
-            "cta_background": "#000",
+            "cta_background": "#000000",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
@@ -191,7 +191,7 @@
         "1625752962aa2a6ebb-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Body-negro-multiusos-vestido-de-bano.jpg",
+            "image": "shopify:\/\/shop_images\/body-mujer-blanco-escote-bandeja.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/bodies",
             "heading": "",
