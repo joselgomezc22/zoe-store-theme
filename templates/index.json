@@ -94,12 +94,12 @@
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/promo-bodies-mujer-descuentos-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/promocion-body-colombia-mujer-ropa_1.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 51,
             "caption_vertical": 94,
-            "mobile_image": "shopify:\/\/shop_images\/promo-bodies-mujer-descuentos-colombia-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/promocion-body-colombia-mujer-ropa_2.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
