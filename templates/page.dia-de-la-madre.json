@@ -484,7 +484,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/rompetrfico-iconos.png",
-        "scale": 1,
+        "scale": 0,
         "page_height": 500,
         "title": "",
         "subheading": "",
