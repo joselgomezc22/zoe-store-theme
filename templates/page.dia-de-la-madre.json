@@ -459,7 +459,7 @@
             "image": "shopify:\/\/shop_images\/sacos-sueters-mes-madre-colombia.jpg",
             "image_width": "33%",
             "heading": "SACOS \/ SUÉTERS",
-            "rich_text": "<p>Añade mínimo 2 suéters al carrito de compras y recibes un 20% de descuento.<\/p>",
+            "rich_text": "<p>Añade  2 suéters o más al carrito de compras y recibes un 20% de descuento.<\/p>",
             "button": "COMPRAR",
             "link": "shopify:\/\/collections\/sacos",
             "text_align": "left"
@@ -549,15 +549,6 @@
     "02b649b8-69df-4d86-a034-fe7562b70060": {
       "type": "accordion",
       "blocks": {
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Como armo mis combos?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>1.Elige el combo que más te guste. <\/strong><\/p><p><strong>2. Selecciona cada prenda y selecciona tu talla y color.<\/strong><\/p><p><strong>3. Añade al carrito mínimo 2 prendas del combo que elegiste.<\/strong><\/p><p><strong>4. Vas a tu carrito y ves automáticamente el descuento añadido.<\/strong><\/p><p><strong>5. Finaliza tu compra con el medio de pago que desees.<\/strong><\/p><p><\/p>"
-          }
-        },
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2": {
           "type": "panel",
           "settings": {
@@ -659,7 +650,6 @@
         }
       },
       "block_order": [
-        "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-0",
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-2",
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
         "67d75b46-fba4-4da2-9ef0-1f64172f735a",
