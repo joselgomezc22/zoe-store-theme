@@ -459,8 +459,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sacos-sueters-mes-madre-colombia.jpg",
             "image_width": "33%",
-            "heading": "SACOS \/ SUÉTERS",
-            "rich_text": "<p>Compra 2 suéters o más y recibe 20% de descuento.<\/p>",
+            "heading": "SACOS \/ SUÉTERES",
+            "rich_text": "<p>Compra 2 suéteres o más y recibe 20% de descuento.<\/p>",
             "button": "COMPRAR",
             "link": "shopify:\/\/collections\/combo-3-mes-madre",
             "text_align": "center"
