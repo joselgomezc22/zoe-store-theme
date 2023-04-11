@@ -624,51 +624,6 @@
             "heading-font-size": 16,
             "content": "<p><strong>Puedes cambiar los productos adquiridos dirigiéndote a nuestras tiendas físicas en Bogotá o solicitar el cambio a través de <\/strong><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdN-p8EJeFp9nyaoCLYrk7MXrFclktORpJxLNzJ5gIAhplKTQ\/viewform\"><strong>este formulario.<\/strong><\/a><\/p>"
           }
-        },
-        "3845cc3f-b174-4ec2-871d-f2a2a458e551": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Cómo puedo pagar y qué medios reciben?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>Puedes pagar con MercadoPago usando transferencia desde tu cuenta con PSE, Nequi, Daviplata, tarjeta crédito, débito, pago contraentrega, pago a cuotas con Addi, en efectivo a través de Efecty o Baloto. En la pantalla de pago encuentras estas opciones.<\/strong><\/p><p><strong>Escríbenos a WhatsApp <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>+57 300 212 40 13<\/strong><\/a><\/p>"
-          }
-        },
-        "b4815539-fde0-41c9-b948-22b38a4f6ad8": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Cómo sé cual es mi talla?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>En cada producto encuentras una guía de tallas que te recomienda basado en tu estatura, y medidas. También tienes una referencia con la estatura y talla del modelo. <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>WhatsApp +57 300 212 4013<\/strong><\/a><\/p>"
-          }
-        },
-        "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Tienen tienda o punto físico?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>Sí, tenemos tienda y puntos físicos.<\/strong><\/p><p><strong>Bogotá:<\/strong><\/p><ul><li><strong>Cra. 17a, 119A-94<\/strong><\/li><li><strong>Cra. 68b #24-39 CC Salitre Plaza Local 212<\/strong><\/li><\/ul><p><strong>Medellín:<\/strong><\/p><p><strong>Primavera Tienda de Diseño:<\/strong><\/p><ul><li><strong>Cra 37 #8a-59 Vía Primavera<\/strong><\/li><li><strong>C.C Viva Envigado, Local 162<\/strong><\/li><li><strong>C.C Fabricato, Local 2214<\/strong><\/li><li><strong>C.C El Tesoro, Local 3048<\/strong><\/li><\/ul><p><strong>Tiendas Martina<\/strong><\/p><ul><li><strong>C.C Arkadia, Local 0107<\/strong><\/li><li><strong>C.C Viva Laureles, Local 112<\/strong><\/li><li><strong>C.C Viva Envigado, Local 152<\/strong><\/li><li><strong>C.C Mall Palma Grande, Local 19836<\/strong><\/li><li><strong>C.C El Tesoro, Local 3524<\/strong><\/li><\/ul><p><strong>Cali:<\/strong><\/p><ul><li><strong>LM Concept House: Barrio Granada, Calle 18 Norte #9-81<\/strong><\/li><\/ul><p><strong>Pereira:<\/strong><\/p><ul><li><strong>Magenta Almacen: Barrio Los Alpes, Carrera 15b #9-38<\/strong><\/li><\/ul>"
-          }
-        },
-        "23f57530-5fb9-4572-9bcf-0dc7afe61cc6": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿A qué partes envían?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>Hacemos envíos a todo Colombia y a todos los países del mundo con DHL. Para envíos internacionales puedes comunicarte por <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0\"><strong>Whatsapp +57 300 212 4013<\/strong><\/a><\/p>"
-          }
-        },
-        "375a2976-aec6-4125-bbc4-845c57471b1c": {
-          "type": "panel",
-          "settings": {
-            "heading": "¿Cuántos días se tarda la empresa transportadora en la entrega?",
-            "color-heading": "#333333",
-            "heading-font-size": 16,
-            "content": "<p><strong>En colombia y resto del mundo : 1-4 días hábiles.<\/strong><\/p>"
-          }
         }
       },
       "block_order": [
@@ -677,12 +632,7 @@
         "42a306a8-e3d3-4c2e-a316-84e9ae79843b",
         "c83a713c-4da7-4e0c-92fd-4ef05d9ce148",
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1",
-        "18ec95d2-6af1-493a-b88b-81ccd1a783f4",
-        "3845cc3f-b174-4ec2-871d-f2a2a458e551",
-        "b4815539-fde0-41c9-b948-22b38a4f6ad8",
-        "2fa1a2b0-9b28-42a7-8f9c-9dfb8a227066",
-        "23f57530-5fb9-4572-9bcf-0dc7afe61cc6",
-        "375a2976-aec6-4125-bbc4-845c57471b1c"
+        "18ec95d2-6af1-493a-b88b-81ccd1a783f4"
       ],
       "settings": {
         "heading": "",
