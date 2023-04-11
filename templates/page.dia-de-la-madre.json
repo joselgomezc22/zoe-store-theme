@@ -480,23 +480,6 @@
         "section_padding": "both"
       }
     },
-    "06e289ae-772c-49c4-acd1-ef13d5a4705f": {
-      "type": "image-with-text",
-      "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/sacos-sueters-mes-madre-colombia.jpg",
-        "layout": "left",
-        "image_width": "33%",
-        "text_align": "left",
-        "text_position": "center",
-        "title": "SACOS \/ SUÉTERS",
-        "text": "<p>Los sacos tejidos  te acompañarán en los días  más fríos sin perder el estilo. Encuéntralos en colores planos, prints divertidos y muchos estilos. Lleva 2 y recibes un 20% de descuento.<\/p>",
-        "link": "",
-        "button": "COMBO 3",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb": {
       "type": "featured-collection",
       "settings": {
@@ -707,7 +690,6 @@
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4",
     "dd46d3e8-7874-4a24-813b-7a87aaad19e1",
     "afdfb73d-9076-4a63-bb6e-cecbcc9fc174",
-    "06e289ae-772c-49c4-acd1-ef13d5a4705f",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
     "1df93a61-3d95-4214-a679-32372d01df4c",
     "41aa5a23-d836-40a8-a8b4-ff27a69d5d40",
