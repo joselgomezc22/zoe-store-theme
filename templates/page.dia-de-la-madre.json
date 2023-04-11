@@ -637,10 +637,10 @@
         "c83a713c-4da7-4e0c-92fd-4ef05d9ce148": {
           "type": "panel",
           "settings": {
-            "heading": "¿Qué opciones de envío hay si quiero mi pedido rápido?",
+            "heading": "¿Si quiero mi envío rápido que puedo hacer?",
             "color-heading": "#333333",
             "heading-font-size": 16,
-            "content": "<p><strong>Solo en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express (recibes tu pedido en menos de 4 horas): $15.000<\/strong><\/p><p><strong>2. Entrega Mismo Día Hábil (recibes tu pedido el mismo día hábil): $12.000<\/strong><\/p><p><strong>3. Recoge en Tienda: (Con un lapso de 4 horas y confirmando disponibilidad)<\/strong><\/p>"
+            "content": "<p><strong>Te ofrecemos estas opciones si estás en Bogotá:<\/strong><\/p><p><strong>1. Entrega Express (recibes tu pedido en menos de 4 horas): $15.000<\/strong><\/p><p><strong>2. Entrega Mismo Día Hábil (recibes tu pedido el mismo día hábil): $12.000<\/strong><\/p><p><strong>3. Recoge en Tienda: (Con un lapso de 4 horas y confirmando disponibilidad)<\/strong><\/p>"
           }
         },
         "23f57530-5fb9-4572-9bcf-0dc7afe61cc6": {
