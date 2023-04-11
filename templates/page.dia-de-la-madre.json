@@ -459,9 +459,9 @@
             "image": "shopify:\/\/shop_images\/sacos-sueters-mes-madre-colombia.jpg",
             "image_width": "33%",
             "heading": "SACOS \/ SUÉTERS",
-            "rich_text": "<p>Lleva 2 y recibes un 20% de descuento.<\/p>",
+            "rich_text": "<p>Añade mínimo 2 suéters al carrito de compras y recibes un 20% de descuento.<\/p>",
             "button": "COMPRAR",
-            "link": "",
+            "link": "shopify:\/\/collections\/sacos",
             "text_align": "left"
           }
         }
