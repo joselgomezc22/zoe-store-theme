@@ -138,29 +138,6 @@
         "sort_by": true
       }
     },
-    "38969d44-e1d3-4e83-b11a-cb9bf99ac289": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16986105643322__38969d44-e1d3-4e83-b11a-cb9bf99ac289-1679538512b2ca80e6-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "Block heading",
-            "rich_text": "",
-            "center": false,
-            "block_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105643322__38969d44-e1d3-4e83-b11a-cb9bf99ac289-1679538512b2ca80e6-0"
-      ],
-      "settings": {
-        "title": "- Testimonios de nuestros clientes -",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "86105da5-8a65-4d86-8865-6da74da4ca7c": {
       "type": "shop-the-look",
       "disabled": true,
@@ -252,6 +229,30 @@
       "settings": {
         "full_width": false,
         "title": "Shop the Look",
+        "section_padding": "both"
+      }
+    },
+    "38969d44-e1d3-4e83-b11a-cb9bf99ac289": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16986105643322__38969d44-e1d3-4e83-b11a-cb9bf99ac289-1679538512b2ca80e6-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Block heading",
+            "rich_text": "",
+            "center": false,
+            "block_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105643322__38969d44-e1d3-4e83-b11a-cb9bf99ac289-1679538512b2ca80e6-0"
+      ],
+      "settings": {
+        "title": "- Testimonios de nuestros clientes -",
+        "color_scheme": "none",
         "section_padding": "both"
       }
     },
@@ -481,8 +482,8 @@
     "banner",
     "499957ca-1fcc-4ad4-a733-351cfafe1143",
     "main",
-    "38969d44-e1d3-4e83-b11a-cb9bf99ac289",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
+    "38969d44-e1d3-4e83-b11a-cb9bf99ac289",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
     "91180802-2590-427a-afd6-58fd49ec5e01",
