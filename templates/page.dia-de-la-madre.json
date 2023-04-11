@@ -435,8 +435,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bodies-mes-madre-promo.jpg",
             "image_width": "33%",
-            "heading": "BODIES 10% OFF",
-            "rich_text": "<p>Desde 2 unidades recibe 10% de descuento en tus bodies. <\/p>",
+            "heading": "BODIES",
+            "rich_text": "<p>Desde 2 unidades recibe 10% de descuento.<\/p>",
             "button": "¡QUIERO LOS MÍOS!",
             "link": "shopify:\/\/collections\/combo1",
             "text_align": "left"
@@ -447,8 +447,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/chaquetas-ropa-mes-madre-promo-colombia_44a5249e-39f1-4629-8c23-c1a9da6e35f2.jpg",
             "image_width": "33%",
-            "heading": "CHAQUETA + BODY 15% OFF",
-            "rich_text": "<p>Por la compra de una chaqueta  y un body Simona recibe 15% de descuento.<\/p>",
+            "heading": "CHAQUETA + BODY",
+            "rich_text": "<p>Lleva una chaqueta + un body Simona y recibe 15% off.<\/p>",
             "button": "ARMAR MI COMBO",
             "link": "shopify:\/\/collections\/combo-2-mes-madre",
             "text_align": "left"
@@ -460,7 +460,7 @@
             "image": "shopify:\/\/shop_images\/sacos-sueters-mes-madre-colombia.jpg",
             "image_width": "33%",
             "heading": "SACOS \/ SUÉTERS",
-            "rich_text": "<p>Añade  2 suéters o más al carrito de compras y recibe 20% de descuento.<\/p>",
+            "rich_text": "<p>Compra 2 suéters o más y recibe 20% de descuento.<\/p>",
             "button": "COMPRAR",
             "link": "shopify:\/\/collections\/sacos",
             "text_align": "left"
