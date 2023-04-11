@@ -423,7 +423,7 @@
         "border_bottom": false,
         "text_size": 16,
         "height": 60,
-        "color_scheme": "none",
+        "color_scheme": "cs3",
         "section_padding": "both"
       }
     },
