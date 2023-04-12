@@ -428,8 +428,30 @@
         "section_padding": "both"
       }
     },
+    "e6d85523-96b9-4a77-9925-bd0701485009": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia_4.jpg",
+        "scale": 0,
+        "page_height": 500,
+        "title": "",
+        "subheading": "",
+        "button_text": "Button",
+        "link": "",
+        "overlay_opacity": 0,
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
+        "background": "rgba(0,0,0,0)",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "text_align": "center",
+        "section_padding": "both"
+      }
+    },
     "afdfb73d-9076-4a63-bb6e-cecbcc9fc174": {
       "type": "editorial-columns",
+      "disabled": true,
       "blocks": {
         "template--18597506646330__afdfb73d-9076-4a63-bb6e-cecbcc9fc174-1681220218ec3849f6-0": {
           "type": "image",
@@ -482,59 +504,17 @@
         "section_padding": "both"
       }
     },
-    "f017922d-1590-485b-95cf-f160a308f081": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Rompetrafico_pc-3_1.jpg",
-        "scale": 0,
-        "page_height": 500,
-        "title": "",
-        "subheading": "",
-        "button_text": "Button",
-        "link": "",
-        "overlay_opacity": 0,
-        "text_color": "#000000",
-        "button_text_color": "#ffffff",
-        "button_color": "#000000",
-        "background": "rgba(0,0,0,0)",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "text_align": "center",
-        "section_padding": "both"
-      }
-    },
-    "e6d85523-96b9-4a77-9925-bd0701485009": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia_4.jpg",
-        "scale": 0,
-        "page_height": 500,
-        "title": "",
-        "subheading": "",
-        "button_text": "Button",
-        "link": "",
-        "overlay_opacity": 0,
-        "text_color": "#000000",
-        "button_text_color": "#ffffff",
-        "button_color": "#000000",
-        "background": "rgba(0,0,0,0)",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "text_align": "center",
-        "section_padding": "both"
-      }
-    },
-    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb": {
+    "41aa5a23-d836-40a8-a8b4-ff27a69d5d40": {
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "SACOS 20% OFF",
-        "collection": "sacos",
+        "title": "BODIES 10% OFF",
+        "collection": "combo1",
         "carousel": false,
         "button": false,
         "button_text": "View all",
-        "grid": 5,
-        "limit": 5,
+        "grid": 4,
+        "limit": 4,
         "color_scheme": "cs1",
         "section_padding": "both"
       }
@@ -554,17 +534,17 @@
         "section_padding": "both"
       }
     },
-    "41aa5a23-d836-40a8-a8b4-ff27a69d5d40": {
+    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb": {
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "BODIES 10% OFF",
-        "collection": "combo1",
+        "title": "SACOS 20% OFF",
+        "collection": "sacos",
         "carousel": false,
         "button": false,
         "button_text": "View all",
-        "grid": 4,
-        "limit": 4,
+        "grid": 5,
+        "limit": 5,
         "color_scheme": "cs1",
         "section_padding": "both"
       }
@@ -587,7 +567,28 @@
         "caption_horizontal": 50,
         "caption_vertical": 50,
         "text_align": "center",
-        "section_padding": "both"
+        "section_padding": "none"
+      }
+    },
+    "f017922d-1590-485b-95cf-f160a308f081": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rompetrafico_pc-3_1.jpg",
+        "scale": 0,
+        "page_height": 500,
+        "title": "",
+        "subheading": "",
+        "button_text": "Button",
+        "link": "",
+        "overlay_opacity": 0,
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
+        "background": "rgba(0,0,0,0)",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "text_align": "center",
+        "section_padding": "none"
       }
     },
     "02b649b8-69df-4d86-a034-fe7562b70060": {
@@ -673,13 +674,13 @@
     "600abb3a-45cd-4565-96ee-95acfb1624b1",
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4",
     "dd46d3e8-7874-4a24-813b-7a87aaad19e1",
-    "afdfb73d-9076-4a63-bb6e-cecbcc9fc174",
-    "f017922d-1590-485b-95cf-f160a308f081",
     "e6d85523-96b9-4a77-9925-bd0701485009",
-    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
-    "1df93a61-3d95-4214-a679-32372d01df4c",
+    "afdfb73d-9076-4a63-bb6e-cecbcc9fc174",
     "41aa5a23-d836-40a8-a8b4-ff27a69d5d40",
+    "1df93a61-3d95-4214-a679-32372d01df4c",
+    "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
     "768eca9e-df0c-456e-81e9-fefd9a91ac03",
+    "f017922d-1590-485b-95cf-f160a308f081",
     "02b649b8-69df-4d86-a034-fe7562b70060"
   ]
 }
