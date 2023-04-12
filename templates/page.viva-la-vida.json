@@ -149,6 +149,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
+        "image": "shopify:\/\/shop_images\/producto-colombiano-marca-colombia_67620474-6cf8-4614-bfa9-b49a0cf24376.jpg",
         "layout": "right",
         "image_width": "50%",
         "text_align": "left",
