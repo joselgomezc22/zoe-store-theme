@@ -513,8 +513,8 @@
         "carousel": false,
         "button": false,
         "button_text": "View all",
-        "grid": 4,
-        "limit": 4,
+        "grid": 5,
+        "limit": 5,
         "color_scheme": "cs1",
         "section_padding": "both"
       }
@@ -528,8 +528,8 @@
         "carousel": false,
         "button": false,
         "button_text": "View all",
-        "grid": 4,
-        "limit": 4,
+        "grid": 5,
+        "limit": 5,
         "color_scheme": "cs1",
         "section_padding": "both"
       }
