@@ -13,11 +13,12 @@
         "template--18703513157946__fea7f557-3701-416e-87b1-c9915335ab1c-1681307575ebf2e387-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coleccion-chaquetas-mujer-moda-colombia-2.jpg",
+            "image": "shopify:\/\/shop_images\/coleccion-chaquetas-mujer-moda-colombia_f3f2519f-3d21-4f30-b56c-c2d4cf8eee6e.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/coleccion-chaquetas-mujer-moda-colombia-2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
