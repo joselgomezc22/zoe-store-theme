@@ -98,7 +98,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/7.jpg",
+        "image": "shopify:\/\/shop_images\/coleccion-moda-mujer-colombia.jpg",
         "layout": "left",
         "image_width": "50%",
         "text_align": "left",
@@ -115,7 +115,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/8.jpg",
+        "image": "shopify:\/\/shop_images\/coleccion-moda-mujer-colombia_2.jpg",
         "layout": "right",
         "image_width": "50%",
         "text_align": "left",
@@ -132,6 +132,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
+        "image": "shopify:\/\/shop_images\/coleccion-moda-mujer-colombia_1.jpg",
         "layout": "left",
         "image_width": "50%",
         "text_align": "left",
