@@ -6,9 +6,184 @@
         "page_size": "thin",
         "sidebar_positon": "left"
       }
+    },
+    "fea7f557-3701-416e-87b1-c9915335ab1c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18703513157946__fea7f557-3701-416e-87b1-c9915335ab1c-1681307575ebf2e387-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coleccion-chaquetas-mujer-moda-colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--18703513157946__fea7f557-3701-416e-87b1-c9915335ab1c-1681307575ebf2e387-0"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "3e51878d-a6d5-4655-8eca-fdecbf9f4e92": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--18703513157946__3e51878d-a6d5-4655-8eca-fdecbf9f4e92-16813078999b1ed779-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Materiales de <strong>alta calidad<\/strong><\/p>"
+          }
+        },
+        "template--18703513157946__3e51878d-a6d5-4655-8eca-fdecbf9f4e92-16813078999b1ed779-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Variedad de estilos y colores para todas<\/p>"
+          }
+        },
+        "template--18703513157946__3e51878d-a6d5-4655-8eca-fdecbf9f4e92-16813078999b1ed779-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Todo <\/strong>tipo de prendas para tu clóset<\/p>"
+          }
+        },
+        "9a4b6fbf-74fe-4539-bee7-8f5734603fd9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>100% hecho por manos colombianas<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18703513157946__3e51878d-a6d5-4655-8eca-fdecbf9f4e92-16813078999b1ed779-0",
+        "template--18703513157946__3e51878d-a6d5-4655-8eca-fdecbf9f4e92-16813078999b1ed779-1",
+        "template--18703513157946__3e51878d-a6d5-4655-8eca-fdecbf9f4e92-16813078999b1ed779-2",
+        "9a4b6fbf-74fe-4539-bee7-8f5734603fd9"
+      ],
+      "settings": {
+        "sa_grid": 1,
+        "slider_speed": 3,
+        "border_top": false,
+        "border_bottom": false,
+        "text_size": 16,
+        "height": 60,
+        "color_scheme": "cs3",
+        "section_padding": "both"
+      }
+    },
+    "262b447b-b63f-444c-8754-f3571cdfd2c0": {
+      "type": "image-with-text",
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/7.jpg",
+        "layout": "left",
+        "image_width": "50%",
+        "text_align": "left",
+        "text_position": "center",
+        "title": "01. MATERIALES DE ALTA CALIDAD",
+        "text": "<p>Aquí encontrarás prendas con materiales de alta calidad, que te brindan comodidad, durabilidad y elegancia. Nuestros tejidos son suaves al tacto, resistentes al lavado y se adaptan a tu figura.<\/p>",
+        "link": "",
+        "button": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "f6286a20-afb2-4f10-b922-54546668cde1": {
+      "type": "image-with-text",
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/8.jpg",
+        "layout": "right",
+        "image_width": "50%",
+        "text_align": "left",
+        "text_position": "center",
+        "title": "02. VARIEDAD DE ESTILOS Y COLORES",
+        "text": "<p>Tenemos una gran variedad de estilos y colores para que elijas el que más te guste y se ajuste a tu personalidad. Desde lo clásico y sobrio hasta lo moderno y atrevido, tenemos<strong> opciones para todas las ocasiones y gustos<\/strong>. Puedes combinar nuestras prendas como quieras y crear tu propio look.<\/p>",
+        "link": "",
+        "button": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "f70a029a-53a1-4300-9a3d-20182eae6eca": {
+      "type": "image-with-text",
+      "settings": {
+        "full_width": false,
+        "layout": "left",
+        "image_width": "50%",
+        "text_align": "left",
+        "text_position": "center",
+        "title": "03. TODO TIPO DE PRENDAS PARA TU CLÓSET",
+        "text": "<p>En <strong>VIVA LA VIDA<\/strong> podrás encontrar todo tipo de prendas para tu clóset, desde bodies, pantalones, faldas, chaquetas, croptops, sacos y blusas. Tenemos prendas para el día a día, para el trabajo, para salir de fiesta o para un evento especial. Sea cual sea tu estilo, tenemos la prenda perfecta para ti.<\/p>",
+        "link": "",
+        "button": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "4d1a458c-99ee-46f9-bf14-c61412d404b6": {
+      "type": "image-with-text",
+      "settings": {
+        "full_width": false,
+        "layout": "right",
+        "image_width": "50%",
+        "text_align": "left",
+        "text_position": "center",
+        "title": "04. 100% HECHO POR MANOS COLOMBIANAS",
+        "text": "<p>Nuestras prendas son 100% hechas por manos colombianas, con amor y dedicación. Apoyamos el talento nacional y la industria local, generando empleo y desarrollo para nuestro país. Cuando compras nuestras prendas, no solo te llevas una pieza de moda femenina de calidad, sino también una muestra de la cultura y el arte colombianos.<\/p>",
+        "link": "",
+        "button": "",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "1a951288-42b1-4135-af6e-8ebf30329a06": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "COLECCIÓN VIVA LA VIDA",
+        "collection": "viva-la-vida",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 5,
+        "limit": 15,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "fea7f557-3701-416e-87b1-c9915335ab1c",
+    "3e51878d-a6d5-4655-8eca-fdecbf9f4e92",
+    "262b447b-b63f-444c-8754-f3571cdfd2c0",
+    "f6286a20-afb2-4f10-b922-54546668cde1",
+    "f70a029a-53a1-4300-9a3d-20182eae6eca",
+    "4d1a458c-99ee-46f9-bf14-c61412d404b6",
+    "1a951288-42b1-4135-af6e-8ebf30329a06"
   ]
 }
