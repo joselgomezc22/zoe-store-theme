@@ -539,8 +539,8 @@
         "e0111de6-4fe9-4465-9b09-511d54d611b6"
       ],
       "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
+        "enable_autoplay": true,
+        "slider_speed": 3,
         "pager": "dots",
         "video_audio": "off",
         "slide_heading_size": 22,
