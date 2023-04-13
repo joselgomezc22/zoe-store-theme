@@ -157,7 +157,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-1_1.jpg",
             "overlay": false,
-            "text_align": "center",
+            "text_align": "right",
             "caption_horizontal": 50,
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-mobile_1.jpg",
