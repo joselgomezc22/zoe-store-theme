@@ -455,10 +455,88 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "f8c27336-6296-45e4-800c-224dadd4dfe2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia-pc_2.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/combo-mes-madre-mobile_2.jpg",
+            "hide_caption_background": true,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/combo1",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "535f5237-98fa-421d-93c8-6dd183dc9a7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia-pc_3.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/combo-mes-madre-mobile_3.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "e0111de6-4fe9-4465-9b09-511d54d611b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia-pc_1.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/combo-mes-madre-mobile_1.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0"
+        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0",
+        "f8c27336-6296-45e4-800c-224dadd4dfe2",
+        "535f5237-98fa-421d-93c8-6dd183dc9a7f",
+        "e0111de6-4fe9-4465-9b09-511d54d611b6"
       ],
       "settings": {
         "enable_autoplay": false,
