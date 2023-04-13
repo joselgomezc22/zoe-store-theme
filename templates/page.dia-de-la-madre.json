@@ -609,7 +609,7 @@
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/empaque-regalo-ropa-colombia-mobile_1.jpg",
             "hide_caption_background": true,
-            "caption_below": true,
+            "caption_below": false,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/products\/empaque-regalo-1",
