@@ -124,6 +124,36 @@
         "section_padding": "both"
       }
     },
+    "b0d05d7e-3769-4588-aed4-a15782bfe5e8": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Sin mangas Pack x3 15% OFF",
+        "collection": "simona-pomona",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "f5cd35bf-ed9b-482c-9b7c-1c42fc6d88e9": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Manga larga Pack x3 20% OFF",
+        "collection": "pack_mangalarga",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
     "c8607b14-4d84-43c7-96c4-4e93f350da92": {
       "type": "collection-list",
       "disabled": true,
@@ -344,27 +374,14 @@
         "cta_size": 14,
         "section_padding": "both"
       }
-    },
-    "b0d05d7e-3769-4588-aed4-a15782bfe5e8": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "Sin mangas Pack x3 15% OFF",
-        "collection": "simona-pomona",
-        "carousel": false,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 8,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "2aef6dc0-257a-4ce3-9783-42f89cbfc66a",
     "c6432aef-563e-4cfa-b230-ab0262d0bee7",
+    "b0d05d7e-3769-4588-aed4-a15782bfe5e8",
+    "f5cd35bf-ed9b-482c-9b7c-1c42fc6d88e9",
     "c8607b14-4d84-43c7-96c4-4e93f350da92",
     "main",
     "4c3dd13f-e736-491d-b261-dae6b4595830",
@@ -372,7 +389,6 @@
     "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
     "744d3e33-26b8-4b7c-b30b-2c3a6888f85c",
     "c4de7e86-4211-49d9-81ca-936b4064cdb4",
-    "f318b333-e504-4044-ac54-544ec4af8d37",
-    "b0d05d7e-3769-4588-aed4-a15782bfe5e8"
+    "f318b333-e504-4044-ac54-544ec4af8d37"
   ]
 }
