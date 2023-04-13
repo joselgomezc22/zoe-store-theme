@@ -130,12 +130,12 @@
         "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-1_2_583c7ce2-e76e-4d72-8854-d87feabd1acc.jpg",
+            "image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-1_1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-mobile_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-mobile_1.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
