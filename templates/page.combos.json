@@ -89,7 +89,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/combo-promocion-body-colombia-mujer.jpg",
             "overlay": false,
-            "text_align": "left",
+            "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/combo-promocion-bodies-ropa-colombia-2.jpg",
