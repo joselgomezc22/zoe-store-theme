@@ -173,7 +173,7 @@
         "full_width": false,
         "title": "Simona Pack x3 15% OFF",
         "collection": "simona-pomona",
-        "carousel": false,
+        "carousel": true,
         "button": true,
         "button_text": "Ver todos",
         "grid": 5,
@@ -188,7 +188,7 @@
         "full_width": false,
         "title": "Rebeca Pack x3 20% OFF",
         "collection": "pack_mangalarga",
-        "carousel": false,
+        "carousel": true,
         "button": true,
         "button_text": "Ver todos",
         "grid": 5,
@@ -273,6 +273,7 @@
     },
     "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "template--18450660131130__abebc5a8-fe24-41d4-9d6d-b8edd399b3e7-1680120512e50ff708-0": {
           "type": "testimonial",
@@ -312,6 +313,7 @@
     },
     "744d3e33-26b8-4b7c-b30b-2c3a6888f85c": {
       "type": "editorial-columns",
+      "disabled": true,
       "blocks": {
         "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-0": {
           "type": "image",
