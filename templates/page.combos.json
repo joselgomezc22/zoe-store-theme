@@ -322,7 +322,7 @@
             "rich_text": "<p>Cómoda y sobria.<\/p>",
             "button": "Explore",
             "link": "",
-            "text_align": "left"
+            "text_align": "center"
           }
         },
         "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-1": {
@@ -334,7 +334,7 @@
             "rich_text": "<p>Colorida y con movimiento. <\/p>",
             "button": "Explore",
             "link": "",
-            "text_align": "left"
+            "text_align": "center"
           }
         },
         "template--18450660131130__744d3e33-26b8-4b7c-b30b-2c3a6888f85c-16802715769d73d955-2": {
@@ -346,7 +346,7 @@
             "rich_text": "<p>Linda y sofisticada.<\/p>",
             "button": "Explore",
             "link": "",
-            "text_align": "left"
+            "text_align": "center"
           }
         }
       },
