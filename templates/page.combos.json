@@ -87,7 +87,7 @@
         "a6cbf8ec-b6a7-4a46-b6e1-b59d45e907f8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_home_page_PC.jpg",
+            "image": "shopify:\/\/shop_images\/combo-promocion-body-colombia-mujer.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -321,17 +321,6 @@
         "section_padding": "both"
       }
     },
-    "c4de7e86-4211-49d9-81ca-936b4064cdb4": {
-      "type": "recently-viewed",
-      "disabled": true,
-      "settings": {
-        "title": "You also Viewed",
-        "carousel": false,
-        "grid": 5,
-        "limit": 5,
-        "section_padding": "both"
-      }
-    },
     "f318b333-e504-4044-ac54-544ec4af8d37": {
       "type": "slideshow",
       "blocks": {
@@ -388,7 +377,6 @@
     "d218b9c6-2e7b-4f79-bff9-c1f12121f013",
     "abebc5a8-fe24-41d4-9d6d-b8edd399b3e7",
     "744d3e33-26b8-4b7c-b30b-2c3a6888f85c",
-    "c4de7e86-4211-49d9-81ca-936b4064cdb4",
     "f318b333-e504-4044-ac54-544ec4af8d37"
   ]
 }
