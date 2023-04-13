@@ -641,6 +641,7 @@
         },
         "template--18597506646330__02b649b8-69df-4d86-a034-fe7562b70060-1680732975bd0d94b1-1": {
           "type": "panel",
+          "disabled": true,
           "settings": {
             "heading": "¿Puedo comprar varios combos al tiempo y obtener descuento?",
             "color-heading": "#333333",
