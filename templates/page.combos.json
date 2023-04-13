@@ -97,13 +97,13 @@
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
+            "link": "shopify:\/\/collections\/simona-pomona",
+            "button_text": "COMPRAR",
+            "second_link": "shopify:\/\/collections\/pack_mangalarga",
+            "second_button_text": "COMPRAR",
             "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
@@ -120,7 +120,7 @@
         "video_audio": "off",
         "slide_heading_size": 22,
         "subheading_size": 14,
-        "cta_size": 14,
+        "cta_size": 12,
         "section_padding": "both"
       }
     },
