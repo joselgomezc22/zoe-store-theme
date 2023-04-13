@@ -94,7 +94,7 @@
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/combo-promocion-bodies-ropa-colombia-2.jpg",
             "hide_caption_background": false,
-            "caption_below": false,
+            "caption_below": true,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/collections\/simona-pomona",
