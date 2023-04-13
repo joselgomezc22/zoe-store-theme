@@ -94,7 +94,7 @@
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-mobile_2.jpg",
             "hide_caption_background": false,
-            "caption_below": true,
+            "caption_below": false,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/collections\/simona-pomona",
@@ -151,36 +151,10 @@
             "caption_background": "transparent",
             "caption_background_opacity": 20
           }
-        },
-        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-1_1.jpg",
-            "overlay": false,
-            "text_align": "right",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-mobile_1.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/pack_mangalarga",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "transparent",
-            "caption_background_opacity": 20
-          }
         }
       },
       "block_order": [
-        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-1",
-        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-0"
+        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-1"
       ],
       "settings": {
         "enable_autoplay": false,
