@@ -653,7 +653,7 @@
     "17d9a165-c8a8-430b-a497-abe64fb67576": {
       "type": "slideshow",
       "blocks": {
-        "template--18597506646330__17d9a165-c8a8-430b-a497-abe64fb67576-1681401610a1e97e77-0": {
+        "33335c8f-3ba7-4c83-bde1-10507d5f428e": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/empaque-regalo-ropa-colombia_5c2768f0-59be-4581-ba74-a81ee69d97ef.jpg",
@@ -662,33 +662,8 @@
             "caption_horizontal": 50,
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/empaque-regalo-ropa-colombia-mobile_1.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
-        "33335c8f-3ba7-4c83-bde1-10507d5f428e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/empaque-regalo-ropa-colombia-2.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/empaque-regalo-ropa-colombia-mobile_2.jpg",
             "hide_caption_background": true,
-            "caption_below": false,
+            "caption_below": true,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/products\/empaque-regalo-1",
@@ -705,7 +680,6 @@
         }
       },
       "block_order": [
-        "template--18597506646330__17d9a165-c8a8-430b-a497-abe64fb67576-1681401610a1e97e77-0",
         "33335c8f-3ba7-4c83-bde1-10507d5f428e"
       ],
       "settings": {
