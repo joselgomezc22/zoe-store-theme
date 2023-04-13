@@ -27,35 +27,10 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
-        },
-        "6e4f0b14-f738-472c-bdcb-a8f5760a35c5": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
         }
       },
       "block_order": [
-        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0",
-        "6e4f0b14-f738-472c-bdcb-a8f5760a35c5"
+        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -106,8 +81,52 @@
         "section_padding": "both"
       }
     },
+    "c6432aef-563e-4cfa-b230-ab0262d0bee7": {
+      "type": "slideshow",
+      "blocks": {
+        "a6cbf8ec-b6a7-4a46-b6e1-b59d45e907f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banners_home_page_PC.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/combo-promocion-bodies-ropa-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "a6cbf8ec-b6a7-4a46-b6e1-b59d45e907f8"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "c8607b14-4d84-43c7-96c4-4e93f350da92": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--18450660131130__c8607b14-4d84-43c7-96c4-4e93f350da92-16796151190de26c7b-0": {
           "type": "featured_collection",
@@ -486,6 +505,7 @@
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "2aef6dc0-257a-4ce3-9783-42f89cbfc66a",
+    "c6432aef-563e-4cfa-b230-ab0262d0bee7",
     "c8607b14-4d84-43c7-96c4-4e93f350da92",
     "291c1dda-72a9-4fd1-bb48-ce230386b233",
     "86d0e507-71c4-4502-bac7-06c72c49d379",
