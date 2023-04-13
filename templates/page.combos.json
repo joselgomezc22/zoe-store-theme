@@ -108,8 +108,26 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
-        },
-        "b6e84f58-1de2-4983-bae3-15af871878b8": {
+        }
+      },
+      "block_order": [
+        "a6cbf8ec-b6a7-4a46-b6e1-b59d45e907f8"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "5496aaa2-4db7-4d14-a4b4-dbf38042153e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-0": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-1_1.jpg",
@@ -132,11 +150,35 @@
             "caption_background": "transparent",
             "caption_background_opacity": 20
           }
+        },
+        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-1_2_583c7ce2-e76e-4d72-8854-d87feabd1acc.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "a6cbf8ec-b6a7-4a46-b6e1-b59d45e907f8",
-        "b6e84f58-1de2-4983-bae3-15af871878b8"
+        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-0",
+        "template--18450660131130__5496aaa2-4db7-4d14-a4b4-dbf38042153e-1681398079ef3705c5-1"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -394,6 +436,7 @@
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "2aef6dc0-257a-4ce3-9783-42f89cbfc66a",
     "c6432aef-563e-4cfa-b230-ab0262d0bee7",
+    "5496aaa2-4db7-4d14-a4b4-dbf38042153e",
     "b0d05d7e-3769-4588-aed4-a15782bfe5e8",
     "f5cd35bf-ed9b-482c-9b7c-1c42fc6d88e9",
     "c8607b14-4d84-43c7-96c4-4e93f350da92",
