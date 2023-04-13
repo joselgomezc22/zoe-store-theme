@@ -508,7 +508,7 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "BODIES 10% OFF",
+        "title": "COMBO 1 BODIES 10% OFF",
         "collection": "combo1",
         "carousel": false,
         "button": false,
@@ -523,7 +523,7 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "CHAQUETA + BODY 15% OFF",
+        "title": "COMBO 2 CHAQUETA + BODY 15% OFF",
         "collection": "combo-2-mes-madre",
         "carousel": false,
         "button": false,
@@ -538,7 +538,7 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "SACOS 20% OFF",
+        "title": "COMBO 3 SACOS 20% OFF",
         "collection": "sacos",
         "carousel": false,
         "button": false,
