@@ -693,25 +693,47 @@
         "section_padding": "both"
       }
     },
-    "f017922d-1590-485b-95cf-f160a308f081": {
-      "type": "image-with-text-overlay",
+    "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18597506646330__3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9-1681409656572b1089-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompetrafico_pc-3_1_1eb9ba86-1916-4a28-826a-416011ed0090.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/como-comprar-combos-body-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9-1681409656572b1089-0"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rompetrafico_pc-3_1.jpg",
-        "scale": 0,
-        "page_height": 500,
-        "title": "",
-        "subheading": "",
-        "button_text": "Button",
-        "link": "",
-        "overlay_opacity": 0,
-        "text_color": "#000000",
-        "button_text_color": "#ffffff",
-        "button_color": "#000000",
-        "background": "rgba(0,0,0,0)",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "text_align": "center",
-        "section_padding": "none"
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
       }
     },
     "02b649b8-69df-4d86-a034-fe7562b70060": {
@@ -786,49 +808,6 @@
         "allow_multiple": false,
         "section_padding": "both"
       }
-    },
-    "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9": {
-      "type": "slideshow",
-      "blocks": {
-        "template--18597506646330__3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9-1681409656572b1089-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rompetrafico_pc-3_1_1eb9ba86-1916-4a28-826a-416011ed0090.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/como-comprar-combos-body-colombia.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "transparent",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--18597506646330__3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9-1681409656572b1089-0"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -847,8 +826,7 @@
     "1df93a61-3d95-4214-a679-32372d01df4c",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
     "17d9a165-c8a8-430b-a497-abe64fb67576",
-    "f017922d-1590-485b-95cf-f160a308f081",
-    "02b649b8-69df-4d86-a034-fe7562b70060",
-    "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9"
+    "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9",
+    "02b649b8-69df-4d86-a034-fe7562b70060"
   ]
 }
