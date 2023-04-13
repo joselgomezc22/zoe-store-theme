@@ -428,24 +428,69 @@
         "section_padding": "both"
       }
     },
-    "e6d85523-96b9-4a77-9925-bd0701485009": {
-      "type": "image-with-text-overlay",
+    "e8bf87fe-39bd-432a-baef-752e9a37331a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia_4.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-1": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0",
+        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-1"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia_4.jpg",
-        "scale": 0,
-        "page_height": 500,
-        "title": "",
-        "subheading": "",
-        "button_text": "Button",
-        "link": "",
-        "overlay_opacity": 0,
-        "text_color": "#000000",
-        "button_text_color": "#ffffff",
-        "button_color": "#000000",
-        "background": "rgba(0,0,0,0)",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "text_align": "center",
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
         "section_padding": "both"
       }
     },
@@ -675,7 +720,7 @@
     "600abb3a-45cd-4565-96ee-95acfb1624b1",
     "de6b0a88-7601-4c7a-96b7-0d3e4b9669f4",
     "dd46d3e8-7874-4a24-813b-7a87aaad19e1",
-    "e6d85523-96b9-4a77-9925-bd0701485009",
+    "e8bf87fe-39bd-432a-baef-752e9a37331a",
     "afdfb73d-9076-4a63-bb6e-cecbcc9fc174",
     "41aa5a23-d836-40a8-a8b4-ff27a69d5d40",
     "1df93a61-3d95-4214-a679-32372d01df4c",
