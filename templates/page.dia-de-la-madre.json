@@ -751,7 +751,7 @@
         "67d75b46-fba4-4da2-9ef0-1f64172f735a": {
           "type": "panel",
           "settings": {
-            "heading": "¿Puedo comprar más de 2 productos por combo y tener un descuento?",
+            "heading": "¿Puedo comprar más de dos productos por combo y tener un descuento?",
             "color-heading": "#333333",
             "heading-font-size": 16,
             "content": "<p><strong>Claro que sí.<\/strong><\/p>"
