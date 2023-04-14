@@ -387,28 +387,6 @@
         "section_padding": "both"
       }
     },
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "rich_text": "<p>Febrero es el mes del amor y de regalar cosas bonitas a todos los que queremos. Y como nos encanta hacerte feliz, en este mes de puros colores te obsequiamos la tercera prenda para sigas luciendo divina. Este mes te traemos Pop of Color, una colección inpirada en la combinación de colores vibrantes, fuertes y con los que te proyectarás como una mujer innovadora y diferente. <\/p>",
-            "center": false,
-            "block_size": 6
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
-      ],
-      "settings": {
-        "title": "Drop del Mes",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63": {
       "type": "image-gallery",
       "disabled": true,
@@ -487,7 +465,6 @@
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
     "91180802-2590-427a-afd6-58fd49ec5e01",
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63"
   ]
 }
