@@ -358,7 +358,7 @@
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/mes-madre-promocion-colombia-3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mes-madres-colombia-promocion.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -717,7 +717,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
