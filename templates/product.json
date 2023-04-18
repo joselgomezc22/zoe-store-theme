@@ -25,6 +25,11 @@
           "settings": {
           }
         },
+        "product_description": {
+          "type": "product_description",
+          "settings": {
+          }
+        },
         "product_variants": {
           "type": "product_variants",
           "settings": {
@@ -103,11 +108,6 @@
             "ac_icon": "wish"
           }
         },
-        "product_description": {
-          "type": "product_description",
-          "settings": {
-          }
-        },
         "ba479e68-3314-4f60-9111-e6b5ca5ab1c1": {
           "type": "additional_content",
           "settings": {
@@ -135,6 +135,7 @@
       "block_order": [
         "19f76a7b-3bd9-42e3-a3a3-565de8082405",
         "product_info",
+        "product_description",
         "product_variants",
         "product_sku",
         "c8894913-ecea-4d1e-b885-95208ac5cbc9",
@@ -147,7 +148,6 @@
         "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
         "f7704069-17c8-42f6-ae27-646be7b277dd",
         "519d2af3-1da3-4d6b-a7cc-157f37606a4e",
-        "product_description",
         "ba479e68-3314-4f60-9111-e6b5ca5ab1c1",
         "metafield_popup",
         "0b98c94e-46ad-44b2-983d-78b7a5f606fc"
