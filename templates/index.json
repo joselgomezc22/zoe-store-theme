@@ -332,8 +332,76 @@
         "section_padding": "none"
       }
     },
+    "a3a04735-fce8-4db0-901d-e1e29907df80": {
+      "type": "slideshow",
+      "blocks": {
+        "761eea91-5da0-436a-b492-49083485d1c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rompetrafico-beneficios-zoe.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 49,
+            "caption_vertical": 51,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 30
+          }
+        },
+        "11828b1b-7716-4ef4-a6d9-9d9955ba9f35": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "761eea91-5da0-436a-b492-49083485d1c7",
+        "11828b1b-7716-4ef4-a6d9-9d9955ba9f35"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "title": "- Testimonios de nuestros clientes -",
         "color_scheme": "none",
@@ -651,6 +719,7 @@
     "1651341173e18e2e00",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
+    "a3a04735-fce8-4db0-901d-e1e29907df80",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "bc4fbee7-6341-4959-a759-f1423af62006",
     "1625752966582d2e67",
