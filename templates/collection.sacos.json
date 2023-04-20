@@ -68,6 +68,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "display_wide": true,
         "image": "shopify:\/\/shop_images\/landing-sacos.jpg"
