@@ -6,6 +6,7 @@
         "template--17133171704122__2d6d9ef6-be99-4dd8-844c-e41d0cac3a01-168199769917643a74-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/langing-sacos-pc.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -22,7 +23,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -46,7 +47,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
