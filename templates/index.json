@@ -145,6 +145,7 @@
         },
         "1625752154523bf545-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Ropa-mujer-tiendas-fisicas-Bogota_5fb4879b-6e1e-49a1-9081-f89b5ebb9e92.jpg",
             "overlay": false,
