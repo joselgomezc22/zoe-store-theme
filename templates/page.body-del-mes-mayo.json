@@ -127,10 +127,10 @@
         "full_width": false,
         "title": "¡Todos nuestros colores disponibles!",
         "collection": "body-coco",
-        "carousel": false,
+        "carousel": true,
         "button": true,
         "button_text": "Ver todos",
-        "grid": 4,
+        "grid": 5,
         "limit": 4,
         "color_scheme": "cs1",
         "section_padding": "both"
