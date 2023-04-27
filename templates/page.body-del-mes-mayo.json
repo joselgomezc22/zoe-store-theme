@@ -131,7 +131,7 @@
         "button": true,
         "button_text": "Ver todos",
         "grid": 5,
-        "limit": 4,
+        "limit": 10,
         "color_scheme": "cs1",
         "section_padding": "both"
       }
