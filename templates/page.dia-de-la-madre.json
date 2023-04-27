@@ -672,7 +672,7 @@
             "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
-            "cta_background": "#ffffff",
+            "cta_background": "#222222",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
