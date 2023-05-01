@@ -14,31 +14,6 @@
     "499957ca-1fcc-4ad4-a733-351cfafe1143": {
       "type": "slideshow",
       "blocks": {
-        "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/promocion-body-colombia-mujer-ropa_1.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/promocion-body-colombia-mujer-ropa_2.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
-        },
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-1": {
           "type": "image",
           "disabled": true,
@@ -65,7 +40,6 @@
         }
       },
       "block_order": [
-        "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-0",
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-1"
       ],
       "settings": {
