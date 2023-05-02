@@ -525,15 +525,14 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "{{ shop.brand.colors.primary[0].background }}",
             "caption_background_opacity": 20
           }
         },
         "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia_4.jpg",
+            "image": "shopify:\/\/shop_images\/Promo-regalo-mes-madre-bodies.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -544,7 +543,7 @@
             "heading": "",
             "subheading": "",
             "link": "",
-            "button_text": "",
+            "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#000000",
