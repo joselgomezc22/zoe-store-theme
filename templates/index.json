@@ -70,7 +70,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Regalo-mes-madres.jpg",
-            "overlay": true,
+            "overlay": false,
             "text_align": "center",
             "caption_horizontal": 76,
             "caption_vertical": 65,
