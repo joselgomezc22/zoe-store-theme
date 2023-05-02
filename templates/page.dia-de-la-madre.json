@@ -20,7 +20,6 @@
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/lv_0_20230331143542_3.gif",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -431,32 +430,6 @@
     "e8bf87fe-39bd-432a-baef-752e9a37331a": {
       "type": "slideshow",
       "blocks": {
-        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia_4.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/combo-mes-madre-colombia-mobile.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
         "f8c27336-6296-45e4-800c-224dadd4dfe2": {
           "type": "image",
           "settings": {
@@ -531,13 +504,64 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "a501b3e5-1203-4d90-9417-8c6754575fd3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Descuentos-regalo-mes-madre-bodies.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": true,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/simona-pomona",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/combo-mes-madre-colombia_4.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/combo-mes-madre-colombia-mobile.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0",
         "f8c27336-6296-45e4-800c-224dadd4dfe2",
         "535f5237-98fa-421d-93c8-6dd183dc9a7f",
-        "e0111de6-4fe9-4465-9b09-511d54d611b6"
+        "e0111de6-4fe9-4465-9b09-511d54d611b6",
+        "a501b3e5-1203-4d90-9417-8c6754575fd3",
+        "template--18597506646330__e8bf87fe-39bd-432a-baef-752e9a37331a-1681391127ccc59558-0"
       ],
       "settings": {
         "enable_autoplay": true,
