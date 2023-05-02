@@ -674,6 +674,36 @@
         "section_padding": "both"
       }
     },
+    "cdb2e1a3-510c-48a5-ba5e-96438aeae16b": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "COMBO 4 BODIES 15% OFF",
+        "collection": "simona-pomona",
+        "carousel": false,
+        "button": true,
+        "button_text": "View all",
+        "grid": 5,
+        "limit": 5,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "244ac339-5332-4586-8e0c-463bbcd1be7f": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "COMBO 5 BODIES 20% OFF",
+        "collection": "pack_mangalarga",
+        "carousel": false,
+        "button": true,
+        "button_text": "View all",
+        "grid": 5,
+        "limit": 5,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
     "17d9a165-c8a8-430b-a497-abe64fb67576": {
       "type": "slideshow",
       "blocks": {
@@ -849,6 +879,8 @@
     "41aa5a23-d836-40a8-a8b4-ff27a69d5d40",
     "1df93a61-3d95-4214-a679-32372d01df4c",
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
+    "cdb2e1a3-510c-48a5-ba5e-96438aeae16b",
+    "244ac339-5332-4586-8e0c-463bbcd1be7f",
     "17d9a165-c8a8-430b-a497-abe64fb67576",
     "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9",
     "02b649b8-69df-4d86-a034-fe7562b70060"
