@@ -373,10 +373,35 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "673c74c6-fd73-4c66-87f9-9d92c42c47fc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banners_home_page_PC_2.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "template--18597506646330__de6b0a88-7601-4c7a-96b7-0d3e4b9669f4-1680732933b4f38b91-1"
+        "template--18597506646330__de6b0a88-7601-4c7a-96b7-0d3e4b9669f4-1680732933b4f38b91-1",
+        "673c74c6-fd73-4c66-87f9-9d92c42c47fc"
       ],
       "settings": {
         "enable_autoplay": false,
