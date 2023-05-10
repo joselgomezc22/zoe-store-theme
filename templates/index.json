@@ -95,7 +95,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Regalo-madre-descuentos-gratis.jpg",
+            "image": "shopify:\/\/shop_images\/1_443e1bf6-4b9b-4669-a125-8d16c33917f0.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 47,
@@ -723,7 +723,7 @@
         "e4e041be-392d-4083-a9f4-700cb3a62e9d": {
           "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-countdown-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
           "settings": {
-            "countdown_id": "Widget Id",
+            "countdown_id": "AVADA-RON8480NUQAT",
             "avada_cd_size": "medium"
           }
         }
