@@ -762,6 +762,7 @@
         },
         "template--18597506646330__836d1dfa-c679-4888-9676-729b6ebbdd47-16837475008409280a-2": {
           "type": "product_sku",
+          "disabled": true,
           "settings": {
           }
         },
@@ -812,7 +813,7 @@
       ],
       "settings": {
         "featured_product": "tarjeta-de-regalo",
-        "title": "Featured Product",
+        "title": "Bono de regalo",
         "click_to_enlarge": true,
         "image_section_size": "medium",
         "image_options": "static",
