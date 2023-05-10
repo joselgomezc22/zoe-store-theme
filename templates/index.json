@@ -192,7 +192,7 @@
         "e4e041be-392d-4083-a9f4-700cb3a62e9d": {
           "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-countdown-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
           "settings": {
-            "countdown_id": "AVADA-RON8480NUQAT",
+            "countdown_id": "Widget Id",
             "avada_cd_size": "medium"
           }
         }
@@ -211,7 +211,7 @@
         "template--16986105381178__bf76fe35-323d-4969-ba18-1be724b6cc52-16837341724bf83c2f-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Presupuesto-regalo-mama.jpg",
+            "image": "shopify:\/\/shop_images\/Beneficios-regalo.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
@@ -220,15 +220,15 @@
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/menor-a-100-000",
-            "button_text": "Desde $150.000",
-            "second_link": "shopify:\/\/collections\/mayor-a-100-000",
-            "second_button_text": "Desde $250.000",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
         },
@@ -252,7 +252,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
