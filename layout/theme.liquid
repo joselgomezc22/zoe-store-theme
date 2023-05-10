@@ -52,6 +52,12 @@
   <link rel="canonical" href="{{ canonical_url }}" />
 
   <title>{% if template == 'index' %}{% if page_title contains 'Welcome' %}{{ shop.name }} &ndash; Welcome{% else %}{{ page_title }}{% endif %}{% elsif template == '404' %}Page Not Found{% elsif page_title contains shop.name %}{{ page_title }}{% else %}{{ page_title }} &ndash; {{ shop.name }}{% endif %}</title>
+
+<!-- Avada Boost Sales Script -->
+{% include 'avada-boost-sales' %}
+<!-- /Avada Boost Sales Script -->
+
+
   {% if page_description %}<meta name="description" content="{{ page_description }}" />{% endif %}
 
   {% render 'social-media-meta-tags' %}
