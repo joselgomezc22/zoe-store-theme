@@ -812,7 +812,7 @@
         "template--18597506646330__836d1dfa-c679-4888-9676-729b6ebbdd47-16837475008409280a-8"
       ],
       "settings": {
-        "featured_product": "libreta-pink",
+        "featured_product": "tarjeta-de-regalo",
         "title": "Bono de regalo",
         "click_to_enlarge": true,
         "image_section_size": "medium",
@@ -939,82 +939,6 @@
         "cta_size": 14,
         "section_padding": "both"
       }
-    },
-    "ac367bde-0d3f-4eee-86c0-640e142b118a": {
-      "type": "featured-product",
-      "blocks": {
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-0": {
-          "type": "product_info",
-          "settings": {
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-1": {
-          "type": "product_variants",
-          "settings": {
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-2": {
-          "type": "product_sku",
-          "settings": {
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-3": {
-          "type": "product_quantity",
-          "settings": {
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-4": {
-          "type": "stock_levels",
-          "settings": {
-            "threshold": 4
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-5": {
-          "type": "product_buttons",
-          "settings": {
-            "back_in_stock": true,
-            "back_in_stock_text": "<p>Email me when this is available<\/p>"
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-6": {
-          "type": "product_availability",
-          "settings": {
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-7": {
-          "type": "product_description",
-          "settings": {
-          }
-        },
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-8": {
-          "type": "rating",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-0",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-1",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-2",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-3",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-4",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-5",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-6",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-7",
-        "template--18597506646330__ac367bde-0d3f-4eee-86c0-640e142b118a-1683751330630ba6c1-8"
-      ],
-      "settings": {
-        "featured_product": "simona-body-negro-1",
-        "title": "Featured Product",
-        "click_to_enlarge": true,
-        "image_section_size": "medium",
-        "image_options": "static",
-        "thumbnail_position": "left",
-        "slide_controls": "arrows",
-        "enable_video_looping": false,
-        "show_social_share": true,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -1037,7 +961,6 @@
     "17d9a165-c8a8-430b-a497-abe64fb67576",
     "836d1dfa-c679-4888-9676-729b6ebbdd47",
     "02b649b8-69df-4d86-a034-fe7562b70060",
-    "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9",
-    "ac367bde-0d3f-4eee-86c0-640e142b118a"
+    "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9"
   ]
 }
