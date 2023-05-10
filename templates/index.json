@@ -182,7 +182,7 @@
         "video_audio": "off",
         "slide_heading_size": 28,
         "subheading_size": 16,
-        "cta_size": 16,
+        "cta_size": 15,
         "section_padding": "bottom"
       }
     },
