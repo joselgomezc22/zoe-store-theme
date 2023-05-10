@@ -46,7 +46,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Mes-madre-descuentos-promociones.jpg",
             "overlay": false,
-            "text_align": "left",
+            "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 81,
             "mobile_image": "shopify:\/\/shop_images\/Mes-madre-descuentos-promociones-mobile.jpg",
