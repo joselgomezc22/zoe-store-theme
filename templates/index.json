@@ -352,20 +352,20 @@
         "section_padding": "none"
       }
     },
-    "bf76fe35-323d-4969-ba18-1be724b6cc52": {
+    "3fdec366-9d4e-4a64-9a1d-391ff1853c17": {
       "type": "slideshow",
       "blocks": {
-        "template--16986105381178__bf76fe35-323d-4969-ba18-1be724b6cc52-16837341724bf83c2f-0": {
+        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Beneficios-regalo.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
-            "caption_vertical": 69,
+            "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/Beneficios-regalo.jpg",
             "hide_caption_background": false,
-            "caption_below": true,
+            "caption_below": false,
             "heading": "",
             "subheading": "",
             "link": "",
@@ -376,13 +376,12 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
           }
         },
-        "template--16986105381178__bf76fe35-323d-4969-ba18-1be724b6cc52-16837341724bf83c2f-1": {
+        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
@@ -400,14 +399,14 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
+            "caption_background": "transparent",
             "caption_background_opacity": 20
           }
         }
       },
       "block_order": [
-        "template--16986105381178__bf76fe35-323d-4969-ba18-1be724b6cc52-16837341724bf83c2f-0",
-        "template--16986105381178__bf76fe35-323d-4969-ba18-1be724b6cc52-16837341724bf83c2f-1"
+        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0",
+        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-1"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -808,7 +807,7 @@
     "1625752154523bf545",
     "1683726791de29782e",
     "1625752962aa2a6ebb",
-    "bf76fe35-323d-4969-ba18-1be724b6cc52",
+    "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "bc4fbee7-6341-4959-a759-f1423af62006",
     "1625752966582d2e67",
