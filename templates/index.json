@@ -104,10 +104,10 @@
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/menor-a-100-000",
-            "button_text": "Menos de $100.000",
-            "second_link": "shopify:\/\/collections\/mayor-a-100-000",
-            "second_button_text": "Más de $100.000",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
             "slide_text_color": "#ffffff",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
@@ -192,7 +192,7 @@
         "e4e041be-392d-4083-a9f4-700cb3a62e9d": {
           "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-countdown-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
           "settings": {
-            "countdown_id": "AVADA-RON8480NUQAT",
+            "countdown_id": "Widget Id",
             "avada_cd_size": "medium"
           }
         }
