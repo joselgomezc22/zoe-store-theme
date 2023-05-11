@@ -3,19 +3,6 @@
     "1651341173e18e2e00": {
       "type": "scrolling-announcements",
       "blocks": {
-        "32b47019-0813-44bf-a486-753e80258060": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Día de la madre<\/strong><\/p>"
-          }
-        },
-        "1651341173c6b66629-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Compra hoy y paga a 3 CUOTAS<\/p>"
-          }
-        },
         "1651341173c6b66629-0": {
           "type": "text",
           "disabled": true,
@@ -28,13 +15,25 @@
           "settings": {
             "text": "<p>Pedidos en Bogotá en menos de 36h<\/p>"
           }
+        },
+        "32b47019-0813-44bf-a486-753e80258060": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Día de la madre<\/strong><\/p>"
+          }
+        },
+        "1651341173c6b66629-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Compra hoy y paga a 3 CUOTAS<\/p>"
+          }
         }
       },
       "block_order": [
-        "32b47019-0813-44bf-a486-753e80258060",
-        "1651341173c6b66629-1",
         "1651341173c6b66629-0",
-        "11c3d5e3-fe65-480b-b7d2-3a56027963db"
+        "11c3d5e3-fe65-480b-b7d2-3a56027963db",
+        "32b47019-0813-44bf-a486-753e80258060",
+        "1651341173c6b66629-1"
       ],
       "settings": {
         "sa_grid": 3,
