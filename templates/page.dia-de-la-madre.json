@@ -704,6 +704,21 @@
         "section_padding": "both"
       }
     },
+    "4a27ec6f-454d-414b-92d2-befc6d8a933f": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Bonos de regalo",
+        "collection": "bonos",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 4,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
     "17d9a165-c8a8-430b-a497-abe64fb67576": {
       "type": "slideshow",
       "blocks": {
@@ -820,21 +835,6 @@
         "section_padding": "both"
       }
     },
-    "4a27ec6f-454d-414b-92d2-befc6d8a933f": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "Bonos de regalo",
-        "collection": "bonos",
-        "carousel": false,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 4,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
     "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9": {
       "type": "slideshow",
       "blocks": {
@@ -896,9 +896,9 @@
     "0786b6fe-fe54-4211-b7a5-ff40d53bcecb",
     "cdb2e1a3-510c-48a5-ba5e-96438aeae16b",
     "244ac339-5332-4586-8e0c-463bbcd1be7f",
+    "4a27ec6f-454d-414b-92d2-befc6d8a933f",
     "17d9a165-c8a8-430b-a497-abe64fb67576",
     "02b649b8-69df-4d86-a034-fe7562b70060",
-    "4a27ec6f-454d-414b-92d2-befc6d8a933f",
     "3b4aee6f-e6f8-4497-a2c9-6f2ceeb63af9"
   ]
 }
