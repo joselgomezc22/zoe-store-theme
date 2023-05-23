@@ -41,6 +41,31 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "cdd6de33-d744-479c-9217-7dfde4da2790": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Beach-bazaar-mujer-body.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 93,
+            "caption_vertical": 93,
+            "mobile_image": "shopify:\/\/shop_images\/Mes-madre-descuentos-promociones-mobile.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "shopify:\/\/pages\/dia-de-la-madre",
+            "second_button_text": "Comprar ahora",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
         "1625752154523bf545-0": {
           "type": "image",
           "settings": {
@@ -58,32 +83,6 @@
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "Button 2",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
-        "cdd6de33-d744-479c-9217-7dfde4da2790": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mes-madre-descuentos-promociones.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 81,
-            "mobile_image": "shopify:\/\/shop_images\/Mes-madre-descuentos-promociones-mobile.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "shopify:\/\/pages\/dia-de-la-madre",
-            "second_button_text": "Comprar ahora",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
@@ -171,8 +170,8 @@
         }
       },
       "block_order": [
-        "1625752154523bf545-0",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
+        "1625752154523bf545-0",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "da7a1b01-8668-4068-a8a3-967fe445c0b1",
         "4f8d7320-7770-4d72-a941-c477a5fd868c"
