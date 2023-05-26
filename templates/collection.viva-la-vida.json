@@ -2,13 +2,12 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
         "display_wide": true,
-        "image": "shopify:\/\/shop_images\/Coleccion-viva-la-vida-moda-mujer.jpg"
+        "image": "shopify:\/\/shop_images\/Coleccion-viva-la-vida-moda-mujer-2_4a550ad4-d18a-46dc-b43b-2b321efc0afe.jpg"
       }
     },
     "499957ca-1fcc-4ad4-a733-351cfafe1143": {
