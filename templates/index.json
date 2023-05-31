@@ -145,12 +145,12 @@
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_home_page_PC_1.jpg",
+            "image": "shopify:\/\/shop_images\/envio-gratis-chaqueta-mujer-negro-denim-1.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 86,
-            "mobile_image": "shopify:\/\/shop_images\/Banners_home_page_mobile_2_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/envio-gratis-chaqueta-mujer-negro-denim-2.jpg",
             "hide_caption_background": true,
             "caption_below": true,
             "heading": "",
