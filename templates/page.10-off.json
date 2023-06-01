@@ -6,9 +6,25 @@
         "page_size": "thin",
         "sidebar_positon": "left"
       }
+    },
+    "47fc5f97-7a68-4c8b-9a9d-ca349328875b": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "VIVA LA VIDA PACK",
+        "collection": "bodies",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "47fc5f97-7a68-4c8b-9a9d-ca349328875b"
   ]
 }
