@@ -6,7 +6,7 @@
         "template--19367283851578__24292a3c-55c3-4949-9e15-0174e81a51ee-1685636944cb6bb0ae-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-1.jpg",
+            "image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-3.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -29,6 +29,7 @@
         },
         "template--19367283851578__24292a3c-55c3-4949-9e15-0174e81a51ee-1685636944cb6bb0ae-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
