@@ -620,27 +620,6 @@
         "section_padding": "top"
       }
     },
-    "1651341263187189d0": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Si_estas_en_Bogota_o_Medellin_recibe_tus_envios_en_4_horas._Escribenos_para_ayudarte.png",
-        "scale": 0,
-        "page_height": 400,
-        "title": "",
-        "subheading": "",
-        "button_text": "Button",
-        "link": "",
-        "overlay_opacity": 0,
-        "text_color": "#000000",
-        "button_text_color": "#ffffff",
-        "button_color": "#000000",
-        "background": "rgba(0,0,0,0)",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "text_align": "center",
-        "section_padding": "none"
-      }
-    },
     "57ed3583-e547-455c-8fb3-546f2524a5ed": {
       "type": "slideshow",
       "blocks": {
@@ -733,7 +712,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -758,7 +737,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -883,7 +862,6 @@
     "1625752966582d2e67",
     "a3a04735-fce8-4db0-901d-e1e29907df80",
     "16522107484f6b2502",
-    "1651341263187189d0",
     "57ed3583-e547-455c-8fb3-546f2524a5ed",
     "a0bbcb16-c9b9-4c30-ab3d-2e080db8b55b",
     "1628115108645bdee6",
