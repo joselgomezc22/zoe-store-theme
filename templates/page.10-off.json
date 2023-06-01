@@ -11,6 +11,7 @@
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-3.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -82,22 +83,6 @@
         "title": "VIVA LA VIDA PACK",
         "collection": "bodies",
         "carousel": false,
-        "button": true,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 30,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
-    "b25e34ad-3e85-4985-a93e-2d722b4a918e": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "title": "Featured collection",
-        "collection": "",
-        "carousel": false,
         "button": false,
         "button_text": "View all",
         "grid": 4,
@@ -110,7 +95,6 @@
   "order": [
     "24292a3c-55c3-4949-9e15-0174e81a51ee",
     "main",
-    "47fc5f97-7a68-4c8b-9a9d-ca349328875b",
-    "b25e34ad-3e85-4985-a93e-2d722b4a918e"
+    "47fc5f97-7a68-4c8b-9a9d-ca349328875b"
   ]
 }
