@@ -1,12 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "page_size": "thin",
-        "sidebar_positon": "left"
-      }
-    },
     "24292a3c-55c3-4949-9e15-0174e81a51ee": {
       "type": "slideshow",
       "blocks": {
@@ -73,6 +66,14 @@
         "section_padding": "both"
       }
     },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "page_size": "thin",
+        "sidebar_positon": "left"
+      }
+    },
     "47fc5f97-7a68-4c8b-9a9d-ca349328875b": {
       "type": "featured-collection",
       "settings": {
@@ -90,8 +91,8 @@
     }
   },
   "order": [
-    "main",
     "24292a3c-55c3-4949-9e15-0174e81a51ee",
+    "main",
     "47fc5f97-7a68-4c8b-9a9d-ca349328875b"
   ]
 }
