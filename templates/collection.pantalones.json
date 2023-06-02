@@ -4,7 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "display_wide": true,
-        "image": "shopify:\/\/shop_images\/Pantalon-mujer-palazzo-skinny_ecd166c3-b744-41d9-904a-7ad7fcbf9460.jpg"
+        "image": "shopify:\/\/shop_images\/Pantalon-Mujer-Palazzo-Skinny.jpg"
       }
     },
     "main": {
@@ -269,7 +269,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -293,7 +293,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
