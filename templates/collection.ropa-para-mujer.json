@@ -380,6 +380,74 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "bbf01c96-5cec-4a66-baf0-a8c469a2ed15": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17202645172538__bbf01c96-5cec-4a66-baf0-a8c469a2ed15-1685711263d27684da-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--17202645172538__bbf01c96-5cec-4a66-baf0-a8c469a2ed15-1685711263d27684da-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--17202645172538__bbf01c96-5cec-4a66-baf0-a8c469a2ed15-1685711263d27684da-0",
+        "template--17202645172538__bbf01c96-5cec-4a66-baf0-a8c469a2ed15-1685711263d27684da-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -390,6 +458,7 @@
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
     "91180802-2590-427a-afd6-58fd49ec5e01",
     "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
-    "cd4a03f7-073b-44a8-8b97-a73ce5506f63"
+    "cd4a03f7-073b-44a8-8b97-a73ce5506f63",
+    "bbf01c96-5cec-4a66-baf0-a8c469a2ed15"
   ]
 }
