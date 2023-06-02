@@ -806,7 +806,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "#0b0b0b",
+            "caption_background": "{{ shop.brand.colors.secondary[0].foreground }}",
             "caption_background_opacity": 100
           }
         },
