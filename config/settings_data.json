@@ -1257,6 +1257,14 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "869ce3cd-34c1-408a-b1ee-5f4a0a9fd91f": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "link": "",
+              "block_width": 3
+            }
+          },
           "1561574562622": {
             "type": "menu",
             "settings": {
@@ -1299,6 +1307,7 @@
           }
         },
         "block_order": [
+          "869ce3cd-34c1-408a-b1ee-5f4a0a9fd91f",
           "1561574562622",
           "1561574551095",
           "1d20851a-46e7-4044-9c08-a7d3cfd0063a",
