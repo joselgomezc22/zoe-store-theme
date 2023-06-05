@@ -164,12 +164,12 @@
         "template--18583610261818__e35b4599-82d2-4003-9573-44b2d266f7ae-1685711263d27684da-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4.jpg",
+            "image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4_94de9b97-bd9c-4e90-aeff-c01921a7f79c.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4_94de9b97-bd9c-4e90-aeff-c01921a7f79c.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -182,7 +182,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -206,7 +206,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
