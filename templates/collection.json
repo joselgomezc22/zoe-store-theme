@@ -2,23 +2,24 @@
   "sections": {
     "6aeaa470-ad6d-4228-9f0d-d998a1cacac4": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__6aeaa470-ad6d-4228-9f0d-d998a1cacac4-16859806259c68529e-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/body-nuevo-mujer-colombia.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/body-nuevo-mujer-colombia.jpg",
             "hide_caption_background": false,
             "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
+            "heading": "",
+            "subheading": "",
             "link": "",
-            "button_text": "Add a button",
+            "button_text": "",
             "second_link": "",
-            "second_button_text": "Button 2 text",
+            "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
