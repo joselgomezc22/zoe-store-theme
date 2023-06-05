@@ -133,10 +133,10 @@
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
-            "slide_text_color": "#000000",
+            "slide_text_color": "#ffffff",
             "cta_color": "#000000",
             "cta_background": "#ffffff",
-            "cta_background_hover": "#000000",
+            "cta_background_hover": "#acacac",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
