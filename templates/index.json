@@ -47,8 +47,8 @@
             "image": "shopify:\/\/shop_images\/body-_nuevo-lanzamiento-mujer-colombia_1.jpg",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 21,
-            "caption_vertical": 71,
+            "caption_horizontal": 48,
+            "caption_vertical": 88,
             "mobile_image": "shopify:\/\/shop_images\/body-_nuevo-lanzamiento-mujer-colombia_2.jpg",
             "hide_caption_background": false,
             "caption_below": true,
@@ -59,9 +59,9 @@
             "second_link": "",
             "second_button_text": "Button 2",
             "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
+            "cta_color": "#000",
+            "cta_background": "#fff",
+            "cta_background_hover": "#222222",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
