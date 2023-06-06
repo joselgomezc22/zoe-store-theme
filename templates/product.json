@@ -48,6 +48,7 @@
         },
         "d05957d4-8379-4896-90c4-cc26aa85d056": {
           "type": "discount-product",
+          "disabled": true,
           "settings": {
             "text": "Este regalo tan divino merece un empaque perfecto por sólo $8.900 -p- .",
             "file": "gift_box.jpg"
