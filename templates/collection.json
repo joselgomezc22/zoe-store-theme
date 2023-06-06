@@ -6,7 +6,7 @@
         "template--16986105643322__6aeaa470-ad6d-4228-9f0d-d998a1cacac4-16859806259c68529e-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/body-nuevo-mujer-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/body-_nuevo-lanzamiento-mujer-colombia_2_29170ca2-47f2-41dd-8b95-75316065b1ca.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -410,7 +410,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -434,7 +434,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
