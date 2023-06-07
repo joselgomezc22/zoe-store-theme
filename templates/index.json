@@ -924,7 +924,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/gratis-asesoria-mujer-colombia-zoe.jpg",
-            "overlay": true,
+            "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 95,
