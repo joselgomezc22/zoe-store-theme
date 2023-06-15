@@ -64,7 +64,7 @@
         "d56dffc3-91b5-402f-939a-f5e3456837ec": {
           "type": "discount-product-atc",
           "settings": {
-            "text": "Por la compra de este producto tienes un regalo -v- .",
+            "text": "Por la compra de este producto tienes un descuento en  -v- .",
             "file": "gift_box.jpg"
           }
         },
