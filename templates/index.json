@@ -988,6 +988,17 @@
     "1687647443766312cd": {
       "type": "apps",
       "blocks": {
+        "213af690-a905-4013-8b41-710186dec501": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "body-escote-cruzado-cuello-bandeja-manga-larga-lauren-negro",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        },
         "781f79cc-4569-4790-aae7-b8e6e2442e85": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "disabled": true,
@@ -1039,18 +1050,6 @@
             "background": ""
           }
         },
-        "213af690-a905-4013-8b41-710186dec501": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080
-          }
-        },
         "a331e878-b0bc-4f57-9854-65b90d419213": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "disabled": true,
@@ -1076,10 +1075,10 @@
         }
       },
       "block_order": [
+        "213af690-a905-4013-8b41-710186dec501",
         "781f79cc-4569-4790-aae7-b8e6e2442e85",
         "8b599d21-5081-484f-8b09-ba3ef029d7de",
         "73dd9183-54bc-4a57-8690-2ca5e61fdbb1",
-        "213af690-a905-4013-8b41-710186dec501",
         "a331e878-b0bc-4f57-9854-65b90d419213"
       ],
       "settings": {
