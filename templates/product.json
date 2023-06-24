@@ -167,6 +167,28 @@
         "lower_description_background": ""
       }
     },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both"
+      }
+    },
     "579967df-81c2-458e-9bbe-43ce1b975f43": {
       "type": "main-product-banner",
       "disabled": true,
@@ -477,6 +499,7 @@
     },
     "59f318ff-13ce-480f-83b5-49018d2a0dca": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0": {
           "type": "text",
@@ -515,33 +538,12 @@
         "full_width": false,
         "section_padding": "both"
       }
-    },
-    "loox-product-reviews-app-section": {
-      "type": "apps",
-      "blocks": {
-        "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "loox-product-reviews"
-      ],
-      "settings": {
-        "full_width": false,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
     "b845bc5e-31a6-4f67-b9a2-59fd775b550c",
     "main",
+    "loox-product-reviews-app-section",
     "579967df-81c2-458e-9bbe-43ce1b975f43",
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982",
     "fbd90e78-b04f-43a3-9a4d-941a7fba0646",
@@ -549,7 +551,6 @@
     "9f91e942-922e-412d-a328-5b9b11bf4c30",
     "product-recommendations",
     "59f318ff-13ce-480f-83b5-49018d2a0dca",
-    "1668729670a528fb32",
-    "loox-product-reviews-app-section"
+    "1668729670a528fb32"
   ]
 }
