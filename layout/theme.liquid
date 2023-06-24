@@ -78,6 +78,8 @@
   {{ content_for_header }}
 
   {% render 'judgeme_core' %}
+
+	{{ shop.metafields.loox["global_html_head"] }}
 </head>
 <body class="gridlock template-{{ template | handleize }} js-slideout-toggle-wrapper js-modal-toggle-wrapper {% render 'body-classes' %}">
 
@@ -283,5 +285,7 @@ src="https://s3.amazonaws.com/statics.addi.com/shopify/js/shopify-co-widget-wrap
 <!-- **BEGIN** Hextom CTB Integration // Main Include - DO NOT MODIFY -->
     {% render 'hextom_ctb_main', product: product, customer: customer %}
     <!-- **END** Hextom CTB Integration // Main Include - DO NOT MODIFY -->
+
+	{{ shop.metafields.loox["global_html_body"] }}
 </body>
 </html>
