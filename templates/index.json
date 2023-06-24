@@ -332,38 +332,6 @@
         "section_padding": "none"
       }
     },
-    "1683726791de29782e": {
-      "type": "apps",
-      "blocks": {
-        "e4e041be-392d-4083-a9f4-700cb3a62e9d": {
-          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-countdown-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
-          "disabled": true,
-          "settings": {
-            "countdown_id": "Widget Id",
-            "avada_cd_size": "medium"
-          }
-        },
-        "b9749425-4f27-4604-a2c3-e566fd452005": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "body-escote-cruzado-cuello-bandeja-manga-larga-lauren-negro",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "e4e041be-392d-4083-a9f4-700cb3a62e9d",
-        "b9749425-4f27-4604-a2c3-e566fd452005"
-      ],
-      "settings": {
-        "full_width": false,
-        "section_padding": "both"
-      }
-    },
     "9363cd3b-3c41-4d23-a64b-d84306c44a09": {
       "type": "slideshow",
       "blocks": {
@@ -429,6 +397,38 @@
         "slide_heading_size": 22,
         "subheading_size": 14,
         "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "1683726791de29782e": {
+      "type": "apps",
+      "blocks": {
+        "e4e041be-392d-4083-a9f4-700cb3a62e9d": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-countdown-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "disabled": true,
+          "settings": {
+            "countdown_id": "Widget Id",
+            "avada_cd_size": "medium"
+          }
+        },
+        "b9749425-4f27-4604-a2c3-e566fd452005": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "body-escote-cruzado-cuello-bandeja-manga-larga-lauren-negro",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "e4e041be-392d-4083-a9f4-700cb3a62e9d",
+        "b9749425-4f27-4604-a2c3-e566fd452005"
+      ],
+      "settings": {
+        "full_width": false,
         "section_padding": "both"
       }
     },
@@ -1104,8 +1104,8 @@
     "1651341173e18e2e00",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
-    "1683726791de29782e",
     "9363cd3b-3c41-4d23-a64b-d84306c44a09",
+    "1683726791de29782e",
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "bc4fbee7-6341-4959-a759-f1423af62006",
