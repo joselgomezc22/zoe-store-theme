@@ -438,8 +438,8 @@
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "body-escote-cruzado-cuello-bandeja-manga-larga-lauren-negro",
+            "hide_thumbnails": true,
+            "product_handle": "copy-of-pantalon-para-mujer-estampado-tipo-palazzo-tiro-alto-prague-negro",
             "aggregated": true,
             "data-limit": 20,
             "maxwidth": 1080
@@ -819,8 +819,8 @@
             "itemBackgroundColor": "#ffffff",
             "starsColor": "",
             "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
             "shadow": "offset-dark",
             "border_active": false,
             "border_width": 2,
@@ -852,7 +852,7 @@
             "layout": "with-photo",
             "primary_color": "",
             "text_color": "#000000",
-            "text_field_border_color": "#C9CDD4",
+            "text_field_border_color": "#c9cdd4",
             "background": ""
           }
         },
@@ -868,7 +868,7 @@
             "reviewerNameColor": "#000000",
             "textColor": "#000000",
             "starsColor": "",
-            "quotesIconColor": "#EAEAEA",
+            "quotesIconColor": "#eaeaea",
             "arrows_iconColor": "#000000",
             "arrows_hideOnMobile": true,
             "pagination_active": true,
