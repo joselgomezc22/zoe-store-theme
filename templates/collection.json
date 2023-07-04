@@ -5,7 +5,6 @@
       "blocks": {
         "template--16986105643322__6aeaa470-ad6d-4228-9f0d-d998a1cacac4-16859806259c68529e-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/nueva-coleccion-junio-hecho-en-colombia-alma-libre_2.jpg",
             "overlay": false,
@@ -33,10 +32,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/body-del-mes-coco-verde-militar_7521263e-f3ef-4f1c-ad1d-4996000d6964.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/body-del-mes-coco-verde-militar_7521263e-f3ef-4f1c-ad1d-4996000d6964.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "Slide image title",
@@ -82,10 +83,10 @@
     },
     "499957ca-1fcc-4ad4-a733-351cfafe1143": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/combo-promocion-body-mujer-pc_6.jpg",
             "overlay": false,
