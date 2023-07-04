@@ -163,6 +163,7 @@
       "blocks": {
         "template--18583610261818__e35b4599-82d2-4003-9573-44b2d266f7ae-1685711263d27684da-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4_94de9b97-bd9c-4e90-aeff-c01921a7f79c.jpg",
             "overlay": false,
