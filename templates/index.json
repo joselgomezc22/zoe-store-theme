@@ -47,8 +47,8 @@
             "image": "shopify:\/\/shop_images\/nueva-coleccion-junio-hecho-en-colombia-alma-libre_1.jpg",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 51,
-            "caption_vertical": 94,
+            "caption_horizontal": 13,
+            "caption_vertical": 82,
             "mobile_image": "shopify:\/\/shop_images\/nueva-coleccion-junio-hecho-en-colombia-alma-libre_3.jpg",
             "hide_caption_background": false,
             "caption_below": true,
@@ -60,10 +60,10 @@
             "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#000000",
-            "cta_background": "#ffffff",
+            "cta_background": "{{ shop.brand.colors.primary[0].foreground }}",
             "cta_background_hover": "#727272",
             "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
+            "caption_background_opacity": 10
           }
         },
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
