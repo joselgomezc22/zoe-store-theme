@@ -66,11 +66,18 @@
         "section_padding": "both"
       }
     },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_size": "thin",
+        "sidebar_positon": "left"
+      }
+    },
     "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7": {
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "Featured collection",
+        "title": "",
         "collection": "promo-blusa-mia",
         "carousel": false,
         "button": false,
@@ -80,18 +87,11 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "page_size": "thin",
-        "sidebar_positon": "left"
-      }
     }
   },
   "order": [
     "502cbdae-c769-4c4d-9f63-0c06459acf15",
-    "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7",
-    "main"
+    "main",
+    "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7"
   ]
 }
