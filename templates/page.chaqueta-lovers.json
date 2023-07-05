@@ -1,5 +1,71 @@
 {
   "sections": {
+    "5fae3dc8-bec7-4df1-8fb9-d570e2093235": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19884943409466__5fae3dc8-bec7-4df1-8fb9-d570e2093235-16885892758d9108b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banners_home_page_PC_14.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--19884943409466__5fae3dc8-bec7-4df1-8fb9-d570e2093235-16885892758d9108b2-1": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--19884943409466__5fae3dc8-bec7-4df1-8fb9-d570e2093235-16885892758d9108b2-0",
+        "template--19884943409466__5fae3dc8-bec7-4df1-8fb9-d570e2093235-16885892758d9108b2-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +75,7 @@
     }
   },
   "order": [
+    "5fae3dc8-bec7-4df1-8fb9-d570e2093235",
     "main"
   ]
 }
