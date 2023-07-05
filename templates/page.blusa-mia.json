@@ -130,6 +130,72 @@
         "section_padding": "both"
       }
     },
+    "21a17629-ebfe-4298-b091-55028029c933": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19861794160954__21a17629-ebfe-4298-b091-55028029c933-16885681051c467eb0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_3.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--19861794160954__21a17629-ebfe-4298-b091-55028029c933-16885681051c467eb0-1": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--19861794160954__21a17629-ebfe-4298-b091-55028029c933-16885681051c467eb0-0",
+        "template--19861794160954__21a17629-ebfe-4298-b091-55028029c933-16885681051c467eb0-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "c6cc82ea-b0c4-468c-a176-3017374c7007": {
       "type": "slideshow",
       "blocks": {
@@ -204,6 +270,7 @@
     "3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42",
     "main",
     "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7",
+    "21a17629-ebfe-4298-b091-55028029c933",
     "c6cc82ea-b0c4-468c-a176-3017374c7007"
   ]
 }
