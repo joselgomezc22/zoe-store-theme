@@ -108,11 +108,11 @@
             "link": "shopify:\/\/collections\/alma-libre",
             "button_text": "COMPRAR",
             "second_link": "",
-            "second_button_text": "Button 2 text",
+            "second_button_text": "",
             "slide_text_color": "#ffffff",
             "cta_color": "#000000",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#ffffff",
+            "cta_background": "{{ shop.brand.colors.primary[0].foreground }}",
+            "cta_background_hover": "{{ shop.brand.colors.primary[0].foreground }}",
             "caption_background": "transparent",
             "caption_background_opacity": 10
           }

@@ -358,7 +358,7 @@
             "cta_background": "{{ shop.brand.colors.primary[0].foreground }}",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
+            "caption_background_opacity": 10
           }
         },
         "template--16986105381178__9363cd3b-3c41-4d23-a64b-d84306c44a09-16859744625180a500-1": {
