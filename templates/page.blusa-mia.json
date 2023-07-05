@@ -149,12 +149,12 @@
             "button_text": "Add a button",
             "second_link": "",
             "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
+            "slide_text_color": "#ffffff",
             "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "transparent",
-            "caption_background_opacity": 20
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#ffffff",
+            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
+            "caption_background_opacity": 10
           }
         },
         "template--19861794160954__21a17629-ebfe-4298-b091-55028029c933-16885681051c467eb0-1": {
