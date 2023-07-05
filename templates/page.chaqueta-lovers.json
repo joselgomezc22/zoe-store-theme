@@ -103,12 +103,79 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "fe20b3d0-8f33-4a92-bbb1-7cd6aebb2df7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19884943409466__fe20b3d0-8f33-4a92-bbb1-7cd6aebb2df7-16885908627175f9ad-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/almalibre-colombia-ropa-moda-mujer-nuevacoleccion_709df557-6cbf-42b8-8b11-1e5082005494.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--19884943409466__fe20b3d0-8f33-4a92-bbb1-7cd6aebb2df7-16885908627175f9ad-1": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--19884943409466__fe20b3d0-8f33-4a92-bbb1-7cd6aebb2df7-16885908627175f9ad-0",
+        "template--19884943409466__fe20b3d0-8f33-4a92-bbb1-7cd6aebb2df7-16885908627175f9ad-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "5fae3dc8-bec7-4df1-8fb9-d570e2093235",
     "main",
     "b18059b4-ba5f-4cd8-9a28-35c4ae636deb",
-    "3f8ce968-916f-42f1-aaad-8f453a9fd9bd"
+    "3f8ce968-916f-42f1-aaad-8f453a9fd9bd",
+    "fe20b3d0-8f33-4a92-bbb1-7cd6aebb2df7"
   ]
 }
