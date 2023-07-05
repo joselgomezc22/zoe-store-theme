@@ -88,11 +88,27 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "3f8ce968-916f-42f1-aaad-8f453a9fd9bd": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Recibe $40.000 en cualquier body",
+        "collection": "bodies",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "5fae3dc8-bec7-4df1-8fb9-d570e2093235",
     "main",
-    "b18059b4-ba5f-4cd8-9a28-35c4ae636deb"
+    "b18059b4-ba5f-4cd8-9a28-35c4ae636deb",
+    "3f8ce968-916f-42f1-aaad-8f453a9fd9bd"
   ]
 }
