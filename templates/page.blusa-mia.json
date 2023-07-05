@@ -71,7 +71,7 @@
         "template--19861794160954__3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42-16885681051c467eb0-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_1800_x_350_px_2.jpg",
+            "image": "shopify:\/\/shop_images\/Bogota-moda-mujer-review-ropa-zoe.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 66,
@@ -176,7 +176,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
