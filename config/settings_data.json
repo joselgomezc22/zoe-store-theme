@@ -1074,7 +1074,7 @@
     "section_title_align": "center",
     "section_titles": "none",
     "border-width": 100,
-    "scroll_animation": "none",
+    "scroll_animation": "zoom-in",
     "rounded_buttons": true,
     "search_show_products_only": false,
     "grid_space": 24,
