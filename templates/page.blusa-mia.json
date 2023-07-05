@@ -112,8 +112,8 @@
             "slide_text_color": "#ffffff",
             "cta_color": "#000000",
             "cta_background": "{{ shop.brand.colors.primary[0].foreground }}",
-            "cta_background_hover": "{{ shop.brand.colors.primary[0].foreground }}",
-            "caption_background": "transparent",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
             "caption_background_opacity": 10
           }
         },
