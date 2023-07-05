@@ -52,7 +52,7 @@
             "image": "shopify:\/\/shop_images\/Rompetrafico_pc_1800_x_350_px_1.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 50,
+            "caption_horizontal": 66,
             "caption_vertical": 50,
             "hide_caption_background": false,
             "caption_below": false,
@@ -112,7 +112,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "page_size": "thin",
+        "page_size": "full_page",
         "sidebar_positon": "left"
       }
     },
