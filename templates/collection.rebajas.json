@@ -166,11 +166,11 @@
         "template--17202942705978__3a08578c-f294-4902-80dc-02875479658f-1685713302998f829d-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4_94de9b97-bd9c-4e90-aeff-c01921a7f79c.jpg",
+            "image": "shopify:\/\/shop_images\/almalibre-colombia-ropa-moda-mujer-nuevacoleccion_709df557-6cbf-42b8-8b11-1e5082005494.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 85,
-            "caption_vertical": 50,
+            "caption_horizontal": 50,
+            "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/viva-la-vida-descuentos-bodies-body-pack-4_94de9b97-bd9c-4e90-aeff-c01921a7f79c.jpg",
             "hide_caption_background": false,
             "caption_below": false,
