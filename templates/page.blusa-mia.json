@@ -50,11 +50,35 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "6fde6f4d-4c84-46eb-81f4-0c386deec846": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
         "template--19861794160954__502cbdae-c769-4c4d-9f63-0c06459acf15-168848097354cf37e1-0",
-        "template--19861794160954__502cbdae-c769-4c4d-9f63-0c06459acf15-168848097354cf37e1-1"
+        "template--19861794160954__502cbdae-c769-4c4d-9f63-0c06459acf15-168848097354cf37e1-1",
+        "6fde6f4d-4c84-46eb-81f4-0c386deec846"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -136,7 +160,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
