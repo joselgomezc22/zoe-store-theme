@@ -43,6 +43,28 @@
         "section_padding": "both"
       }
     },
+    "ab9f2f95-3b61-4991-866d-b2e56bb0af3d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19861794160954__ab9f2f95-3b61-4991-866d-b2e56bb0af3d-1688567898f621d44d-0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "",
+            "center": false,
+            "block_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--19861794160954__ab9f2f95-3b61-4991-866d-b2e56bb0af3d-1688567898f621d44d-0"
+      ],
+      "settings": {
+        "title": "LO QUE DICEN NUESTRAS ZOE LOVERS DE SU BLUSA MIA",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42": {
       "type": "slideshow",
       "blocks": {
@@ -87,6 +109,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "page_size": "full_page",
         "sidebar_positon": "left"
@@ -177,6 +200,7 @@
   },
   "order": [
     "502cbdae-c769-4c4d-9f63-0c06459acf15",
+    "ab9f2f95-3b61-4991-866d-b2e56bb0af3d",
     "3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42",
     "main",
     "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7",
