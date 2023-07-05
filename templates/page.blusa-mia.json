@@ -43,73 +43,69 @@
         "section_padding": "both"
       }
     },
-    "1c7056f2-e3c4-4bba-b9ac-cb1cecae9933": {
-      "type": "image-gallery",
+    "3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42": {
+      "type": "slideshow",
       "blocks": {
-        "template--19861794160954__1c7056f2-e3c4-4bba-b9ac-cb1cecae9933-1688568627eb8cc6bb-0": {
+        "template--19861794160954__3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42-16885681051c467eb0-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-07-05_095733.jpg",
-            "image_width": "25%",
+            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_1800_x_350_px_1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "<p>Slide image subheading<\/p>",
             "link": "",
-            "heading": "Heading",
-            "text": "Subheading",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000",
-            "vertical_position": 12,
-            "horizontal_position": 14,
-            "align_text": "left"
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 20
           }
         },
-        "template--19861794160954__1c7056f2-e3c4-4bba-b9ac-cb1cecae9933-1688568627eb8cc6bb-1": {
+        "template--19861794160954__3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42-16885681051c467eb0-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-07-05_100010.jpg",
-            "image_width": "25%",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
             "link": "",
-            "heading": "Heading",
-            "text": "Subheading",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000",
-            "vertical_position": 12,
-            "horizontal_position": 14,
-            "align_text": "left"
-          }
-        },
-        "template--19861794160954__1c7056f2-e3c4-4bba-b9ac-cb1cecae9933-1688568627eb8cc6bb-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-07-05_095902.jpg",
-            "image_width": "25%",
-            "link": "",
-            "heading": "Heading",
-            "text": "Subheading",
-            "button": "Button",
-            "overlay_opacity": 0,
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000",
-            "vertical_position": 12,
-            "horizontal_position": 14,
-            "align_text": "left"
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
           }
         }
       },
       "block_order": [
-        "template--19861794160954__1c7056f2-e3c4-4bba-b9ac-cb1cecae9933-1688568627eb8cc6bb-0",
-        "template--19861794160954__1c7056f2-e3c4-4bba-b9ac-cb1cecae9933-1688568627eb8cc6bb-1",
-        "template--19861794160954__1c7056f2-e3c4-4bba-b9ac-cb1cecae9933-1688568627eb8cc6bb-2"
+        "template--19861794160954__3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42-16885681051c467eb0-0",
+        "template--19861794160954__3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42-16885681051c467eb0-1"
       ],
       "settings": {
-        "full_width": false,
-        "title": "Las Zoé lovers opinan",
-        "color_scheme": "cs3",
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
         "section_padding": "both"
       }
     },
@@ -205,7 +201,7 @@
   },
   "order": [
     "502cbdae-c769-4c4d-9f63-0c06459acf15",
-    "1c7056f2-e3c4-4bba-b9ac-cb1cecae9933",
+    "3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42",
     "main",
     "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7",
     "c6cc82ea-b0c4-468c-a176-3017374c7007"
