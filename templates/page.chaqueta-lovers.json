@@ -146,7 +146,7 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "{{ section.settings.collection.title }}",
+        "title": "Jacket Lovers",
         "collection": "chaqueta-lovers",
         "carousel": false,
         "button": false,
