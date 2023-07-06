@@ -230,7 +230,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/almalibre-colombia-ropa-moda-mujer-nuevacoleccion_709df557-6cbf-42b8-8b11-1e5082005494.jpg",
             "overlay": false,
-            "text_align": "left",
+            "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/almalibre-colombia-ropa-moda-mujer-nuevacoleccion_709df557-6cbf-42b8-8b11-1e5082005494.jpg",
