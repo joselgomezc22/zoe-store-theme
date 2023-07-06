@@ -413,7 +413,7 @@
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
-            "cta_background_hover": "#000000",
+            "cta_background_hover": "#ffffff",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
