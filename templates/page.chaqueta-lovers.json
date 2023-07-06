@@ -114,7 +114,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -199,34 +199,10 @@
             "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
             "caption_background_opacity": 20
           }
-        },
-        "template--19884943409466__a9611002-fdc0-42de-be3c-0d0d21d12674-16885908627175f9ad-1": {
-          "type": "image",
-          "settings": {
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "transparent",
-            "caption_background_opacity": 20
-          }
         }
       },
       "block_order": [
-        "template--19884943409466__a9611002-fdc0-42de-be3c-0d0d21d12674-16885908627175f9ad-0",
-        "template--19884943409466__a9611002-fdc0-42de-be3c-0d0d21d12674-16885908627175f9ad-1"
+        "template--19884943409466__a9611002-fdc0-42de-be3c-0d0d21d12674-16885908627175f9ad-0"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -276,7 +252,7 @@
         "slider_speed": 5,
         "pager": "dots",
         "video_audio": "off",
-        "slide_heading_size": 22,
+        "slide_heading_size": 19,
         "subheading_size": 14,
         "cta_size": 14,
         "section_padding": "both"
