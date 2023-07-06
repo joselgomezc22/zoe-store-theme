@@ -353,10 +353,10 @@
             "button_text": "Comprar",
             "second_link": "",
             "second_button_text": "",
-            "slide_text_color": "{{ shop.brand.colors.primary[0].foreground }}",
-            "cta_color": "{{ shop.brand.colors.primary[1].background }}",
-            "cta_background": "{{ shop.brand.colors.primary[0].foreground }}",
-            "cta_background_hover": "#ffffff",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "{{ shop.brand.colors.primary[0].foreground }}",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
