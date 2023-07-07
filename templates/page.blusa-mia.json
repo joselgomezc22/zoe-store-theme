@@ -115,18 +115,79 @@
         "sidebar_positon": "left"
       }
     },
-    "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7": {
-      "type": "featured-collection",
+    "604be45a-e6a4-4dd2-a3a0-140ee963af30": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-0": {
+          "type": "product_info",
+          "settings": {
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-1": {
+          "type": "product_variants",
+          "settings": {
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-2": {
+          "type": "product_sku",
+          "settings": {
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-3": {
+          "type": "product_quantity",
+          "settings": {
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-4": {
+          "type": "stock_levels",
+          "settings": {
+            "threshold": 4
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-5": {
+          "type": "product_buttons",
+          "settings": {
+            "back_in_stock": true,
+            "back_in_stock_text": "<p>Email me when this is available<\/p>"
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-6": {
+          "type": "product_availability",
+          "settings": {
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-7": {
+          "type": "product_description",
+          "settings": {
+          }
+        },
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-8": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-0",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-1",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-2",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-3",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-4",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-5",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-6",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-7",
+        "template--19861794160954__604be45a-e6a4-4dd2-a3a0-140ee963af30-1688732016850cf8b3-8"
+      ],
       "settings": {
-        "full_width": false,
+        "featured_product": "mia-blouse-blanco",
         "title": "",
-        "collection": "promo-blusa-mia",
-        "carousel": false,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 8,
-        "color_scheme": "cs1",
+        "click_to_enlarge": true,
+        "image_section_size": "medium",
+        "image_options": "static",
+        "thumbnail_position": "left",
+        "slide_controls": "arrows",
+        "enable_video_looping": false,
+        "show_social_share": true,
         "section_padding": "both"
       }
     },
@@ -221,7 +282,7 @@
     "ab9f2f95-3b61-4991-866d-b2e56bb0af3d",
     "3924a5fe-c6aa-414e-8b6f-fa56cc1d2f42",
     "main",
-    "b5fcfaf6-72d6-4489-a755-b527f4fbbeb7",
+    "604be45a-e6a4-4dd2-a3a0-140ee963af30",
     "21a17629-ebfe-4298-b091-55028029c933",
     "c6cc82ea-b0c4-468c-a176-3017374c7007"
   ]
