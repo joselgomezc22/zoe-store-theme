@@ -448,6 +448,10 @@
         "address_company_too_long": "La cédula es demasiado largo (el máximo es de 255 caracteres)",
         "address_company_contains_html_tags": "La cédula no puede tener etiquetas HTML",
         "address_company_contains_emojis": "La cédula no puede contener emojis"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Enviarme actualizaciones de mi pedido y ofertas vía WhatsApp \/ Email",
+        "accept_sms_checkbox_label": "Enviarme actualizaciones de mi pedido y ofertas vía WhatsApp \/ Email"
       }
     }
   },
