@@ -441,7 +441,9 @@
     "checkout": {
       "contact": {
         "company_label": "Cédula",
-        "optional_company_label": "Cédula"
+        "optional_company_label": "Cédula",
+        "phone_label": "Teléfono para notificaciones",
+        "optional_phone_label": "Teléfono para notificaciones"
       },
       "field_errors": {
         "address_company_blank": "Introduce tu numero de cédula",
