@@ -401,6 +401,48 @@
         "section_padding": "both"
       }
     },
+    "09f587b4-4e2c-4505-8620-5b0aa1370879": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105381178__09f587b4-4e2c-4505-8620-5b0aa1370879-168899544298a6e0a4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Colombia-mujer-moda-ropa-zoe.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105381178__09f587b4-4e2c-4505-8620-5b0aa1370879-168899544298a6e0a4-0"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "47a9dbb2-e0c2-4545-b858-daeae6ed2449": {
       "type": "rich-text",
       "blocks": {
@@ -1122,48 +1164,6 @@
         "cta_size": 12,
         "section_padding": "both"
       }
-    },
-    "09f587b4-4e2c-4505-8620-5b0aa1370879": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16986105381178__09f587b4-4e2c-4505-8620-5b0aa1370879-168899544298a6e0a4-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Colombia-mujer-moda-ropa-zoe.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105381178__09f587b4-4e2c-4505-8620-5b0aa1370879-168899544298a6e0a4-0"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -1171,6 +1171,7 @@
     "1625752154523bf545",
     "1625752962aa2a6ebb",
     "9363cd3b-3c41-4d23-a64b-d84306c44a09",
+    "09f587b4-4e2c-4505-8620-5b0aa1370879",
     "47a9dbb2-e0c2-4545-b858-daeae6ed2449",
     "1683726791de29782e",
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
@@ -1185,7 +1186,6 @@
     "a0bbcb16-c9b9-4c30-ab3d-2e080db8b55b",
     "1652212680a3b36e24",
     "df414f78-9548-4fcf-afb0-f41bc5f95ec4",
-    "f6d14bed-668d-4d37-8768-5ef0124698fe",
-    "09f587b4-4e2c-4505-8620-5b0aa1370879"
+    "f6d14bed-668d-4d37-8768-5ef0124698fe"
   ]
 }
