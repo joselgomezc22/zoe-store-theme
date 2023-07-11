@@ -77,7 +77,7 @@
             "caption_horizontal": 66,
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/Bogota-moda-mujer-review-ropa-zoe.jpg",
-            "hide_caption_background": false,
+            "hide_caption_background": true,
             "caption_below": false,
             "heading": "",
             "subheading": "<p>Slide image subheading<\/p>",
