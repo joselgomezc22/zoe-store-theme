@@ -149,7 +149,7 @@
         "title": "{{ section.settings.collection.title }}",
         "collection": "chaqueta-lovers",
         "carousel": false,
-        "button": false,
+        "button": true,
         "button_text": "View all",
         "grid": 4,
         "limit": 8,
