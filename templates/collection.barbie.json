@@ -11,7 +11,6 @@
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Ropa-mujer-rosado-barbie-premiere-cine-outfit-pelicula-rosado-blusa-ropa-fucsia_0922c9c5-a533-44a8-8f12-2b647ab31927.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -31,6 +30,48 @@
       },
       "block_order": [
         "template--20087714644282__90456508-025a-436e-b670-56ddef2dee95-1689622922003dcfde-0"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "dc3aa5b1-b448-43de-8456-fb600bc77397": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20087714644282__dc3aa5b1-b448-43de-8456-fb600bc77397-1689622922003dcfde-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Barbie-ropa-pelicula-cine-premiere-tienda-outfit-rosa-fucsia-rosado-curiosos.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--20087714644282__dc3aa5b1-b448-43de-8456-fb600bc77397-1689622922003dcfde-0"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -665,6 +706,7 @@
   },
   "order": [
     "90456508-025a-436e-b670-56ddef2dee95",
+    "dc3aa5b1-b448-43de-8456-fb600bc77397",
     "6aeaa470-ad6d-4228-9f0d-d998a1cacac4",
     "banner",
     "499957ca-1fcc-4ad4-a733-351cfafe1143",
