@@ -14,6 +14,7 @@
         "template--16986105020730__a85c211c-5c35-4357-9517-ad60b85240f2-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/sale-ventadegarage-colombia-bogota-ropa-mujer-promocion.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -70,6 +71,7 @@
         "template--16986105020730__41517275-cee0-469b-986f-c9644847d5ce-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/sale-ventadegarage-colombia-bogota-ropa-mujer-promocion-ropa.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
