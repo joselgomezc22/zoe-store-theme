@@ -19,8 +19,8 @@
             "caption_vertical": 50,
             "hide_caption_background": false,
             "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
+            "heading": "",
+            "subheading": "",
             "link": "",
             "button_text": "Add a button",
             "second_link": "",
@@ -29,7 +29,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
             "caption_background_opacity": 20
           }
         },
