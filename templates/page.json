@@ -55,7 +55,7 @@
       "settings": {
         "full_width": false,
         "title": "Closet sale",
-        "collection": "",
+        "collection": "closet-sale-2",
         "carousel": false,
         "button": false,
         "button_text": "View all",
