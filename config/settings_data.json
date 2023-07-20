@@ -1084,7 +1084,7 @@
     "product_grid_video": true,
     "quickview": true,
     "show_colors": false,
-    "show_sizes": true,
+    "show_sizes": false,
     "show_quick_add": true,
     "vendor": false,
     "show_rating": true,

@@ -203,7 +203,7 @@
         "full_width": true,
         "grid": 4,
         "products_per_page": 48,
-        "infinite_scroll": true,
+        "infinite_scroll": false,
         "description_position": "top_description",
         "is_sticky": false,
         "sort_by": true
