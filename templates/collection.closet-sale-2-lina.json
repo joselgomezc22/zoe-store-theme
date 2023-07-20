@@ -201,8 +201,8 @@
       ],
       "settings": {
         "full_width": true,
-        "grid": 4,
-        "products_per_page": 30,
+        "grid": 6,
+        "products_per_page": 48,
         "infinite_scroll": false,
         "description_position": "top_description",
         "is_sticky": false,
