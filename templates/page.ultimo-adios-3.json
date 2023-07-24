@@ -134,7 +134,7 @@
       "type": "image-with-text",
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/body-escote-asimetrico.jpg",
+        "image": "shopify:\/\/shop_images\/body-escote-asimetrico-2.jpg",
         "layout": "left",
         "image_width": "50%",
         "text_align": "left",
@@ -166,6 +166,7 @@
     },
     "a18898a4-13f4-4b37-9579-fe0a590e37aa": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--18269919543610__a18898a4-13f4-4b37-9579-fe0a590e37aa-1678385318b190a1a1-0": {
           "type": "text",
@@ -188,6 +189,7 @@
     },
     "ed51c6bf-8959-465e-84cf-99447b7c43ae": {
       "type": "editorial-columns",
+      "disabled": true,
       "blocks": {
         "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-0": {
           "type": "image",
