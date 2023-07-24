@@ -93,6 +93,7 @@
     },
     "fe9d89d1-fb26-4550-9a0c-08b425b5d04f": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "template--18269919543610__fe9d89d1-fb26-4550-9a0c-08b425b5d04f-1678385346536ae4c8-0": {
           "type": "testimonial",
