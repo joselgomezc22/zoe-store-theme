@@ -79,16 +79,16 @@
     "26e80558-f6a7-4ca6-9641-c75f3ddbe02c": {
       "type": "featured-collection",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "title": "ÚLTIMO ADIÓS",
         "collection": "precios-2022",
-        "carousel": true,
+        "carousel": false,
         "button": true,
         "button_text": "View all",
         "grid": 4,
-        "limit": 30,
+        "limit": 22,
         "color_scheme": "cs1",
-        "section_padding": "both"
+        "section_padding": "top"
       }
     },
     "fe9d89d1-fb26-4550-9a0c-08b425b5d04f": {
