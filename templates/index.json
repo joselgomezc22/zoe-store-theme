@@ -41,31 +41,6 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
-        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Chaquetas-mujer-promocion-bodies.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 94,
-            "mobile_image": "shopify:\/\/shop_images\/Chaquetas-mujer-promocion-bodies-1.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/pages\/chaqueta-lovers",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#000000",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#acacac",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
         "1625752154523bf545-0": {
           "type": "image",
           "settings": {
@@ -91,20 +66,45 @@
             "caption_background_opacity": 10
           }
         },
+        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chaquetas-mujer-promocion-bodies.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 94,
+            "mobile_image": "shopify:\/\/shop_images\/Chaquetas-mujer-promocion-bodies-1.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/pages\/chaqueta-lovers",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#acacac",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Blusa-mia-del-mes-20-descuento_1.jpg",
+            "image": "shopify:\/\/shop_images\/politica-cambios-devoluciones-ropa-mujer.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 19,
             "caption_vertical": 87,
-            "mobile_image": "shopify:\/\/shop_images\/Blusa-mia-del-mes-20-descuento_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/politica-cambios-devoluciones-ropa-mujer-2.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/pages\/blusa-mia",
+            "link": "shopify:\/\/pages\/politica-de-tratamiento-de-datos-personales-1",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
@@ -168,8 +168,8 @@
         }
       },
       "block_order": [
-        "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "1625752154523bf545-0",
+        "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
         "da7a1b01-8668-4068-a8a3-967fe445c0b1",
         "4f8d7320-7770-4d72-a941-c477a5fd868c"
