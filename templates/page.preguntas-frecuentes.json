@@ -2,6 +2,7 @@
   "sections": {
     "16281163190f900135": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "scale": 2,
         "page_height": 500,
@@ -10,9 +11,9 @@
         "button_text": "Button",
         "link": "",
         "overlay_opacity": 0,
-        "text_color": "#000",
-        "button_text_color": "#fff",
-        "button_color": "#000",
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
         "background": "rgba(0,0,0,0)",
         "caption_horizontal": 50,
         "caption_vertical": 50,
@@ -22,7 +23,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "page_size": "thin",
         "sidebar_positon": "right"
@@ -30,6 +30,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "title": "Contact Us",
         "cf_max_width": 900,
@@ -90,6 +91,7 @@
         "1628116181ed38b1a0-1",
         "1628116181ed38b1a0-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Welcome",
@@ -101,6 +103,7 @@
     },
     "16281162861b62e38b": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Subscribe to our newsletter",
         "newsletter_subheading": "<p>Use overlay text to give your Join our mailing list - no spam!<\/p>",
