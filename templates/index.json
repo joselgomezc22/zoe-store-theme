@@ -501,7 +501,6 @@
     },
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0": {
           "type": "image",
@@ -556,6 +555,7 @@
         "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0",
         "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -729,7 +729,6 @@
     },
     "16522107484f6b2502": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "165221074859d12681-0": {
           "type": "testimonial",
@@ -761,6 +760,7 @@
         "165221074859d12681-1",
         "165221074859d12681-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "TESTIMONIOS",
         "color_scheme": "none",
@@ -773,12 +773,12 @@
         "template--16986105381178__57ed3583-e547-455c-8fb3-546f2524a5ed-16760408178ae8bfce-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ropa-mujer-tienda-fisica-colombia_ef9b4ab5-78e1-4831-b563-8aa26170adde.jpg",
+            "image": "shopify:\/\/shop_images\/Banner_-_ropa-mujer-tiendas-fisicas-zoe-colombia_1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 49,
             "caption_vertical": 51,
-            "mobile_image": "shopify:\/\/shop_images\/Ropa-mujer-tienda-fisica-colombia_1d9052af-d62e-4c12-ba3d-d2124250cf28.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_-_ropa-mujer-tiendas-fisicas-zoe-colombia_2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
