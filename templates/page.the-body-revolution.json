@@ -180,6 +180,7 @@
         "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-2",
         "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "OCASIÓN",
@@ -274,7 +275,7 @@
             "image_width": "33%",
             "heading": "Our collections",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
+            "button": "DESCUBRE AQUÍ",
             "link": "shopify:\/\/collections\/trabajo",
             "text_align": "left"
           }
@@ -282,22 +283,24 @@
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/El_texto_del_parrafo_1.jpg",
             "image_width": "33%",
             "heading": "Our collections",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
-            "link": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "shopify:\/\/collections\/rumba",
             "text_align": "left"
           }
         },
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/El_texto_del_parrafo_2.jpg",
             "image_width": "33%",
             "heading": "Our collections",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
             "button": "Explore",
-            "link": "",
+            "link": "shopify:\/\/collections\/casual",
             "text_align": "left"
           }
         }
