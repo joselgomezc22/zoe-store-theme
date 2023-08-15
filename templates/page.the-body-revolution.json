@@ -159,7 +159,7 @@
         "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "rumba"
           }
         },
         "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-2": {
@@ -306,6 +306,7 @@
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2",
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Welcome",
