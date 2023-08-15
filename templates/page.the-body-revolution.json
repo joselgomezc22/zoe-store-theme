@@ -165,13 +165,13 @@
         "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "trabajo"
           }
         },
         "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "casual"
           }
         }
       },
