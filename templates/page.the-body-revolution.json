@@ -367,6 +367,48 @@
         "cta_size": 14,
         "section_padding": "both"
       }
+    },
+    "4ce6f78c-07cf-4bd7-8e50-b3096e621c08": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20651994087738__4ce6f78c-07cf-4bd7-8e50-b3096e621c08-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tienda-ropa-zoe-mujer-body-revolution.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__4ce6f78c-07cf-4bd7-8e50-b3096e621c08-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -380,6 +422,7 @@
     "a18898a4-13f4-4b37-9579-fe0a590e37aa",
     "ed51c6bf-8959-465e-84cf-99447b7c43ae",
     "654f8c9e-b0cd-44b7-a964-5b81b70d66a9",
-    "e3a42a90-eaab-44d8-8064-1d76b09cf8cf"
+    "e3a42a90-eaab-44d8-8064-1d76b09cf8cf",
+    "4ce6f78c-07cf-4bd7-8e50-b3096e621c08"
   ]
 }
