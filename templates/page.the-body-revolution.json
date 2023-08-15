@@ -241,6 +241,7 @@
         "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-1",
         "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "¿Cómo y dónde usarlo?",
@@ -262,6 +263,57 @@
         "cta_size": 14,
         "section_padding": "both"
       }
+    },
+    "1f848d75-961d-4c69-ac79-d6f77038e49f": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-1",
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2",
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Welcome",
+        "heading_size": 24,
+        "text_size": 14,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -271,6 +323,7 @@
     "1668f92f-d896-4ba5-8166-17211c9a2a2d",
     "main",
     "ed51c6bf-8959-465e-84cf-99447b7c43ae",
-    "4ce6f78c-07cf-4bd7-8e50-b3096e621c08"
+    "4ce6f78c-07cf-4bd7-8e50-b3096e621c08",
+    "1f848d75-961d-4c69-ac79-d6f77038e49f"
   ]
 }
