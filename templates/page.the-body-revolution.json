@@ -258,10 +258,10 @@
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/El_texto_del_parrafo.jpg",
+            "image": "shopify:\/\/shop_images\/colombia-moda-tienda-fisica-online-ropa.jpg",
             "image_width": "33%",
             "heading": "PARA EL TRABAJO",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "DESCUBRE AQUÍ",
             "link": "shopify:\/\/collections\/trabajo",
             "text_align": "left"
@@ -270,10 +270,10 @@
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/El_texto_del_parrafo_1.jpg",
+            "image": "shopify:\/\/shop_images\/colombia-moda-tienda-fisica-online-ropa-zoe.jpg",
             "image_width": "33%",
             "heading": "PARA LA RUMBA",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "DESCUBRE AQUÍ",
             "link": "shopify:\/\/collections\/rumba",
             "text_align": "left"
@@ -282,10 +282,10 @@
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/El_texto_del_parrafo_2.jpg",
+            "image": "shopify:\/\/shop_images\/colombia-moda-tienda-fisica-online-ropa_-body.jpg",
             "image_width": "33%",
             "heading": "PARA LO CASUAL",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "Explore",
             "link": "shopify:\/\/collections\/casual",
             "text_align": "left"
