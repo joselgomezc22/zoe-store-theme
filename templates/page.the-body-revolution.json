@@ -305,6 +305,90 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_3.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Rompetrafico_pc_3.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "f14bf19a-a9e2-4a60-8f63-d75a0328796c": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/colombia-moda-tienda-fisica-online-ropa-body-bajitas.jpg",
+            "image_width": "50%",
+            "heading": "Menos de 1.60",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/colombia-moda-tienda-fisica-online-ropa-altas.jpg",
+            "image_width": "33%",
+            "heading": "Entre 1.60 y 1.70",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-1",
+        "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Welcome",
+        "heading_size": 24,
+        "text_size": 14,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -314,6 +398,8 @@
     "1668f92f-d896-4ba5-8166-17211c9a2a2d",
     "main",
     "ed51c6bf-8959-465e-84cf-99447b7c43ae",
-    "1f848d75-961d-4c69-ac79-d6f77038e49f"
+    "1f848d75-961d-4c69-ac79-d6f77038e49f",
+    "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
+    "f14bf19a-a9e2-4a60-8f63-d75a0328796c"
   ]
 }
