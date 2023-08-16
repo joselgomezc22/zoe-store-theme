@@ -252,19 +252,6 @@
         "section_padding": "both"
       }
     },
-    "4ce6f78c-07cf-4bd7-8e50-b3096e621c08": {
-      "type": "slideshow",
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "1f848d75-961d-4c69-ac79-d6f77038e49f": {
       "type": "editorial-columns",
       "blocks": {
@@ -273,7 +260,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/El_texto_del_parrafo.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
+            "heading": "PARA EL TRABAJO",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
             "button": "DESCUBRE AQUÍ",
             "link": "shopify:\/\/collections\/trabajo",
@@ -285,7 +272,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/El_texto_del_parrafo_1.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
+            "heading": "PARA LA RUMBA",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
             "button": "DESCUBRE AQUÍ",
             "link": "shopify:\/\/collections\/rumba",
@@ -297,7 +284,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/El_texto_del_parrafo_2.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
+            "heading": "PARA LO CASUAL",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
             "button": "Explore",
             "link": "shopify:\/\/collections\/casual",
@@ -312,9 +299,9 @@
       ],
       "settings": {
         "full_width": false,
-        "title": "Welcome",
-        "heading_size": 24,
-        "text_size": 14,
+        "title": "",
+        "heading_size": 15,
+        "text_size": 12,
         "color_scheme": "none",
         "section_padding": "both"
       }
@@ -327,7 +314,6 @@
     "1668f92f-d896-4ba5-8166-17211c9a2a2d",
     "main",
     "ed51c6bf-8959-465e-84cf-99447b7c43ae",
-    "4ce6f78c-07cf-4bd7-8e50-b3096e621c08",
     "1f848d75-961d-4c69-ac79-d6f77038e49f"
   ]
 }
