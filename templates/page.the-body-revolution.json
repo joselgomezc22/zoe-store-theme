@@ -356,7 +356,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/colombia-moda-tienda-fisica-online-ropa-body-bajitas.jpg",
-            "image_width": "50%",
+            "image_width": "33%",
             "heading": "Menos de 1.60",
             "rich_text": "",
             "button": "Explore",
@@ -375,11 +375,24 @@
             "link": "",
             "text_align": "left"
           }
+        },
+        "931ee3b0-8065-485f-978b-5d49c309393e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/colombia-moda-tienda-fisica-online-ropa-altas.jpg",
+            "image_width": "33%",
+            "heading": "Más de 1.70",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
         }
       },
       "block_order": [
         "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-1",
-        "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-2"
+        "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-2",
+        "931ee3b0-8065-485f-978b-5d49c309393e"
       ],
       "settings": {
         "full_width": false,
