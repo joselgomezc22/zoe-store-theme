@@ -153,103 +153,12 @@
         "section_padding": "both"
       }
     },
-    "1668f92f-d896-4ba5-8166-17211c9a2a2d": {
-      "type": "collection-list",
-      "blocks": {
-        "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rumba"
-          }
-        },
-        "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "trabajo"
-          }
-        },
-        "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "casual"
-          }
-        }
-      },
-      "block_order": [
-        "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-1",
-        "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-2",
-        "template--20651994087738__1668f92f-d896-4ba5-8166-17211c9a2a2d-featured_collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "title": "OCASIÓN",
-        "grid": 3,
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "page_size": "full_width",
         "sidebar_positon": "left"
-      }
-    },
-    "ed51c6bf-8959-465e-84cf-99447b7c43ae": {
-      "type": "editorial-columns",
-      "blocks": {
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v.jpg",
-            "image_width": "33%",
-            "heading": "Road trip",
-            "rich_text": "<p>Cómoda y fresca.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        },
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v-2.jpg",
-            "image_width": "33%",
-            "heading": "Ir a la oficina",
-            "rich_text": "<p>Elegante y sofisticada.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        },
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Outfit-body-cuello-v-3.jpg",
-            "image_width": "33%",
-            "heading": "Brunch",
-            "rich_text": "<p>Casual y con estilo. <\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        }
-      },
-      "block_order": [
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-0",
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-1",
-        "template--18269919543610__ed51c6bf-8959-465e-84cf-99447b7c43ae-1678385297fac3ab92-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "title": "¿Cómo y dónde usarlo?",
-        "heading_size": 24,
-        "text_size": 14,
-        "color_scheme": "none",
-        "section_padding": "both"
       }
     },
     "1f848d75-961d-4c69-ac79-d6f77038e49f": {
@@ -286,7 +195,7 @@
             "image_width": "33%",
             "heading": "PARA LO CASUAL",
             "rich_text": "",
-            "button": "Explore",
+            "button": "DESCUBRE AQUÍ",
             "link": "shopify:\/\/collections\/casual",
             "text_align": "left"
           }
@@ -408,9 +317,7 @@
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "72f81d3c-457b-49ff-bdde-e9401e0d2e99",
     "654f8c9e-b0cd-44b7-a964-5b81b70d66a9",
-    "1668f92f-d896-4ba5-8166-17211c9a2a2d",
     "main",
-    "ed51c6bf-8959-465e-84cf-99447b7c43ae",
     "1f848d75-961d-4c69-ac79-d6f77038e49f",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
     "f14bf19a-a9e2-4a60-8f63-d75a0328796c"
