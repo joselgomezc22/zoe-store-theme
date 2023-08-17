@@ -22,7 +22,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -45,7 +45,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -137,8 +137,8 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "TRABAJO",
-        "collection": "trabajo",
+        "title": "RUMBA",
+        "collection": "rumba",
         "carousel": false,
         "button": false,
         "button_text": "View all",
