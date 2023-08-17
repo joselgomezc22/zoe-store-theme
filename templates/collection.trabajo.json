@@ -122,6 +122,7 @@
         "4d3e8985-2b6e-419d-b068-55e4ebba1e41",
         "af54f8b9-43ce-4ace-872d-95e3b3cc7a25"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "grid": 4,
