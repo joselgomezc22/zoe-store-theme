@@ -513,10 +513,12 @@
         "template--20651994087738__a39021c6-c826-42cb-90f5-c76f1f51361f-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Colombia-moda-ropa-zoe-body-tipodeprofesion.modamujer.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Colombia-moda-ropa-zoe-body-profesion-ocupacion.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
