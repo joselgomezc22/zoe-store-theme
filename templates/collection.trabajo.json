@@ -66,6 +66,21 @@
         "sort_by": true
       }
     },
+    "094e9b91-8121-4031-9759-9180e02ed38e": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "TRABAJO",
+        "collection": "trabajo",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
     "86105da5-8a65-4d86-8865-6da74da4ca7c": {
       "type": "shop-the-look",
       "blocks": {
@@ -385,6 +400,7 @@
   "order": [
     "banner",
     "main",
+    "094e9b91-8121-4031-9759-9180e02ed38e",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
