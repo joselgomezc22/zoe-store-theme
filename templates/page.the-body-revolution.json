@@ -662,7 +662,7 @@
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-1": {
           "type": "image",
           "settings": {
-            "image_width": "33%",
+            "image_width": "25%",
             "heading": "Our collections",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
             "button": "Explore",
@@ -673,7 +673,7 @@
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-2": {
           "type": "image",
           "settings": {
-            "image_width": "33%",
+            "image_width": "25%",
             "heading": "Our collections",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
             "button": "Explore",
@@ -684,7 +684,18 @@
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-3": {
           "type": "image",
           "settings": {
-            "image_width": "33%",
+            "image_width": "25%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "0ca5a089-9cfb-4a48-86b5-f188ea7628a3": {
+          "type": "image",
+          "settings": {
+            "image_width": "25%",
             "heading": "Our collections",
             "rich_text": "<p>Enter text to accompany your image.<\/p>",
             "button": "Explore",
@@ -696,11 +707,12 @@
       "block_order": [
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-1",
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-2",
-        "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-3"
+        "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-3",
+        "0ca5a089-9cfb-4a48-86b5-f188ea7628a3"
       ],
       "settings": {
         "full_width": false,
-        "title": "Welcome",
+        "title": "",
         "heading_size": 24,
         "text_size": 14,
         "color_scheme": "none",
