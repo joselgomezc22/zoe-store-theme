@@ -361,9 +361,10 @@
         "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-2": {
           "type": "image",
           "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "image": "shopify:\/\/shop_images\/Climacalido-ropa-body-tienda-bodies-paletadecolor-calor-sol-zoe.jpg",
+            "image_width": "50%",
+            "heading": "Tonos cálidos",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -372,9 +373,10 @@
         "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Climafrio-ropa-body-tienda-bodies-paletadecolor.jpg",
             "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "heading": "Tonos fríos",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
