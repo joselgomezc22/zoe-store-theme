@@ -6,7 +6,7 @@
         "template--16986105643322__6aeaa470-ad6d-4228-9f0d-d998a1cacac4-16859806259c68529e-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_categorias_PC_4.jpg",
+            "image": "shopify:\/\/shop_images\/98_e21024ea-6f3d-49cf-9470-751ff43e8962.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -83,7 +83,6 @@
     },
     "499957ca-1fcc-4ad4-a733-351cfafe1143": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-0": {
           "type": "image",
@@ -139,6 +138,7 @@
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-0",
         "template--16986105643322__499957ca-1fcc-4ad4-a733-351cfafe1143-1680526271469290bc-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -211,7 +211,6 @@
     },
     "86105da5-8a65-4d86-8865-6da74da4ca7c": {
       "type": "shop-the-look",
-      "disabled": true,
       "blocks": {
         "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-0": {
           "type": "image",
@@ -297,6 +296,7 @@
         "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-1",
         "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Shop the Look",
@@ -305,7 +305,6 @@
     },
     "38969d44-e1d3-4e83-b11a-cb9bf99ac289": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__38969d44-e1d3-4e83-b11a-cb9bf99ac289-1679538512b2ca80e6-0": {
           "type": "text",
@@ -321,6 +320,7 @@
       "block_order": [
         "template--16986105643322__38969d44-e1d3-4e83-b11a-cb9bf99ac289-1679538512b2ca80e6-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "- Testimonios de nuestros clientes -",
         "color_scheme": "none",
@@ -329,7 +329,6 @@
     },
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-0": {
           "type": "testimonial",
@@ -361,6 +360,7 @@
         "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-1",
         "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "color_scheme": "none",
@@ -369,7 +369,6 @@
     },
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0": {
           "type": "text",
@@ -384,6 +383,7 @@
       "block_order": [
         "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "COMPRA POR OCASIÓN",
         "color_scheme": "none",
@@ -528,7 +528,6 @@
     },
     "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
           "type": "text",
@@ -543,6 +542,7 @@
       "block_order": [
         "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "Drop del Mes",
         "color_scheme": "none",
@@ -551,7 +551,6 @@
     },
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63": {
       "type": "image-gallery",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__cd4a03f7-073b-44a8-8b97-a73ce5506f63-1670460357593d0062-0": {
           "type": "image",
@@ -610,6 +609,7 @@
         "template--16986105643322__cd4a03f7-073b-44a8-8b97-a73ce5506f63-1670460357593d0062-1",
         "template--16986105643322__cd4a03f7-073b-44a8-8b97-a73ce5506f63-1670460357593d0062-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Image gallery",
