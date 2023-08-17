@@ -446,9 +446,10 @@
         "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-1": {
           "type": "image",
           "settings": {
-            "image_width": "33%",
+            "image": "shopify:\/\/shop_images\/colombia-ropa-zoe-tienda-fisica-body-cuello-v-escote.jpg",
+            "image_width": "25%",
             "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -457,9 +458,10 @@
         "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-2": {
           "type": "image",
           "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "image": "shopify:\/\/shop_images\/colombia-ropa-zoe-tienda-fisica-body-cuello-cuadrado-body-escote.jpg",
+            "image_width": "25%",
+            "heading": "Tipo cuadrado",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -468,9 +470,22 @@
         "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-3": {
           "type": "image",
           "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "image": "shopify:\/\/shop_images\/colombia-ropa-zoe-tienda-fisica-body-cuello-escote-redondo-cuelloredondo-blanco-colores.jpg",
+            "image_width": "25%",
+            "heading": "Tipo redondo",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "19b50cb7-cbf1-435f-a3f3-c5f04c9a590d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_996a780a-4315-4072-b52c-b2fb498901c3.jpg",
+            "image_width": "25%",
+            "heading": "Tipo halter",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -480,7 +495,8 @@
       "block_order": [
         "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-1",
         "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-2",
-        "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-3"
+        "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-3",
+        "19b50cb7-cbf1-435f-a3f3-c5f04c9a590d"
       ],
       "settings": {
         "full_width": false,
