@@ -506,6 +506,110 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "a39021c6-c826-42cb-90f5-c76f1f51361f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20651994087738__a39021c6-c826-42cb-90f5-c76f1f51361f-image-1": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__a39021c6-c826-42cb-90f5-c76f1f51361f-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "d7f86838-24a1-4443-85ab-b568289c205b": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "25%",
+            "heading": "Corporativa",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "25%",
+            "heading": "Creativa",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-3": {
+          "type": "image",
+          "settings": {
+            "image_width": "25%",
+            "heading": "Tecnológica",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "2090e936-a62f-449c-850f-f17078fb4941": {
+          "type": "image",
+          "settings": {
+            "image_width": "25%",
+            "heading": "Salud",
+            "rich_text": "",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-1",
+        "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-2",
+        "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-3",
+        "2090e936-a62f-449c-850f-f17078fb4941"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Welcome",
+        "heading_size": 24,
+        "text_size": 14,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -519,6 +623,8 @@
     "fddcda5d-6fcb-4978-8772-4972ead04920",
     "ce0ef761-d073-4cdc-b284-e5147c3280c2",
     "935b7960-a78f-4a22-a241-3595762dfe3f",
-    "dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee"
+    "dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee",
+    "a39021c6-c826-42cb-90f5-c76f1f51361f",
+    "d7f86838-24a1-4443-85ab-b568289c205b"
   ]
 }
