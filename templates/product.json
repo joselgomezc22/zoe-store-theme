@@ -63,6 +63,7 @@
         },
         "d56dffc3-91b5-402f-939a-f5e3456837ec": {
           "type": "discount-product-atc",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este Body tu cinta mágica queda en solo $10.200  -v- .",
             "file": "gift_box.jpg"
@@ -201,7 +202,6 @@
     },
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982": {
       "type": "accordion",
-      "disabled": true,
       "blocks": {
         "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-0": {
           "type": "panel",
@@ -236,6 +236,7 @@
         "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-1",
         "template--14436393386068__4c9ebf25-b0c4-4ab9-a7f1-216434d1d982-166752076249dd74c8-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Preguntas Frecuentes",
         "allow_multiple": true,
@@ -499,7 +500,6 @@
     },
     "59f318ff-13ce-480f-83b5-49018d2a0dca": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0": {
           "type": "text",
@@ -515,6 +515,7 @@
       "block_order": [
         "template--16986105479482__59f318ff-13ce-480f-83b5-49018d2a0dca-1679538512b2ca80e6-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "- Testimonios de nuestros clientes -",
         "color_scheme": "none",
@@ -523,7 +524,6 @@
     },
     "1668729670a528fb32": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "786f03cc-ea84-44f5-b28b-d8ac51a5c1a9": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
@@ -534,6 +534,7 @@
       "block_order": [
         "786f03cc-ea84-44f5-b28b-d8ac51a5c1a9"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "section_padding": "both"
