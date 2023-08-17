@@ -312,6 +312,99 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "fddcda5d-6fcb-4978-8772-4972ead04920": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20651994087738__fddcda5d-6fcb-4978-8772-4972ead04920-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_5.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.secondary[1].background }}",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__fddcda5d-6fcb-4978-8772-4972ead04920-image-2"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "ce0ef761-d073-4cdc-b284-e5147c3280c2": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-1": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-2": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        },
+        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-3": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "heading": "Our collections",
+            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "button": "Explore",
+            "link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-1",
+        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-2",
+        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "heading_size": 24,
+        "text_size": 14,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -321,6 +414,8 @@
     "main",
     "1f848d75-961d-4c69-ac79-d6f77038e49f",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
-    "f14bf19a-a9e2-4a60-8f63-d75a0328796c"
+    "f14bf19a-a9e2-4a60-8f63-d75a0328796c",
+    "fddcda5d-6fcb-4978-8772-4972ead04920",
+    "ce0ef761-d073-4cdc-b284-e5147c3280c2"
   ]
 }
