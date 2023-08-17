@@ -358,17 +358,6 @@
     "ce0ef761-d073-4cdc-b284-e5147c3280c2": {
       "type": "editorial-columns",
       "blocks": {
-        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-1": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        },
         "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-2": {
           "type": "image",
           "settings": {
@@ -393,7 +382,6 @@
         }
       },
       "block_order": [
-        "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-1",
         "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-2",
         "template--20651994087738__ce0ef761-d073-4cdc-b284-e5147c3280c2-image-3"
       ],
