@@ -519,8 +519,8 @@
             "image_width": "25%",
             "heading": "Corporativa",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/corporativa",
             "text_align": "left"
           }
         },
@@ -531,8 +531,8 @@
             "image_width": "25%",
             "heading": "Creativa",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/creativa",
             "text_align": "left"
           }
         },
@@ -543,8 +543,8 @@
             "image_width": "25%",
             "heading": "Tecnológica",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/tecnologica",
             "text_align": "left"
           }
         },
@@ -555,8 +555,8 @@
             "image_width": "25%",
             "heading": "Salud",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/salud",
             "text_align": "left"
           }
         }
