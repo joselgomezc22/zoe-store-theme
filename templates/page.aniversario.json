@@ -166,6 +166,21 @@
         "color_scheme": "cs3",
         "section_padding": "both"
       }
+    },
+    "3be9900f-c1fa-479a-9fac-95674d33bbeb": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "SACOS 20%",
+        "collection": "sacos",
+        "carousel": true,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -173,6 +188,7 @@
     "9cab8c65-c515-44b0-bd8a-2f480d458fee",
     "main",
     "db01aff9-de6e-4e54-a3d3-661dd7e63be6",
-    "8f78cd3f-21ff-42e6-b3cb-c30debf699c9"
+    "8f78cd3f-21ff-42e6-b3cb-c30debf699c9",
+    "3be9900f-c1fa-479a-9fac-95674d33bbeb"
   ]
 }
