@@ -115,8 +115,8 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "CASUAL",
-        "collection": "casual",
+        "title": "MENOS DE 1.60",
+        "collection": "menos-de-1-60",
         "carousel": false,
         "button": false,
         "button_text": "View all",
