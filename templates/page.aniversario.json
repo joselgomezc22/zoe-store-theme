@@ -209,6 +209,7 @@
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2",
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
@@ -250,6 +251,7 @@
       "block_order": [
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -306,6 +308,7 @@
         "template--20651994087738__f14bf19a-a9e2-4a60-8f63-d75a0328796c-image-2",
         "931ee3b0-8065-485f-978b-5d49c309393e"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
@@ -347,6 +350,7 @@
       "block_order": [
         "template--20651994087738__fddcda5d-6fcb-4978-8772-4972ead04920-image-2"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -390,6 +394,7 @@
       "block_order": [
         "template--20651994087738__935b7960-a78f-4a22-a241-3595762dfe3f-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -459,6 +464,7 @@
         "template--20651994087738__dc0c92cb-b67d-44ee-af7a-3f9ab5cb18ee-image-3",
         "19b50cb7-cbf1-435f-a3f3-c5f04c9a590d"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
@@ -500,6 +506,7 @@
       "block_order": [
         "template--20651994087738__a39021c6-c826-42cb-90f5-c76f1f51361f-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -569,6 +576,7 @@
         "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-3",
         "2090e936-a62f-449c-850f-f17078fb4941"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
@@ -610,6 +618,7 @@
       "block_order": [
         "template--20651994087738__c82c1cfd-2461-4eb3-959b-f7c94e03536d-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -679,6 +688,7 @@
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-3",
         "0ca5a089-9cfb-4a48-86b5-f188ea7628a3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
