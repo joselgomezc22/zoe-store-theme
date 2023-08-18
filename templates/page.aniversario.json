@@ -234,6 +234,21 @@
         "color_scheme": "cs3",
         "section_padding": "both"
       }
+    },
+    "8cb395bd-e8ee-491e-95d9-53dd50e75362": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "CHAQUETAS 20% OFF",
+        "collection": "chaquetas",
+        "carousel": true,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -244,6 +259,7 @@
     "8f78cd3f-21ff-42e6-b3cb-c30debf699c9",
     "3be9900f-c1fa-479a-9fac-95674d33bbeb",
     "0bcb1300-65e1-4eaf-b7db-66f79d539b03",
-    "6e66952e-74f4-4805-971b-e6e1ffdd4ae8"
+    "6e66952e-74f4-4805-971b-e6e1ffdd4ae8",
+    "8cb395bd-e8ee-491e-95d9-53dd50e75362"
   ]
 }
