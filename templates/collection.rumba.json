@@ -118,7 +118,7 @@
         "title": "RUMBA",
         "collection": "rumba",
         "carousel": false,
-        "button": false,
+        "button": true,
         "button_text": "View all",
         "grid": 4,
         "limit": 8,
