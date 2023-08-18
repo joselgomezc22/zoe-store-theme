@@ -509,14 +509,14 @@
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
-            "caption_vertical": 50,
+            "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/Rompetrafico_mobile_4_99e475d8-7296-48c2-845a-d42cb865f3d7.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "",
-            "button_text": "Add a button",
+            "link": "#quiz-ZAHLG5",
+            "button_text": "AQUÍ",
             "second_link": "",
             "second_button_text": "Button 2 text",
             "slide_text_color": "#000000",
@@ -524,7 +524,7 @@
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
             "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
-            "caption_background_opacity": 20
+            "caption_background_opacity": 10
           }
         }
       },
