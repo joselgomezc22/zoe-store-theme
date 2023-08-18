@@ -196,6 +196,44 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "6e66952e-74f4-4805-971b-e6e1ffdd4ae8": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--20704127451450__6e66952e-74f4-4805-971b-e6e1ffdd4ae8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>PANTALONES Y CHAQUETAS<\/strong> 20%<\/p>"
+          }
+        },
+        "template--20704127451450__6e66952e-74f4-4805-971b-e6e1ffdd4ae8-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>PANTALONES Y CHAQUETAS<\/strong> 20%<\/p>"
+          }
+        },
+        "template--20704127451450__6e66952e-74f4-4805-971b-e6e1ffdd4ae8-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>PANTALONES Y CHAQUETAS<\/strong> 20%<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20704127451450__6e66952e-74f4-4805-971b-e6e1ffdd4ae8-text-1",
+        "template--20704127451450__6e66952e-74f4-4805-971b-e6e1ffdd4ae8-text-2",
+        "template--20704127451450__6e66952e-74f4-4805-971b-e6e1ffdd4ae8-text-3"
+      ],
+      "settings": {
+        "sa_grid": 2,
+        "slider_speed": 2,
+        "border_top": false,
+        "border_bottom": false,
+        "text_size": 20,
+        "height": 49,
+        "color_scheme": "cs3",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -205,6 +243,7 @@
     "db01aff9-de6e-4e54-a3d3-661dd7e63be6",
     "8f78cd3f-21ff-42e6-b3cb-c30debf699c9",
     "3be9900f-c1fa-479a-9fac-95674d33bbeb",
-    "0bcb1300-65e1-4eaf-b7db-66f79d539b03"
+    "0bcb1300-65e1-4eaf-b7db-66f79d539b03",
+    "6e66952e-74f4-4805-971b-e6e1ffdd4ae8"
   ]
 }
