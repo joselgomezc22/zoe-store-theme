@@ -128,12 +128,51 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "8f78cd3f-21ff-42e6-b3cb-c30debf699c9": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--20704127451450__8f78cd3f-21ff-42e6-b3cb-c30debf699c9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BLUSAS Y SACOS<\/strong> 20% OFF<\/p>"
+          }
+        },
+        "template--20704127451450__8f78cd3f-21ff-42e6-b3cb-c30debf699c9-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add content to a sliding text message bar<\/p>"
+          }
+        },
+        "template--20704127451450__8f78cd3f-21ff-42e6-b3cb-c30debf699c9-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add content to a sliding text message bar<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20704127451450__8f78cd3f-21ff-42e6-b3cb-c30debf699c9-text-1",
+        "template--20704127451450__8f78cd3f-21ff-42e6-b3cb-c30debf699c9-text-2",
+        "template--20704127451450__8f78cd3f-21ff-42e6-b3cb-c30debf699c9-text-3"
+      ],
+      "settings": {
+        "sa_grid": 2,
+        "slider_speed": 2,
+        "border_top": false,
+        "border_bottom": false,
+        "text_size": 20,
+        "height": 49,
+        "color_scheme": "cs3",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "9cab8c65-c515-44b0-bd8a-2f480d458fee",
     "main",
-    "db01aff9-de6e-4e54-a3d3-661dd7e63be6"
+    "db01aff9-de6e-4e54-a3d3-661dd7e63be6",
+    "8f78cd3f-21ff-42e6-b3cb-c30debf699c9"
   ]
 }
