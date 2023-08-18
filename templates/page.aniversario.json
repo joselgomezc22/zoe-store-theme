@@ -249,6 +249,21 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "dcc35e0d-8dcc-407d-a678-ef0e664d19e9": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "PANTALONES 20%",
+        "collection": "pantalones",
+        "carousel": true,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -260,6 +275,7 @@
     "3be9900f-c1fa-479a-9fac-95674d33bbeb",
     "0bcb1300-65e1-4eaf-b7db-66f79d539b03",
     "6e66952e-74f4-4805-971b-e6e1ffdd4ae8",
-    "8cb395bd-e8ee-491e-95d9-53dd50e75362"
+    "8cb395bd-e8ee-491e-95d9-53dd50e75362",
+    "dcc35e0d-8dcc-407d-a678-ef0e664d19e9"
   ]
 }
