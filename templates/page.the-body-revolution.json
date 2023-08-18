@@ -629,8 +629,8 @@
             "image_width": "25%",
             "heading": "Rectangulo",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/rectangulo",
             "text_align": "left"
           }
         },
@@ -641,8 +641,8 @@
             "image_width": "25%",
             "heading": "Reloj de arena",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/reloj-de-arena",
             "text_align": "left"
           }
         },
@@ -653,8 +653,8 @@
             "image_width": "25%",
             "heading": "Pera",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/pera",
             "text_align": "left"
           }
         },
@@ -665,8 +665,8 @@
             "image_width": "25%",
             "heading": "Triangulo",
             "rich_text": "",
-            "button": "Explore",
-            "link": "",
+            "button": "MIRA AQUÍ",
+            "link": "shopify:\/\/collections\/triangulo",
             "text_align": "left"
           }
         }
