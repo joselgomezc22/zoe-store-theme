@@ -556,6 +556,7 @@
         "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/19_a532cbc7-569d-4c4e-bdb9-d2687c4fc649.jpg",
             "image_width": "25%",
             "heading": "Corporativa",
             "rich_text": "",
@@ -567,6 +568,7 @@
         "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/20_00599d04-95ee-4e98-ac72-d6c2d3053300.jpg",
             "image_width": "25%",
             "heading": "Creativa",
             "rich_text": "",
@@ -578,6 +580,7 @@
         "template--20651994087738__d7f86838-24a1-4443-85ab-b568289c205b-image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/21_da6a9f87-def3-4fcc-b4b7-07de70a5e530.jpg",
             "image_width": "25%",
             "heading": "Tecnológica",
             "rich_text": "",
@@ -589,6 +592,7 @@
         "2090e936-a62f-449c-850f-f17078fb4941": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/22_ce48684d-d58d-4d60-97e8-25966f236a9b.jpg",
             "image_width": "25%",
             "heading": "Salud",
             "rich_text": "",
