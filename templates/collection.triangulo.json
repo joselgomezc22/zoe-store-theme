@@ -115,8 +115,8 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "CASUAL",
-        "collection": "casual",
+        "title": "TRIANGULO",
+        "collection": "triangulo",
         "carousel": false,
         "button": false,
         "button_text": "View all",
