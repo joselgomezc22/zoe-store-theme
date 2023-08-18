@@ -664,7 +664,7 @@
           "settings": {
             "image_width": "25%",
             "heading": "Rectangulo",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -675,7 +675,7 @@
           "settings": {
             "image_width": "25%",
             "heading": "Reloj de arena",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -686,7 +686,7 @@
           "settings": {
             "image_width": "25%",
             "heading": "Pera",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
@@ -697,7 +697,7 @@
           "settings": {
             "image_width": "25%",
             "heading": "Triangulo invertido",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
+            "rich_text": "",
             "button": "Explore",
             "link": "",
             "text_align": "left"
