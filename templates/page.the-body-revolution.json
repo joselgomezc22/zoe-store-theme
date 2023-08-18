@@ -482,7 +482,7 @@
         "19b50cb7-cbf1-435f-a3f3-c5f04c9a590d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/12_996a780a-4315-4072-b52c-b2fb498901c3.jpg",
+            "image": "shopify:\/\/shop_images\/simona-body-ropa-zoe-moda.jpg",
             "image_width": "25%",
             "heading": "Tipo halter",
             "rich_text": "",
@@ -666,6 +666,7 @@
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/simona-body-ropa-zoe-moda-tiendafisica.jpg",
             "image_width": "25%",
             "heading": "Rectangulo",
             "rich_text": "",
@@ -677,6 +678,7 @@
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/simona-body-ropa-zoe-moda-relojdearena-formadecuerpo.jpg",
             "image_width": "25%",
             "heading": "Reloj de arena",
             "rich_text": "",
@@ -688,6 +690,7 @@
         "template--20651994087738__50bd9a86-22ce-4fd7-85fe-48584d618c48-image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/simona-body-ropa-zoe-moda-formadelcuerpo.jpg",
             "image_width": "25%",
             "heading": "Pera",
             "rich_text": "",
@@ -699,8 +702,9 @@
         "0ca5a089-9cfb-4a48-86b5-f188ea7628a3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/simona-body-ropa-zoe-moda-rectangulo-formademicuerpo.jpg",
             "image_width": "25%",
-            "heading": "Triangulo invertido",
+            "heading": "Triangulo",
             "rich_text": "",
             "button": "Explore",
             "link": "",
