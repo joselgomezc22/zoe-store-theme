@@ -6,12 +6,12 @@
         "template--20685457260858__e1a53447-351c-431d-bd44-df6db9dee48f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/91_464ab90e-10f2-496d-ae28-90fa13cc15a9.jpg",
+            "image": "shopify:\/\/shop_images\/Colombia-moda-ropa-zoe-body-tipodecuello.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Casual-ropa-pinta-cena-picnic-amigas-connovio-zoe-tienda-fisica-online.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Colombia-moda-ropa-zoe-body-tipodecuello-redondo-v-cuadrado-halter.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -115,8 +115,8 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "CASUAL",
-        "collection": "casual",
+        "title": "Tipo halter",
+        "collection": "tipo-halter",
         "carousel": false,
         "button": false,
         "button_text": "View all",
