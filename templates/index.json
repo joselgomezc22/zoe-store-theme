@@ -1,48 +1,5 @@
 {
   "sections": {
-    "194f443c-fdc0-4d4f-a410-2ee3db50aafa": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16986105381178__194f443c-fdc0-4d4f-a410-2ee3db50aafa-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_6_362230ce-4ba8-47c1-8fdd-47ebf5806dcd.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Rompetrafico_mobile_4_99e475d8-7296-48c2-845a-d42cb865f3d7.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105381178__194f443c-fdc0-4d4f-a410-2ee3db50aafa-image-1"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "1651341173e18e2e00": {
       "type": "scrolling-announcements",
       "blocks": {
@@ -539,6 +496,49 @@
       ],
       "settings": {
         "full_width": false,
+        "section_padding": "both"
+      }
+    },
+    "194f443c-fdc0-4d4f-a410-2ee3db50aafa": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105381178__194f443c-fdc0-4d4f-a410-2ee3db50aafa-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_6_362230ce-4ba8-47c1-8fdd-47ebf5806dcd.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Rompetrafico_mobile_4_99e475d8-7296-48c2-845a-d42cb865f3d7.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105381178__194f443c-fdc0-4d4f-a410-2ee3db50aafa-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
         "section_padding": "both"
       }
     },
@@ -1211,7 +1211,6 @@
     }
   },
   "order": [
-    "194f443c-fdc0-4d4f-a410-2ee3db50aafa",
     "1651341173e18e2e00",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
@@ -1219,6 +1218,7 @@
     "09f587b4-4e2c-4505-8620-5b0aa1370879",
     "47a9dbb2-e0c2-4545-b858-daeae6ed2449",
     "1683726791de29782e",
+    "194f443c-fdc0-4d4f-a410-2ee3db50aafa",
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "bc4fbee7-6341-4959-a759-f1423af62006",
