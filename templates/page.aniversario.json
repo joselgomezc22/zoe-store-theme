@@ -6,7 +6,7 @@
         "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Colombia-bogota-ropa-zoe-revolucion-body.jpg",
+            "image": "shopify:\/\/shop_images\/aniversario-promociones-ropa-mujer.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -100,6 +100,7 @@
       "block_order": [
         "template--20651994087738__72f81d3c-457b-49ff-bdde-e9401e0d2e99-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -143,6 +144,7 @@
       "block_order": [
         "template--20651994087738__654f8c9e-b0cd-44b7-a964-5b81b70d66a9-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
