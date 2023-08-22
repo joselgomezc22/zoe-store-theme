@@ -44,12 +44,12 @@
         "2336dca6-006a-4970-b941-1d223bcd1725": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aniversario-promociones-ropa-mujer-ZOE.jpg",
+            "image": "shopify:\/\/shop_images\/aniversario-promociones-ropa-mujer.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 32,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/aniversario-promociones-ropa-mujer-zoe-3-anos.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/aniversario-descuentos-ropa-mujer.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
