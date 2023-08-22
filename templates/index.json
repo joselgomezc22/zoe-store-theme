@@ -41,6 +41,30 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "2336dca6-006a-4970-b941-1d223bcd1725": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aniversario-promociones-ropa-mujer-ZOE.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#acacac",
+            "caption_background": "transparent",
+            "caption_background_opacity": 10
+          }
+        },
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
           "type": "image",
           "settings": {
@@ -143,6 +167,7 @@
         }
       },
       "block_order": [
+        "2336dca6-006a-4970-b941-1d223bcd1725",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
         "da7a1b01-8668-4068-a8a3-967fe445c0b1",
