@@ -48,7 +48,7 @@
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
-            "caption_vertical": 100,
+            "caption_vertical": 88,
             "mobile_image": "shopify:\/\/shop_images\/aniversario-promociones-ropa-mujer-zoe-3-anos.jpg",
             "hide_caption_background": false,
             "caption_below": true,
@@ -59,10 +59,10 @@
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#000000",
-            "cta_color": "#000000",
-            "cta_background": "{{ shop.brand.colors.primary[0].foreground }}",
-            "cta_background_hover": "#727272",
-            "caption_background": "rgba(0,0,0,0)",
+            "cta_color": "{{ shop.brand.colors.primary[0].background }}",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "#000000",
             "caption_background_opacity": 10
           }
         },
