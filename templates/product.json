@@ -48,6 +48,7 @@
         },
         "d05957d4-8379-4896-90c4-cc26aa85d056": {
           "type": "discount-product",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este Body tu Earcuff con 50% de Dto -p-.",
             "file": "gift_box.jpg"
@@ -55,6 +56,7 @@
         },
         "7749ac3d-59d7-4da3-a17b-41df7c9e920d": {
           "type": "discount-collection",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este producto te regalamos $40,000 para la compra de cualquier body -c-.",
             "file": "gift_box.jpg"
