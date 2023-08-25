@@ -63,7 +63,6 @@
         },
         "d56dffc3-91b5-402f-939a-f5e3456837ec": {
           "type": "discount-product-atc",
-          "disabled": true,
           "settings": {
             "text": "Por la compra de este Body tu cinta mágica queda en solo $10.200  -v- .",
             "file": "gift_box.jpg"
