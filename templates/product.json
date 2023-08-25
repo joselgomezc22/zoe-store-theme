@@ -48,7 +48,6 @@
         },
         "d05957d4-8379-4896-90c4-cc26aa85d056": {
           "type": "discount-product",
-          "disabled": true,
           "settings": {
             "text": "Por la compra de este Body tu Earcuff Perlas Doradas y Blancas queda en solo $15.000 -p- .",
             "file": "gift_box.jpg"
@@ -64,6 +63,7 @@
         },
         "d56dffc3-91b5-402f-939a-f5e3456837ec": {
           "type": "discount-product-atc",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este Body tu cinta mágica queda en solo $10.200  -v- .",
             "file": "gift_box.jpg"
