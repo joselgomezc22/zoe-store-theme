@@ -102,7 +102,7 @@
         "border_bottom": false,
         "text_size": 20,
         "height": 49,
-        "color_scheme": "none",
+        "color_scheme": "cs1",
         "section_padding": "both"
       }
     },
