@@ -96,8 +96,8 @@
         "template--20704127451450__02b9e34e-380f-4756-b9fc-2ef60c58363f-text-3"
       ],
       "settings": {
-        "sa_grid": 3,
-        "slider_speed": 5,
+        "sa_grid": 2,
+        "slider_speed": 2,
         "border_top": false,
         "border_bottom": false,
         "text_size": 16,
