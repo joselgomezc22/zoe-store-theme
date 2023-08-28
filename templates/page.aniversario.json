@@ -100,8 +100,8 @@
         "slider_speed": 2,
         "border_top": false,
         "border_bottom": false,
-        "text_size": 16,
-        "height": 60,
+        "text_size": 20,
+        "height": 49,
         "color_scheme": "none",
         "section_padding": "both"
       }
