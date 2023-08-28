@@ -106,6 +106,29 @@
         "section_padding": "both"
       }
     },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "page_size": "full_width",
+        "sidebar_positon": "left"
+      }
+    },
+    "db01aff9-de6e-4e54-a3d3-661dd7e63be6": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "HASTA 60%",
+        "collection": "sale-oferta",
+        "carousel": true,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
     "9cab8c65-c515-44b0-bd8a-2f480d458fee": {
       "type": "scrolling-announcements",
       "blocks": {
@@ -144,22 +167,14 @@
         "section_padding": "both"
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "page_size": "full_width",
-        "sidebar_positon": "left"
-      }
-    },
-    "db01aff9-de6e-4e54-a3d3-661dd7e63be6": {
+    "d82f5390-b79d-4d40-abbf-2248bfd64a5f": {
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "HASTA 60%",
-        "collection": "sale-oferta",
-        "carousel": true,
-        "button": true,
+        "title": "BODIES 10%",
+        "collection": "bodies",
+        "carousel": false,
+        "button": false,
         "button_text": "View all",
         "grid": 4,
         "limit": 8,
@@ -302,35 +317,20 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
-    },
-    "d82f5390-b79d-4d40-abbf-2248bfd64a5f": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "BODIES 10%",
-        "collection": "bodies",
-        "carousel": false,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 8,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "02b9e34e-380f-4756-b9fc-2ef60c58363f",
-    "9cab8c65-c515-44b0-bd8a-2f480d458fee",
     "main",
     "db01aff9-de6e-4e54-a3d3-661dd7e63be6",
+    "9cab8c65-c515-44b0-bd8a-2f480d458fee",
+    "d82f5390-b79d-4d40-abbf-2248bfd64a5f",
     "6e66952e-74f4-4805-971b-e6e1ffdd4ae8",
     "8cb395bd-e8ee-491e-95d9-53dd50e75362",
     "dcc35e0d-8dcc-407d-a678-ef0e664d19e9",
     "8f78cd3f-21ff-42e6-b3cb-c30debf699c9",
     "3be9900f-c1fa-479a-9fac-95674d33bbeb",
-    "0bcb1300-65e1-4eaf-b7db-66f79d539b03",
-    "d82f5390-b79d-4d40-abbf-2248bfd64a5f"
+    "0bcb1300-65e1-4eaf-b7db-66f79d539b03"
   ]
 }
