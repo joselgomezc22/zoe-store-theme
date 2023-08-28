@@ -302,6 +302,21 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "d82f5390-b79d-4d40-abbf-2248bfd64a5f": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "BODIES 10%",
+        "collection": "bodies",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -315,6 +330,7 @@
     "dcc35e0d-8dcc-407d-a678-ef0e664d19e9",
     "8f78cd3f-21ff-42e6-b3cb-c30debf699c9",
     "3be9900f-c1fa-479a-9fac-95674d33bbeb",
-    "0bcb1300-65e1-4eaf-b7db-66f79d539b03"
+    "0bcb1300-65e1-4eaf-b7db-66f79d539b03",
+    "d82f5390-b79d-4d40-abbf-2248bfd64a5f"
   ]
 }
