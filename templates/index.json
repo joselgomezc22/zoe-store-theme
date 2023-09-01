@@ -43,6 +43,7 @@
       "blocks": {
         "2336dca6-006a-4970-b941-1d223bcd1725": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/aniversario-promociones-ropa-mujer.jpg",
             "overlay": false,
