@@ -114,27 +114,12 @@
         "section_padding": "both"
       }
     },
-    "d82f5390-b79d-4d40-abbf-2248bfd64a5f": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "NUEVA COLECCIÓN",
-        "collection": "oasis",
-        "carousel": false,
-        "button": false,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 8,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
     "db01aff9-de6e-4e54-a3d3-661dd7e63be6": {
       "type": "featured-collection",
       "settings": {
         "full_width": false,
         "title": "HASTA 60%",
-        "collection": "sale-oferta",
+        "collection": "oasis",
         "carousel": true,
         "button": true,
         "button_text": "View all",
@@ -149,7 +134,6 @@
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "main",
     "9cab8c65-c515-44b0-bd8a-2f480d458fee",
-    "d82f5390-b79d-4d40-abbf-2248bfd64a5f",
     "db01aff9-de6e-4e54-a3d3-661dd7e63be6"
   ]
 }
