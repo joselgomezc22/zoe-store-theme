@@ -128,12 +128,28 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "dfdd79a0-56f3-4380-b373-0d70e8ce2d1b": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "OASIS",
+        "collection": "oasis",
+        "carousel": false,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "main",
     "9cab8c65-c515-44b0-bd8a-2f480d458fee",
-    "db01aff9-de6e-4e54-a3d3-661dd7e63be6"
+    "db01aff9-de6e-4e54-a3d3-661dd7e63be6",
+    "dfdd79a0-56f3-4380-b373-0d70e8ce2d1b"
   ]
 }
