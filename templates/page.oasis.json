@@ -116,6 +116,7 @@
     },
     "db01aff9-de6e-4e54-a3d3-661dd7e63be6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "HASTA 60%",
