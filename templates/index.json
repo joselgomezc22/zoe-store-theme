@@ -91,6 +91,31 @@
             "caption_background_opacity": 50
           }
         },
+        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nueva-coleccion-mujer-ropa-descuentos-zoe-colombia_1.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 51,
+            "caption_vertical": 88,
+            "mobile_image": "shopify:\/\/shop_images\/Nueva-Coleccion-Prendas-Zoe-Colombia-1.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/oasis",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
           "type": "image",
           "settings": {
@@ -140,39 +165,14 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
-        },
-        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Nueva-coleccion-mujer-ropa-descuentos-zoe-colombia_1.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 51,
-            "caption_vertical": 88,
-            "mobile_image": "shopify:\/\/shop_images\/Nueva-Coleccion-Prendas-Zoe-Colombia-1.jpg",
-            "hide_caption_background": true,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/oasis",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
         }
       },
       "block_order": [
         "2336dca6-006a-4970-b941-1d223bcd1725",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
+        "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
-        "da7a1b01-8668-4068-a8a3-967fe445c0b1",
-        "4f8d7320-7770-4d72-a941-c477a5fd868c"
+        "da7a1b01-8668-4068-a8a3-967fe445c0b1"
       ],
       "settings": {
         "enable_autoplay": true,
