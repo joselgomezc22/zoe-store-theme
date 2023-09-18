@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "a7b38dbe-25b7-438b-9018-5c83a136eae3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nueva-Coleccion-Prendas-Zoe-Colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Nueva-Coleccion-Prendas-Zoe-Colombia-1.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "6e4f0b14-f738-472c-bdcb-a8f5760a35c5": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0",
+        "6e4f0b14-f738-472c-bdcb-a8f5760a35c5"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "page_size": "full_width",
+        "sidebar_positon": "left"
+      }
+    },
+    "9cab8c65-c515-44b0-bd8a-2f480d458fee": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Un viaje al interior<\/strong><\/p>"
+          }
+        },
+        "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Un viaje al interior<\/strong><\/p>"
+          }
+        },
+        "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Un viaje al interior<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-1",
+        "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-2",
+        "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-3"
+      ],
+      "settings": {
+        "sa_grid": 2,
+        "slider_speed": 2,
+        "border_top": false,
+        "border_bottom": true,
+        "text_size": 20,
+        "height": 49,
+        "color_scheme": "cs3",
+        "section_padding": "both"
+      }
+    },
+    "db01aff9-de6e-4e54-a3d3-661dd7e63be6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "title": "HASTA 60%",
+        "collection": "oasis",
+        "carousel": true,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "dfdd79a0-56f3-4380-b373-0d70e8ce2d1b": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "OASIS",
+        "collection": "oasis",
+        "carousel": false,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "a7b38dbe-25b7-438b-9018-5c83a136eae3",
+    "main",
+    "9cab8c65-c515-44b0-bd8a-2f480d458fee",
+    "db01aff9-de6e-4e54-a3d3-661dd7e63be6",
+    "dfdd79a0-56f3-4380-b373-0d70e8ce2d1b"
+  ]
+}
