@@ -82,7 +82,7 @@
         "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Un viaje al interior<\/strong><\/p>"
+            "text": "<p><strong>Body Del Mes<\/strong><\/p>"
           }
         },
         "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-2": {
@@ -94,7 +94,7 @@
         "template--20704127451450__9cab8c65-c515-44b0-bd8a-2f480d458fee-text-3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Un viaje al interior<\/strong><\/p>"
+            "text": "<p><strong>Body Del Mes<\/strong><\/p>"
           }
         }
       },
@@ -134,8 +134,8 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "OASIS",
-        "collection": "oasis",
+        "title": "Bianco",
+        "collection": "body-del-mes-bianco",
         "carousel": false,
         "button": true,
         "button_text": "View all",
