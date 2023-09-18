@@ -432,6 +432,7 @@
       "block_order": [
         "template--16986105381178__09f587b4-4e2c-4505-8620-5b0aa1370879-168899544298a6e0a4-0"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -460,6 +461,7 @@
       "block_order": [
         "template--16986105381178__47a9dbb2-e0c2-4545-b858-daeae6ed2449-1687649576f13c3474-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "RECIBE 15% DE DESCUENTO POR CONTAR TU EXPERIENCIA E INCLUIR UNA FOTO",
         "color_scheme": "none",
@@ -476,22 +478,10 @@
             "countdown_id": "Widget Id",
             "avada_cd_size": "medium"
           }
-        },
-        "b9749425-4f27-4604-a2c3-e566fd452005": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": true,
-            "product_handle": "copy-of-pantalon-para-mujer-estampado-tipo-palazzo-tiro-alto-prague-negro",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080
-          }
         }
       },
       "block_order": [
-        "e4e041be-392d-4083-a9f4-700cb3a62e9d",
-        "b9749425-4f27-4604-a2c3-e566fd452005"
+        "e4e041be-392d-4083-a9f4-700cb3a62e9d"
       ],
       "settings": {
         "full_width": false,
@@ -879,100 +869,6 @@
     },
     "1687647443766312cd": {
       "type": "apps",
-      "blocks": {
-        "213af690-a905-4013-8b41-710186dec501": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "body-escote-cruzado-cuello-bandeja-manga-larga-lauren-negro",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080
-          }
-        },
-        "781f79cc-4569-4790-aae7-b8e6e2442e85": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 8,
-            "itemsPerView": 4,
-            "maxNumberOfCharacters": 100,
-            "imageRatio": "0.72",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "itemBackgroundColor": "#ffffff",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "offset-dark",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
-          }
-        },
-        "8b599d21-5081-484f-8b09-ba3ef029d7de": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "max_width": 1920,
-            "text_color": "#000000",
-            "background_color": "#ffffff",
-            "arrows_color": "#000000",
-            "dots_color": "#000000",
-            "button_color": "#000000",
-            "show_more": true,
-            "only_photos": false,
-            "use_widget_font": true,
-            "product_handle": ""
-          }
-        },
-        "73dd9183-54bc-4a57-8690-2ca5e61fdbb1": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-referrals-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "max_width": 1100,
-            "layout": "with-photo",
-            "primary_color": "",
-            "text_color": "#000000",
-            "text_field_border_color": "#c9cdd4",
-            "background": ""
-          }
-        },
-        "a331e878-b0bc-4f57-9854-65b90d419213": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "maxWidth": 1100,
-            "desktopFontSize": 32,
-            "mobileFontSize": 20,
-            "maxNumberOfCharacters": 100,
-            "quoteMarkIcon": "style-1",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "starsColor": "",
-            "quotesIconColor": "#eaeaea",
-            "arrows_iconColor": "#000000",
-            "arrows_hideOnMobile": true,
-            "pagination_active": true,
-            "pagination_selectedDotColor": "#000000",
-            "pagination_dotColor": "#000000",
-            "autoplay_active": false,
-            "autoplay_duration": 2,
-            "productIds": ""
-          }
-        }
-      },
-      "block_order": [
-        "213af690-a905-4013-8b41-710186dec501",
-        "781f79cc-4569-4790-aae7-b8e6e2442e85",
-        "8b599d21-5081-484f-8b09-ba3ef029d7de",
-        "73dd9183-54bc-4a57-8690-2ca5e61fdbb1",
-        "a331e878-b0bc-4f57-9854-65b90d419213"
-      ],
       "settings": {
         "full_width": false,
         "section_padding": "both"
