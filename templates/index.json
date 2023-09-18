@@ -66,6 +66,31 @@
             "caption_background_opacity": 50
           }
         },
+        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bodydelmes-bodybianco-bodyconhombros-cocoa-bodymujer-zoe-tienda-ropamujerenbogota-earcuffgratis.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 94,
+            "mobile_image": "shopify:\/\/shop_images\/Banners_home_page_mobile_26_e7eda759-34f9-4570-b2c9-a6a4380ebe83.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "#quiz-ZAHLG5",
+            "button_text": "AQUÍ",
+            "second_link": "#quiz-ZAHLG5",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#acacac",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
           "settings": {
@@ -140,39 +165,14 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
-        },
-        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_home_page_PC_30_bade2961-479f-47c9-8ae1-def167b32973.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 94,
-            "mobile_image": "shopify:\/\/shop_images\/Banners_home_page_mobile_26_e7eda759-34f9-4570-b2c9-a6a4380ebe83.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "#quiz-ZAHLG5",
-            "button_text": "AQUÍ",
-            "second_link": "#quiz-ZAHLG5",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#000000",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#acacac",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
         }
       },
       "block_order": [
         "cdd6de33-d744-479c-9217-7dfde4da2790",
+        "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "2336dca6-006a-4970-b941-1d223bcd1725",
-        "da7a1b01-8668-4068-a8a3-967fe445c0b1",
-        "bbba10b7-b354-4bb3-9d81-f6a0043143c2"
+        "da7a1b01-8668-4068-a8a3-967fe445c0b1"
       ],
       "settings": {
         "enable_autoplay": true,
