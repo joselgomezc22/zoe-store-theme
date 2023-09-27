@@ -406,9 +406,9 @@
         "template--16986105381178__6c181b53-afea-4f75-b47b-a685ec0f36af-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Testimonio-de-clientes-reviwes-clientes-felices-zoe-tienda-mujer-2_941ffba3-217b-4f78-9aae-78be6c3e91cc.jpg",
+            "image": "shopify:\/\/shop_images\/Testimonio-de-clientes-reviwes-clientes-felices-zoe-tienda-mujer-3_cc9c74ab-7904-4111-935a-6790242c7829.jpg",
             "overlay": false,
-            "text_align": "left",
+            "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 50,
             "mobile_image": "shopify:\/\/shop_images\/Testimoniodeclientes-reviwes-clientesfelices-zoe-tienda-mujer.jpg",
@@ -425,13 +425,14 @@
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
             "caption_background": "{{ shop.brand.colors.primary[1].background }}",
-            "caption_background_opacity": 20
+            "caption_background_opacity": 10
           }
         }
       },
       "block_order": [
         "template--16986105381178__6c181b53-afea-4f75-b47b-a685ec0f36af-image-2"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -475,7 +476,7 @@
         "4609e334-9a4a-42ee-b4f3-dd4e4a02c4f7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-buenservicio-falda.jpg",
+            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -500,7 +501,7 @@
         "b7d10ebb-6816-49d1-a8b2-a4167eb64ded": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Reviews-tienda-ropa-zoe-mujer-bodies-clientefeliz-buenaopinion.jpg",
+            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
