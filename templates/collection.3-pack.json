@@ -359,29 +359,6 @@
         "section_padding": "both"
       }
     },
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "rich_text": "<p><\/p>",
-            "center": false,
-            "block_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105643322__4bc44561-a50e-4c9b-b408-ddc6ecf8925b-167001214880c27409-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Pantalones para mujer",
-        "color_scheme": "none",
-        "section_padding": "both"
-      }
-    },
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63": {
       "type": "image-gallery",
       "blocks": {
@@ -459,7 +436,6 @@
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "fd685562-29be-4f07-ad01-3917d9516297",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63"
   ]
 }
