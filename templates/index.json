@@ -476,7 +476,7 @@
         "4609e334-9a4a-42ee-b4f3-dd4e4a02c4f7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_2.jpg",
+            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -501,12 +501,11 @@
         "b7d10ebb-6816-49d1-a8b2-a4167eb64ded": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_1.jpg",
+            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_1.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
