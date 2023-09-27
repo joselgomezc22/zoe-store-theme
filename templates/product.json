@@ -63,6 +63,7 @@
         },
         "d56dffc3-91b5-402f-939a-f5e3456837ec": {
           "type": "discount-product-atc",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este Body tu cinta mágica queda en solo $15.000  -v- .",
             "file": "gift_box.jpg"
@@ -169,21 +170,6 @@
     },
     "loox-product-reviews-app-section": {
       "type": "apps",
-      "blocks": {
-        "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "loox-product-reviews"
-      ],
       "settings": {
         "full_width": false,
         "section_padding": "both"
