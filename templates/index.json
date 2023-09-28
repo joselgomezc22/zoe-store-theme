@@ -263,7 +263,7 @@
         "057649ca-c8b0-4833-8ecf-b175a337a13e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_48046382-afbe-4a3e-999c-6d229c324911.jpg",
+            "image": "shopify:\/\/shop_images\/Chaquetas-para-mujer-zoe-colombia.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/chaquetas",
             "heading": "",
@@ -271,8 +271,8 @@
             "button": "Chaquetas",
             "overlay_opacity": 0,
             "text_color": "#ffffff",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
             "vertical_position": 14,
             "horizontal_position": 50,
             "align_text": "left"
