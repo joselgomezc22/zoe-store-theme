@@ -191,7 +191,7 @@
         "1625752962aa2a6ebb-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_a2c8a758-a4dd-4c67-a36d-2534cd48b976.jpg",
+            "image": "shopify:\/\/shop_images\/Bodies-para-mujer-zoe-colombia.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/bodies",
             "heading": "",
@@ -199,8 +199,8 @@
             "button": "Bodies",
             "overlay_opacity": 0,
             "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#0b0b0b",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
             "vertical_position": 20,
             "horizontal_position": 50,
             "align_text": "center"
