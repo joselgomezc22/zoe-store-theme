@@ -245,16 +245,16 @@
         "9e905f30-8cb4-4acd-89ae-18ac0c1e47ac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/botas-mujer-negro-cana-media.jpg",
+            "image": "shopify:\/\/shop_images\/accesorios-de-moda-para_mujer.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/zapatos",
             "heading": "",
             "text": "",
-            "button": "Zapatos",
+            "button": "Accesorios",
             "overlay_opacity": 0,
             "text_color": "#ffffff",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
             "vertical_position": 16,
             "horizontal_position": 50,
             "align_text": "center"
