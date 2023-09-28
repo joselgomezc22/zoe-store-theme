@@ -227,7 +227,7 @@
         "1625752962aa2a6ebb-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_b0a47de2-3eee-442a-8777-0071749a574b.jpg",
+            "image": "shopify:\/\/shop_images\/Blusas-para-mujer-zoe-colombia.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/blusas",
             "heading": "",
@@ -235,8 +235,8 @@
             "button": "Blusas",
             "overlay_opacity": 0,
             "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
             "vertical_position": 20,
             "horizontal_position": 50,
             "align_text": "center"
