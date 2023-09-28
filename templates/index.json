@@ -281,7 +281,7 @@
         "8b2dd955-dcd0-4c72-b61d-55fcb58e76bc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_c3bbdd4f-324d-4f65-a545-d931448a08c0.jpg",
+            "image": "shopify:\/\/shop_images\/Pantalones-para-mujer-zoe-colombia.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/pantalones",
             "heading": "",
@@ -289,8 +289,8 @@
             "button": "Pantalones",
             "overlay_opacity": 0,
             "text_color": "#ffffff",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
             "vertical_position": 14,
             "horizontal_position": 50,
             "align_text": "left"
