@@ -209,7 +209,7 @@
         "1625752962aa2a6ebb-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_6412e3ea-6cb1-44ce-98ec-fbc45711c878.jpg",
+            "image": "shopify:\/\/shop_images\/Sueter-saco-para_mujer-zoe-colombia.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/sacos",
             "heading": "",
@@ -217,8 +217,8 @@
             "button": "Suéteres",
             "overlay_opacity": 0,
             "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#000000",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
             "vertical_position": 20,
             "horizontal_position": 50,
             "align_text": "center"
