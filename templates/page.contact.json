@@ -31,6 +31,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "title": "Contact Us",
         "cf_max_width": 900,
