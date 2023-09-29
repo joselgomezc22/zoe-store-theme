@@ -137,7 +137,6 @@
     },
     "86105da5-8a65-4d86-8865-6da74da4ca7c": {
       "type": "shop-the-look",
-      "disabled": true,
       "blocks": {
         "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-0": {
           "type": "image",
@@ -223,6 +222,7 @@
         "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-1",
         "template--14436392861780__86105da5-8a65-4d86-8865-6da74da4ca7c-16675218119259a258-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Shop the Look",
@@ -231,7 +231,6 @@
     },
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-0": {
           "type": "testimonial",
@@ -263,6 +262,7 @@
         "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-1",
         "template--14436392861780__2d36f1f6-0ae2-4726-9cfd-fa56629768bf-1667522188835743a3-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "color_scheme": "none",
@@ -271,7 +271,6 @@
     },
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0": {
           "type": "text",
@@ -286,6 +285,7 @@
       "block_order": [
         "template--16986105643322__8fb7457f-4efd-4a7b-ad4e-4cc7739ce365-1668704585b5834c4c-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "COMPRA POR OCASIÓN",
         "color_scheme": "none",
@@ -320,7 +320,7 @@
         "template--17133171704122__daed8061-8c78-4ba5-8e92-87b72bfdcac3-1685711263d27684da-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/almalibre-colombia-ropa-moda-mujer-nuevacoleccion_709df557-6cbf-42b8-8b11-1e5082005494.jpg",
+            "image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
@@ -330,7 +330,7 @@
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/alma-libre",
+            "link": "shopify:\/\/pages\/oasis",
             "button_text": "Comprar",
             "second_link": "",
             "second_button_text": "",
