@@ -103,6 +103,7 @@
     },
     "16281162861b62e38b": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Subscribe to our newsletter",
         "newsletter_subheading": "<p>Use overlay text to give your Join our mailing list - no spam!<\/p>",
