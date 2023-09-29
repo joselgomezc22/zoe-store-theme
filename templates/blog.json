@@ -118,6 +118,7 @@
         "collection3",
         "collection4"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
