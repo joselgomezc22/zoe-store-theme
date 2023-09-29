@@ -112,6 +112,28 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "9c32d181-aa29-4927-82ce-8d62197b8e52": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16986105053498__9c32d181-aa29-4927-82ce-8d62197b8e52-text-1": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "rich_text": "<p>Para contactarte con nosotros escríbenos a hello@zoestore.co<\/p>",
+            "center": false,
+            "block_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105053498__9c32d181-aa29-4927-82ce-8d62197b8e52-text-1"
+      ],
+      "settings": {
+        "title": "CORREO DE CONTACTO",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -119,6 +141,7 @@
     "main",
     "form",
     "1628116181ed38b1a0",
-    "16281162861b62e38b"
+    "16281162861b62e38b",
+    "9c32d181-aa29-4927-82ce-8d62197b8e52"
   ]
 }
