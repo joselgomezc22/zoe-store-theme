@@ -118,7 +118,6 @@
         },
         "2336dca6-006a-4970-b941-1d223bcd1725": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/faldalaia-tienda-ropa-nuevacoleccion-oasis-zoe-mujer-falda-estampado-jaguar-print.jpg",
             "overlay": false,
@@ -130,7 +129,7 @@
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/simona-pomona",
+            "link": "shopify:\/\/collections\/oasis",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "Button 2 text",
