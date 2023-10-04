@@ -118,6 +118,7 @@
         },
         "2336dca6-006a-4970-b941-1d223bcd1725": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Zoe-tienda-amoryamistad-celebracion-packx3-bodies-promocion-simona-oslo-solid.jpg",
             "overlay": false,
