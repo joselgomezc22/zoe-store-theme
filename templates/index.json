@@ -444,6 +444,72 @@
         "section_padding": "both"
       }
     },
+    "df8abd17-8c40-47ba-ae70-87c73cba3ee9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105381178__df8abd17-8c40-47ba-ae70-87c73cba3ee9-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rompe_traficos_mas_chiquito.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.primary[0].foreground }}",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--16986105381178__df8abd17-8c40-47ba-ae70-87c73cba3ee9-image-2": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105381178__df8abd17-8c40-47ba-ae70-87c73cba3ee9-image-1",
+        "template--16986105381178__df8abd17-8c40-47ba-ae70-87c73cba3ee9-image-2"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "09f587b4-4e2c-4505-8620-5b0aa1370879": {
       "type": "slideshow",
       "blocks": {
@@ -1328,6 +1394,7 @@
     "1625752962aa2a6ebb",
     "9363cd3b-3c41-4d23-a64b-d84306c44a09",
     "6c181b53-afea-4f75-b47b-a685ec0f36af",
+    "df8abd17-8c40-47ba-ae70-87c73cba3ee9",
     "09f587b4-4e2c-4505-8620-5b0aa1370879",
     "47a9dbb2-e0c2-4545-b858-daeae6ed2449",
     "1683726791de29782e",
