@@ -1200,6 +1200,47 @@
         "cta_size": 12,
         "section_padding": "both"
       }
+    },
+    "89783a47-b7fc-4f1e-8e8b-2180c3c17dcb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105381178__89783a47-b7fc-4f1e-8e8b-2180c3c17dcb-image-2": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105381178__89783a47-b7fc-4f1e-8e8b-2180c3c17dcb-image-2"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -1224,6 +1265,7 @@
     "a0bbcb16-c9b9-4c30-ab3d-2e080db8b55b",
     "1652212680a3b36e24",
     "df414f78-9548-4fcf-afb0-f41bc5f95ec4",
-    "f6d14bed-668d-4d37-8768-5ef0124698fe"
+    "f6d14bed-668d-4d37-8768-5ef0124698fe",
+    "89783a47-b7fc-4f1e-8e8b-2180c3c17dcb"
   ]
 }
