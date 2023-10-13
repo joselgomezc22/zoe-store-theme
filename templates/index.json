@@ -476,12 +476,12 @@
         "b7d10ebb-6816-49d1-a8b2-a4167eb64ded": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_2_1de62b04-9ee0-4532-88c8-96833ed9ccf4.jpg",
+            "image": "shopify:\/\/shop_images\/5_eab84459-61e0-41ac-bc81-3a215712cffd.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_2_1de62b04-9ee0-4532-88c8-96833ed9ccf4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2_7c826832-a448-4f7d-8b32-7ca40eb12bc7.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -501,12 +501,12 @@
         "4609e334-9a4a-42ee-b4f3-dd4e4a02c4f7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_1_352125b4-d3dd-4aaf-958e-48c0d8b029fd.jpg",
+            "image": "shopify:\/\/shop_images\/7_52ce9328-5f59-41de-a6c0-7d09d2ab8643.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Reviews-ropa-tienda-clientesfelices-satisfecho-cincoestrellas-zoe-colombia_1_352125b4-d3dd-4aaf-958e-48c0d8b029fd.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3_93135196-9b41-4535-831a-b2058fc98753.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -522,12 +522,64 @@
             "caption_background": "{{ shop.brand.colors.primary[1].background }}",
             "caption_background_opacity": 20
           }
+        },
+        "9ce79636-15cf-4b5a-b535-b2c4b1cfea0c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_636cae8d-0d4b-4db4-a3ac-e891711fd296.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/4_8851639e-14ec-4964-ab97-469a3e7dc57b.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "{{ shop.brand.colors.primary[1].background }}",
+            "cta_color": "{{ shop.brand.colors.primary[1].background }}",
+            "cta_background": "{{ shop.brand.colors.primary[1].background }}",
+            "cta_background_hover": "{{ shop.brand.colors.primary[1].background }}",
+            "caption_background": "{{ shop.brand.colors.primary[0].foreground }}",
+            "caption_background_opacity": 20
+          }
+        },
+        "1888caad-1af8-46c5-92cb-c5a2d301d1d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_7bc57b40-b3ee-43b7-bf45-d9b40cf88e23.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/6_449ce601-b309-4972-902e-fa79a9c7ef5b.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.primary[0].foreground }}",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
         "template--16986105381178__09f587b4-4e2c-4505-8620-5b0aa1370879-168899544298a6e0a4-0",
         "b7d10ebb-6816-49d1-a8b2-a4167eb64ded",
-        "4609e334-9a4a-42ee-b4f3-dd4e4a02c4f7"
+        "4609e334-9a4a-42ee-b4f3-dd4e4a02c4f7",
+        "9ce79636-15cf-4b5a-b535-b2c4b1cfea0c",
+        "1888caad-1af8-46c5-92cb-c5a2d301d1d7"
       ],
       "settings": {
         "enable_autoplay": false,
