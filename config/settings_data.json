@@ -1085,7 +1085,7 @@
     "quickview": true,
     "show_colors": false,
     "show_sizes": false,
-    "show_quick_add": true,
+    "show_quick_add": false,
     "vendor": false,
     "show_rating": true,
     "icon_shape": "rectangle",
