@@ -41,6 +41,31 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "2336dca6-006a-4970-b941-1d223bcd1725": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Envio-gratis-med-medellin-antioquia.porunasemana.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 92,
+            "mobile_image": "shopify:\/\/shop_images\/Enviogratis-medellin-porunasemana-free.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/oasis",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#acacac",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
           "settings": {
@@ -116,31 +141,6 @@
             "caption_background_opacity": 20
           }
         },
-        "2336dca6-006a-4970-b941-1d223bcd1725": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Envio-gratis-med-medellin-antioquia.porunasemana.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 92,
-            "mobile_image": "shopify:\/\/shop_images\/Enviogratis-medellin-porunasemana-free.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/oasis",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#000000",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#acacac",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
-        },
         "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
           "type": "image",
           "settings": {
@@ -168,10 +168,10 @@
         }
       },
       "block_order": [
+        "2336dca6-006a-4970-b941-1d223bcd1725",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
-        "2336dca6-006a-4970-b941-1d223bcd1725",
         "da7a1b01-8668-4068-a8a3-967fe445c0b1"
       ],
       "settings": {
