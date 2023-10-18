@@ -94,12 +94,12 @@
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/semana-receso-zoe-promocion-15-descuento.jpg",
+            "image": "shopify:\/\/shop_images\/pack-3_-halloween-zoe-marca-colombiana.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
-            "caption_vertical": 91,
-            "mobile_image": "shopify:\/\/shop_images\/semana-receso-zoe-promocion-15-descuento-2.jpg",
+            "caption_vertical": 95,
+            "mobile_image": "shopify:\/\/shop_images\/pack-3-hallowen-mujer-zoe-colombia.jpg",
             "hide_caption_background": true,
             "caption_below": true,
             "heading": "",
