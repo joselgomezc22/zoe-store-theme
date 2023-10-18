@@ -41,6 +41,31 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "cdd6de33-d744-479c-9217-7dfde4da2790": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pack-3_-halloween-zoe-marca-colombiana.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 95,
+            "mobile_image": "shopify:\/\/shop_images\/pack-3-hallowen-mujer-zoe-colombia.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "https:\/\/zoestore.co\/collections\/simona-pomona",
+            "button_text": "COMPRAR",
+            "second_link": "https:\/\/zoestore.co\/collections\/simona-pomona",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#ffffff",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 50
+          }
+        },
         "2336dca6-006a-4970-b941-1d223bcd1725": {
           "type": "image",
           "settings": {
@@ -89,31 +114,6 @@
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
-          }
-        },
-        "cdd6de33-d744-479c-9217-7dfde4da2790": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pack-3_-halloween-zoe-marca-colombiana.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 95,
-            "mobile_image": "shopify:\/\/shop_images\/pack-3-hallowen-mujer-zoe-colombia.jpg",
-            "hide_caption_background": true,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "https:\/\/zoestore.co\/collections\/simona-pomona",
-            "button_text": "COMPRAR",
-            "second_link": "https:\/\/zoestore.co\/collections\/simona-pomona",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#000000",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#ffffff",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 50
           }
         },
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
@@ -168,9 +168,9 @@
         }
       },
       "block_order": [
+        "cdd6de33-d744-479c-9217-7dfde4da2790",
         "2336dca6-006a-4970-b941-1d223bcd1725",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
-        "cdd6de33-d744-479c-9217-7dfde4da2790",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "da7a1b01-8668-4068-a8a3-967fe445c0b1"
       ],
