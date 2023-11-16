@@ -59,11 +59,11 @@
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#ffffff",
-            "cta_color": "#000000",
-            "cta_background": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
             "cta_background_hover": "#ffffff",
             "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 50
+            "caption_background_opacity": 70
           }
         },
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
