@@ -93,6 +93,7 @@
         },
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Packx3-bodies-promocion-ropa-bodysuit-colores-cuerpo-zoe-tienda-Colombia.jpg",
             "overlay": false,
