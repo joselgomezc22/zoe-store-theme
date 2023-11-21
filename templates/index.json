@@ -41,31 +41,6 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
-        "cdd6de33-d744-479c-9217-7dfde4da2790": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Promocion-mujer-bodies-de-moda.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 84,
-            "caption_vertical": 95,
-            "mobile_image": "shopify:\/\/shop_images\/Promocion-mujer-bodies-de-moda-1.jpg",
-            "hide_caption_background": true,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/bodies",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#ffffff",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 70
-          }
-        },
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
           "type": "image",
           "settings": {
@@ -89,6 +64,31 @@
             "cta_background_hover": "#acacac",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
+          }
+        },
+        "cdd6de33-d744-479c-9217-7dfde4da2790": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Promocion-mujer-bodies-de-moda.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 84,
+            "caption_vertical": 95,
+            "mobile_image": "shopify:\/\/shop_images\/Promocion-mujer-bodies-de-moda-1.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/bodies",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#ffffff",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 70
           }
         },
         "2336dca6-006a-4970-b941-1d223bcd1725": {
@@ -168,8 +168,8 @@
         }
       },
       "block_order": [
-        "cdd6de33-d744-479c-9217-7dfde4da2790",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
+        "cdd6de33-d744-479c-9217-7dfde4da2790",
         "2336dca6-006a-4970-b941-1d223bcd1725",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "da7a1b01-8668-4068-a8a3-967fe445c0b1"
