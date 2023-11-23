@@ -1,7 +1,51 @@
 {
   "sections": {
+    "164a4670-4199-45d5-b4fa-ff0732e7c31c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17133187137850__164a4670-4199-45d5-b4fa-ff0732e7c31c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coleccion-mujer-vestidos-faldas-molgoa-colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Coleccion-mujer-vestidos-faldas-molgoa-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--17133187137850__164a4670-4199-45d5-b4fa-ff0732e7c31c-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "display_wide": true,
         "image": "shopify:\/\/shop_images\/Vestidos-faldas-mujer-hecho-colombia.jpg"
@@ -383,6 +427,7 @@
     }
   },
   "order": [
+    "164a4670-4199-45d5-b4fa-ff0732e7c31c",
     "banner",
     "main",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
