@@ -1285,6 +1285,15 @@
         "cta_size": 14,
         "section_padding": "both"
       }
+    },
+    "6c3b871e-c055-4c16-9e5d-e083f6d31c2c": {
+      "type": "video",
+      "settings": {
+        "title": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=y4kDHf4fI8s",
+        "description": "Describe the video for customers using screen readers",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -1311,6 +1320,7 @@
     "f6d14bed-668d-4d37-8768-5ef0124698fe",
     "7ff6963a-0893-4d5f-9bc4-6f6a2cdb8845",
     "df8abd17-8c40-47ba-ae70-87c73cba3ee9",
-    "09f587b4-4e2c-4505-8620-5b0aa1370879"
+    "09f587b4-4e2c-4505-8620-5b0aa1370879",
+    "6c3b871e-c055-4c16-9e5d-e083f6d31c2c"
   ]
 }
