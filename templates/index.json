@@ -6,19 +6,19 @@
         "11c3d5e3-fe65-480b-b7d2-3a56027963db": {
           "type": "text",
           "settings": {
-            "text": "<p>Compra hoy, recibe hoy<\/p>"
+            "text": "<p>20% OFF en toda la tienda<\/p>"
           }
         },
         "1651341173c6b66629-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Compra hoy y paga a 3 CUOTAS<\/p>"
+            "text": "<p>30% OFF por compras sup a $400.000<\/p>"
           }
         },
         "1651341173c6b66629-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Pagas cuando recibes <strong> <\/strong><\/p>"
+            "text": "<p>Paga a 3 cuotas con 0 intereses<\/p>"
           }
         }
       },
