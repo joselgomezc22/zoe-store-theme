@@ -616,6 +616,15 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "be98eeaa-0fb4-4332-9d83-b84dde863bf2": {
+      "type": "video",
+      "settings": {
+        "title": "EL REGALO PERFECTO",
+        "video_url": "https:\/\/youtu.be\/IiYiIt9TwIQ",
+        "description": "Describe the video for customers using screen readers",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -630,6 +639,7 @@
     "e29df98b-d6e6-452f-8473-0c104b67ea73",
     "91180802-2590-427a-afd6-58fd49ec5e01",
     "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
-    "cd4a03f7-073b-44a8-8b97-a73ce5506f63"
+    "cd4a03f7-073b-44a8-8b97-a73ce5506f63",
+    "be98eeaa-0fb4-4332-9d83-b84dde863bf2"
   ]
 }
