@@ -365,12 +365,12 @@
         "template--16986105381178__9363cd3b-3c41-4d23-a64b-d84306c44a09-16859744625180a500-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF_jpg.jpg",
+            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 55,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF_jpg.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
