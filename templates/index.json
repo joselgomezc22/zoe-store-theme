@@ -975,26 +975,26 @@
         "template--16986105381178__df414f78-9548-4fcf-afb0-f41bc5f95ec4-1674669501ea681095-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cambios-garantias-ropa-tienda-zoe-devoluciones.jpg",
+            "image": "shopify:\/\/shop_images\/Cambios-devoluciones-molgoa-marca-colombiana.jpg",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 49,
-            "caption_vertical": 89,
-            "mobile_image": "shopify:\/\/shop_images\/Cambios-garantias-ropa-tienda-zoe-devoluciones.jpg",
+            "caption_horizontal": 51,
+            "caption_vertical": 96,
+            "mobile_image": "shopify:\/\/shop_images\/Cambios-devoluciones-molgoa-marca-colombiana_1.jpg",
             "hide_caption_background": true,
             "caption_below": true,
             "heading": "",
-            "subheading": "<p><a href=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/edit\" title=\"https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/edit\">ENTRA AQUÍ<\/a><\/p>",
+            "subheading": "",
             "link": "https:\/\/docs.google.com\/forms\/d\/1fT3pmeiZpJR5mvSfonDjWl3qrvL34eCf71cihHtPhlI\/edit",
-            "button_text": "",
+            "button_text": "ENTRA AQUÍ",
             "second_link": "",
             "second_button_text": "",
-            "slide_text_color": "#ffffff",
+            "slide_text_color": "rgba(0,0,0,0)",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "{{ shop.brand.colors.secondary[0].foreground }}",
-            "caption_background_opacity": 100
+            "cta_background_hover": "rgba(0,0,0,0)",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 10
           }
         },
         "template--16986105381178__df414f78-9548-4fcf-afb0-f41bc5f95ec4-1674669501ea681095-1": {
