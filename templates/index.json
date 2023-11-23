@@ -1,5 +1,24 @@
 {
   "sections": {
+    "1683726791de29782e": {
+      "type": "apps",
+      "blocks": {
+        "e4e041be-392d-4083-a9f4-700cb3a62e9d": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-countdown-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "settings": {
+            "countdown_id": "Widget Id",
+            "avada_cd_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "e4e041be-392d-4083-a9f4-700cb3a62e9d"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both"
+      }
+    },
     "1651341173e18e2e00": {
       "type": "scrolling-announcements",
       "blocks": {
@@ -470,26 +489,6 @@
         "title": "RECIBE 15% DE DESCUENTO POR CONTAR TU EXPERIENCIA E INCLUIR UNA FOTO",
         "color_scheme": "none",
         "section_padding": "none"
-      }
-    },
-    "1683726791de29782e": {
-      "type": "apps",
-      "blocks": {
-        "e4e041be-392d-4083-a9f4-700cb3a62e9d": {
-          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-countdown-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
-          "disabled": true,
-          "settings": {
-            "countdown_id": "Widget Id",
-            "avada_cd_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "e4e041be-392d-4083-a9f4-700cb3a62e9d"
-      ],
-      "settings": {
-        "full_width": false,
-        "section_padding": "both"
       }
     },
     "194f443c-fdc0-4d4f-a410-2ee3db50aafa": {
@@ -1301,13 +1300,13 @@
     }
   },
   "order": [
+    "1683726791de29782e",
     "1651341173e18e2e00",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
     "9363cd3b-3c41-4d23-a64b-d84306c44a09",
     "6c181b53-afea-4f75-b47b-a685ec0f36af",
     "47a9dbb2-e0c2-4545-b858-daeae6ed2449",
-    "1683726791de29782e",
     "194f443c-fdc0-4d4f-a410-2ee3db50aafa",
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
