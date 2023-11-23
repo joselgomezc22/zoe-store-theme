@@ -338,12 +338,12 @@
         "template--16986105381178__9363cd3b-3c41-4d23-a64b-d84306c44a09-16859744625180a500-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
+            "image": "shopify:\/\/shop_images\/Nueva-Coleccion-Oasis-Molgoa-Viaje-al-interior-1.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
-            "caption_vertical": 84,
-            "mobile_image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
+            "caption_vertical": 96,
+            "mobile_image": "shopify:\/\/shop_images\/Nueva-Coleccion-Oasis-Molgoa-Viaje-al-interior-1.jpg",
             "hide_caption_background": true,
             "caption_below": true,
             "heading": "",
