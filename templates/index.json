@@ -677,6 +677,15 @@
         "section_padding": "both"
       }
     },
+    "6c3b871e-c055-4c16-9e5d-e083f6d31c2c": {
+      "type": "video",
+      "settings": {
+        "title": "Video",
+        "video_url": "https:\/\/youtu.be\/IiYiIt9TwIQ",
+        "description": "Describe the video for customers using screen readers",
+        "section_padding": "both"
+      }
+    },
     "1625752966582d2e67": {
       "type": "featured-collection",
       "settings": {
@@ -757,6 +766,16 @@
         "slide_heading_size": 22,
         "subheading_size": 14,
         "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "1652212680a3b36e24": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "title": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "Describe the video for customers using screen readers",
         "section_padding": "both"
       }
     },
@@ -956,16 +975,6 @@
         "slide_heading_size": 22,
         "subheading_size": 14,
         "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
-    "1652212680a3b36e24": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "title": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "Describe the video for customers using screen readers",
         "section_padding": "both"
       }
     },
@@ -1285,15 +1294,6 @@
         "cta_size": 14,
         "section_padding": "both"
       }
-    },
-    "6c3b871e-c055-4c16-9e5d-e083f6d31c2c": {
-      "type": "video",
-      "settings": {
-        "title": "Video",
-        "video_url": "https:\/\/youtu.be\/IiYiIt9TwIQ",
-        "description": "Describe the video for customers using screen readers",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -1308,19 +1308,19 @@
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "bc4fbee7-6341-4959-a759-f1423af62006",
+    "6c3b871e-c055-4c16-9e5d-e083f6d31c2c",
     "1625752966582d2e67",
     "a3a04735-fce8-4db0-901d-e1e29907df80",
+    "1652212680a3b36e24",
     "16522107484f6b2502",
     "57ed3583-e547-455c-8fb3-546f2524a5ed",
     "1687647443766312cd",
     "1628115108645bdee6",
     "a0bbcb16-c9b9-4c30-ab3d-2e080db8b55b",
-    "1652212680a3b36e24",
     "df414f78-9548-4fcf-afb0-f41bc5f95ec4",
     "f6d14bed-668d-4d37-8768-5ef0124698fe",
     "7ff6963a-0893-4d5f-9bc4-6f6a2cdb8845",
     "df8abd17-8c40-47ba-ae70-87c73cba3ee9",
-    "09f587b4-4e2c-4505-8620-5b0aa1370879",
-    "6c3b871e-c055-4c16-9e5d-e083f6d31c2c"
+    "09f587b4-4e2c-4505-8620-5b0aa1370879"
   ]
 }
