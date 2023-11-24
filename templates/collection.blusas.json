@@ -299,6 +299,7 @@
       "blocks": {
         "template--17132172247354__9e612b45-efc3-4f3b-aba0-5fb57e06bc24-1685711263d27684da-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
             "overlay": false,
