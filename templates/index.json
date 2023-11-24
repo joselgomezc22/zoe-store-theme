@@ -37,7 +37,7 @@
         "1651341173c6b66629-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Paga a 3 cuotas con 0 intereses<\/p>"
+            "text": "<p>Los tiempos de entrega pueden extenderse en Black Days<\/p>"
           }
         }
       },
@@ -60,6 +60,31 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ultimosdias-blackdays-promo-losmejoresdescuentos-delano-promociones-tienda-20_off.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 51,
+            "caption_vertical": 88,
+            "mobile_image": "shopify:\/\/shop_images\/Ultimosdias-blackdays-promo-losmejoresdescuentos-delano-promociones-tienda.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR AQUÍ",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#222222",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
           "type": "image",
           "settings": {
@@ -87,6 +112,7 @@
         },
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Promocion-mujer-bodies-de-moda.jpg",
             "overlay": false,
@@ -137,6 +163,7 @@
         },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Nueva-Coleccion-Oasis-Marca-Colombiana-Promocion-1_1.jpg",
             "overlay": false,
@@ -159,40 +186,14 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
-        },
-        "da7a1b01-8668-4068-a8a3-967fe445c0b1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ultimosdias-blackdays-promo-losmejoresdescuentos-delano-promociones-tienda-20_off.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 51,
-            "caption_vertical": 88,
-            "mobile_image": "shopify:\/\/shop_images\/Ultimosdias-blackdays-promo-losmejoresdescuentos-delano-promociones-tienda.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "COMPRAR AQUÍ",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#222222",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
         }
       },
       "block_order": [
+        "da7a1b01-8668-4068-a8a3-967fe445c0b1",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
         "2336dca6-006a-4970-b941-1d223bcd1725",
-        "4f8d7320-7770-4d72-a941-c477a5fd868c",
-        "da7a1b01-8668-4068-a8a3-967fe445c0b1"
+        "4f8d7320-7770-4d72-a941-c477a5fd868c"
       ],
       "settings": {
         "enable_autoplay": true,
@@ -357,6 +358,7 @@
       "blocks": {
         "template--16986105381178__9363cd3b-3c41-4d23-a64b-d84306c44a09-16859744625180a500-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Nueva-Coleccion-Oasis-Molgoa-Viaje-al-interior-1.jpg",
             "overlay": false,
@@ -382,7 +384,6 @@
         },
         "template--16986105381178__9363cd3b-3c41-4d23-a64b-d84306c44a09-16859744625180a500-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "overlay": false,
