@@ -1,10 +1,79 @@
 {
   "sections": {
+    "4a946df1-4f2d-4d3d-b77a-1a1030eae3d7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF_jpg.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/pages\/oasis",
+            "button_text": "Comprar",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#ffffff",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0",
+        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
       "settings": {
-        "display_wide": true
+        "display_wide": true,
+        "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF_jpg.jpg"
       }
     },
     "main": {
@@ -223,74 +292,6 @@
         "section_padding": "both"
       }
     },
-    "4a946df1-4f2d-4d3d-b77a-1a1030eae3d7": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/pages\/oasis",
-            "button_text": "Comprar",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "{{ shop.brand.colors.secondary[0].foreground }}",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#ffffff",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
-        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0",
-        "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-1"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "91180802-2590-427a-afd6-58fd49ec5e01": {
       "type": "slideshow",
       "blocks": {
@@ -451,12 +452,12 @@
     }
   },
   "order": [
+    "4a946df1-4f2d-4d3d-b77a-1a1030eae3d7",
     "banner",
     "main",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
-    "4a946df1-4f2d-4d3d-b77a-1a1030eae3d7",
     "91180802-2590-427a-afd6-58fd49ec5e01",
     "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63"
