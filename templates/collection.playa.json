@@ -1,5 +1,26 @@
 {
   "sections": {
+    "a8606444-844c-419a-a5e2-a8a60516142d": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF_jpg.jpg",
+        "scale": 2,
+        "page_height": 400,
+        "title": "",
+        "subheading": "",
+        "button_text": "",
+        "link": "",
+        "overlay_opacity": 0,
+        "text_color": "#000",
+        "button_text_color": "#fff",
+        "button_color": "#000",
+        "background": "rgba(0,0,0,0)",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "text_align": "center",
+        "section_padding": "both"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -51,6 +72,7 @@
         },
         "2df72596-5d75-484b-bae1-7e104a9e0705": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "link": ""
@@ -391,6 +413,7 @@
     }
   },
   "order": [
+    "a8606444-844c-419a-a5e2-a8a60516142d",
     "banner",
     "main",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
