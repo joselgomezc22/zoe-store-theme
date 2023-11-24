@@ -6,7 +6,7 @@
         "template--17133191332154__277069ef-7a71-4cc1-893c-7b1a383594d2-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Chaquetas-mujer-coleccion-molgoa-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -24,7 +24,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -48,7 +48,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -298,7 +298,7 @@
         "template--17133191332154__0e2f98db-eeaf-4e78-b547-12921d65e141-1685711263d27684da-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
+            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
