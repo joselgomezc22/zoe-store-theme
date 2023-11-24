@@ -284,12 +284,12 @@
         "057649ca-c8b0-4833-8ecf-b175a337a13e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Chaqueta-perlas-azul-frida-molgoa-marca-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/Chaquetas-Categorias-Mujer-Ropa-Molgoa-Colombia.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/chaquetas-de-moda-para-mujer",
             "heading": "",
             "text": "",
-            "button": "Chaquetas",
+            "button": "",
             "overlay_opacity": 0,
             "text_color": "#ffffff",
             "button_color": "#000000",
