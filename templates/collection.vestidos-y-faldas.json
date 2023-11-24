@@ -6,7 +6,7 @@
         "template--17133187137850__164a4670-4199-45d5-b4fa-ff0732e7c31c-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Coleccion-mujer-vestidos-faldas-molgoa-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -24,7 +24,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
