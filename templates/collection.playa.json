@@ -2,8 +2,10 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
-        "display_wide": true
+        "display_wide": true,
+        "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF_jpg.jpg"
       }
     },
     "main": {
@@ -46,6 +48,13 @@
           "settings": {
             "link": ""
           }
+        },
+        "2df72596-5d75-484b-bae1-7e104a9e0705": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -53,7 +62,8 @@
         "10f255d3-5584-4411-abf7-4a3278902c34",
         "d5193d9d-f7b8-4c05-9fcb-9b43685ddccb",
         "4d3e8985-2b6e-419d-b068-55e4ebba1e41",
-        "af54f8b9-43ce-4ace-872d-95e3b3cc7a25"
+        "af54f8b9-43ce-4ace-872d-95e3b3cc7a25",
+        "2df72596-5d75-484b-bae1-7e104a9e0705"
       ],
       "settings": {
         "full_width": true,
@@ -228,12 +238,12 @@
         "template--17133195493690__d3b3a075-a072-4c90-83ab-28a87edfdde1-1685711263d27684da-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
+            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
