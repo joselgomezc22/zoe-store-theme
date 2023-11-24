@@ -302,12 +302,12 @@
         "8b2dd955-dcd0-4c72-b61d-55fcb58e76bc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pantalones-mujer-tiro-alto-molgoa-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/Pantalones-Categorias-Mujer-Ropa-Molgoa-Colombia.jpg",
             "image_width": "33%",
             "link": "shopify:\/\/collections\/pantalones",
             "heading": "",
             "text": "",
-            "button": "Pantalones",
+            "button": "",
             "overlay_opacity": 0,
             "text_color": "#ffffff",
             "button_color": "#000000",
