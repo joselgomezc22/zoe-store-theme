@@ -619,6 +619,7 @@
     },
     "be98eeaa-0fb4-4332-9d83-b84dde863bf2": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "title": "EL REGALO PERFECTO",
         "video_url": "https:\/\/youtu.be\/IiYiIt9TwIQ",
