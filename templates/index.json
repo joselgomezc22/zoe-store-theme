@@ -170,7 +170,6 @@
         },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Nueva-Coleccion-Oasis-Marca-Colombiana-Promocion-1_1.jpg",
             "overlay": false,
