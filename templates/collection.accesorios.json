@@ -17,7 +17,7 @@
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/pages\/oasis",
-            "button_text": "Comprar",
+            "button_text": "",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#000000",
@@ -57,6 +57,7 @@
         "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0",
         "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
