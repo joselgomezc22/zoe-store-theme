@@ -26,12 +26,14 @@
       "blocks": {
         "11c3d5e3-fe65-480b-b7d2-3a56027963db": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>20% OFF en toda la tienda<\/p>"
           }
         },
         "1651341173c6b66629-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>30% OFF por compras sup a $400.000<\/p>"
           }
