@@ -6,7 +6,7 @@
         "template--17132584927546__4d5a6100-cb7b-48ac-9cb3-c2331d915523-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
+            "image": "shopify:\/\/shop_images\/coleccion-pantalones-faldas-mujer-molgoa-colombia.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -406,7 +406,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
