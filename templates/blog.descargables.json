@@ -3,12 +3,11 @@
     "banner": {
       "type": "banner-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner_2_1.jpg"
+        "image": "shopify:\/\/shop_images\/Blogs-Consejos-Recomendaciones-Outfits-Mujer-Mejorar-Vida-2.jpg"
       }
     },
     "image-gallery": {
       "type": "image-gallery",
-      "disabled": true,
       "blocks": {
         "image1": {
           "type": "image",
@@ -67,6 +66,7 @@
         "image2",
         "image3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
