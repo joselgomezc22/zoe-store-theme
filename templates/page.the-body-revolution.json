@@ -262,20 +262,20 @@
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_3.jpg",
+            "image": "shopify:\/\/shop_images\/NAVIDAD-empaque-regalos-guia-queregalar-nosequeregalar-tienda-ropa-zoe-ultimanavidad-juntos_b031c9f6-22fe-42da-a965-0a102b583588.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Rompetrafico_mobile.png",
+            "mobile_image": "shopify:\/\/shop_images\/NAVIDAD-empaque-regalos-guia-queregalar-nosequeregalar-tienda-ropa-zoe-ultimanavidad-juntos_b031c9f6-22fe-42da-a965-0a102b583588.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
             "subheading": "",
             "link": "",
-            "button_text": "Add a button",
+            "button_text": "",
             "second_link": "",
-            "second_button_text": "Button 2 text",
+            "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
@@ -288,7 +288,6 @@
       "block_order": [
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
