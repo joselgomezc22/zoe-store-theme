@@ -164,6 +164,44 @@
         "sidebar_positon": "left"
       }
     },
+    "2b9b0fe2-de59-437e-a034-b4b0b8480745": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SANTA S.O.S<\/strong><\/p>"
+          }
+        },
+        "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SANTA S.O.S<\/strong><\/p>"
+          }
+        },
+        "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SANTA S.O.S<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-1",
+        "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-2",
+        "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-3"
+      ],
+      "settings": {
+        "sa_grid": 3,
+        "slider_speed": 5,
+        "border_top": false,
+        "border_bottom": false,
+        "text_size": 16,
+        "height": 60,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "1f848d75-961d-4c69-ac79-d6f77038e49f": {
       "type": "editorial-columns",
       "blocks": {
@@ -694,6 +732,7 @@
     "72f81d3c-457b-49ff-bdde-e9401e0d2e99",
     "654f8c9e-b0cd-44b7-a964-5b81b70d66a9",
     "main",
+    "2b9b0fe2-de59-437e-a034-b4b0b8480745",
     "1f848d75-961d-4c69-ac79-d6f77038e49f",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
     "f14bf19a-a9e2-4a60-8f63-d75a0328796c",
