@@ -299,6 +299,41 @@
         "section_padding": "both"
       }
     },
+    "ece32d88-bea8-49e9-8537-b9284511ee7f": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "menos-de-90-000"
+          }
+        },
+        "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "menos-de-125-000"
+          }
+        },
+        "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "menos-190-000"
+          }
+        }
+      },
+      "block_order": [
+        "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-1",
+        "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-2",
+        "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "GUÍA DE REGALOS",
+        "grid": 3,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "f14bf19a-a9e2-4a60-8f63-d75a0328796c": {
       "type": "editorial-columns",
       "blocks": {
@@ -743,6 +778,7 @@
     "2b9b0fe2-de59-437e-a034-b4b0b8480745",
     "1f848d75-961d-4c69-ac79-d6f77038e49f",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
+    "ece32d88-bea8-49e9-8537-b9284511ee7f",
     "f14bf19a-a9e2-4a60-8f63-d75a0328796c",
     "fddcda5d-6fcb-4978-8772-4972ead04920",
     "935b7960-a78f-4a22-a241-3595762dfe3f",
