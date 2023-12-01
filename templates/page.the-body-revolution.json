@@ -240,12 +240,25 @@
             "link": "https:\/\/4b68ij0fs4i5vyzp-27953201236.shopifypreview.com\/blogs\/noticias\/articles?preview_key=5f0a23fa1ffbd43997307ddb11b99cbd",
             "text_align": "left"
           }
+        },
+        "b4d12865-8192-4e85-bf80-b852aa0efe20": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/como-dar-regalos-en-navidad-familia-molgoa-colombia.jpg",
+            "image_width": "33%",
+            "heading": "REGALOS EN FAMILIA",
+            "rich_text": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "shopify:\/\/collections\/amamos-el-estampado-de-cebra",
+            "text_align": "left"
+          }
         }
       },
       "block_order": [
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-1",
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2",
-        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3"
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3",
+        "b4d12865-8192-4e85-bf80-b852aa0efe20"
       ],
       "settings": {
         "full_width": false,
