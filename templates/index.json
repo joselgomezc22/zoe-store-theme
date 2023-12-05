@@ -89,13 +89,12 @@
         },
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Santa-sos-novena-navidad-maracas-gorros-navidad-tiendas-brunch-molgoa-colombia.jpg",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 84,
-            "caption_vertical": 95,
+            "caption_horizontal": 50,
+            "caption_vertical": 91,
             "mobile_image": "shopify:\/\/shop_images\/Santa-sos-novena-navidad-maracas-gorros-navidad-tiendas-brunch-molgoa-colombia-2.jpg",
             "hide_caption_background": true,
             "caption_below": true,
