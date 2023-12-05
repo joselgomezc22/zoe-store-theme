@@ -11,7 +11,7 @@
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Santa-sos-regalos-novena-villancicos-molgoa-colombia.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/dime-para-que-evento-vas-y-te-dire-que-usar-navidad-recomendacion.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -170,19 +170,19 @@
         "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>SANTA S.O.S<\/strong><\/p>"
+            "text": "<p><strong>EVENTOS NAVIDAD<\/strong><\/p>"
           }
         },
         "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-2": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>SANTA S.O.S<\/strong><\/p>"
+            "text": "<p><strong>EVENTOS NAVIDAD<\/strong><\/p>"
           }
         },
         "template--20651994087738__2b9b0fe2-de59-437e-a034-b4b0b8480745-text-3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>SANTA S.O.S<\/strong><\/p>"
+            "text": "<p><strong>EVENTOS NAVIDAD<\/strong><\/p>"
           }
         }
       },
