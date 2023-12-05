@@ -299,17 +299,18 @@
         "08f3fb21-b323-4a74-a062-1e881903bc90": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Evento-navidad-elegante-sexy-recomendaciones-para-mujer-2.jpg",
+            "image": "shopify:\/\/shop_images\/como-usar-ugly-sweater-estilo-outfit-look-mujer.jpg",
             "image_width": "33%",
             "heading": "EVENTO NAVIDAD: ELEGANTE Y SEXY",
             "rich_text": "",
             "button": "DESCUBRE AQUÍ",
-            "link": "https:\/\/zoestore.co\/blogs\/noticias\/apps-para-jugar",
+            "link": "https:\/\/zoestore.co\/blogs\/noticias\/como-usar-el-ugly-sweater-sin-morir-en-el-intento",
             "text_align": "left"
           }
         },
         "26e23538-626e-4a26-b34e-971d58308bd9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/evento-navidad-cena-familiar-recomendaciones-familia-mujer-2.jpg",
             "image_width": "33%",
