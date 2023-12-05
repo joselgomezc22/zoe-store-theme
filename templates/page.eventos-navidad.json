@@ -269,6 +269,73 @@
         "section_padding": "bottom"
       }
     },
+    "be184dd3-71f9-4594-9613-4fd556b7eb74": {
+      "type": "editorial-columns",
+      "blocks": {
+        "b38fb5cd-18df-42d3-9ab4-b3db46175ff5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Novena-bailable-navidad-molgoa-ideas-de-pintas-outfit-2.jpg",
+            "image_width": "33%",
+            "heading": "NOVENA BAILABLE",
+            "rich_text": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "https:\/\/zoestore.co\/blogs\/noticias\/novena-navidena",
+            "text_align": "left"
+          }
+        },
+        "f2d500dd-386a-45e2-b40d-31fc48780a7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Novena-familiar-recomendaciones-pintas-navidenas-outfit-5.jpg",
+            "image_width": "33%",
+            "heading": "NOVENA FAMILIAR",
+            "rich_text": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "https:\/\/zoestore.co\/blogs\/noticias\/playlist-navidena",
+            "text_align": "left"
+          }
+        },
+        "08f3fb21-b323-4a74-a062-1e881903bc90": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Evento-navidad-elegante-sexy-recomendaciones-para-mujer-2.jpg",
+            "image_width": "33%",
+            "heading": "EVENTO NAVIDAD: ELEGANTE Y SEXY",
+            "rich_text": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "https:\/\/zoestore.co\/blogs\/noticias\/apps-para-jugar",
+            "text_align": "left"
+          }
+        },
+        "26e23538-626e-4a26-b34e-971d58308bd9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/evento-navidad-cena-familiar-recomendaciones-familia-mujer-2.jpg",
+            "image_width": "33%",
+            "heading": "REGALOS EN FAMILIA",
+            "rich_text": "",
+            "button": "EVENTO NAVIDAD: CENA FAMILIAR",
+            "link": "https:\/\/zoestore.co\/blogs\/noticias\/como-dar-regalos-a-toda-la-familia-sin-morir-en-el-intento",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "b38fb5cd-18df-42d3-9ab4-b3db46175ff5",
+        "f2d500dd-386a-45e2-b40d-31fc48780a7f",
+        "08f3fb21-b323-4a74-a062-1e881903bc90",
+        "26e23538-626e-4a26-b34e-971d58308bd9"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "heading_size": 15,
+        "text_size": 12,
+        "color_scheme": "none",
+        "section_padding": "bottom"
+      }
+    },
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371": {
       "type": "slideshow",
       "blocks": {
@@ -790,6 +857,7 @@
     "main",
     "2b9b0fe2-de59-437e-a034-b4b0b8480745",
     "1f848d75-961d-4c69-ac79-d6f77038e49f",
+    "be184dd3-71f9-4594-9613-4fd556b7eb74",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
     "ece32d88-bea8-49e9-8537-b9284511ee7f",
     "f14bf19a-a9e2-4a60-8f63-d75a0328796c",
