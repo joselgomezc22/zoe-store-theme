@@ -1,0 +1,184 @@
+{
+  "wrapper": "section[data-section-type=article-section]",
+  "sections": {
+    "360380e4-6883-425e-9123-00f49c8c308b": {
+      "type": "image-gallery",
+      "blocks": {
+        "d0eb33aa-3465-40ce-a55e-bbe5f34730ee": {
+          "type": "image_text_below",
+          "settings": {
+            "image_width": "33%",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0279\/5320\/1236\/files\/10_79c50171-9e7e-4aa1-9c52-2317f6bdaa85.png?v=1667412058",
+            "heading": "",
+            "text": "",
+            "button": "Descargar",
+            "align_text": "left"
+          }
+        },
+        "2b906e5a-83e7-4375-bd4d-ed3ddeecae0e": {
+          "type": "image_text_below",
+          "settings": {
+            "image_width": "33%",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0279\/5320\/1236\/files\/09_797348c6-5dae-484d-a526-693004853e3a.png?v=1667413876",
+            "heading": "",
+            "text": "",
+            "button": "Descargar",
+            "align_text": "left"
+          }
+        },
+        "ce58b5f7-edd6-4afe-bec8-f48373d7938c": {
+          "type": "image_text_below",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.png",
+            "image_width": "33%",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0279\/5320\/1236\/files\/11.png?v=1667413884",
+            "heading": "",
+            "text": "",
+            "button": "Descargar",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "d0eb33aa-3465-40ce-a55e-bbe5f34730ee",
+        "2b906e5a-83e7-4375-bd4d-ed3ddeecae0e",
+        "ce58b5f7-edd6-4afe-bec8-f48373d7938c"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "color_scheme": "none",
+        "section_padding": "none"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "text_note": {
+          "type": "text_note",
+          "disabled": true,
+          "settings": {
+            "textbox_heading": "Heading",
+            "textbox_subheading": "<p>Additional content<\/p>"
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "side_nav": "",
+            "title": "Explore"
+          }
+        },
+        "65f1289a-c3df-4a2f-b482-921224979641": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0279\/5320\/1236\/files\/01.png?v=1667416302"
+          }
+        },
+        "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7": {
+          "type": "collection",
+          "settings": {
+            "collection": "novena-familiar",
+            "limit": 3
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text_note",
+        "menu",
+        "65f1289a-c3df-4a2f-b482-921224979641",
+        "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7"
+      ],
+      "settings": {
+        "post_tags": true,
+        "show_author": true,
+        "social": true
+      }
+    },
+    "9a76015b-37ce-44fb-afcd-12a1e586820a": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
+      }
+    },
+    "featured": {
+      "type": "main-article-featured",
+      "blocks": {
+        "featured_article1": {
+          "type": "featured_article",
+          "settings": {
+            "article": ""
+          }
+        },
+        "featured_article2": {
+          "type": "featured_article",
+          "settings": {
+            "article": ""
+          }
+        },
+        "featured_article3": {
+          "type": "featured_article",
+          "settings": {
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_article1",
+        "featured_article2",
+        "featured_article3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Similar articles",
+        "post_tags": true,
+        "show_author": true
+      }
+    },
+    "162811601477530d9f": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "title": "Subscribe to our newsletter",
+        "newsletter_subheading": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "mail_gdpr_text": "<p>*You're signing up to receive our emails and can unsubscribe at any time.<\/p>",
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "4fe93d46-e7f7-4b6b-87a2-07337dcac576": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "COMPRAR",
+        "collection": "novena-familiar",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 3,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "360380e4-6883-425e-9123-00f49c8c308b",
+    "main",
+    "9a76015b-37ce-44fb-afcd-12a1e586820a",
+    "featured",
+    "162811601477530d9f",
+    "4fe93d46-e7f7-4b6b-87a2-07337dcac576"
+  ]
+}
