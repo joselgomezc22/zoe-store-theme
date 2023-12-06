@@ -293,6 +293,49 @@
         "section_padding": "both"
       }
     },
+    "69bb616e-458a-4f3f-ac33-8d9f0fc551db": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17202802164026__69bb616e-458a-4f3f-ac33-8d9f0fc551db-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "shopify:\/\/collections\/simona-pomona",
+            "second_button_text": "COMPRAR AQUÍ",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--17202802164026__69bb616e-458a-4f3f-ac33-8d9f0fc551db-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "91180802-2590-427a-afd6-58fd49ec5e01": {
       "type": "slideshow",
       "blocks": {
@@ -459,6 +502,7 @@
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "69bb616e-458a-4f3f-ac33-8d9f0fc551db",
     "91180802-2590-427a-afd6-58fd49ec5e01",
     "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
     "cd4a03f7-073b-44a8-8b97-a73ce5506f63"
