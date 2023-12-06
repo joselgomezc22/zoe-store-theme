@@ -87,6 +87,7 @@
         },
         "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "novena-familiar",
             "limit": 3
