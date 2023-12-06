@@ -148,6 +148,21 @@
       "settings": {
         "maxwidth": 1080
       }
+    },
+    "4fe93d46-e7f7-4b6b-87a2-07337dcac576": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Featured collection",
+        "collection": "novena-bailable",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 3,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -155,6 +170,7 @@
     "360380e4-6883-425e-9123-00f49c8c308b",
     "featured",
     "162811601477530d9f",
-    "9a76015b-37ce-44fb-afcd-12a1e586820a"
+    "9a76015b-37ce-44fb-afcd-12a1e586820a",
+    "4fe93d46-e7f7-4b6b-87a2-07337dcac576"
   ]
 }
