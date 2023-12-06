@@ -240,8 +240,26 @@
             "link": "https:\/\/zoestore.co\/blogs\/noticias\/apps-para-jugar",
             "text_align": "left"
           }
-        },
-        "b4d12865-8192-4e85-bf80-b852aa0efe20": {
+        }
+      },
+      "block_order": [
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-1",
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2",
+        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "heading_size": 15,
+        "text_size": 12,
+        "color_scheme": "none",
+        "section_padding": "bottom"
+      }
+    },
+    "f7132255-c8ca-4e34-a380-7f248fd1a07d": {
+      "type": "editorial-columns",
+      "blocks": {
+        "bc7e1507-5af1-4b57-ae41-d2c4cfe74688": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/como-dar-regalos-en-navidad-familia-molgoa-colombia.jpg",
@@ -255,10 +273,7 @@
         }
       },
       "block_order": [
-        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-1",
-        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-2",
-        "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3",
-        "b4d12865-8192-4e85-bf80-b852aa0efe20"
+        "bc7e1507-5af1-4b57-ae41-d2c4cfe74688"
       ],
       "settings": {
         "full_width": false,
@@ -267,58 +282,6 @@
         "text_size": 12,
         "color_scheme": "none",
         "section_padding": "bottom"
-      }
-    },
-    "afd894f2-09db-4239-a3a8-cb603c0424e3": {
-      "type": "editorial-columns",
-      "blocks": {
-        "template--20651994087738__afd894f2-09db-4239-a3a8-cb603c0424e3-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/como-dar-regalos-en-navidad-familia-molgoa-colombia.jpg",
-            "image_width": "33%",
-            "heading": "REGALOS EN FAMILIA",
-            "rich_text": "",
-            "button": "DESCUBRE AQUÍ",
-            "link": "shopify:\/\/blogs\/noticias\/como-dar-regalos-a-toda-la-familia-sin-morir-en-el-intento",
-            "text_align": "left"
-          }
-        },
-        "template--20651994087738__afd894f2-09db-4239-a3a8-cb603c0424e3-image-2": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        },
-        "template--20651994087738__afd894f2-09db-4239-a3a8-cb603c0424e3-image-3": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "heading": "Our collections",
-            "rich_text": "<p>Enter text to accompany your image.<\/p>",
-            "button": "Explore",
-            "link": "",
-            "text_align": "left"
-          }
-        }
-      },
-      "block_order": [
-        "template--20651994087738__afd894f2-09db-4239-a3a8-cb603c0424e3-image-1",
-        "template--20651994087738__afd894f2-09db-4239-a3a8-cb603c0424e3-image-2",
-        "template--20651994087738__afd894f2-09db-4239-a3a8-cb603c0424e3-image-3"
-      ],
-      "settings": {
-        "full_width": false,
-        "title": "Welcome",
-        "heading_size": 24,
-        "text_size": 14,
-        "color_scheme": "none",
-        "section_padding": "both"
       }
     },
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371": {
@@ -842,7 +805,7 @@
     "main",
     "2b9b0fe2-de59-437e-a034-b4b0b8480745",
     "1f848d75-961d-4c69-ac79-d6f77038e49f",
-    "afd894f2-09db-4239-a3a8-cb603c0424e3",
+    "f7132255-c8ca-4e34-a380-7f248fd1a07d",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
     "ece32d88-bea8-49e9-8537-b9284511ee7f",
     "f14bf19a-a9e2-4a60-8f63-d75a0328796c",
