@@ -55,6 +55,13 @@
     "main": {
       "type": "main-article",
       "blocks": {
+        "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7": {
+          "type": "collection",
+          "settings": {
+            "collection": "novena-bailable",
+            "limit": 3
+          }
+        },
         "image": {
           "type": "image",
           "disabled": true,
@@ -84,21 +91,14 @@
           "settings": {
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0279\/5320\/1236\/files\/01.png?v=1667416302"
           }
-        },
-        "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7": {
-          "type": "collection",
-          "settings": {
-            "collection": "novena-bailable",
-            "limit": 3
-          }
         }
       },
       "block_order": [
+        "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7",
         "image",
         "text_note",
         "menu",
-        "65f1289a-c3df-4a2f-b482-921224979641",
-        "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7"
+        "65f1289a-c3df-4a2f-b482-921224979641"
       ],
       "settings": {
         "post_tags": true,
