@@ -88,7 +88,7 @@
         "5b977fd5-5c1d-4eb7-b4e4-f1d844b40bb7": {
           "type": "collection",
           "settings": {
-            "collection": "novena-familiar",
+            "collection": "navidad-cena-familiar",
             "limit": 3
           }
         }
@@ -162,7 +162,7 @@
       "settings": {
         "full_width": false,
         "title": "COMPRAR",
-        "collection": "novena-familiar",
+        "collection": "navidad-cena-familiar",
         "carousel": false,
         "button": false,
         "button_text": "View all",
