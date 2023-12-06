@@ -270,10 +270,23 @@
             "link": "https:\/\/zoestore.co\/blogs\/noticias\/como-dar-regalos-a-toda-la-familia-sin-morir-en-el-intento",
             "text_align": "left"
           }
+        },
+        "845a96ed-0b30-4b38-a180-fd36f6e23b6f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Regalamos-gratis-gorritos-de-navidad-y-accesorios-gratis-colombia.jpg",
+            "image_width": "33%",
+            "heading": "TE REGALAMOS GORRITOS DE NAVIDAD Y ACCESORIOS GRATIS",
+            "rich_text": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "",
+            "text_align": "left"
+          }
         }
       },
       "block_order": [
-        "bc7e1507-5af1-4b57-ae41-d2c4cfe74688"
+        "bc7e1507-5af1-4b57-ae41-d2c4cfe74688",
+        "845a96ed-0b30-4b38-a180-fd36f6e23b6f"
       ],
       "settings": {
         "full_width": false,
