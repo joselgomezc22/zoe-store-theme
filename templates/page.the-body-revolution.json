@@ -282,11 +282,24 @@
             "link": "https:\/\/zoestore.co\/blogs\/noticias\/te-regalamos-gorritos-de-navidad-y-accesorios-gratis",
             "text_align": "left"
           }
+        },
+        "a4dcc072-0cf0-421a-93f9-3b35f6dfd518": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/regalos-menos-de-90000-promocion-navidad.jpg",
+            "image_width": "33%",
+            "heading": "REGALOS POR MENOS DE $90.000",
+            "rich_text": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "shopify:\/\/collections\/menos-de-90-000",
+            "text_align": "left"
+          }
         }
       },
       "block_order": [
         "bc7e1507-5af1-4b57-ae41-d2c4cfe74688",
-        "845a96ed-0b30-4b38-a180-fd36f6e23b6f"
+        "845a96ed-0b30-4b38-a180-fd36f6e23b6f",
+        "a4dcc072-0cf0-421a-93f9-3b35f6dfd518"
       ],
       "settings": {
         "full_width": false,
