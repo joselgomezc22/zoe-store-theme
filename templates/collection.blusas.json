@@ -294,6 +294,49 @@
         "section_padding": "both"
       }
     },
+    "fabe9ac4-0beb-424f-bf8f-fd6627beabe4": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17132172247354__fabe9ac4-0beb-424f-bf8f-fd6627beabe4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--17132172247354__fabe9ac4-0beb-424f-bf8f-fd6627beabe4-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "7e4d9883-744c-4305-9944-07da5fb479e1": {
       "type": "slideshow",
       "blocks": {
@@ -505,6 +548,7 @@
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "fabe9ac4-0beb-424f-bf8f-fd6627beabe4",
     "7e4d9883-744c-4305-9944-07da5fb479e1",
     "9e612b45-efc3-4f3b-aba0-5fb57e06bc24",
     "67641d3a-96b1-40e9-9615-15c4a102bb11",
