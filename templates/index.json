@@ -69,7 +69,7 @@
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 51,
-            "caption_vertical": 88,
+            "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/10_OFF-ropa-descuento-promo-regalos-5prendasomas.jpg",
             "hide_caption_background": true,
             "caption_below": true,
@@ -377,7 +377,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
