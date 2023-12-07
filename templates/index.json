@@ -62,6 +62,31 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_off-promo-tiendas-ropa-5comprasomas.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 51,
+            "caption_vertical": 88,
+            "mobile_image": "shopify:\/\/shop_images\/10_OFF-ropa-descuento-promo-regalos-5prendasomas.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
         "42b41003-913d-4718-9a10-5550b933eea9": {
           "type": "image",
           "settings": {
@@ -161,40 +186,14 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
-        },
-        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10_off-promo-tiendas-ropa-5comprasomas.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 51,
-            "caption_vertical": 88,
-            "mobile_image": "shopify:\/\/shop_images\/10_OFF-ropa-descuento-promo-regalos-5prendasomas.jpg",
-            "hide_caption_background": true,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
         }
       },
       "block_order": [
+        "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "42b41003-913d-4718-9a10-5550b933eea9",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
-        "2336dca6-006a-4970-b941-1d223bcd1725",
-        "4f8d7320-7770-4d72-a941-c477a5fd868c"
+        "2336dca6-006a-4970-b941-1d223bcd1725"
       ],
       "settings": {
         "enable_autoplay": true,
