@@ -267,6 +267,49 @@
         "section_padding": "both"
       }
     },
+    "4cfe5b4a-9c7e-4f8a-a337-27d88ceb7361": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17133187137850__4cfe5b4a-9c7e-4f8a-a337-27d88ceb7361-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--17133187137850__4cfe5b4a-9c7e-4f8a-a337-27d88ceb7361-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "38afdd2e-f899-4d2d-b2bb-e0950c8a8ca2": {
       "type": "slideshow",
       "blocks": {
@@ -476,6 +519,7 @@
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "4cfe5b4a-9c7e-4f8a-a337-27d88ceb7361",
     "38afdd2e-f899-4d2d-b2bb-e0950c8a8ca2",
     "6ee8ffbb-484b-406b-9b2e-38f086e9964f",
     "7858d819-f6ff-4fba-9ec3-e164281347ce",
