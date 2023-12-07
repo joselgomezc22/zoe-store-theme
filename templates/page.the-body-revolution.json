@@ -310,6 +310,34 @@
         "section_padding": "bottom"
       }
     },
+    "6d259abc-413d-4117-90ce-243e20b938f1": {
+      "type": "editorial-columns",
+      "blocks": {
+        "f176aaf9-38dc-4c8d-8531-b46e69341578": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eventos-navidad-recomendaciones-molgoa-colombia.jpg",
+            "image_width": "33%",
+            "heading": "DIME PARA QUÉ EVENTO VAS Y TE DIRÉ QUÉ USAR",
+            "rich_text": "",
+            "button": "DESCUBRE AQUÍ",
+            "link": "shopify:\/\/pages\/dime-para-que-evento-vas",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "f176aaf9-38dc-4c8d-8531-b46e69341578"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "heading_size": 15,
+        "text_size": 12,
+        "color_scheme": "none",
+        "section_padding": "bottom"
+      }
+    },
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371": {
       "type": "slideshow",
       "blocks": {
@@ -832,6 +860,7 @@
     "2b9b0fe2-de59-437e-a034-b4b0b8480745",
     "1f848d75-961d-4c69-ac79-d6f77038e49f",
     "f7132255-c8ca-4e34-a380-7f248fd1a07d",
+    "6d259abc-413d-4117-90ce-243e20b938f1",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
     "ece32d88-bea8-49e9-8537-b9284511ee7f",
     "f14bf19a-a9e2-4a60-8f63-d75a0328796c",
