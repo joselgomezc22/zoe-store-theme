@@ -323,6 +323,92 @@
         "section_padding": "both"
       }
     },
+    "bfb76984-0fe8-4caa-a8c7-393918a5afab": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17133195493690__bfb76984-0fe8-4caa-a8c7-393918a5afab-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--17133195493690__bfb76984-0fe8-4caa-a8c7-393918a5afab-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "4ecf06c3-ca9f-4757-824f-7caa6b7a1236": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17133195493690__4ecf06c3-ca9f-4757-824f-7caa6b7a1236-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/simona-pomona",
+            "button_text": "COMPRAR AQUÍ",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#fffafa",
+            "cta_background": "#000000",
+            "cta_background_hover": "rgba(0,0,0,0)",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--17133195493690__4ecf06c3-ca9f-4757-824f-7caa6b7a1236-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "e5dd65a3-0922-4aac-8a76-91e9526f5703": {
       "type": "slideshow",
       "blocks": {
@@ -412,49 +498,6 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
-    },
-    "4ecf06c3-ca9f-4757-824f-7caa6b7a1236": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17133195493690__4ecf06c3-ca9f-4757-824f-7caa6b7a1236-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/simona-pomona",
-            "button_text": "COMPRAR AQUÍ",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#fffafa",
-            "cta_background": "#000000",
-            "cta_background_hover": "rgba(0,0,0,0)",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "template--17133195493690__4ecf06c3-ca9f-4757-824f-7caa6b7a1236-image-1"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -465,8 +508,9 @@
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "bfb76984-0fe8-4caa-a8c7-393918a5afab",
+    "4ecf06c3-ca9f-4757-824f-7caa6b7a1236",
     "e5dd65a3-0922-4aac-8a76-91e9526f5703",
-    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
-    "4ecf06c3-ca9f-4757-824f-7caa6b7a1236"
+    "4bc44561-a50e-4c9b-b408-ddc6ecf8925b"
   ]
 }
