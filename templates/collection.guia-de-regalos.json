@@ -390,6 +390,49 @@
         "section_padding": "both"
       }
     },
+    "4424151a-6a64-40fa-96bb-70339aba709f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21695777014074__4424151a-6a64-40fa-96bb-70339aba709f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--21695777014074__4424151a-6a64-40fa-96bb-70339aba709f-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "bbb09910-9a6d-457a-8107-492a973f7b97": {
       "type": "slideshow",
       "blocks": {
@@ -680,6 +723,7 @@
     "38969d44-e1d3-4e83-b11a-cb9bf99ac289",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "8fb7457f-4efd-4a7b-ad4e-4cc7739ce365",
+    "4424151a-6a64-40fa-96bb-70339aba709f",
     "bbb09910-9a6d-457a-8107-492a973f7b97",
     "e29df98b-d6e6-452f-8473-0c104b67ea73",
     "91180802-2590-427a-afd6-58fd49ec5e01",
