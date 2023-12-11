@@ -291,7 +291,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -342,6 +342,7 @@
       "block_order": [
         "template--17133154337082__ad78eab5-e8c7-4d27-af13-e853cb549687-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -410,6 +411,7 @@
         "template--17133154337082__050d6f2c-0085-4c5e-8890-a5fb53bc9cda-1685711263d27684da-0",
         "template--17133154337082__050d6f2c-0085-4c5e-8890-a5fb53bc9cda-1685711263d27684da-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
