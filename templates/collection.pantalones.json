@@ -324,21 +324,21 @@
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
-            "caption_vertical": 50,
+            "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "",
-            "button_text": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "AGREGA TODAS LAS PRENDAS AL CARRITO",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -389,6 +389,7 @@
       "block_order": [
         "template--17132584927546__ca5abc0e-e9c6-4ae6-91a5-0c10d4c84921-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -457,6 +458,7 @@
         "template--17132584927546__ab8e2aa3-d443-42c7-b4d0-f934d5b749a9-1685711263d27684da-0",
         "template--17132584927546__ab8e2aa3-d443-42c7-b4d0-f934d5b749a9-1685711263d27684da-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
