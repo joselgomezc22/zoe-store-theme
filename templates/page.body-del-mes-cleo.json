@@ -233,7 +233,7 @@
         "template--16986105020730__eca7ab96-5fe5-4cdb-af44-6c864232dd85-168029164571b25def-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Body-del-mes-mayo.jpg",
+            "image": "shopify:\/\/shop_images\/Body-del-mes-cleo-body-cuello-tortuga.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -257,6 +257,7 @@
         },
         "template--16986105020730__eca7ab96-5fe5-4cdb-af44-6c864232dd85-168029164571b25def-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "overlay": false,
             "text_align": "left",
