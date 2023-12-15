@@ -416,8 +416,8 @@
         "b96f1015-0cee-42b4-8b4e-a8bcfbcbe6f5": {
           "type": "text",
           "settings": {
-            "heading": "Playa, sol y mar",
-            "rich_text": "<p>Fresca y ligera.<\/p>",
+            "heading": "",
+            "rich_text": "",
             "center": true,
             "block_size": 2
           }
