@@ -301,8 +301,8 @@
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "image": "shopify:\/\/shop_images\/1_a1837420-939e-4a9b-a767-ee7720659ce5.jpg",
-            "lookbook_product_1": "body-escote-asimetrico-manga-larga-coco-vino",
+            "image": "shopify:\/\/shop_images\/Emma-saco-del-mes-mujer-estilo_2.jpg",
+            "lookbook_product_1": "capa-para-mujer-tipo-ruana-manga-corta-emma-negro",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
             "hotspot_color_1": "#000000",
@@ -328,8 +328,8 @@
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "image": "shopify:\/\/shop_images\/2_6239ef30-c307-44e7-bbb0-4f24c3b82abb.jpg",
-            "lookbook_product_1": "coco-body-negro",
+            "image": "shopify:\/\/shop_images\/Emma-saco-del-mes-mujer-estilo_3.jpg",
+            "lookbook_product_1": "copy-of-capa-tejida-para-mujer-manga-corta-emma-camel",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
             "hotspot_color_1": "#000000",
@@ -355,8 +355,8 @@
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "image": "shopify:\/\/shop_images\/3.jpg",
-            "lookbook_product_1": "body-escote-asimetrico-manga-larga-coco-marfil",
+            "image": "shopify:\/\/shop_images\/Emma-saco-del-mes-mujer-estilo_-4.jpg",
+            "lookbook_product_1": "capa-tejida-para-mujer-manga-corta-emma-magenta",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
             "hotspot_color_1": "#000000",
@@ -414,7 +414,7 @@
         "b96f1015-0cee-42b4-8b4e-a8bcfbcbe6f5": {
           "type": "text",
           "settings": {
-            "heading": "Playa, sol y mar",
+            "heading": "Amigos y Tardear",
             "rich_text": "<p>Fresca y ligera.<\/p>",
             "center": true,
             "block_size": 2
