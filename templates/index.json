@@ -62,6 +62,31 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "2336dca6-006a-4970-b941-1d223bcd1725": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Envio-rapido-express-bogota-colombia-sin-costo-extra_1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 92,
+            "mobile_image": "shopify:\/\/shop_images\/Envio-rapido-express-bogota-colombia-sin-costo-extra_2.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/seccion-navidad",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#acacac",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
+          }
+        },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
           "settings": {
@@ -161,39 +186,14 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 70
           }
-        },
-        "2336dca6-006a-4970-b941-1d223bcd1725": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ultima-navidad-juntos-zoe-ropa-mujer-hechoencolombia-seva-ultima-navidad_a504f3d3-c3ad-4925-8498-03aac18ea195.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 92,
-            "mobile_image": "shopify:\/\/shop_images\/ultima-navidad-juntos-zoe-ropa-mujer-hechoencolombia-seva.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/seccion-navidad",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#000000",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#acacac",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
         }
       },
       "block_order": [
+        "2336dca6-006a-4970-b941-1d223bcd1725",
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "42b41003-913d-4718-9a10-5550b933eea9",
-        "cdd6de33-d744-479c-9217-7dfde4da2790",
-        "2336dca6-006a-4970-b941-1d223bcd1725"
+        "cdd6de33-d744-479c-9217-7dfde4da2790"
       ],
       "settings": {
         "enable_autoplay": true,
