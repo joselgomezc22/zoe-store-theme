@@ -161,13 +161,39 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 70
           }
+        },
+        "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pack-anual-bodies-mujer-molgoa-tienda_2.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 91,
+            "mobile_image": "shopify:\/\/shop_images\/pack-anual-bodies-mujer-molgoa-tienda_1.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/pages\/body-del-mes-cleo",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#000000",
+            "cta_background": "#ede8e3",
+            "cta_background_hover": "#ffffff",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 70
+          }
         }
       },
       "block_order": [
         "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "42b41003-913d-4718-9a10-5550b933eea9",
-        "cdd6de33-d744-479c-9217-7dfde4da2790"
+        "cdd6de33-d744-479c-9217-7dfde4da2790",
+        "eed7fd29-7204-4cc2-9591-640e13f8d2aa"
       ],
       "settings": {
         "enable_autoplay": true,
