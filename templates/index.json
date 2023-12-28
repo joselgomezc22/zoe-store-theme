@@ -62,6 +62,31 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
+        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hola-molgoa-marca-colombia-tiendas-bogota.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 83,
+            "mobile_image": "shopify:\/\/shop_images\/Hola-molgoa-marca-colombia-tiendas-bogota-1.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "CONÓCENOS",
+            "second_link": "shopify:\/\/collections\/ropa",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#4a7c5b",
+            "cta_background_hover": "#acacac",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
         "4f8d7320-7770-4d72-a941-c477a5fd868c": {
           "type": "image",
           "settings": {
@@ -85,31 +110,6 @@
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
-          }
-        },
-        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/magic-combos-grandesofertas-promo-tienda-ropa-zoe.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 66,
-            "caption_vertical": 94,
-            "mobile_image": "shopify:\/\/shop_images\/magic-combos-grandesofertas-promo-tienda.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/simona-pomona",
-            "button_text": "COMPRAR",
-            "second_link": "https:\/\/zoestore.co\/collections\/simona-pomona",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#acacac",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
           }
         },
         "42b41003-913d-4718-9a10-5550b933eea9": {
@@ -189,8 +189,8 @@
         }
       },
       "block_order": [
-        "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
+        "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "42b41003-913d-4718-9a10-5550b933eea9",
         "cdd6de33-d744-479c-9217-7dfde4da2790",
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa"
