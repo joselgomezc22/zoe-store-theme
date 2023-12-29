@@ -76,7 +76,7 @@
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/collections\/ropa",
-            "button_text": "CONOCENOS AQUÍ",
+            "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "Button 2 text",
             "slide_text_color": "{{ shop.brand.colors.secondary[1].background }}",
