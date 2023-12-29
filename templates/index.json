@@ -112,31 +112,6 @@
             "caption_background_opacity": 70
           }
         },
-        "4f8d7320-7770-4d72-a941-c477a5fd868c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10_off-promo-tiendas-ropa-5comprasomas.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 51,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/10_OFF-ropa-descuento-promo-regalos-5prendasomas.jpg",
-            "hide_caption_background": true,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
-        },
         "42b41003-913d-4718-9a10-5550b933eea9": {
           "type": "image",
           "settings": {
@@ -191,7 +166,6 @@
       "block_order": [
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa",
-        "4f8d7320-7770-4d72-a941-c477a5fd868c",
         "42b41003-913d-4718-9a10-5550b933eea9",
         "cdd6de33-d744-479c-9217-7dfde4da2790"
       ],
