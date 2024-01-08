@@ -618,7 +618,7 @@
         "button": false,
         "button_text": "View all",
         "grid": 4,
-        "limit": 8,
+        "limit": 20,
         "color_scheme": "cs1",
         "section_padding": "none"
       }
@@ -1021,7 +1021,7 @@
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0",
+            "link": "https:\/\/wa.link\/5tbfru",
             "button_text": "ENTRA AQUÍ",
             "second_link": "https:\/\/api.whatsapp.com\/message\/ON6QDKVRBPA3L1?autoload=1&app_absent=0",
             "second_button_text": "",
