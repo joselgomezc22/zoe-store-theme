@@ -298,17 +298,17 @@
         "template--17133191332154__2b2042b8-5f06-4fd3-ac83-dfae9ac6ddac-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/descuento-prendas-5-o-mas-10-descuento-molgoa-colombia.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-molgoa-colombia-moda-mujer-m.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
+            "link": "shopify:\/\/collections\/bodies",
             "button_text": "AGREGA TODAS LAS PRENDAS AL CARRITO",
             "second_link": "",
             "second_button_text": "",
@@ -324,7 +324,6 @@
       "block_order": [
         "template--17133191332154__2b2042b8-5f06-4fd3-ac83-dfae9ac6ddac-image-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
