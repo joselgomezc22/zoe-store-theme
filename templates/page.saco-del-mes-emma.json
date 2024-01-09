@@ -432,6 +432,49 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "c4fb0d5c-13d3-472f-9a72-c249b9bab97c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21855618433338__c4fb0d5c-13d3-472f-9a72-c249b9bab97c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 92,
+            "mobile_image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-MB.jpg",
+            "hide_caption_background": true,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/bodies",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "rgba(0,0,0,0)",
+            "cta_color": "#000000",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "rgba(0,0,0,0)",
+            "caption_background": "transparent",
+            "caption_background_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--21855618433338__c4fb0d5c-13d3-472f-9a72-c249b9bab97c-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -443,6 +486,7 @@
     "e35b4599-82d2-4003-9573-44b2d266f7ae",
     "eca7ab96-5fe5-4cdb-af44-6c864232dd85",
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
-    "600abb3a-45cd-4565-96ee-95acfb1624b1"
+    "600abb3a-45cd-4565-96ee-95acfb1624b1",
+    "c4fb0d5c-13d3-472f-9a72-c249b9bab97c"
   ]
 }
