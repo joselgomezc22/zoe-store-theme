@@ -299,6 +299,7 @@
       "block_order": [
         "template--17133187137850__4cfe5b4a-9c7e-4f8a-a337-27d88ceb7361-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
