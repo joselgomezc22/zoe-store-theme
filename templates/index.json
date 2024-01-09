@@ -347,23 +347,23 @@
         "template--16986105381178__6c181b53-afea-4f75-b47b-a685ec0f36af-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Testimonio-de-clientes-reviwes-clientes-felices-zoe-tienda-mujer-3_cc9c74ab-7904-4111-935a-6790242c7829.jpg",
+            "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Testimoniodeclientes-reviwes-clientesfelices-zoe-tienda-mujer.jpg",
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-MB.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "",
-            "button_text": "Add a button",
+            "link": "shopify:\/\/collections\/bodies",
+            "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "Button 2 text",
             "slide_text_color": "{{ shop.brand.colors.primary[1].background }}",
             "cta_color": "{{ shop.brand.colors.primary[1].background }}",
-            "cta_background": "#000000",
+            "cta_background": "#ffffff",
             "cta_background_hover": "#000000",
             "caption_background": "{{ shop.brand.colors.primary[1].background }}",
             "caption_background_opacity": 10
@@ -373,7 +373,6 @@
       "block_order": [
         "template--16986105381178__6c181b53-afea-4f75-b47b-a685ec0f36af-image-2"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
