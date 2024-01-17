@@ -440,10 +440,16 @@
     },
     "checkout": {
       "contact": {
-        "company_label": "Cédula",
+        "company_label": "Cédula \/ Nit",
         "optional_company_label": "Cédula",
         "phone_label": "Teléfono para notificaciones",
-        "optional_phone_label": "Teléfono para notificaciones"
+        "optional_phone_label": "Teléfono para notificaciones",
+        "zip_code_label": "Código Postal (3333 si no lo conoce)",
+        "zip_code_placeholder": "Código Postal (3333 si no lo conoce)",
+        "postal_code_label": "Código Postal (3333 si no lo conoce)",
+        "postal_code_placeholder": "Código Postal (3333 si no lo conoce)",
+        "postcode_label": "Código Postal (3333 si no lo conoce)",
+        "postcode_placeholder": "Código Postal (3333 si no lo conoce)"
       },
       "field_errors": {
         "address_company_blank": "Introduce tu numero de cédula",
