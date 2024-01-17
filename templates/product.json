@@ -170,6 +170,16 @@
     },
     "loox-product-reviews-app-section": {
       "type": "apps",
+      "blocks": {
+        "product_reviews_reviews_aETFHP": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_reviews_reviews_aETFHP"
+      ],
       "settings": {
         "full_width": false,
         "section_padding": "both"
