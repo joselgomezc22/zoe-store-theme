@@ -6,12 +6,12 @@
         "template--18269919543610__a7b38dbe-25b7-438b-9018-5c83a136eae3-16783848622418c0df-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/No_somos_2_somos_3-enteratedeprimeras-promo-tienda-molgoa-ropademujer-100_colombiano-online-promo.jpg",
+            "image": "shopify:\/\/shop_images\/Molgoa-promo-descuento-accesoprivado-paga2lleva3-tienda-ropa-colombia-bogota_0f442bbc-c3ae-4247-816c-8c48da29a98c.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/No_somos_2_somos_3-enteratedeprimeras-promo-tienda-molgoa-ropademujer-100_colombiano-online-promo.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Molgoa-promo-descuento-accesoprivado-paga2lleva3-tienda-ropa-colombia-bogota_0f442bbc-c3ae-4247-816c-8c48da29a98c.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -116,36 +116,6 @@
     },
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371": {
       "type": "slideshow",
-      "blocks": {
-        "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Molgoa-promo-descuento-accesoprivado-paga2lleva3-tienda-ropa-colombia-bogota.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Molgoa-promo-descuento-accesoprivado-paga2lleva3-tienda-ropa-colombia-bogota-bodies-ropa.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "{{ shop.brand.colors.secondary[0].background }}",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1"
-      ],
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
