@@ -25,16 +25,16 @@
           "settings": {
           }
         },
-        "product_description": {
-          "type": "product_description",
-          "settings": {
-          }
-        },
         "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
           "type": "shortcode_popup",
           "settings": {
             "popup_label": "Aquí descubres qué talla eres",
             "shortcode_name": "Tallas"
+          }
+        },
+        "product_description": {
+          "type": "product_description",
+          "settings": {
           }
         },
         "product_variants": {
@@ -137,8 +137,8 @@
       "block_order": [
         "19f76a7b-3bd9-42e3-a3a3-565de8082405",
         "product_info",
-        "product_description",
         "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
+        "product_description",
         "product_variants",
         "product_sku",
         "c8894913-ecea-4d1e-b885-95208ac5cbc9",
