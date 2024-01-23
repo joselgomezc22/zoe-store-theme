@@ -114,28 +114,13 @@
         "section_padding": "both"
       }
     },
-    "featured_collection_Pf6dMa": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "PAGA 2 LLEVA 3",
-        "collection": "ropa",
-        "carousel": false,
-        "button": true,
-        "button_text": "View all",
-        "grid": 4,
-        "limit": 8,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371": {
       "type": "slideshow",
       "blocks": {
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NAVIDAD-empaque-regalos-guia-queregalar-nosequeregalar-tienda-ropa-zoe-ultimanavidad-juntos_b031c9f6-22fe-42da-a965-0a102b583588.jpg",
+            "image": "shopify:\/\/shop_images\/codigodescuento-promo-prendas-descuentos-tienda-ropa.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -161,7 +146,6 @@
       "block_order": [
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -170,6 +154,21 @@
         "slide_heading_size": 22,
         "subheading_size": 14,
         "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "featured_collection_Pf6dMa": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "PAGA 2 LLEVA 3",
+        "collection": "ropa",
+        "carousel": false,
+        "button": true,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
         "section_padding": "both"
       }
     },
@@ -214,8 +213,8 @@
     "a7b38dbe-25b7-438b-9018-5c83a136eae3",
     "main",
     "2b9b0fe2-de59-437e-a034-b4b0b8480745",
-    "featured_collection_Pf6dMa",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
+    "featured_collection_Pf6dMa",
     "ece32d88-bea8-49e9-8537-b9284511ee7f"
   ]
 }
