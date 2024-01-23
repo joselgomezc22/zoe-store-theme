@@ -120,7 +120,7 @@
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/codigodescuento-promo-prendas-descuentos-tienda-ropa_d45f95e4-f4c7-40a1-8db6-9de775bd2c9d.jpg",
+            "image": "shopify:\/\/shop_images\/Molgoa-promo-descuento-accesoprivado-paga2lleva3-tienda-ropa-colombia-bogota.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -145,73 +145,6 @@
       },
       "block_order": [
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
-    "slideshow_Uw9PwV": {
-      "type": "slideshow",
-      "blocks": {
-        "image_FGALCe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/promo-off-descuento-savethedate-accesoprivado-molgoa-ropa.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/promo-off-descuento-savethedate-accesoprivado-molgoa-ropa.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "{{ shop.brand.colors.primary[1].background }}",
-            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
-            "caption_background_opacity": 20
-          }
-        },
-        "image_E4cM8Q": {
-          "type": "image",
-          "settings": {
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "transparent",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "image_FGALCe",
-        "image_E4cM8Q"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -281,7 +214,6 @@
     "main",
     "2b9b0fe2-de59-437e-a034-b4b0b8480745",
     "37dc3e8e-ef21-4b54-8bf4-4568e5ed3371",
-    "slideshow_Uw9PwV",
     "featured_collection_Pf6dMa",
     "ece32d88-bea8-49e9-8537-b9284511ee7f"
   ]
