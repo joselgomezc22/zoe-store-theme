@@ -30,6 +30,13 @@
           "settings": {
           }
         },
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
+          "type": "shortcode_popup",
+          "settings": {
+            "popup_label": "Aquí descubres qué talla eres",
+            "shortcode_name": "Tallas"
+          }
+        },
         "product_variants": {
           "type": "product_variants",
           "settings": {
@@ -87,13 +94,6 @@
             "back_in_stock_text": "<p>Avisame cuando se encuentre disponible !<\/p>"
           }
         },
-        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
-          "type": "shortcode_popup",
-          "settings": {
-            "popup_label": "Guía de tallas",
-            "shortcode_name": "Tallas"
-          }
-        },
         "f7704069-17c8-42f6-ae27-646be7b277dd": {
           "type": "additional_content",
           "settings": {
@@ -138,6 +138,7 @@
         "19f76a7b-3bd9-42e3-a3a3-565de8082405",
         "product_info",
         "product_description",
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
         "product_variants",
         "product_sku",
         "c8894913-ecea-4d1e-b885-95208ac5cbc9",
@@ -147,7 +148,6 @@
         "product_quantity",
         "cb0314b7-8d93-4eb3-bf92-562bb07273c7",
         "product_buttons",
-        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
         "f7704069-17c8-42f6-ae27-646be7b277dd",
         "519d2af3-1da3-4d6b-a7cc-157f37606a4e",
         "ba479e68-3314-4f60-9111-e6b5ca5ab1c1",
