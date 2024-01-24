@@ -1398,13 +1398,6 @@
         "settings": {
         }
       },
-      "2209279550302034861": {
-        "type": "shopify:\/\/apps\/shop-quiz\/blocks\/link-popup\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
-        "disabled": false,
-        "settings": {
-          "show_list": true
-        }
-      },
       "8208493610395315515": {
         "type": "shopify:\/\/apps\/dondy-whatsapp-chat-widget\/blocks\/app-block\/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
         "disabled": false,
