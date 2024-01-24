@@ -59,6 +59,13 @@
           "settings": {
           }
         },
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
+          "type": "shortcode_popup",
+          "settings": {
+            "popup_label": "Aquí descubres qué talla eres",
+            "shortcode_name": "Tallas"
+          }
+        },
         "product_buttons": {
           "type": "product_buttons",
           "settings": {
@@ -115,13 +122,6 @@
             "ac_link": "https:\/\/wa.me\/message\/ON6QDKVRBPA3L1",
             "ac_icon": "user-circle"
           }
-        },
-        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
-          "type": "shortcode_popup",
-          "settings": {
-            "popup_label": "Aquí descubres qué talla eres",
-            "shortcode_name": "Tallas"
-          }
         }
       },
       "block_order": [
@@ -133,6 +133,7 @@
         "7749ac3d-59d7-4da3-a17b-41df7c9e920d",
         "d56dffc3-91b5-402f-939a-f5e3456837ec",
         "c8894913-ecea-4d1e-b885-95208ac5cbc9",
+        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc",
         "product_buttons",
         "product_quantity",
         "cb0314b7-8d93-4eb3-bf92-562bb07273c7",
@@ -140,8 +141,7 @@
         "519d2af3-1da3-4d6b-a7cc-157f37606a4e",
         "ba479e68-3314-4f60-9111-e6b5ca5ab1c1",
         "metafield_popup",
-        "0b98c94e-46ad-44b2-983d-78b7a5f606fc",
-        "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc"
+        "0b98c94e-46ad-44b2-983d-78b7a5f606fc"
       ],
       "settings": {
         "click_to_enlarge": false,
