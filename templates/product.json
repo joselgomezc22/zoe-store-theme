@@ -31,11 +31,6 @@
           "settings": {
           }
         },
-        "c8894913-ecea-4d1e-b885-95208ac5cbc9": {
-          "type": "color-options",
-          "settings": {
-          }
-        },
         "d05957d4-8379-4896-90c4-cc26aa85d056": {
           "type": "discount-product",
           "settings": {
@@ -57,6 +52,18 @@
           "settings": {
             "text": "Por la compra de este Body tu cinta mágica queda en solo $15.000  -v- .",
             "file": "gift_box.jpg"
+          }
+        },
+        "c8894913-ecea-4d1e-b885-95208ac5cbc9": {
+          "type": "color-options",
+          "settings": {
+          }
+        },
+        "product_buttons": {
+          "type": "product_buttons",
+          "settings": {
+            "back_in_stock": true,
+            "back_in_stock_text": "<p>Avisame cuando se encuentre disponible !<\/p>"
           }
         },
         "product_quantity": {
@@ -109,13 +116,6 @@
             "ac_icon": "user-circle"
           }
         },
-        "product_buttons": {
-          "type": "product_buttons",
-          "settings": {
-            "back_in_stock": true,
-            "back_in_stock_text": "<p>Avisame cuando se encuentre disponible !<\/p>"
-          }
-        },
         "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc": {
           "type": "shortcode_popup",
           "settings": {
@@ -129,10 +129,11 @@
         "product_description",
         "product_variants",
         "product_sku",
-        "c8894913-ecea-4d1e-b885-95208ac5cbc9",
         "d05957d4-8379-4896-90c4-cc26aa85d056",
         "7749ac3d-59d7-4da3-a17b-41df7c9e920d",
         "d56dffc3-91b5-402f-939a-f5e3456837ec",
+        "c8894913-ecea-4d1e-b885-95208ac5cbc9",
+        "product_buttons",
         "product_quantity",
         "cb0314b7-8d93-4eb3-bf92-562bb07273c7",
         "f7704069-17c8-42f6-ae27-646be7b277dd",
@@ -140,7 +141,6 @@
         "ba479e68-3314-4f60-9111-e6b5ca5ab1c1",
         "metafield_popup",
         "0b98c94e-46ad-44b2-983d-78b7a5f606fc",
-        "product_buttons",
         "597a7e86-93ce-4ba4-9e25-6b0bcd8ec5bc"
       ],
       "settings": {
