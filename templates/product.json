@@ -33,6 +33,7 @@
         },
         "d05957d4-8379-4896-90c4-cc26aa85d056": {
           "type": "discount-product",
+          "disabled": true,
           "settings": {
             "text": "¡Este producto queda genial con nuestros cubrepezones! Y lo mejor, ¡te regalamos un 50% de descuento! Mira cómo se usan aquí:  -p-.",
             "file": "gift_box.jpg"
