@@ -253,6 +253,7 @@
         "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-2",
         "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "NUEVAS PRENDAS DISPONIBLES",
@@ -293,6 +294,7 @@
       "block_order": [
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
