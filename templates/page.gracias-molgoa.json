@@ -86,7 +86,7 @@
         "text_size": 21,
         "height": 30,
         "color_scheme": "cs3",
-        "section_padding": "none"
+        "section_padding": "bottom"
       }
     },
     "1f848d75-961d-4c69-ac79-d6f77038e49f": {
@@ -148,6 +148,7 @@
         "template--20651994087738__1f848d75-961d-4c69-ac79-d6f77038e49f-image-3",
         "b4d12865-8192-4e85-bf80-b852aa0efe20"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
@@ -215,6 +216,7 @@
         "f2d500dd-386a-45e2-b40d-31fc48780a7f",
         "08f3fb21-b323-4a74-a062-1e881903bc90"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "",
@@ -230,12 +232,12 @@
         "template--20651994087738__37dc3e8e-ef21-4b54-8bf4-4568e5ed3371-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NAVIDAD-empaque-regalos-guia-queregalar-nosequeregalar-tienda-ropa-zoe-ultimanavidad-juntos_b031c9f6-22fe-42da-a965-0a102b583588.jpg",
+            "image": "shopify:\/\/shop_images\/Pack-3-pack-5-bodies-marca-colombiana-mujer_2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/NAVIDAD-empaque-regalos-guia-queregalar-nosequeregalar-tienda-ropa-zoe-ultimanavidad-juntos_b031c9f6-22fe-42da-a965-0a102b583588.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Direcciones-molgoa-tienda-colombia-mujer-moda_2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -273,19 +275,19 @@
         "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "menos-de-90-000"
+            "collection": "bodies"
           }
         },
         "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "menos-de-125-000"
+            "collection": "pantalones"
           }
         },
         "template--20651994087738__ece32d88-bea8-49e9-8537-b9284511ee7f-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "menos-190-000"
+            "collection": "sacos"
           }
         }
       },
