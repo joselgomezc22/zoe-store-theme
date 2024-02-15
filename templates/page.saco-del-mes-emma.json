@@ -76,6 +76,51 @@
         "section_padding": "both"
       }
     },
+    "ef1db471-8940-4942-a768-ec7363208a21": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>PAGA 2<strong> LLEVA 3<\/strong><\/p>"
+          }
+        },
+        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diseño versátil y <strong>atemporal<\/strong><\/p>"
+          }
+        },
+        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Abriga <\/strong>en clima frío<\/p>"
+          }
+        },
+        "145e8df9-3232-46cd-8a3e-d411c195e144": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tejido de <strong>alta calidad<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0",
+        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1",
+        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2",
+        "145e8df9-3232-46cd-8a3e-d411c195e144"
+      ],
+      "settings": {
+        "sa_grid": 2,
+        "slider_speed": 2,
+        "border_top": false,
+        "border_bottom": true,
+        "text_size": 20,
+        "height": 49,
+        "color_scheme": "cs3",
+        "section_padding": "both"
+      }
+    },
     "slideshow_GGGyeq": {
       "type": "slideshow",
       "blocks": {
@@ -141,51 +186,6 @@
         "slide_heading_size": 22,
         "subheading_size": 14,
         "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
-    "ef1db471-8940-4942-a768-ec7363208a21": {
-      "type": "scrolling-announcements",
-      "blocks": {
-        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Estilo <\/strong>moderno y sofisticado<\/p>"
-          }
-        },
-        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Diseño versátil y <strong>atemporal<\/strong><\/p>"
-          }
-        },
-        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Abriga <\/strong>en clima frío<\/p>"
-          }
-        },
-        "145e8df9-3232-46cd-8a3e-d411c195e144": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tejido de <strong>alta calidad<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0",
-        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1",
-        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2",
-        "145e8df9-3232-46cd-8a3e-d411c195e144"
-      ],
-      "settings": {
-        "sa_grid": 2,
-        "slider_speed": 2,
-        "border_top": false,
-        "border_bottom": true,
-        "text_size": 20,
-        "height": 49,
-        "color_scheme": "cs3",
         "section_padding": "both"
       }
     },
@@ -548,8 +548,8 @@
   "order": [
     "main",
     "7861a359-2387-4e90-9b41-fc4eb1842812",
-    "slideshow_GGGyeq",
     "ef1db471-8940-4942-a768-ec7363208a21",
+    "slideshow_GGGyeq",
     "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
     "2475f3c0-c947-4f80-857b-8c068d79a32c",
     "e35b4599-82d2-4003-9573-44b2d266f7ae",
