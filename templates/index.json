@@ -14,19 +14,19 @@
         "11c3d5e3-fe65-480b-b7d2-3a56027963db": {
           "type": "text",
           "settings": {
-            "text": "<p>Pago Contraentrega<\/p>"
+            "text": "<p>PAGA 2 <strong>LLEVA 3<\/strong><\/p>"
           }
         },
         "1651341173c6b66629-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Paga a 3 cuotas 0 Intereses<\/p>"
+            "text": "<p>PAGA 2 <strong>LLEVA 3<\/strong><\/p>"
           }
         },
         "1651341173c6b66629-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Envíos a todo Colombia<\/p>"
+            "text": "<p>PAGA 2 <strong>LLEVA 3<\/strong><\/p>"
           }
         }
       },
@@ -35,6 +35,45 @@
         "1651341173c6b66629-1",
         "1651341173c6b66629-0"
       ],
+      "settings": {
+        "sa_grid": 3,
+        "slider_speed": 1,
+        "border_top": false,
+        "border_bottom": false,
+        "text_size": 19,
+        "height": 30,
+        "color_scheme": "cs3",
+        "section_padding": "none"
+      }
+    },
+    "scrolling_announcements_RbG44k": {
+      "type": "scrolling-announcements",
+      "blocks": {
+        "text_Mi6DfE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pago Contraentrega<\/p>"
+          }
+        },
+        "text_3MATmc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Paga a 3 cuotas 0 Intereses<\/p>"
+          }
+        },
+        "text_w7nTxb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Envíos a todo Colombia<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Mi6DfE",
+        "text_3MATmc",
+        "text_w7nTxb"
+      ],
+      "disabled": true,
       "settings": {
         "sa_grid": 3,
         "slider_speed": 1,
@@ -1256,6 +1295,7 @@
   "order": [
     "1683726791de29782e",
     "1651341173e18e2e00",
+    "scrolling_announcements_RbG44k",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
     "6c181b53-afea-4f75-b47b-a685ec0f36af",
