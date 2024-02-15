@@ -270,8 +270,34 @@
     "9a61395d-67c5-49b6-87ed-cc3ef629827f": {
       "type": "slideshow",
       "blocks": {
+        "image_gRqhmF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 80,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer-2.jpg",
+            "hide_caption_background": true,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#000000",
+            "cta_background": "#e46c63",
+            "cta_background_hover": "rgba(0,0,0,0)",
+            "caption_background": "transparent",
+            "caption_background_opacity": 10
+          }
+        },
         "template--17202645172538__9a61395d-67c5-49b6-87ed-cc3ef629827f-image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
             "overlay": false,
@@ -297,6 +323,7 @@
         }
       },
       "block_order": [
+        "image_gRqhmF",
         "template--17202645172538__9a61395d-67c5-49b6-87ed-cc3ef629827f-image-1"
       ],
       "settings": {
