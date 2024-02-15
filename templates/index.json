@@ -614,7 +614,7 @@
             "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
             "hide_caption_background": false,
-            "caption_below": false,
+            "caption_below": true,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/collections\/ropa",
