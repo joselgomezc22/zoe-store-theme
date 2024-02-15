@@ -439,25 +439,25 @@
         "template--21854288937274__2ec3cff7-f953-4ba4-9283-9d6eba467e09-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
+            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 52,
             "caption_vertical": 93,
-            "mobile_image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-MB.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer-2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/bodies",
+            "link": "shopify:\/\/collections\/ropa",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "rgba(0,0,0,0)",
-            "cta_color": "#000000",
-            "cta_background": "#ffffff",
+            "cta_color": "#ffffff",
+            "cta_background": "#e46c63",
             "cta_background_hover": "rgba(0,0,0,0)",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
         },
@@ -480,7 +480,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
