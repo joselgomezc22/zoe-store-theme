@@ -5,6 +5,7 @@
       "blocks": {
         "template--17133187137850__164a4670-4199-45d5-b4fa-ff0732e7c31c-image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Coleccion-mujer-vestidos-faldas-molgoa-colombia.jpg",
             "overlay": false,
@@ -27,10 +28,36 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "image_HhJb3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "template--17133187137850__164a4670-4199-45d5-b4fa-ff0732e7c31c-image-1"
+        "template--17133187137850__164a4670-4199-45d5-b4fa-ff0732e7c31c-image-1",
+        "image_HhJb3f"
       ],
       "settings": {
         "enable_autoplay": false,
