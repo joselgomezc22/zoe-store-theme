@@ -115,6 +115,7 @@
         },
         "1a0f80aa-69b4-4643-93e5-396432db9805": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MOLGOA_somos_los_mismos_nueva_imagen_ahora_nos_vemos_mejor_mismo_amor_misma_esencia.jpg",
             "overlay": false,
