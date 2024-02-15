@@ -14,12 +14,12 @@
         "template--16986105020730__7861a359-2387-4e90-9b41-fc4eb1842812-168029164571b25def-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Body-saco-del-mes-molgoa-15-descuento-enero-colombia_1.jpg",
+            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Body-saco-del-mes-molgoa-15-descuento-enero-colombia_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -88,7 +88,7 @@
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Diseño versátil y <strong>atemporal<\/strong><\/p>"
+            "text": "<p>PAGA 2<strong> LLEVA 3<\/strong><\/p>"
           }
         },
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2": {
@@ -100,7 +100,7 @@
         "145e8df9-3232-46cd-8a3e-d411c195e144": {
           "type": "text",
           "settings": {
-            "text": "<p>Materiales de la más <strong>alta calidad<\/strong><\/p>"
+            "text": "<p>PAGA 2<strong> LLEVA 3<\/strong><\/p>"
           }
         }
       },
@@ -118,6 +118,74 @@
         "text_size": 20,
         "height": 49,
         "color_scheme": "cs3",
+        "section_padding": "both"
+      }
+    },
+    "slideshow_8FXNyJ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_qrwibA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body-saco-del-mes-molgoa-15-descuento-enero-colombia_1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Body-saco-del-mes-molgoa-15-descuento-enero-colombia_1.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "image_4pjMeF": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_qrwibA",
+        "image_4pjMeF"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
         "section_padding": "both"
       }
     },
@@ -505,6 +573,7 @@
     "main",
     "7861a359-2387-4e90-9b41-fc4eb1842812",
     "ef1db471-8940-4942-a768-ec7363208a21",
+    "slideshow_8FXNyJ",
     "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
     "2475f3c0-c947-4f80-857b-8c068d79a32c",
     "e35b4599-82d2-4003-9573-44b2d266f7ae",
