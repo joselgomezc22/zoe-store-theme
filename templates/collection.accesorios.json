@@ -6,12 +6,12 @@
         "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF_jpg.jpg",
+            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/promo-losmejoresdescuentos-delano-promociones-20_-compras-blackdaystienda-OFF.jpg-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
@@ -57,7 +57,6 @@
         "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0",
         "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
