@@ -1403,6 +1403,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "1744161739547163668": {
+        "type": "shopify:\/\/apps\/countdown-timer-bar-hextom\/blocks\/ctb-embeded-block\/f7b88b6e-2e87-46bc-87a9-3e3638a24fa9",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
