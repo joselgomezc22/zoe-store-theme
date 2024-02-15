@@ -140,6 +140,7 @@
         },
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/pack-anual-bodies-mujer-molgoa-tienda_2.jpg",
             "overlay": false,
@@ -165,6 +166,7 @@
         },
         "42b41003-913d-4718-9a10-5550b933eea9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Saco_del_mes_emma_sacos_tienda_ropa_mujer_sacos-1.jpg",
             "overlay": false,
@@ -190,6 +192,7 @@
         },
         "cdd6de33-d744-479c-9217-7dfde4da2790": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/bodies_bodie_del_mes_prenda_body_ropa_tienda_en_bogota_body_en_bogota_off_descuento.jpg",
             "overlay": false,
