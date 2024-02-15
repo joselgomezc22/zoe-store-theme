@@ -49,31 +49,6 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
-        "1a0f80aa-69b4-4643-93e5-396432db9805": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOLGOA_somos_los_mismos_nueva_imagen_ahora_nos_vemos_mejor_mismo_amor_misma_esencia.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 78,
-            "caption_vertical": 85,
-            "mobile_image": "shopify:\/\/shop_images\/MOLGOA_somos_los_mismos_nueva_imagen_ahora_nos_vemos_mejor_mismo_amor_misma_esencia_3991b9b2-d9a2-4c68-afc7-ed8c24b1aa45.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "{{ shop.brand.colors.secondary[1].background }}",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "{{ shop.brand.colors.primary[0].foreground }}",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 10
-          }
-        },
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
           "type": "image",
           "settings": {
@@ -97,6 +72,31 @@
             "cta_background_hover": "#acacac",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
+          }
+        },
+        "1a0f80aa-69b4-4643-93e5-396432db9805": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOLGOA_somos_los_mismos_nueva_imagen_ahora_nos_vemos_mejor_mismo_amor_misma_esencia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 78,
+            "caption_vertical": 85,
+            "mobile_image": "shopify:\/\/shop_images\/MOLGOA_somos_los_mismos_nueva_imagen_ahora_nos_vemos_mejor_mismo_amor_misma_esencia_3991b9b2-d9a2-4c68-afc7-ed8c24b1aa45.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "{{ shop.brand.colors.secondary[1].background }}",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "{{ shop.brand.colors.primary[0].foreground }}",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 10
           }
         },
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
@@ -176,8 +176,8 @@
         }
       },
       "block_order": [
-        "1a0f80aa-69b4-4643-93e5-396432db9805",
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
+        "1a0f80aa-69b4-4643-93e5-396432db9805",
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa",
         "42b41003-913d-4718-9a10-5550b933eea9",
         "cdd6de33-d744-479c-9217-7dfde4da2790"
