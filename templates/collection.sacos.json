@@ -5,6 +5,7 @@
       "blocks": {
         "template--17133171704122__2d6d9ef6-be99-4dd8-844c-e41d0cac3a01-168199769917643a74-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/coleccion-sueter-abrigos-sacos-molgoa-colombia.jpg",
             "overlay": false,
@@ -30,20 +31,21 @@
         },
         "template--17133171704122__2d6d9ef6-be99-4dd8-844c-e41d0cac3a01-168199769917643a74-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
             "hide_caption_background": false,
             "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
+            "heading": "",
+            "subheading": "",
             "link": "",
-            "button_text": "Add a button",
+            "button_text": "",
             "second_link": "",
-            "second_button_text": "Button 2 text",
+            "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
