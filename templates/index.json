@@ -344,49 +344,6 @@
         "section_padding": "none"
       }
     },
-    "6c181b53-afea-4f75-b47b-a685ec0f36af": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16986105381178__6c181b53-afea-4f75-b47b-a685ec0f36af-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer-2.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "{{ shop.brand.colors.primary[1].background }}",
-            "cta_color": "#ffffff",
-            "cta_background": "#e46c63",
-            "cta_background_hover": "#000000",
-            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
-            "caption_background_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105381178__6c181b53-afea-4f75-b47b-a685ec0f36af-image-2"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "47a9dbb2-e0c2-4545-b858-daeae6ed2449": {
       "type": "rich-text",
       "blocks": {
@@ -1261,7 +1218,6 @@
     "scrolling_announcements_RbG44k",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
-    "6c181b53-afea-4f75-b47b-a685ec0f36af",
     "47a9dbb2-e0c2-4545-b858-daeae6ed2449",
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
