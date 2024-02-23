@@ -299,6 +299,7 @@
       "blocks": {
         "image_gRqhmF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
             "overlay": false,
@@ -324,7 +325,6 @@
         },
         "template--17202645172538__9a61395d-67c5-49b6-87ed-cc3ef629827f-image-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
             "overlay": false,
