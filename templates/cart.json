@@ -54,6 +54,7 @@
       "blocks": {
         "image_3wD6xk": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_6.jpg",
             "overlay": false,
@@ -112,6 +113,7 @@
       "blocks": {
         "image_CcEX7p": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
             "overlay": false,
