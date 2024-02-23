@@ -321,6 +321,7 @@
       "blocks": {
         "template--17132584927546__cc6323c2-f6da-48d0-acd5-2dee0844c035-image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
             "overlay": false,
