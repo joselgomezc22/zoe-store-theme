@@ -5,7 +5,6 @@
       "blocks": {
         "template--17202645172538__4e6ff352-c58c-44b7-a0fe-27f0e1ba4bfe-image-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Coleccion-ropa-molgoa-colombia-infaltables.jpg",
             "overlay": false,
@@ -31,6 +30,7 @@
         },
         "image_WwWWpM": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_6.jpg",
             "overlay": false,
