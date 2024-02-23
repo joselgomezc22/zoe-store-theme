@@ -5,7 +5,6 @@
       "blocks": {
         "template--17133154337082__32c47e39-e962-4372-9410-fbc8fcef4a51-image-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Coleccion-mujer-crop-tops-molgoa-colombia.jpg",
             "overlay": false,
@@ -31,6 +30,7 @@
         },
         "image_tDepUT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_6.jpg",
             "overlay": false,
