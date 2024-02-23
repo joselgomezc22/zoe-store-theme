@@ -523,49 +523,6 @@
         "section_padding": "both"
       }
     },
-    "df8abd17-8c40-47ba-ae70-87c73cba3ee9": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16986105381178__df8abd17-8c40-47ba-ae70-87c73cba3ee9-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_6.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 72,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "{{ shop.brand.colors.secondary[0].background }}",
-            "cta_color": "#000000",
-            "cta_background": "{{ shop.brand.colors.primary[0].foreground }}",
-            "cta_background_hover": "{{ shop.brand.colors.primary[1].background }}",
-            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
-            "caption_background_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105381178__df8abd17-8c40-47ba-ae70-87c73cba3ee9-image-1"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "none"
-      }
-    },
     "1625752966582d2e67": {
       "type": "featured-collection",
       "settings": {
@@ -1223,7 +1180,6 @@
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "bc4fbee7-6341-4959-a759-f1423af62006",
     "6c3b871e-c055-4c16-9e5d-e083f6d31c2c",
-    "df8abd17-8c40-47ba-ae70-87c73cba3ee9",
     "1625752966582d2e67",
     "194f443c-fdc0-4d4f-a410-2ee3db50aafa",
     "a3a04735-fce8-4db0-901d-e1e29907df80",
