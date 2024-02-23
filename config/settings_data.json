@@ -1363,7 +1363,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "announcement_text": "<p>PAGA 2 <strong>LLEVA 3<\/strong> - Envío gratis compras mayores $145.000<\/p>",
+          "announcement_text": "<p>Envío gratis compras mayores $145.000<\/p>",
           "announcement_text_size": 13,
           "top_nav": "",
           "announcement_cart": false,
