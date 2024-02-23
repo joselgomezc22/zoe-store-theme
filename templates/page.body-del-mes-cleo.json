@@ -101,13 +101,7 @@
         "145e8df9-3232-46cd-8a3e-d411c195e144": {
           "type": "text",
           "settings": {
-            "text": "<p>PAGA 2<strong> LLEVA 3<\/strong><\/p>"
-          }
-        },
-        "text_t7WjNq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Add content to a sliding text message bar<\/p>"
+            "text": "<p><strong>Body del mes<\/strong><\/p>"
           }
         }
       },
@@ -115,8 +109,7 @@
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0",
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1",
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2",
-        "145e8df9-3232-46cd-8a3e-d411c195e144",
-        "text_t7WjNq"
+        "145e8df9-3232-46cd-8a3e-d411c195e144"
       ],
       "settings": {
         "sa_grid": 2,
