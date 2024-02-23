@@ -5,6 +5,7 @@
       "blocks": {
         "template--17132172247354__2d5a636c-8482-457d-9feb-7797bcd06a96-image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_6.jpg",
             "overlay": false,
@@ -30,7 +31,6 @@
         },
         "c4d249f7-35f2-47a2-81d7-46dd4423a2d4": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Coleccion-mujer-blusas-molgoa-colombia.jpg",
             "overlay": false,
@@ -299,6 +299,7 @@
       "blocks": {
         "template--17132172247354__fabe9ac4-0beb-424f-bf8f-fd6627beabe4-image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
             "overlay": false,
