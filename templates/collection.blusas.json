@@ -385,32 +385,6 @@
     "9e612b45-efc3-4f3b-aba0-5fb57e06bc24": {
       "type": "slideshow",
       "blocks": {
-        "template--17132172247354__9e612b45-efc3-4f3b-aba0-5fb57e06bc24-1685711263d27684da-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/oasis-colombia-ropa-moda-mujer-nueva-coleccion-zoe.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/pages\/oasis",
-            "button_text": "Comprar",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "{{ shop.brand.colors.secondary[0].foreground }}",
-            "cta_background": "#ffffff",
-            "cta_background_hover": "#ffffff",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
         "template--17132172247354__9e612b45-efc3-4f3b-aba0-5fb57e06bc24-1685711263d27684da-1": {
           "type": "image",
           "settings": {
@@ -438,10 +412,8 @@
         }
       },
       "block_order": [
-        "template--17132172247354__9e612b45-efc3-4f3b-aba0-5fb57e06bc24-1685711263d27684da-0",
         "template--17132172247354__9e612b45-efc3-4f3b-aba0-5fb57e06bc24-1685711263d27684da-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
