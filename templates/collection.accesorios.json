@@ -342,25 +342,25 @@
         "template--17202802164026__69bb616e-458a-4f3f-ac33-8d9f0fc551db-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
+            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 50,
+            "caption_horizontal": 77,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Magic-combos-grandes-ofertas-bodies-desde-40000.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "hide_caption_background": false,
-            "caption_below": false,
+            "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "",
-            "button_text": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
             "second_link": "shopify:\/\/collections\/simona-pomona",
-            "second_button_text": "COMPRAR AQUÍ",
+            "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "#ffffff",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
         }
@@ -368,7 +368,6 @@
       "block_order": [
         "template--17202802164026__69bb616e-458a-4f3f-ac33-8d9f0fc551db-image-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
