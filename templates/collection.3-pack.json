@@ -143,12 +143,12 @@
         "template--17184606060858__edb198af-affc-4f59-80bc-fa02b6d27c7b-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
+            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 50,
+            "caption_horizontal": 77,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
@@ -159,7 +159,7 @@
             "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
-            "cta_background": "#e46c63",
+            "cta_background": "#000000",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
@@ -187,7 +187,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "rgba(0,0,0,0)",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -365,7 +365,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "rgba(0,0,0,0)",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
           }
         }
