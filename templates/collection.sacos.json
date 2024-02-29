@@ -383,23 +383,23 @@
         "template--17133171704122__daed8061-8c78-4ba5-8e92-87b72bfdcac3-1685711263d27684da-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Nueva-Coleccion-Oasis-Molgoa-Viaje-al-interior-1.jpg",
+            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "overlay": false,
             "text_align": "center",
-            "caption_horizontal": 50,
+            "caption_horizontal": 78,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Nueva-Coleccion-Oasis-Molgoa-Viaje-al-interior-1.jpg",
-            "hide_caption_background": false,
+            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "hide_caption_background": true,
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "",
-            "button_text": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "{{ shop.brand.colors.secondary[0].foreground }}",
-            "cta_background": "#ffffff",
+            "cta_background": "#000000",
             "cta_background_hover": "#000000",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
@@ -434,7 +434,6 @@
         "template--17133171704122__daed8061-8c78-4ba5-8e92-87b72bfdcac3-1685711263d27684da-0",
         "template--17133171704122__daed8061-8c78-4ba5-8e92-87b72bfdcac3-1685711263d27684da-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
