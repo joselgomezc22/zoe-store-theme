@@ -130,12 +130,12 @@
         "42b41003-913d-4718-9a10-5550b933eea9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Promocion-hot-days-dias-de-promo-colombia-molgoa-ropa-mujer_2.png",
+            "image": "shopify:\/\/shop_images\/Banner-promocion-hot-days-ropa-mujer_2.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 51,
+            "caption_horizontal": 50,
             "caption_vertical": 92,
-            "mobile_image": "shopify:\/\/shop_images\/Promocion-hot-days-dias-de-promo-colombia-molgoa-ropa-mujer_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-promocion-hot-days-ropa-mujer_1.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
