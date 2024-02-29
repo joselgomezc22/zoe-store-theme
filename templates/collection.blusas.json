@@ -5,14 +5,13 @@
       "blocks": {
         "template--17132172247354__2d5a636c-8482-457d-9feb-7797bcd06a96-image-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_6.jpg",
+            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-promocion-molgoa-ropa-mujer_3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -31,6 +30,7 @@
         },
         "c4d249f7-35f2-47a2-81d7-46dd4423a2d4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Coleccion-mujer-blusas-molgoa-colombia.jpg",
             "overlay": false,
