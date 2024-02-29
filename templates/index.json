@@ -789,25 +789,25 @@
         "image_wyL97e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-promocion-hot-days-ropa-mujer_1.png",
+            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/banner-promocion-hot-days-ropa-mujer_1.png",
+            "caption_horizontal": 77,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "hide_caption_background": false,
-            "caption_below": false,
+            "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "",
-            "button_text": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
