@@ -328,7 +328,7 @@
             "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "hide_caption_background": false,
-            "caption_below": false,
+            "caption_below": true,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/collections\/ropa",
