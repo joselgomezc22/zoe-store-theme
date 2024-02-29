@@ -705,6 +705,49 @@
         "color_scheme": "none",
         "section_padding": "both"
       }
+    },
+    "slideshow_Hg87K3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8qmK7w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_8qmK7w"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -721,6 +764,7 @@
     "e29df98b-d6e6-452f-8473-0c104b67ea73",
     "91180802-2590-427a-afd6-58fd49ec5e01",
     "4bc44561-a50e-4c9b-b408-ddc6ecf8925b",
-    "cd4a03f7-073b-44a8-8b97-a73ce5506f63"
+    "cd4a03f7-073b-44a8-8b97-a73ce5506f63",
+    "slideshow_Hg87K3"
   ]
 }
