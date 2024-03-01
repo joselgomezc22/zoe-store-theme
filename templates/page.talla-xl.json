@@ -486,6 +486,7 @@
       "blocks": {
         "template--16986105020730__600abb3a-45cd-4565-96ee-95acfb1624b1-16802770682ed6f6c5-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Reunión laboral",
             "rich_text": "<p>Elegante y sofisticada.<\/p>",
@@ -495,6 +496,7 @@
         },
         "e09bac61-cef5-4a40-a9f6-c3392aed9bb1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Casual",
             "rich_text": "<p>Refinada y moderna.<\/p>",
@@ -504,6 +506,7 @@
         },
         "b96f1015-0cee-42b4-8b4e-a8bcfbcbe6f5": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Brunch",
             "rich_text": "<p>Casual y con estilo.<\/p>",
