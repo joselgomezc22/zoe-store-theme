@@ -82,33 +82,26 @@
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Básico<\/strong> en tu clóset<\/p>"
+            "text": "<p>Nueva Talla<\/p>"
           }
         },
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Body del Mes<\/p>"
+            "text": "<p>Única pero no talla única<\/p>"
           }
         },
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Doble <\/strong>tela<\/p>"
-          }
-        },
-        "145e8df9-3232-46cd-8a3e-d411c195e144": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Body del mes<\/strong><\/p>"
+            "text": "<p>XL<\/p>"
           }
         }
       },
       "block_order": [
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-0",
         "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-1",
-        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2",
-        "145e8df9-3232-46cd-8a3e-d411c195e144"
+        "template--16986105020730__ef1db471-8940-4942-a768-ec7363208a21-1680294238a4a4bb5c-2"
       ],
       "settings": {
         "sa_grid": 2,
@@ -126,6 +119,7 @@
       "blocks": {
         "image_qrwibA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Body-saco-del-mes-molgoa-15-descuento-enero-colombia_1.jpg",
             "overlay": false,
@@ -172,11 +166,36 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "image_gwP87k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/talla-grande-mujer-xl-nueva_1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
         "image_qrwibA",
-        "image_4pjMeF"
+        "image_4pjMeF",
+        "image_gwP87k"
       ],
       "settings": {
         "enable_autoplay": false,
