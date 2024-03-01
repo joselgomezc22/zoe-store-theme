@@ -189,7 +189,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -214,7 +214,7 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "¡Todos nuestros colores disponibles!",
+        "title": "¡Nuestros productos disponibles en talla XL!",
         "collection": "talla-xl",
         "carousel": true,
         "button": true,
@@ -231,8 +231,8 @@
         "template--16986105020730__2475f3c0-c947-4f80-857b-8c068d79a32c-16802770682ed6f6c5-0": {
           "type": "text",
           "settings": {
-            "heading": "CLEO",
-            "rich_text": "<p>Su diseño y versatilidad te harán quererlo en todos los colores. Además, se convertirá en uno de tus favs por sus materiales de alta calidad y su diseño atemporal que te permitirá tenerlo TODA LA VIDA. Es una pieza perfecta para complementar todos tus looks y hacerte lucir juvenil y moderna. <\/p>",
+            "heading": "Entendimos que somos únicas pero no talla única",
+            "rich_text": "<p>Te escuchamos! Sabemos que la diversidad de cuerpos hace parte de nuestro mundo y queremos que te sientas respaldada por nosotros. Incluimos la talla XL para que todos podamos ser parte de la comunidad sin importar la talla que uses. No hay límites.<\/p>",
             "center": true,
             "block_size": 5
           }
@@ -242,7 +242,7 @@
         "template--16986105020730__2475f3c0-c947-4f80-857b-8c068d79a32c-16802770682ed6f6c5-0"
       ],
       "settings": {
-        "title": "¿Conoces nuestro body del mes?",
+        "title": "¿Por qué incluimos talla XL?",
         "color_scheme": "none",
         "section_padding": "both"
       }
