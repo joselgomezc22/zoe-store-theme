@@ -81,6 +81,7 @@
       "block_order": [
         "image_3wD6xk"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
