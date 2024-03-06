@@ -57,6 +57,7 @@
         "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-0",
         "template--17202802164026__4a946df1-4f2d-4d3d-b77a-1a1030eae3d7-1685711263d27684da-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -342,17 +343,17 @@
         "template--17202802164026__69bb616e-458a-4f3f-ac33-8d9f0fc551db-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 77,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-MB.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
+            "link": "shopify:\/\/collections\/bodies",
             "button_text": "COMPRAR",
             "second_link": "shopify:\/\/collections\/simona-pomona",
             "second_button_text": "",
