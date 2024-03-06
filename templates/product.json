@@ -249,6 +249,7 @@
       "block_order": [
         "image_XQdaTd"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
