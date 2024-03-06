@@ -815,6 +815,7 @@
       "block_order": [
         "image_wyL97e"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
