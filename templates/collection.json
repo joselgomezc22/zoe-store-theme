@@ -552,6 +552,7 @@
       "blocks": {
         "image_8qmK7w": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "overlay": false,
