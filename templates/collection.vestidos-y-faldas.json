@@ -5,7 +5,6 @@
       "blocks": {
         "template--17133187137850__164a4670-4199-45d5-b4fa-ff0732e7c31c-image-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Coleccion-mujer-vestidos-faldas-molgoa-colombia.jpg",
             "overlay": false,
@@ -31,6 +30,7 @@
         },
         "image_HhJb3f": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
             "overlay": false,
