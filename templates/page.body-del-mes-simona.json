@@ -83,7 +83,7 @@
         "title": "BODY DEL MES - COLORES",
         "collection": "simona",
         "carousel": true,
-        "button": false,
+        "button": true,
         "button_text": "View all",
         "grid": 5,
         "limit": 14,
