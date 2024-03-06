@@ -57,6 +57,7 @@
         "template--17133195493690__d3b3a075-a072-4c90-83ab-28a87edfdde1-1685711263d27684da-0",
         "template--17133195493690__d3b3a075-a072-4c90-83ab-28a87edfdde1-1685711263d27684da-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -373,17 +374,17 @@
         "template--17133195493690__4ecf06c3-ca9f-4757-824f-7caa6b7a1236-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-w.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 77,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Pack-3-bodies-descuento-colombia-moda-mujer-MB.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
+            "link": "shopify:\/\/collections\/bodies",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
