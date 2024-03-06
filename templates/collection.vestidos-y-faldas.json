@@ -409,10 +409,36 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "image_VkUhgp": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompetrafico-Bodies-Pack-PC.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "template--17133187137850__6ee8ffbb-484b-406b-9b2e-38f086e9964f-1685711263d27684da-0"
+        "template--17133187137850__6ee8ffbb-484b-406b-9b2e-38f086e9964f-1685711263d27684da-0",
+        "image_VkUhgp"
       ],
       "settings": {
         "enable_autoplay": false,
