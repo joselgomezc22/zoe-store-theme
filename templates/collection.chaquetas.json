@@ -414,6 +414,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rompetrafico-Bodies-Pack-PC.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
