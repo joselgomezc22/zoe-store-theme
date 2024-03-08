@@ -52,12 +52,12 @@
         "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PLAY_LIKE_A_GIRL_HOME_PC-2.png",
+            "image": "shopify:\/\/shop_images\/PLAY_LIKE_A_GIRL_HOME_PC-3.png",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 52,
             "caption_vertical": 90,
-            "mobile_image": "shopify:\/\/shop_images\/PLAY_LIKE_A_GIRL_HOME_MOBILE.png",
+            "mobile_image": "shopify:\/\/shop_images\/PLAY_LIKE_A_GIRL_HOME_MOBILE-2.png",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
