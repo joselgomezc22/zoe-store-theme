@@ -93,6 +93,49 @@
         "section_padding": "both"
       }
     },
+    "slideshow_CEffHN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_BBqrd8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_3.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/bodies",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_BBqrd8"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "3c40a5d8-3726-4ba4-aa22-a39358a5e61a": {
       "type": "featured-collection",
       "settings": {
@@ -157,6 +200,7 @@
     "f863dec8-1640-4071-8326-383e676eb2b0",
     "main",
     "slideshow_jQjb7z",
+    "slideshow_CEffHN",
     "3c40a5d8-3726-4ba4-aa22-a39358a5e61a",
     "slideshow_EpMERa"
   ]
