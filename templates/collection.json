@@ -552,19 +552,18 @@
       "blocks": {
         "image_8qmK7w": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 77,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/rompetrafico-promocion-hot-days-ropa-mujer_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_1.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
+            "link": "shopify:\/\/collections\/bodies",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
@@ -580,7 +579,6 @@
       "block_order": [
         "image_8qmK7w"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
