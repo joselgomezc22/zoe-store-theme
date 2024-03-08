@@ -99,12 +99,12 @@
         "image_BBqrd8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-medios-de-pago-credito_2.jpg",
+            "image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-medios-de-pago-credito_4.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-medios-de-pago-credito_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-medios-de-pago-credito_4.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
