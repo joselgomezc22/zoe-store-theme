@@ -311,6 +311,49 @@
         "5aa6c843-3f06-4843-8aa4-45cf459f8545": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 51,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_3.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/bodies",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "5aa6c843-3f06-4843-8aa4-45cf459f8545"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "slideshow_7EEj79": {
+      "type": "slideshow",
+      "blocks": {
+        "image_FJymrp": {
+          "type": "image",
+          "settings": {
             "image": "shopify:\/\/shop_images\/Rompetrafico_pc_4d63015a-ef73-48f1-806a-e02b024a2405.jpg",
             "overlay": false,
             "text_align": "left",
@@ -335,7 +378,7 @@
         }
       },
       "block_order": [
-        "5aa6c843-3f06-4843-8aa4-45cf459f8545"
+        "image_FJymrp"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -577,6 +620,7 @@
     "slideshow_rbeyhi",
     "fbd90e78-b04f-43a3-9a4d-941a7fba0646",
     "bbace95d-8011-4366-9d5b-7a35c4c63573",
+    "slideshow_7EEj79",
     "c56e92a7-bdcd-43b3-ba88-fc4f5423d96d",
     "9f91e942-922e-412d-a328-5b9b11bf4c30",
     "product-recommendations",
