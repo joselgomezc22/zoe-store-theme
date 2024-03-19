@@ -1403,6 +1403,19 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "13057235355128461448": {
+        "type": "shopify:\/\/apps\/cozy-country-redirect\/blocks\/CozyStaticScript\/7b44aa65-e072-42a4-8594-17bbfd843785",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "8195150229771406018": {
+        "type": "shopify:\/\/apps\/cozy-country-redirect\/blocks\/CCR_currency_selector\/7b44aa65-e072-42a4-8594-17bbfd843785",
+        "disabled": false,
+        "settings": {
+          "czcrd_custom_css": ""
+        }
       }
     }
   },
