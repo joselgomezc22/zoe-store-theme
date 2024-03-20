@@ -210,21 +210,6 @@
         "section_padding": "both"
       }
     },
-    "04ebe054-fd24-44e0-8bd0-5b9680ecce91": {
-      "type": "featured-collection",
-      "settings": {
-        "full_width": false,
-        "title": "¡Bodies en talla XL!",
-        "collection": "talla-xl",
-        "carousel": true,
-        "button": true,
-        "button_text": "Ver todos",
-        "grid": 5,
-        "limit": 10,
-        "color_scheme": "cs1",
-        "section_padding": "both"
-      }
-    },
     "2475f3c0-c947-4f80-857b-8c068d79a32c": {
       "type": "rich-text",
       "blocks": {
@@ -244,6 +229,21 @@
       "settings": {
         "title": "¿Por qué incluimos talla XL?",
         "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "04ebe054-fd24-44e0-8bd0-5b9680ecce91": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "¡Bodies en talla XL!",
+        "collection": "talla-xl",
+        "carousel": true,
+        "button": true,
+        "button_text": "Ver todos",
+        "grid": 5,
+        "limit": 10,
+        "color_scheme": "cs1",
         "section_padding": "both"
       }
     },
@@ -603,8 +603,8 @@
     "7861a359-2387-4e90-9b41-fc4eb1842812",
     "ef1db471-8940-4942-a768-ec7363208a21",
     "slideshow_8FXNyJ",
-    "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
     "2475f3c0-c947-4f80-857b-8c068d79a32c",
+    "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
     "e35b4599-82d2-4003-9573-44b2d266f7ae",
     "eca7ab96-5fe5-4cdb-af44-6c864232dd85",
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
