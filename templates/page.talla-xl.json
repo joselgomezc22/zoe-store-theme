@@ -247,6 +247,21 @@
         "section_padding": "both"
       }
     },
+    "featured_collection_EKPCaU": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Featured collection",
+        "collection": "pantalones-talla-xl",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
     "e35b4599-82d2-4003-9573-44b2d266f7ae": {
       "type": "slideshow",
       "blocks": {
@@ -605,6 +620,7 @@
     "slideshow_8FXNyJ",
     "2475f3c0-c947-4f80-857b-8c068d79a32c",
     "04ebe054-fd24-44e0-8bd0-5b9680ecce91",
+    "featured_collection_EKPCaU",
     "e35b4599-82d2-4003-9573-44b2d266f7ae",
     "eca7ab96-5fe5-4cdb-af44-6c864232dd85",
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
