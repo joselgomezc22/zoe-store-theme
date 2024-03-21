@@ -1108,7 +1108,7 @@
     "show_shipping_calculator": false,
     "shipping_calculator_default_country": "Colombia",
     "show_shipping_countdown": true,
-    "free_shipping_threshold": "145000",
+    "free_shipping_threshold": "120000",
     "free_shipping_bg": "#a1ceca",
     "free_shipping_text": "#4a7c5b",
     "facebook_url": "https:\/\/www.facebook.com\/ropamolgoa?mibextid=2JQ9oc",
@@ -1363,7 +1363,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "announcement_text": "<p>Envío Gratis Compras Mayores $145.000<\/p>",
+          "announcement_text": "<p>Envío Gratis Compras Mayores $120.000<\/p>",
           "announcement_text_size": 13,
           "top_nav": "",
           "announcement_cart": false,
