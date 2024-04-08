@@ -704,12 +704,12 @@
         "template--16986105381178__57ed3583-e547-455c-8fb3-546f2524a5ed-16760408178ae8bfce-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pack-3-pack-5-bodies-marca-colombiana-mujer_2.jpg",
+            "image": "shopify:\/\/shop_images\/regalo-descargables-be-kind-molgoa-colombia.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 49,
             "caption_vertical": 51,
-            "mobile_image": "shopify:\/\/shop_images\/Pack-3-pack-5-bodies-marca-colombiana-mujer_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/regalo-descargables-be-kind-molgoa-colombia.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -754,6 +754,74 @@
       "block_order": [
         "template--16986105381178__57ed3583-e547-455c-8fb3-546f2524a5ed-16760408178ae8bfce-0",
         "template--16986105381178__57ed3583-e547-455c-8fb3-546f2524a5ed-16760408178ae8bfce-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "slideshow_EwpkUn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_89gTji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pack-3-pack-5-bodies-marca-colombiana-mujer_2.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 49,
+            "caption_vertical": 51,
+            "mobile_image": "shopify:\/\/shop_images\/Pack-3-pack-5-bodies-marca-colombiana-mujer_1.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#ffffff",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 30
+          }
+        },
+        "image_VcmxTy": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_89gTji",
+        "image_VcmxTy"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -1253,6 +1321,7 @@
     "1652212680a3b36e24",
     "16522107484f6b2502",
     "57ed3583-e547-455c-8fb3-546f2524a5ed",
+    "slideshow_EwpkUn",
     "1628115108645bdee6",
     "slideshow_tNVetK",
     "a0bbcb16-c9b9-4c30-ab3d-2e080db8b55b",
