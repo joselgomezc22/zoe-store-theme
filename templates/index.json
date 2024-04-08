@@ -78,12 +78,12 @@
         "1a0f80aa-69b4-4643-93e5-396432db9805": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Molgoa-cash-te-devolvemos-dinero-molgoa-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/Molgoa-cash-recibe-colombia.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 49,
+            "caption_horizontal": 94,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Molgoa-cash-te-devolvemos-dinero-molgoa-colombia-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Molgoa-cash-recibe-colombia-2.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
