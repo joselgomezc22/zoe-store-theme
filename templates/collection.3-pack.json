@@ -140,57 +140,6 @@
     "edb198af-affc-4f59-80bc-fa02b6d27c7b": {
       "type": "slideshow",
       "blocks": {
-        "template--17184606060858__edb198af-affc-4f59-80bc-fa02b6d27c7b-image-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_1.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 51,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_3.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/bodies",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
-        "image_pYLq7T": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rompetrafico-Bodies-Pack-PC.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
         "image_AwDrxh": {
           "type": "image",
           "settings": {
@@ -218,9 +167,50 @@
         }
       },
       "block_order": [
-        "template--17184606060858__edb198af-affc-4f59-80bc-fa02b6d27c7b-image-1",
-        "image_pYLq7T",
         "image_AwDrxh"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "slideshow_zRPJhr": {
+      "type": "slideshow",
+      "blocks": {
+        "image_qfC3ET": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 100,
+            "caption_vertical": 70,
+            "mobile_image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/bodies",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_qfC3ET"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -532,6 +522,7 @@
     "banner",
     "main",
     "edb198af-affc-4f59-80bc-fa02b6d27c7b",
+    "slideshow_zRPJhr",
     "86105da5-8a65-4d86-8865-6da74da4ca7c",
     "2d36f1f6-0ae2-4726-9cfd-fa56629768bf",
     "fd685562-29be-4f07-ad01-3917d9516297",
