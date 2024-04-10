@@ -460,7 +460,7 @@
             "caption_vertical": 70,
             "mobile_image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento.jpg",
             "hide_caption_background": false,
-            "caption_below": false,
+            "caption_below": true,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/collections\/bodies",
