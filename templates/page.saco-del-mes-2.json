@@ -425,8 +425,8 @@
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "image": "shopify:\/\/shop_images\/Emma-saco-del-mes-mujer-estilo_-4.jpg",
-            "lookbook_product_1": "capa-tejida-para-mujer-manga-corta-emma-magenta",
+            "image": "shopify:\/\/shop_images\/Saco-de-mes-positano-tejido-alta-calidad_3.jpg",
+            "lookbook_product_1": "positano-saco",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
             "hotspot_color_1": "#000000",
@@ -484,8 +484,8 @@
         "b96f1015-0cee-42b4-8b4e-a8bcfbcbe6f5": {
           "type": "text",
           "settings": {
-            "heading": "Amigos y Tardear",
-            "rich_text": "<p>Fresca y ligera.<\/p>",
+            "heading": "Cena Elegante",
+            "rich_text": "<p>Moderna y con clase<\/p>",
             "center": true,
             "block_size": 2
           }
