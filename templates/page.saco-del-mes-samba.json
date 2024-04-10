@@ -411,32 +411,6 @@
     "slideshow_n6qGBp": {
       "type": "slideshow",
       "blocks": {
-        "image_eDXDnc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_1.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_3.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/bodies",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
         "image_QKfDzT": {
           "type": "image",
           "settings": {
@@ -464,8 +438,50 @@
         }
       },
       "block_order": [
-        "image_eDXDnc",
         "image_QKfDzT"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "slideshow_4EgENn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XpJtfU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 100,
+            "caption_vertical": 70,
+            "mobile_image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/bodies",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_XpJtfU"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -489,6 +505,7 @@
     "eca7ab96-5fe5-4cdb-af44-6c864232dd85",
     "a231c604-4ddd-4ae6-924a-9913c6c7f779",
     "600abb3a-45cd-4565-96ee-95acfb1624b1",
-    "slideshow_n6qGBp"
+    "slideshow_n6qGBp",
+    "slideshow_4EgENn"
   ]
 }
