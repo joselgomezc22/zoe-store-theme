@@ -311,12 +311,12 @@
         "5aa6c843-3f06-4843-8aa4-45cf459f8545": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_1.jpg",
+            "image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 51,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Pack-bodies-descuentos-ropa-mujer-colombia-molgoa_3.jpg",
+            "caption_horizontal": 100,
+            "caption_vertical": 70,
+            "mobile_image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
