@@ -466,6 +466,7 @@
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/regalo-descargables-be-kind-molgoa-colombia.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -473,12 +474,12 @@
             "link": "",
             "button_text": "Add a button",
             "second_link": "",
-            "second_button_text": "Button 2 text",
+            "second_button_text": "",
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
