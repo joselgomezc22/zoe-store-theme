@@ -404,49 +404,6 @@
         "section_padding": "both"
       }
     },
-    "ab8e2aa3-d443-42c7-b4d0-f934d5b749a9": {
-      "type": "slideshow",
-      "blocks": {
-        "image_m4dYfQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/regalo-descargables-be-kind-molgoa-colombia.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/regalo-descargables-be-kind-molgoa-colombia.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "https:\/\/drive.google.com\/file\/d\/1p8P6oCwaKgWaJrjssunIXvJFSgp7cOkg\/view",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "image_m4dYfQ"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "slideshow_A7KABL": {
       "type": "slideshow",
       "blocks": {
@@ -478,6 +435,49 @@
       },
       "block_order": [
         "image_9mUBt7"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "ab8e2aa3-d443-42c7-b4d0-f934d5b749a9": {
+      "type": "slideshow",
+      "blocks": {
+        "image_m4dYfQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/regalo-descargables-be-kind-molgoa-colombia.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/regalo-descargables-be-kind-molgoa-colombia.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "https:\/\/drive.google.com\/file\/d\/1p8P6oCwaKgWaJrjssunIXvJFSgp7cOkg\/view",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_m4dYfQ"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -544,8 +544,8 @@
     "e77643cd-7dc2-4938-a67f-1be51a394e9f",
     "cc6323c2-f6da-48d0-acd5-2dee0844c035",
     "ca5abc0e-e9c6-4ae6-91a5-0c10d4c84921",
-    "ab8e2aa3-d443-42c7-b4d0-f934d5b749a9",
     "slideshow_A7KABL",
+    "ab8e2aa3-d443-42c7-b4d0-f934d5b749a9",
     "2cca0def-5643-44b9-8db3-3dd1977fa286"
   ]
 }
