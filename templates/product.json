@@ -171,74 +171,6 @@
         "items_shown": 4
       }
     },
-    "9f91e942-922e-412d-a328-5b9b11bf4c30": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tiempos-de-envio-molgoa-colombia-envios-express.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Tiempos-de-envio-molgoa-colombia-envios-express-2.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
-        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-0",
-        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-1"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982": {
       "type": "accordion",
       "blocks": {
@@ -326,50 +258,6 @@
         "section_padding": "both"
       }
     },
-    "fbd90e78-b04f-43a3-9a4d-941a7fba0646": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16986105479482__fbd90e78-b04f-43a3-9a4d-941a7fba0646-168072907577f2b78e-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer-2.jpg",
-            "hide_caption_background": false,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#e46c63",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105479482__fbd90e78-b04f-43a3-9a4d-941a7fba0646-168072907577f2b78e-0"
-      ],
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "bbace95d-8011-4366-9d5b-7a35c4c63573": {
       "type": "slideshow",
       "blocks": {
@@ -413,18 +301,18 @@
         "section_padding": "both"
       }
     },
-    "slideshow_7EEj79": {
+    "9f91e942-922e-412d-a328-5b9b11bf4c30": {
       "type": "slideshow",
       "blocks": {
-        "image_FJymrp": {
+        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_4d63015a-ef73-48f1-806a-e02b024a2405.jpg",
+            "image": "shopify:\/\/shop_images\/Tiempos-de-envio-molgoa-colombia-envios-express.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Rompetrafico_mobile_87a5c142-9652-432e-b92a-4cbbea2726dc.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Tiempos-de-envio-molgoa-colombia-envios-express-2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
@@ -440,10 +328,79 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "image_FJymrp"
+        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-0",
+        "template--16986105479482__9f91e942-922e-412d-a328-5b9b11bf4c30-1670621968e2759902-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "fbd90e78-b04f-43a3-9a4d-941a7fba0646": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105479482__fbd90e78-b04f-43a3-9a4d-941a7fba0646-168072907577f2b78e-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer-2.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#e46c63",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105479482__fbd90e78-b04f-43a3-9a4d-941a7fba0646-168072907577f2b78e-0"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -568,6 +525,49 @@
         "section_padding": "both"
       }
     },
+    "slideshow_7EEj79": {
+      "type": "slideshow",
+      "blocks": {
+        "image_FJymrp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompetrafico_pc_4d63015a-ef73-48f1-806a-e02b024a2405.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Rompetrafico_mobile_87a5c142-9652-432e-b92a-4cbbea2726dc.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_FJymrp"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
     "59f318ff-13ce-480f-83b5-49018d2a0dca": {
       "type": "rich-text",
       "blocks": {
@@ -606,13 +606,13 @@
     "main",
     "loox-product-reviews-app-section",
     "product-recommendations",
-    "9f91e942-922e-412d-a328-5b9b11bf4c30",
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982",
     "slideshow_rbeyhi",
-    "fbd90e78-b04f-43a3-9a4d-941a7fba0646",
     "bbace95d-8011-4366-9d5b-7a35c4c63573",
-    "slideshow_7EEj79",
+    "9f91e942-922e-412d-a328-5b9b11bf4c30",
+    "fbd90e78-b04f-43a3-9a4d-941a7fba0646",
     "c56e92a7-bdcd-43b3-ba88-fc4f5423d96d",
+    "slideshow_7EEj79",
     "59f318ff-13ce-480f-83b5-49018d2a0dca",
     "1668729670a528fb32"
   ]
