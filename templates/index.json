@@ -49,29 +49,29 @@
     "1625752154523bf545": {
       "type": "slideshow",
       "blocks": {
-        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
+        "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cinta-Magica-Banner-PC_1.jpg",
+            "image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer.jpg",
             "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 20,
-            "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Cinta-Magica-Banner-Mobile_1.jpg",
-            "hide_caption_background": false,
+            "text_align": "center",
+            "caption_horizontal": 75,
+            "caption_vertical": 91,
+            "mobile_image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer-1.jpg",
+            "hide_caption_background": true,
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/ropa",
+            "link": "shopify:\/\/collections\/bodies",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
             "slide_text_color": "#ffffff",
-            "cta_color": "#ebebeb",
-            "cta_background": "#4a7c5b",
-            "cta_background_hover": "#acacac",
+            "cta_color": "#000000",
+            "cta_background": "#ede8e3",
+            "cta_background_hover": "#ffffff",
             "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
+            "caption_background_opacity": 70
           }
         },
         "1a0f80aa-69b4-4643-93e5-396432db9805": {
@@ -97,31 +97,6 @@
             "cta_background_hover": "{{ shop.brand.colors.primary[0].foreground }}",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
-          }
-        },
-        "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 75,
-            "caption_vertical": 91,
-            "mobile_image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer-1.jpg",
-            "hide_caption_background": true,
-            "caption_below": true,
-            "heading": "",
-            "subheading": "",
-            "link": "shopify:\/\/collections\/bodies",
-            "button_text": "COMPRAR",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#ffffff",
-            "cta_color": "#000000",
-            "cta_background": "#ede8e3",
-            "cta_background_hover": "#ffffff",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 70
           }
         },
         "42b41003-913d-4718-9a10-5550b933eea9": {
@@ -173,14 +148,39 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 70
           }
+        },
+        "bbba10b7-b354-4bb3-9d81-f6a0043143c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cinta-Magica-Banner-PC_1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 20,
+            "caption_vertical": 100,
+            "mobile_image": "shopify:\/\/shop_images\/Cinta-Magica-Banner-Mobile_1.jpg",
+            "hide_caption_background": false,
+            "caption_below": true,
+            "heading": "",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/ropa",
+            "button_text": "COMPRAR",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#ffffff",
+            "cta_color": "#ebebeb",
+            "cta_background": "#4a7c5b",
+            "cta_background_hover": "#acacac",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "bbba10b7-b354-4bb3-9d81-f6a0043143c2",
-        "1a0f80aa-69b4-4643-93e5-396432db9805",
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa",
+        "1a0f80aa-69b4-4643-93e5-396432db9805",
         "42b41003-913d-4718-9a10-5550b933eea9",
-        "cdd6de33-d744-479c-9217-7dfde4da2790"
+        "cdd6de33-d744-479c-9217-7dfde4da2790",
+        "bbba10b7-b354-4bb3-9d81-f6a0043143c2"
       ],
       "settings": {
         "enable_autoplay": true,
