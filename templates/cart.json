@@ -99,12 +99,12 @@
         "image_BBqrd8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento-2.jpg",
+            "image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer-2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 100,
             "caption_vertical": 30,
-            "mobile_image": "shopify:\/\/shop_images\/pack-de-bodies-promocion-mujer-molgoa-descuento-3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
