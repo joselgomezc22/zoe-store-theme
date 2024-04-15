@@ -368,6 +368,7 @@
       "block_order": [
         "image_c8x6R7"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
