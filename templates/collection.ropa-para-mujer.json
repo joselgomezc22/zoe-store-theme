@@ -326,6 +326,7 @@
       "block_order": [
         "image_jgUHpw"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
