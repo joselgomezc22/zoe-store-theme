@@ -414,6 +414,7 @@
       "block_order": [
         "image_tiyhbA"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
