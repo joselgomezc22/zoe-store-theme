@@ -341,6 +341,7 @@
       "blocks": {
         "image_c8x6R7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer-3.jpg",
             "overlay": false,
