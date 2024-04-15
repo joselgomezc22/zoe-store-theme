@@ -510,6 +510,7 @@
       "block_order": [
         "image_QaGA6A"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
