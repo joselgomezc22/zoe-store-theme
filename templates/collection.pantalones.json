@@ -436,6 +436,7 @@
       "block_order": [
         "image_9mUBt7"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
