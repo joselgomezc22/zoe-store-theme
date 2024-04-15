@@ -440,6 +440,7 @@
       "block_order": [
         "image_XpJtfU"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
