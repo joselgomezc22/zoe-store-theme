@@ -125,6 +125,7 @@
       "block_order": [
         "image_BBqrd8"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
