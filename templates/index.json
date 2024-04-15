@@ -51,19 +51,18 @@
       "blocks": {
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer.jpg",
+            "image": "shopify:\/\/shop_images\/Precios-Ano-Pasado-Molgoa-Semana-PC.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 75,
             "caption_vertical": 91,
-            "mobile_image": "shopify:\/\/shop_images\/Promocion-packs-bodies-descuentos-mujer-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Precios-Ano-Pasado-Molgoa-Semana-Mobile.jpg",
             "hide_caption_background": true,
             "caption_below": true,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/bodies",
+            "link": "shopify:\/\/collections\/ropa",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
