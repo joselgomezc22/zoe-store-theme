@@ -414,6 +414,7 @@
       "block_order": [
         "image_zqw7qw"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
