@@ -975,6 +975,7 @@
         "image_wyL97e",
         "image_AHKwgr"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
