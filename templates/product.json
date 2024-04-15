@@ -290,6 +290,7 @@
       "block_order": [
         "5aa6c843-3f06-4843-8aa4-45cf459f8545"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
