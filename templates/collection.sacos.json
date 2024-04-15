@@ -409,6 +409,7 @@
       "block_order": [
         "image_XJY9EM"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
