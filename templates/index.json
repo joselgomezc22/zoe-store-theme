@@ -968,13 +968,38 @@
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
+        },
+        "image_g8aU3R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Descuento-Savvy-Amamos-Cuidarte-Rompe-Trafico-PC.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Descuento-Savvy-Amamos-Cuidarte-Rompe-Trafico.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
         "image_wyL97e",
-        "image_AHKwgr"
+        "image_AHKwgr",
+        "image_g8aU3R"
       ],
-      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
