@@ -340,30 +340,6 @@
         "section_padding": "none"
       }
     },
-    "47a9dbb2-e0c2-4545-b858-daeae6ed2449": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16986105381178__47a9dbb2-e0c2-4545-b858-daeae6ed2449-1687649576f13c3474-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "Block heading",
-            "rich_text": "<p>Use rich text blocks to add more content to your pages. Further describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "center": false,
-            "block_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105381178__47a9dbb2-e0c2-4545-b858-daeae6ed2449-1687649576f13c3474-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "RECIBE 15% DE DESCUENTO POR CONTAR TU EXPERIENCIA E INCLUIR UNA FOTO",
-        "color_scheme": "none",
-        "section_padding": "none"
-      }
-    },
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17": {
       "type": "slideshow",
       "blocks": {
@@ -971,6 +947,52 @@
         },
         "image_g8aU3R": {
           "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Descuento-Savvy-Amamos-Cuidarte-Rompe-Trafico-PC.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Descuento-Savvy-Amamos-Cuidarte-Rompe-Trafico.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_wyL97e",
+        "image_AHKwgr",
+        "image_g8aU3R"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "slideshow_BrNPa4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_j4FjHF": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Descuento-Savvy-Amamos-Cuidarte-Rompe-Trafico-PC.jpg",
             "overlay": false,
@@ -993,12 +1015,34 @@
             "caption_background": "transparent",
             "caption_background_opacity": 20
           }
+        },
+        "image_x6H4ni": {
+          "type": "image",
+          "settings": {
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
         }
       },
       "block_order": [
-        "image_wyL97e",
-        "image_AHKwgr",
-        "image_g8aU3R"
+        "image_j4FjHF",
+        "image_x6H4ni"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -1403,7 +1447,6 @@
     "scrolling_announcements_RbG44k",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
-    "47a9dbb2-e0c2-4545-b858-daeae6ed2449",
     "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "slideshow_T7Ttar",
@@ -1418,6 +1461,7 @@
     "slideshow_EwpkUn",
     "1628115108645bdee6",
     "slideshow_tNVetK",
+    "slideshow_BrNPa4",
     "a0bbcb16-c9b9-4c30-ab3d-2e080db8b55b",
     "df414f78-9548-4fcf-afb0-f41bc5f95ec4",
     "f6d14bed-668d-4d37-8768-5ef0124698fe",
