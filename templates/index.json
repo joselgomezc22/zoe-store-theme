@@ -672,12 +672,12 @@
         "761eea91-5da0-436a-b492-49083485d1c7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hecho-en-colombia-marca-mujer-molgoa.jpg",
+            "image": "shopify:\/\/shop_images\/Hecho-en-colombia-ropa-mujer-molgoa.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 49,
             "caption_vertical": 51,
-            "mobile_image": "shopify:\/\/shop_images\/Hecho-en-colombia-marca-mujer-molgoa.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Hecho-en-colombia-ropa-mujer-molgoa.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
