@@ -952,6 +952,7 @@
         "image_AHKwgr",
         "image_g8aU3R"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
