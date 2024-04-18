@@ -340,74 +340,6 @@
         "section_padding": "none"
       }
     },
-    "3fdec366-9d4e-4a64-9a1d-391ff1853c17": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Beneficios-regalo.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "mobile_image": "shopify:\/\/shop_images\/Beneficios-regalo.jpg",
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "",
-            "subheading": "",
-            "link": "",
-            "button_text": "",
-            "second_link": "",
-            "second_button_text": "",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        },
-        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-1": {
-          "type": "image",
-          "settings": {
-            "overlay": false,
-            "text_align": "left",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "cta_color": "#ffffff",
-            "cta_background": "#000000",
-            "cta_background_hover": "#000000",
-            "caption_background": "rgba(0,0,0,0)",
-            "caption_background_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0",
-        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_autoplay": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "video_audio": "off",
-        "slide_heading_size": 22,
-        "subheading_size": 14,
-        "cta_size": 14,
-        "section_padding": "both"
-      }
-    },
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67": {
       "type": "rich-text",
       "disabled": true,
@@ -542,6 +474,49 @@
       "block_order": [
         "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-0",
         "template--16986105381178__bc4fbee7-6341-4959-a759-f1423af62006-1670596859440f1c77-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "3fdec366-9d4e-4a64-9a1d-391ff1853c17": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Precios-descuento-molgoa-colombia-ropa-mujer.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Precios-descuento-molgoa-colombia-ropa-mujer.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105381178__3fdec366-9d4e-4a64-9a1d-391ff1853c17-1683746256bb00889b-0"
       ],
       "settings": {
         "enable_autoplay": false,
@@ -1012,7 +987,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -1035,7 +1010,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -1447,10 +1422,10 @@
     "scrolling_announcements_RbG44k",
     "1625752154523bf545",
     "1625752962aa2a6ebb",
-    "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "b415ad0c-8e2d-4312-b3a7-5ba572097d67",
     "slideshow_T7Ttar",
     "bc4fbee7-6341-4959-a759-f1423af62006",
+    "3fdec366-9d4e-4a64-9a1d-391ff1853c17",
     "57ed3583-e547-455c-8fb3-546f2524a5ed",
     "6c3b871e-c055-4c16-9e5d-e083f6d31c2c",
     "1625752966582d2e67",
