@@ -132,6 +132,7 @@
     },
     "41411ac0-b4b7-48ea-a0b8-f092cf1e4f07": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "image": "shopify:\/\/shop_images\/Simona-cuello-halter-ajustado-marfil.jpg",
@@ -149,6 +150,7 @@
     },
     "f71a2b7b-39b1-45a4-aaef-89938e8014ca": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "image": "shopify:\/\/shop_images\/Simona-cuello-halter-ajustado-marfil-2.jpg",
@@ -170,8 +172,8 @@
         "template--18269919543610__a18898a4-13f4-4b37-9579-fe0a590e37aa-1678385318b190a1a1-0": {
           "type": "text",
           "settings": {
-            "heading": "SIMONA",
-            "rich_text": "<p>Es uno de nuestros best sellers, todas lo amamos por su versatilidad y practicidad que lo ha convertido en un must en tu clóset y cuando tienes un color, ¡Los vas a querer todos! Tiene un diseño divino y funciona perfecto para cualquier ocasión.<\/p>",
+            "heading": "COMBOS",
+            "rich_text": "<p>Los combos favoritos son especialmente elegidos de nuestras prendas Best Seller. ¡Los vas a querer todos! Son hechos especialmente para que compres la pinta completa o complementes con los colores clásicos. <\/p>",
             "center": false,
             "block_size": 4
           }
@@ -181,7 +183,7 @@
         "template--18269919543610__a18898a4-13f4-4b37-9579-fe0a590e37aa-1678385318b190a1a1-0"
       ],
       "settings": {
-        "title": "¿Conoces nuestro body del mes?",
+        "title": "¿Conoces nuestros combos favoritos?",
         "color_scheme": "none",
         "section_padding": "both"
       }
