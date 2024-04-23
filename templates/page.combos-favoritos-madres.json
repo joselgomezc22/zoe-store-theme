@@ -80,8 +80,8 @@
       "type": "featured-collection",
       "settings": {
         "full_width": false,
-        "title": "BODY DEL MES - COLORES",
-        "collection": "simona",
+        "title": "LOS FAVORITOS",
+        "collection": "combos-1",
         "carousel": true,
         "button": true,
         "button_text": "View all",
