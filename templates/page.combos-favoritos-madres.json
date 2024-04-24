@@ -103,7 +103,7 @@
       "settings": {
         "full_width": false,
         "title": "LOS FAVORITOS",
-        "collection": "combos-1",
+        "collection": "combos-madres-2024",
         "carousel": true,
         "button": true,
         "button_text": "View all",
@@ -248,7 +248,7 @@
       "settings": {
         "full_width": false,
         "title": "COMBOS FAVORITOS",
-        "collection": "combos-1",
+        "collection": "combos-madres-2024",
         "carousel": false,
         "button": true,
         "button_text": "View all",
