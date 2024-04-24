@@ -252,7 +252,7 @@
         "carousel": false,
         "button": true,
         "button_text": "View all",
-        "grid": 4,
+        "grid": 5,
         "limit": 30,
         "color_scheme": "cs1",
         "section_padding": "both"
