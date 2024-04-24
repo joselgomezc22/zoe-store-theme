@@ -51,6 +51,7 @@
       "blocks": {
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Precios-Ano-Pasado-Molgoa-Semana-PC.jpg",
             "overlay": false,
