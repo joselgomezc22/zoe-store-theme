@@ -423,6 +423,7 @@
       "block_order": [
         "template--16986105643322__02792547-fda9-4384-817f-952a81193435-image-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
@@ -509,6 +510,7 @@
         },
         "image_YX8ebR": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Precios-descuento-molgoa-colombia-ropa-mujer-1.jpg",
             "overlay": false,
@@ -528,7 +530,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
