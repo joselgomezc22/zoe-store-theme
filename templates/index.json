@@ -134,7 +134,7 @@
             "caption_vertical": 91,
             "mobile_image": "shopify:\/\/shop_images\/Saco-del-mes-mujer-15-porciento-descuento.jpg",
             "hide_caption_background": true,
-            "caption_below": true,
+            "caption_below": false,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/pages\/body-del-mes-samba",
