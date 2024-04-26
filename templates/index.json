@@ -159,7 +159,7 @@
             "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/Cinta-magica-mujer-molgoa-promocion.jpg",
             "hide_caption_background": false,
-            "caption_below": true,
+            "caption_below": false,
             "heading": "",
             "subheading": "",
             "link": "shopify:\/\/collections\/ropa",
