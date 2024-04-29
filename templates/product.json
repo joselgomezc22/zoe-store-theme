@@ -84,11 +84,6 @@
             "threshold": 5
           }
         },
-        "omnisend_email_marketing_sms_star_ratings_gARfnT": {
-          "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/star-ratings\/44704aa2-794f-4c5d-8c8e-039c841158e9",
-          "settings": {
-          }
-        },
         "f7704069-17c8-42f6-ae27-646be7b277dd": {
           "type": "additional_content",
           "settings": {
@@ -127,6 +122,11 @@
             "ac_link": "https:\/\/wa.me\/message\/ON6QDKVRBPA3L1",
             "ac_icon": "user-circle"
           }
+        },
+        "omnisend_email_marketing_sms_star_ratings_gARfnT": {
+          "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/star-ratings\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -142,12 +142,12 @@
         "product_buttons",
         "product_quantity",
         "cb0314b7-8d93-4eb3-bf92-562bb07273c7",
-        "omnisend_email_marketing_sms_star_ratings_gARfnT",
         "f7704069-17c8-42f6-ae27-646be7b277dd",
         "519d2af3-1da3-4d6b-a7cc-157f37606a4e",
         "ba479e68-3314-4f60-9111-e6b5ca5ab1c1",
         "metafield_popup",
-        "0b98c94e-46ad-44b2-983d-78b7a5f606fc"
+        "0b98c94e-46ad-44b2-983d-78b7a5f606fc",
+        "omnisend_email_marketing_sms_star_ratings_gARfnT"
       ],
       "settings": {
         "click_to_enlarge": false,
