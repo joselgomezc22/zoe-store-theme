@@ -626,6 +626,23 @@
         "full_width": false,
         "section_padding": "both"
       }
+    },
+    "1714423970be9e632f": {
+      "type": "apps",
+      "blocks": {
+        "omnisend_email_marketing_sms_product_reviews_kNgqLt": {
+          "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/product-reviews\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "omnisend_email_marketing_sms_product_reviews_kNgqLt"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -641,6 +658,7 @@
     "c56e92a7-bdcd-43b3-ba88-fc4f5423d96d",
     "slideshow_7EEj79",
     "59f318ff-13ce-480f-83b5-49018d2a0dca",
-    "1668729670a528fb32"
+    "1668729670a528fb32",
+    "1714423970be9e632f"
   ]
 }
