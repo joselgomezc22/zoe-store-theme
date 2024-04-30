@@ -289,6 +289,7 @@
         },
         "image_mzNfyT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Precios-descuento-molgoa-colombia-ropa-mujer-1.jpg",
             "overlay": false,
