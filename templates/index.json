@@ -52,7 +52,7 @@
         "image_tnfYFb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-Descuentos-Dia-De-La-Madre-Colombia.jpg",
+            "image": "shopify:\/\/shop_images\/Banner-Descuentos-Dia-De-La-Madre-Colombia_937337d1-1462-46dc-967c-e2e5aca7535c.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -69,7 +69,7 @@
             "cta_color": "#ffffff",
             "cta_background": "#000000",
             "cta_background_hover": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
