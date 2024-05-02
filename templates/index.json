@@ -125,6 +125,7 @@
         },
         "eed7fd29-7204-4cc2-9591-640e13f8d2aa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner-Early-Mom-PC.jpg",
             "overlay": false,
