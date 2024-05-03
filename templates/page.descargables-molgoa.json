@@ -52,6 +52,7 @@
     },
     "d981ab7b-92b7-4187-b30b-22209ddd2bfc": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Closet sale",
@@ -97,6 +98,7 @@
       "block_order": [
         "template--16986105020730__41517275-cee0-469b-986f-c9644847d5ce-image-2"
       ],
+      "disabled": true,
       "settings": {
         "enable_autoplay": false,
         "slider_speed": 5,
