@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "page_size": "thin",
+        "sidebar_positon": "left"
+      }
+    },
+    "a85c211c-5c35-4357-9517-ad60b85240f2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105020730__a85c211c-5c35-4357-9517-ad60b85240f2-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sale-ventadegarage-colombia-bogota-ropa-mujer-promocion.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105020730__a85c211c-5c35-4357-9517-ad60b85240f2-image-1"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "d981ab7b-92b7-4187-b30b-22209ddd2bfc": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": false,
+        "title": "Closet sale",
+        "collection": "closet-sale-2",
+        "carousel": false,
+        "button": false,
+        "button_text": "View all",
+        "grid": 4,
+        "limit": 8,
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "41517275-cee0-469b-986f-c9644847d5ce": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16986105020730__41517275-cee0-469b-986f-c9644847d5ce-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PROMO-ROPA-MODA-TIENDA-LINA-GARAGE-SALE-CLOSET-BANNER.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/PROMO-ROPA-MODA-TIENDA-LINA-GARAGE-SALE-CLOSET.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "{{ shop.brand.colors.primary[1].background }}",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16986105020730__41517275-cee0-469b-986f-c9644847d5ce-image-2"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a85c211c-5c35-4357-9517-ad60b85240f2",
+    "d981ab7b-92b7-4187-b30b-22209ddd2bfc",
+    "41517275-cee0-469b-986f-c9644847d5ce"
+  ]
+}
