@@ -68,7 +68,7 @@
             "second_button_text": "",
             "slide_text_color": "#ffffff",
             "cta_color": "#ebebeb",
-            "cta_background": "#000",
+            "cta_background": "#000000",
             "cta_background_hover": "#acacac",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
@@ -365,7 +365,7 @@
             "caption_below": false,
             "heading": "",
             "subheading": "",
-            "link": "shopify:\/\/collections\/bodies",
+            "link": "shopify:\/\/collections\/ropa",
             "button_text": "COMPRAR",
             "second_link": "",
             "second_button_text": "",
