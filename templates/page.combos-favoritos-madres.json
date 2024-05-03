@@ -379,7 +379,8 @@
           "type": "image",
           "settings": {
             "image_width": "33%",
-            "lookbook_product_1": "",
+            "image": "shopify:\/\/shop_images\/Combo-madres-descuento-packs-ropa-mujer-2.jpg",
+            "lookbook_product_1": "combo-ocaso-y-gaby",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
             "hotspot_color_1": "#000",
