@@ -77,12 +77,12 @@
         "42b41003-913d-4718-9a10-5550b933eea9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-home-simona-15-descuento-molgoa-colombia.jpg",
+            "image": "shopify:\/\/shop_images\/Body-del-mes-mujer-molgoa-colombia-1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Body-del-mes-promocion-simona-mujer.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Body-del-mes-mujer-molgoa-colombia-2.jpg",
             "hide_caption_background": false,
             "caption_below": false,
             "heading": "",
