@@ -507,14 +507,13 @@
       "blocks": {
         "template--21854288937274__2ec3cff7-f953-4ba4-9283-9d6eba467e09-image-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer.jpg",
+            "image": "shopify:\/\/shop_images\/Rompetrafico-Descuentos-Dia-De-La-Madre-Colombia-PC_2a492169-3fca-46a6-8001-173d4621064e.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 52,
             "caption_vertical": 100,
-            "mobile_image": "shopify:\/\/shop_images\/Paga-2-lleva-3-descuentos-promociones-colombia-ropa-mujer-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Rompetrafico-Descuentos-Dia-De-La-Madre-Colombia-Mobile_8a2ea73f-e1e2-46d6-8150-f7f4b3c536ec.jpg",
             "hide_caption_background": false,
             "caption_below": true,
             "heading": "",
@@ -525,7 +524,7 @@
             "second_button_text": "",
             "slide_text_color": "rgba(0,0,0,0)",
             "cta_color": "#ffffff",
-            "cta_background": "#e46c63",
+            "cta_background": "#8a3e38",
             "cta_background_hover": "rgba(0,0,0,0)",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 10
