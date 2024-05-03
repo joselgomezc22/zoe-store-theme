@@ -155,7 +155,7 @@
             "image": "shopify:\/\/shop_images\/Descuentos-dia-de-la-madre-ropa-mujer-colombia-molgoa.jpg",
             "overlay": false,
             "text_align": "left",
-            "caption_horizontal": 20,
+            "caption_horizontal": 51,
             "caption_vertical": 100,
             "mobile_image": "shopify:\/\/shop_images\/Descuentos-dia-de-la-madre-ropa-mujer-colombia-molgoa-2.jpg",
             "hide_caption_background": false,
@@ -168,7 +168,7 @@
             "second_button_text": "",
             "slide_text_color": "#ffffff",
             "cta_color": "#ebebeb",
-            "cta_background": "#4a7c5b",
+            "cta_background": "#000",
             "cta_background_hover": "#acacac",
             "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
