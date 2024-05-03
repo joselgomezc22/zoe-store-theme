@@ -156,6 +156,102 @@
         "section_padding": "both"
       }
     },
+    "shop_the_look_4mbweX": {
+      "type": "shop-the-look",
+      "blocks": {
+        "image_KAP6Ck": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "image": "shopify:\/\/shop_images\/Combo-madres-descuento-packs-ropa-mujer.jpg",
+            "lookbook_product_1": "combo-malibu-negro-ocaso-uva",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        },
+        "image_C64qfy": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "image": "shopify:\/\/shop_images\/Combo-madres-descuento-packs-ropa-mujer-2.jpg",
+            "lookbook_product_1": "combo-ocaso-y-gaby",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        },
+        "image_LcL44j": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "image": "shopify:\/\/shop_images\/Combo-madres-descuento-packs-ropa-mujer-3.jpg",
+            "lookbook_product_1": "combo-the-royal-bianco",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "image_KAP6Ck",
+        "image_C64qfy",
+        "image_LcL44j"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "OUTFITS CON COMBOS",
+        "section_padding": "both"
+      }
+    },
     "fe9d89d1-fb26-4550-9a0c-08b425b5d04f": {
       "type": "testimonials",
       "blocks": {
@@ -344,102 +440,6 @@
         "cta_size": 14,
         "section_padding": "both"
       }
-    },
-    "shop_the_look_4mbweX": {
-      "type": "shop-the-look",
-      "blocks": {
-        "image_KAP6Ck": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "image": "shopify:\/\/shop_images\/Combo-madres-descuento-packs-ropa-mujer.jpg",
-            "lookbook_product_1": "combo-malibu-negro-ocaso-uva",
-            "hotspot_horizontal_1": 40,
-            "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
-            "lookbook_product_2": "",
-            "hotspot_horizontal_2": 40,
-            "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
-            "lookbook_product_3": "",
-            "hotspot_horizontal_3": 40,
-            "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
-            "lookbook_product_4": "",
-            "hotspot_horizontal_4": 40,
-            "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
-            "lookbook_product_5": "",
-            "hotspot_horizontal_5": 40,
-            "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
-          }
-        },
-        "image_C64qfy": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "image": "shopify:\/\/shop_images\/Combo-madres-descuento-packs-ropa-mujer-2.jpg",
-            "lookbook_product_1": "combo-ocaso-y-gaby",
-            "hotspot_horizontal_1": 40,
-            "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
-            "lookbook_product_2": "",
-            "hotspot_horizontal_2": 40,
-            "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
-            "lookbook_product_3": "",
-            "hotspot_horizontal_3": 40,
-            "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
-            "lookbook_product_4": "",
-            "hotspot_horizontal_4": 40,
-            "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
-            "lookbook_product_5": "",
-            "hotspot_horizontal_5": 40,
-            "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
-          }
-        },
-        "image_LcL44j": {
-          "type": "image",
-          "settings": {
-            "image_width": "33%",
-            "image": "shopify:\/\/shop_images\/Combo-madres-descuento-packs-ropa-mujer-3.jpg",
-            "lookbook_product_1": "combo-the-royal-bianco",
-            "hotspot_horizontal_1": 40,
-            "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
-            "lookbook_product_2": "",
-            "hotspot_horizontal_2": 40,
-            "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
-            "lookbook_product_3": "",
-            "hotspot_horizontal_3": 40,
-            "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
-            "lookbook_product_4": "",
-            "hotspot_horizontal_4": 40,
-            "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
-            "lookbook_product_5": "",
-            "hotspot_horizontal_5": 40,
-            "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
-          }
-        }
-      },
-      "block_order": [
-        "image_KAP6Ck",
-        "image_C64qfy",
-        "image_LcL44j"
-      ],
-      "settings": {
-        "full_width": false,
-        "title": "Shop the Look",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -448,12 +448,12 @@
     "main",
     "26e80558-f6a7-4ca6-9641-c75f3ddbe02c",
     "slideshow_BpbQa7",
+    "shop_the_look_4mbweX",
     "fe9d89d1-fb26-4550-9a0c-08b425b5d04f",
     "41411ac0-b4b7-48ea-a0b8-f092cf1e4f07",
     "f71a2b7b-39b1-45a4-aaef-89938e8014ca",
     "ed51c6bf-8959-465e-84cf-99447b7c43ae",
     "featured_collection_989tek",
-    "slideshow_CRqKLz",
-    "shop_the_look_4mbweX"
+    "slideshow_CRqKLz"
   ]
 }
