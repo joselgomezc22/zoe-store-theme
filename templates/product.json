@@ -40,6 +40,7 @@
         },
         "7749ac3d-59d7-4da3-a17b-41df7c9e920d": {
           "type": "discount-collection",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este producto te regalamos $40,000 para la compra de cualquier body -c-.",
             "file": "gift_box.jpg"
@@ -47,6 +48,7 @@
         },
         "d56dffc3-91b5-402f-939a-f5e3456837ec": {
           "type": "discount-product-atc",
+          "disabled": true,
           "settings": {
             "text": "Por la compra de este Body tu cinta mágica queda en solo $15.000  -v- .",
             "file": "gift_box.jpg"
