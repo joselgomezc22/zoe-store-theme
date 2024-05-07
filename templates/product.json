@@ -127,6 +127,11 @@
           "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/star-ratings\/44704aa2-794f-4c5d-8c8e-039c841158e9",
           "settings": {
           }
+        },
+        "omnisend_email_marketing_sms_product_reviews_YzNGUL": {
+          "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/product-reviews\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -147,7 +152,8 @@
         "ba479e68-3314-4f60-9111-e6b5ca5ab1c1",
         "metafield_popup",
         "0b98c94e-46ad-44b2-983d-78b7a5f606fc",
-        "omnisend_email_marketing_sms_star_ratings_gARfnT"
+        "omnisend_email_marketing_sms_star_ratings_gARfnT",
+        "omnisend_email_marketing_sms_product_reviews_YzNGUL"
       ],
       "settings": {
         "click_to_enlarge": false,
@@ -172,9 +178,12 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "custom_css": [
+
+      ],
       "settings": {
-        "product_recommendations_heading": "Estas también te van a encantar",
-        "items_shown": 4
+        "product_recommendations_heading": "Estas también te van a encantar{{ product.metafields[\"shopify--discovery--product_search_boost\"].queries | metafield_text }}",
+        "items_shown": 6
       }
     },
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982": {
@@ -637,6 +646,7 @@
       "blocks": {
         "omnisend_email_marketing_sms_product_reviews_kNgqLt": {
           "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/product-reviews\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "disabled": true,
           "settings": {
           }
         }
