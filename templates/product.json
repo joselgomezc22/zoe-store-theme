@@ -184,8 +184,8 @@
 
       ],
       "settings": {
-        "product_recommendations_heading": "Estas también te van a encantar{{ product.metafields[\"shopify--discovery--product_search_boost\"].queries | metafield_text }}",
-        "items_shown": 6
+        "product_recommendations_heading": "Estas también te van a encantar",
+        "items_shown": 4
       }
     },
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982": {
