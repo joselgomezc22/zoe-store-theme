@@ -241,23 +241,23 @@
             "lookbook_product_1": "",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
+            "hotspot_color_1": "#000000",
             "lookbook_product_2": "",
             "hotspot_horizontal_2": 40,
             "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
+            "hotspot_color_2": "#000000",
             "lookbook_product_3": "",
             "hotspot_horizontal_3": 40,
             "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
+            "hotspot_color_3": "#000000",
             "lookbook_product_4": "",
             "hotspot_horizontal_4": 40,
             "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
+            "hotspot_color_4": "#000000",
             "lookbook_product_5": "",
             "hotspot_horizontal_5": 40,
             "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
+            "hotspot_color_5": "#000000"
           }
         },
         "image_HfPUii": {
@@ -267,23 +267,23 @@
             "lookbook_product_1": "",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
+            "hotspot_color_1": "#000000",
             "lookbook_product_2": "",
             "hotspot_horizontal_2": 40,
             "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
+            "hotspot_color_2": "#000000",
             "lookbook_product_3": "",
             "hotspot_horizontal_3": 40,
             "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
+            "hotspot_color_3": "#000000",
             "lookbook_product_4": "",
             "hotspot_horizontal_4": 40,
             "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
+            "hotspot_color_4": "#000000",
             "lookbook_product_5": "",
             "hotspot_horizontal_5": 40,
             "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
+            "hotspot_color_5": "#000000"
           }
         },
         "image_QURjbm": {
@@ -293,23 +293,23 @@
             "lookbook_product_1": "",
             "hotspot_horizontal_1": 40,
             "hotspot_vertical_1": 40,
-            "hotspot_color_1": "#000",
+            "hotspot_color_1": "#000000",
             "lookbook_product_2": "",
             "hotspot_horizontal_2": 40,
             "hotspot_vertical_2": 40,
-            "hotspot_color_2": "#000",
+            "hotspot_color_2": "#000000",
             "lookbook_product_3": "",
             "hotspot_horizontal_3": 40,
             "hotspot_vertical_3": 40,
-            "hotspot_color_3": "#000",
+            "hotspot_color_3": "#000000",
             "lookbook_product_4": "",
             "hotspot_horizontal_4": 40,
             "hotspot_vertical_4": 40,
-            "hotspot_color_4": "#000",
+            "hotspot_color_4": "#000000",
             "lookbook_product_5": "",
             "hotspot_horizontal_5": 40,
             "hotspot_vertical_5": 40,
-            "hotspot_color_5": "#000"
+            "hotspot_color_5": "#000000"
           }
         }
       },
@@ -320,7 +320,7 @@
       ],
       "settings": {
         "full_width": false,
-        "title": "Shop the Look",
+        "title": "Compra el LooK{{ product.metafields[\"shopify--discovery--product_search_boost\"].queries | metafield_text }}",
         "section_padding": "both"
       }
     },
