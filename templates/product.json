@@ -125,11 +125,13 @@
         },
         "omnisend_email_marketing_sms_star_ratings_gARfnT": {
           "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/star-ratings\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "disabled": true,
           "settings": {
           }
         },
         "omnisend_email_marketing_sms_product_reviews_YzNGUL": {
           "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/product-reviews\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "disabled": true,
           "settings": {
           }
         }
