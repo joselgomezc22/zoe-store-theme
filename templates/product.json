@@ -320,7 +320,7 @@
       ],
       "settings": {
         "full_width": false,
-        "title": "Compra el LooK{{ product.metafields[\"shopify--discovery--product_search_boost\"].queries | metafield_text }}",
+        "title": "Compra el Look {{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products_display.value }}",
         "section_padding": "both"
       }
     },
