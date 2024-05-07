@@ -231,6 +231,99 @@
         "section_padding": "both"
       }
     },
+    "shop_the_look_mKryk8": {
+      "type": "shop-the-look",
+      "blocks": {
+        "image_7UjCjt": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        },
+        "image_HfPUii": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        },
+        "image_QURjbm": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "lookbook_product_1": "",
+            "hotspot_horizontal_1": 40,
+            "hotspot_vertical_1": 40,
+            "hotspot_color_1": "#000",
+            "lookbook_product_2": "",
+            "hotspot_horizontal_2": 40,
+            "hotspot_vertical_2": 40,
+            "hotspot_color_2": "#000",
+            "lookbook_product_3": "",
+            "hotspot_horizontal_3": 40,
+            "hotspot_vertical_3": 40,
+            "hotspot_color_3": "#000",
+            "lookbook_product_4": "",
+            "hotspot_horizontal_4": 40,
+            "hotspot_vertical_4": 40,
+            "hotspot_color_4": "#000",
+            "lookbook_product_5": "",
+            "hotspot_horizontal_5": 40,
+            "hotspot_vertical_5": 40,
+            "hotspot_color_5": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "image_7UjCjt",
+        "image_HfPUii",
+        "image_QURjbm"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Shop the Look",
+        "section_padding": "both"
+      }
+    },
     "slideshow_rbeyhi": {
       "type": "slideshow",
       "blocks": {
@@ -668,6 +761,7 @@
     "loox-product-reviews-app-section",
     "product-recommendations",
     "4c9ebf25-b0c4-4ab9-a7f1-216434d1d982",
+    "shop_the_look_mKryk8",
     "slideshow_rbeyhi",
     "bbace95d-8011-4366-9d5b-7a35c4c63573",
     "9f91e942-922e-412d-a328-5b9b11bf4c30",
