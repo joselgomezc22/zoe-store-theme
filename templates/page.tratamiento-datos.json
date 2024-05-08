@@ -52,6 +52,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Subscribe to our newsletter",
         "newsletter_subheading": "<p>Join our mailing list - no spam!<\/p>",
