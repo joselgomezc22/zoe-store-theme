@@ -212,7 +212,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -229,7 +229,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -246,7 +246,7 @@
             "overlay_opacity": 0,
             "text_color": "#000000",
             "button_color": "#ffffff",
-            "button_background": "#000",
+            "button_background": "#000000",
             "vertical_position": 12,
             "horizontal_position": 14,
             "align_text": "left"
@@ -258,10 +258,54 @@
         "image_MUYEmV",
         "image_Rg8Pcj"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "title": "Image gallery",
         "color_scheme": "cs1",
+        "section_padding": "both"
+      }
+    },
+    "slideshow_NYtzQf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8xqCW6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Envios-colombia-bogota-ropa-mujer.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "mobile_image": "shopify:\/\/shop_images\/Envios-colombia-bogota-ropa-mujer-2.jpg",
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "cta_background_hover": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_8xqCW6"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "video_audio": "off",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
         "section_padding": "both"
       }
     }
@@ -274,6 +318,7 @@
     "dfdd79a0-56f3-4380-b373-0d70e8ce2d1b",
     "scrolling_announcements_pGRyxf",
     "featured_collection_iaWQ4P",
-    "image_gallery_zDxQeh"
+    "image_gallery_zDxQeh",
+    "slideshow_NYtzQf"
   ]
 }
