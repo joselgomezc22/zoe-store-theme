@@ -197,6 +197,73 @@
         "color_scheme": "cs1",
         "section_padding": "both"
       }
+    },
+    "image_gallery_zDxQeh": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_9dgPHA": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "shopify:\/\/pages\/body-del-mes-2",
+            "heading": "",
+            "text": "",
+            "button": "",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
+        },
+        "image_MUYEmV": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
+        },
+        "image_Rg8Pcj": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Heading",
+            "text": "Subheading",
+            "button": "Button",
+            "overlay_opacity": 0,
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#000",
+            "vertical_position": 12,
+            "horizontal_position": 14,
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_9dgPHA",
+        "image_MUYEmV",
+        "image_Rg8Pcj"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Image gallery",
+        "color_scheme": "cs1",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -206,6 +273,7 @@
     "db01aff9-de6e-4e54-a3d3-661dd7e63be6",
     "dfdd79a0-56f3-4380-b373-0d70e8ce2d1b",
     "scrolling_announcements_pGRyxf",
-    "featured_collection_iaWQ4P"
+    "featured_collection_iaWQ4P",
+    "image_gallery_zDxQeh"
   ]
 }
