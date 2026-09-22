@@ -226,13 +226,13 @@
             <span class="icon active-arrow">-</span>
           </li>
           <ul class="accordion-content2 sub closed">
-            {% render 'cart-shipping-calculator', cart %}
+            {% render 'cart-shipping-calculator' %}
           </ul>
         {% endif %}
       </ul>
         {% if settings.show_shipping_countdown %}
           <div class="ajax-cart__free-shipping">
-            {% render 'cart-shipping-countdown', cart %}
+            {% render 'cart-shipping-countdown' %}
           </div>
         {% endif %}
     </div>
@@ -320,3 +320,16 @@
       </div>
     </div>
   </form>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'cart-shipping-calculator', cart %}"
+  to: "{% render 'cart-shipping-calculator' %}"
+  position: 11855..11894
+- from: "{% render 'cart-shipping-countdown', cart %}"
+  to: "{% render 'cart-shipping-countdown' %}"
+  position: 12054..12092
+{% endcomment %}

@@ -51,14 +51,8 @@
               data-toggle="accordion">
               {{ block.settings.heading }} 
                 <span class="dropdown-arrow">
-                  {% render 'snip-icons',
-                     wrapper: '.c-accordion__header',
-                     type: 'apollo',
-                     icon: 'down-carrot',
-                     classes: 'c-accordion__header--icon vib-center',
-                     size: '6px,
-                     fill: 'var(--text-color)',
-                     hover: 'var(--text-color)' %}
+                  {% render 'snip-icons', wrapper: '.c-accordion__header', type: 'apollo', icon: 'down-carrot', classes: 'c-accordion__header--icon vib-center', size: '6px,
+                     fill: ', hover: 'var(--text-color)' %}
                 </span>
             </button>
              <div
@@ -188,3 +182,23 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'snip-icons',
+                         wrapper: '.c-accordion__header',
+                         type: 'apollo',
+                         icon: 'down-carrot',
+                         classes: 'c-accordion__header--icon vib-center',
+                         size: '6px,
+                         fill: 'var(--text-color)',
+                         hover: 'var(--text-color)' %}
+  to: |-
+    {% render 'snip-icons', wrapper: '.c-accordion__header', type: 'apollo', icon: 'down-carrot', classes: 'c-accordion__header--icon vib-center', size: '6px,
+                         fill: ', hover: 'var(--text-color)' %}
+  position: 1826..2040
+{% endcomment %}
